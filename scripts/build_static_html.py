@@ -32,7 +32,10 @@ documents = [
     {'file': 'docs/20_Chapter_19.md', 'title': 'Ch 19: Phase One (2050-2150)', 'section': 'Part 4: Implementation Roadmap', 'icon': '🏗️'},
     {'file': 'docs/21_Chapter_20.md', 'title': 'Ch 20: Phase Two (2150-2500)', 'section': 'Part 4: Implementation Roadmap', 'icon': '🌑'},
     {'file': 'docs/22_Chapter_21.md', 'title': 'Ch 21: Phase Three (2500-4500)', 'section': 'Part 4: Implementation Roadmap', 'icon': '🌌'},
-    {'file': 'docs/23_Chapter_22.md', 'title': 'Ch 22: Phase Four (4500-5200+)', 'section': 'Part 4: Implementation Roadmap', 'icon': '🏡'}
+    {'file': 'docs/23_Chapter_22.md', 'title': 'Ch 22: Phase Four (4500-5200+)', 'section': 'Part 4: Implementation Roadmap', 'icon': '🏡'},
+    {'file': 'docs/24_Appendix_A_Constants.md', 'title': 'Appendix A: Technical Constants', 'section': 'Part 5: Appendices', 'icon': '📐'},
+    {'file': 'docs/25_Appendix_B_Math.md', 'title': 'Appendix B: Mathematical Proofs', 'section': 'Part 5: Appendices', 'icon': '📊'},
+    {'file': 'docs/26_Conclusion.md', 'title': 'Conclusion: Species-Level Commitment', 'section': 'Conclusion', 'icon': '🌟'}
 ]
 
 def escape_js_string(text):
@@ -690,7 +693,10 @@ def generate_html(content_map):
             { file: 'docs/20_Chapter_19.md', title: 'Ch 19: Phase One (2050-2150)', section: 'Part 4: Implementation Roadmap', icon: '🏗️' },
             { file: 'docs/21_Chapter_20.md', title: 'Ch 20: Phase Two (2150-2500)', section: 'Part 4: Implementation Roadmap', icon: '🌑' },
             { file: 'docs/22_Chapter_21.md', title: 'Ch 21: Phase Three (2500-4500)', section: 'Part 4: Implementation Roadmap', icon: '🌌' },
-            { file: 'docs/23_Chapter_22.md', title: 'Ch 22: Phase Four (4500-5200+)', section: 'Part 4: Implementation Roadmap', icon: '🏡' }
+            { file: 'docs/23_Chapter_22.md', title: 'Ch 22: Phase Four (4500-5200+)', section: 'Part 4: Implementation Roadmap', icon: '🏡' },
+            { file: 'docs/24_Appendix_A_Constants.md', title: 'Appendix A: Technical Constants', section: 'Part 5: Appendices', icon: '📐' },
+            { file: 'docs/25_Appendix_B_Math.md', title: 'Appendix B: Mathematical Proofs', section: 'Part 5: Appendices', icon: '📊' },
+            { file: 'docs/26_Conclusion.md', title: 'Conclusion: Species-Level Commitment', section: 'Conclusion', icon: '🌟' }
         ];
 
         let currentDoc = null;
