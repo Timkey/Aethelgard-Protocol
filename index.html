@@ -25,6 +25,69 @@
             overflow: hidden;
         }
 
+        /* Mobile Menu Toggle */
+        .mobile-header {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 56px;
+            background: #141b2d;
+            border-bottom: 1px solid #2a3f5f;
+            z-index: 1001;
+            align-items: center;
+            padding: 0 16px;
+        }
+
+        .menu-toggle {
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+        }
+
+        .mobile-title {
+            flex: 1;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .home-button {
+            background: none;
+            border: none;
+            color: #4a90e2;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+        }
+
+        /* Overlay for mobile menu */
+        .sidebar-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
         /* Sidebar Navigation */
         .sidebar {
             width: 320px;
@@ -38,6 +101,9 @@
             padding: 24px 20px;
             background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 100%);
             border-bottom: 1px solid #3a5f8f;
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
 
         .sidebar-header h1 {
@@ -142,6 +208,7 @@
             gap: 20px;
             font-size: 13px;
             color: #8899aa;
+            flex-wrap: wrap;
         }
 
         .doc-meta .meta-item {
@@ -325,10 +392,12 @@
             justify-content: center;
             gap: 40px;
             margin-top: 60px;
+            flex-wrap: wrap;
         }
 
         .welcome .stat {
             text-align: center;
+            min-width: 120px;
         }
 
         .welcome .stat-value {
@@ -371,10 +440,22 @@
         }
 
         /* Responsive */
+        @media (max-width: 1024px) {
+            .content-inner {
+                padding: 40px 40px 100px 40px;
+            }
+        }
+
         @media (max-width: 768px) {
+            .mobile-header {
+                display: flex;
+            }
+
             .sidebar {
                 position: fixed;
-                left: -320px;
+                left: -100%;
+                top: 0;
+                bottom: 0;
                 z-index: 1000;
                 transition: left 0.3s ease;
             }
@@ -383,24 +464,94 @@
                 left: 0;
             }
 
+            .sidebar-overlay.show {
+                display: block;
+            }
+
+            .content {
+                padding-top: 56px;
+            }
+
             .content-inner {
-                padding: 30px 20px;
+                padding: 30px 20px 80px 20px;
             }
 
             .doc-title {
                 font-size: 28px;
             }
 
+            .welcome {
+                padding: 60px 20px;
+            }
+
             .welcome h1 {
-                font-size: 36px;
+                font-size: 32px;
+            }
+
+            .welcome .subtitle {
+                font-size: 18px;
+            }
+
+            .welcome .stats {
+                gap: 20px;
+            }
+
+            .welcome .stat-value {
+                font-size: 28px;
+            }
+
+            .markdown-content {
+                font-size: 15px;
+            }
+
+            .markdown-content h1 {
+                font-size: 26px;
+            }
+
+            .markdown-content h2 {
+                font-size: 22px;
+            }
+
+            .markdown-content h3 {
+                font-size: 19px;
+            }
+
+            .markdown-content pre {
+                padding: 12px;
+                font-size: 13px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .welcome h1 {
+                font-size: 28px;
+            }
+
+            .welcome .stats {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .doc-meta {
+                font-size: 12px;
             }
         }
     </style>
 </head>
 <body>
+    <!-- Mobile Header -->
+    <div class="mobile-header">
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+        <div class="mobile-title" id="mobileTitle">Aethelgard Protocol</div>
+        <button class="home-button" id="homeButton" aria-label="Go to home">🏠</button>
+    </div>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
     <div class="container">
         <!-- Sidebar Navigation -->
-        <nav class="sidebar">
+        <nav class="sidebar" id="sidebar">
             <div class="sidebar-header">
                 <h1>Aethelgard Protocol</h1>
                 <div class="subtitle">White Paper • 2026</div>
@@ -8734,17 +8885,39 @@ What happens next is beyond the Protocol's scope. But the precedent is set: When
         let currentDoc = null;
         let wordCounts = {};
 
-        // Initialize
-        function init() {
-            buildNavigation();
-            calculateStats();
-        }
+        // Mobile menu functionality
+        const menuToggle = document.getElementById('menuToggle');
+        const sidebar = document.getElementById('sidebar');
+        const sidebarOverlay = document.getElementById('sidebarOverlay');
+        const homeButton = document.getElementById('homeButton');
 
-        // Build navigation menu
+        menuToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+            sidebarOverlay.classList.toggle('show');
+        });
+
+        sidebarOverlay.addEventListener('click', () => {
+            sidebar.classList.remove('open');
+            sidebarOverlay.classList.remove('show');
+        });
+
+        homeButton.addEventListener('click', () => {
+            showWelcome();
+            sidebar.classList.remove('open');
+            sidebarOverlay.classList.remove('show');
+        });
+
+        // Calculate word counts for all documents
+        documents.forEach(doc => {
+            const content = EMBEDDED_CONTENT[doc.file] || '';
+            wordCounts[doc.file] = content.split(/\s+/).filter(w => w.length > 0).length;
+        });
+
+        // Build navigation
         function buildNavigation() {
             const nav = document.getElementById('navigation');
-            let sections = {};
-
+            const sections = {};
+            
             // Group documents by section
             documents.forEach(doc => {
                 if (!sections[doc.section]) {
@@ -8755,134 +8928,130 @@ What happens next is beyond the Protocol's scope. But the precedent is set: When
 
             // Build HTML
             let html = '';
-            for (const [sectionName, docs] of Object.entries(sections)) {
-                html += `
-                    <div class="nav-section">
-                        <div class="nav-section-title">${sectionName}</div>
-                `;
-                
+            for (const [section, docs] of Object.entries(sections)) {
+                html += `<div class="nav-section">`;
+                html += `<div class="nav-section-title">${section}</div>`;
                 docs.forEach(doc => {
-                    const id = doc.file.replace(/[^a-zA-Z0-9]/g, '_');
+                    const words = wordCounts[doc.file] || 0;
+                    const wordText = words > 0 ? `${Math.round(words/1000)}k` : '';
                     html += `
-                        <div class="nav-item" data-file="${doc.file}" id="nav_${id}">
+                        <div class="nav-item" data-file="${doc.file}">
                             <span class="icon">${doc.icon}</span>
                             <span class="title">${doc.title}</span>
-                            <span class="word-count" id="wc_${id}">—</span>
+                            <span class="word-count">${wordText}</span>
                         </div>
                     `;
                 });
-                
                 html += `</div>`;
             }
-
+            
             nav.innerHTML = html;
 
             // Add click handlers
             document.querySelectorAll('.nav-item').forEach(item => {
                 item.addEventListener('click', () => {
-                    const file = item.dataset.file;
+                    const file = item.getAttribute('data-file');
                     loadDocument(file);
+                    // Close mobile menu after selection
+                    sidebar.classList.remove('open');
+                    sidebarOverlay.classList.remove('show');
                 });
             });
         }
 
-        // Load and render document from embedded content
-        function loadDocument(filePath) {
-            try {
-                const markdown = EMBEDDED_CONTENT[filePath];
-                if (!markdown) {
-                    throw new Error('Document not found in embedded content');
-                }
-                
-                const html = marked.parse(markdown);
-                
-                // Extract title from first h1
-                const titleMatch = markdown.match(/^#\s+(.+)$/m);
-                const title = titleMatch ? titleMatch[1] : 'Document';
-                
-                // Count words
-                const wordCount = markdown.split(/\s+/).length;
-                wordCounts[filePath] = wordCount;
-                
-                // Update word count in nav
-                const id = filePath.replace(/[^a-zA-Z0-9]/g, '_');
-                const wcEl = document.getElementById(`wc_${id}`);
-                if (wcEl) {
-                    wcEl.textContent = (wordCount / 1000).toFixed(1) + 'k';
-                }
-                
-                // Update active state
-                document.querySelectorAll('.nav-item').forEach(item => {
-                    item.classList.toggle('active', item.dataset.file === filePath);
-                });
-                
-                // Render content
-                const content = document.getElementById('content');
-                content.innerHTML = `
-                    <div class="doc-header">
-                        <h1 class="doc-title">${title}</h1>
-                        <div class="doc-meta">
-                            <div class="meta-item">
-                                <span>📄</span>
-                                <span>${wordCount.toLocaleString()} words</span>
-                            </div>
-                            <div class="meta-item">
-                                <span>📖</span>
-                                <span>${Math.ceil(wordCount / 250)} pages</span>
-                            </div>
+        // Show welcome screen
+        function showWelcome() {
+            currentDoc = null;
+            document.querySelectorAll('.nav-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            const totalWords = Object.values(wordCounts).reduce((a, b) => a + b, 0);
+            const totalPages = Math.round(totalWords / 250);
+            
+            document.getElementById('content').innerHTML = `
+                <div class="welcome">
+                    <h1>Aethelgard Protocol</h1>
+                    <div class="subtitle">A 5,000-Year Journey to Save Humanity</div>
+                    <div class="description">
+                        A comprehensive technical white paper detailing the plan to move Earth 
+                        and Moon to a new star system, preserving 10 billion people and Earth's 
+                        entire biosphere across interstellar space.
+                    </div>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-value">${documents.length}</span>
+                            <span class="stat-label">Chapters</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">${totalWords.toLocaleString()}</span>
+                            <span class="stat-label">Words</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">${totalPages}</span>
+                            <span class="stat-label">Pages</span>
                         </div>
                     </div>
-                    <div class="markdown-content">
-                        ${html}
+                    <div class="start-hint">
+                        ← Select a chapter from the sidebar to begin
                     </div>
-                `;
-                
-                // Scroll to top
-                content.parentElement.scrollTop = 0;
-                
-                currentDoc = filePath;
-            } catch (error) {
-                console.error('Error loading document:', error);
-                const content = document.getElementById('content');
-                content.innerHTML = `
-                    <div class="welcome">
-                        <h1>Error Loading Document</h1>
-                        <div class="description">
-                            Could not load ${filePath}.
+                </div>
+            `;
+            
+            document.getElementById('mobileTitle').textContent = 'Aethelgard Protocol';
+        }
+
+        // Load and render a document
+        function loadDocument(file) {
+            currentDoc = file;
+            
+            // Update active state
+            document.querySelectorAll('.nav-item').forEach(item => {
+                if (item.getAttribute('data-file') === file) {
+                    item.classList.add('active');
+                } else {
+                    item.classList.remove('active');
+                }
+            });
+
+            // Get document info
+            const doc = documents.find(d => d.file === file);
+            const content = EMBEDDED_CONTENT[file] || '# Document Not Found';
+            const words = wordCounts[file] || 0;
+
+            // Render markdown
+            const htmlContent = marked.parse(content);
+
+            // Display
+            document.getElementById('content').innerHTML = `
+                <div class="doc-header">
+                    <div class="doc-title">${doc.icon} ${doc.title}</div>
+                    <div class="doc-meta">
+                        <div class="meta-item">
+                            <span>📁</span>
+                            <span>${doc.section}</span>
+                        </div>
+                        <div class="meta-item">
+                            <span>📊</span>
+                            <span>${words.toLocaleString()} words • ~${Math.round(words/250)} pages</span>
                         </div>
                     </div>
-                `;
-            }
+                </div>
+                <div class="markdown-content">
+                    ${htmlContent}
+                </div>
+            `;
+
+            // Update mobile title
+            document.getElementById('mobileTitle').textContent = doc.title;
+
+            // Scroll to top
+            document.querySelector('.content').scrollTop = 0;
         }
 
-        // Calculate and display stats
-        function calculateStats() {
-            let totalWords = 0;
-            
-            for (const doc of documents) {
-                const markdown = EMBEDDED_CONTENT[doc.file];
-                if (markdown) {
-                    const wordCount = markdown.split(/\s+/).length;
-                    totalWords += wordCount;
-                    wordCounts[doc.file] = wordCount;
-                    
-                    // Update nav word count
-                    const id = doc.file.replace(/[^a-zA-Z0-9]/g, '_');
-                    const wcEl = document.getElementById(`wc_${id}`);
-                    if (wcEl) {
-                        wcEl.textContent = (wordCount / 1000).toFixed(1) + 'k';
-                    }
-                }
-            }
-            
-            // Update stats on welcome page
-            document.getElementById('total-chapters').textContent = documents.length;
-            document.getElementById('total-words').textContent = (totalWords / 1000).toFixed(1) + 'k';
-            document.getElementById('total-pages').textContent = Math.ceil(totalWords / 250);
-        }
-
-        // Initialize on load
-        init();
+        // Initialize
+        buildNavigation();
+        showWelcome();
     </script>
 </body>
 </html>
