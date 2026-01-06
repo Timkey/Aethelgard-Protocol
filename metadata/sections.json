@@ -1,0 +1,302 @@
+[
+  {
+    "title": "Moving Earth: Theoretical Methods Explained",
+    "start_line": 2,
+    "end_line": 53,
+    "type": "topic"
+  },
+  {
+    "title": "The reason for this disparity is the difference in density and depth:",
+    "start_line": 54,
+    "end_line": 82,
+    "type": "section"
+  },
+  {
+    "title": "1. Shifting the Earth's Axis (The Tilt)",
+    "start_line": 83,
+    "end_line": 86,
+    "type": "section"
+  },
+  {
+    "title": "2. Changing the Speed of Rotation (Length of Day)",
+    "start_line": 87,
+    "end_line": 87,
+    "type": "section"
+  },
+  {
+    "title": "The movement of water affects how fast the Earth spins, which literally changes the length of a day:",
+    "start_line": 88,
+    "end_line": 90,
+    "type": "section"
+  },
+  {
+    "title": "3. Does it change Earth's \"Position\" in Space?",
+    "start_line": 91,
+    "end_line": 91,
+    "type": "section"
+  },
+  {
+    "title": "It is important to distinguish between rotation and orbit:",
+    "start_line": 92,
+    "end_line": 117,
+    "type": "section"
+  },
+  {
+    "title": "1. The \"Jump\" Problem (Conservation of Momentum)",
+    "start_line": 118,
+    "end_line": 121,
+    "type": "section"
+  },
+  {
+    "title": "2. The Scale of Energy",
+    "start_line": 122,
+    "end_line": 129,
+    "type": "section"
+  },
+  {
+    "title": "3. What Would Happen? (Rotation vs. Orbit)",
+    "start_line": 130,
+    "end_line": 179,
+    "type": "section"
+  },
+  {
+    "title": "If you want to keep the \"Ocean\" theme from your last question, we could look at Option C but applied to Earth:",
+    "start_line": 180,
+    "end_line": 185,
+    "type": "section"
+  },
+  {
+    "title": "1. The Physics of the \"Twist\" (Conservation of Angular Momentum)",
+    "start_line": 186,
+    "end_line": 189,
+    "type": "section"
+  },
+  {
+    "title": "2. The Difference Between \"Flipping\" and \"Moving\"",
+    "start_line": 190,
+    "end_line": 190,
+    "type": "section"
+  },
+  {
+    "title": "This is the most critical distinction in your thought experiment:",
+    "start_line": 191,
+    "end_line": 194,
+    "type": "section"
+  },
+  {
+    "title": "3. The Power Problem",
+    "start_line": 195,
+    "end_line": 221,
+    "type": "section"
+  },
+  {
+    "title": "If this satellite is floating perfectly still in the void of space and you turn on the pump for the X-axis pipe:",
+    "start_line": 222,
+    "end_line": 226,
+    "type": "section"
+  },
+  {
+    "title": "Even though you are spinning, flipping, and tumbling that satellite in every direction possible:",
+    "start_line": 227,
+    "end_line": 232,
+    "type": "section"
+  },
+  {
+    "title": "If you want your satellite to actually move across the room, you have to change the experiment in one of two ways:",
+    "start_line": 233,
+    "end_line": 233,
+    "type": "section"
+  },
+  {
+    "title": "1. The \"Water Gun\" (Open System)",
+    "start_line": 234,
+    "end_line": 237,
+    "type": "section"
+  },
+  {
+    "title": "2. The \"Gravity Tug\"",
+    "start_line": 238,
+    "end_line": 250,
+    "type": "section"
+  },
+  {
+    "title": "1. The \"Internal Tug-of-War\"",
+    "start_line": 251,
+    "end_line": 256,
+    "type": "section"
+  },
+  {
+    "title": "2. The \"Non-Linear\" Argument (The Loophole?)",
+    "start_line": 257,
+    "end_line": 262,
+    "type": "section"
+  },
+  {
+    "title": "3. The One Exception: Using the Environment",
+    "start_line": 263,
+    "end_line": 267,
+    "type": "section"
+  },
+  {
+    "title": "4. The \"Hammer\" Effect",
+    "start_line": 268,
+    "end_line": 280,
+    "type": "section"
+  },
+  {
+    "title": "1. The \"Slinky\" Analogy",
+    "start_line": 281,
+    "end_line": 285,
+    "type": "section"
+  },
+  {
+    "title": "2. Why \"Jerks\" Don't Add Up",
+    "start_line": 286,
+    "end_line": 291,
+    "type": "section"
+  },
+  {
+    "title": "3. The \"Loophole\": The Asymmetric Drive",
+    "start_line": 292,
+    "end_line": 307,
+    "type": "section"
+  },
+  {
+    "title": "1. The \"Wobble\" Maneuver",
+    "start_line": 308,
+    "end_line": 311,
+    "type": "section"
+  },
+  {
+    "title": "2. The Time-Delay Problem",
+    "start_line": 312,
+    "end_line": 315,
+    "type": "section"
+  },
+  {
+    "title": "3. The Physical Consequences (The \"Cure\" might be worse)",
+    "start_line": 316,
+    "end_line": 319,
+    "type": "section"
+  },
+  {
+    "title": "4. A Realistic Alternative: \"The Orbit Delay\"",
+    "start_line": 320,
+    "end_line": 374,
+    "type": "section"
+  },
+  {
+    "title": "If we wanted to move a Small Satellite (1,000 kg) by 1 meter in 1 hour using this method:",
+    "start_line": 375,
+    "end_line": 394,
+    "type": "section"
+  },
+  {
+    "title": "The \"size\" of the sail doesn't change, but its angle does:",
+    "start_line": 395,
+    "end_line": 422,
+    "type": "section"
+  },
+  {
+    "title": "1. The \"Kinetic Impactor\" (Fastest Deployment)",
+    "start_line": 423,
+    "end_line": 427,
+    "type": "section"
+  },
+  {
+    "title": "2. The \"Nuclear Stand-off\" (The \"Last Resort\" Speed)",
+    "start_line": 428,
+    "end_line": 432,
+    "type": "section"
+  },
+  {
+    "title": "3. The \"Gravity Tractor\" (Most Precise)",
+    "start_line": 433,
+    "end_line": 457,
+    "type": "section"
+  },
+  {
+    "title": "Why \"Moving the Earth\" is the worst option in an emergency:",
+    "start_line": 458,
+    "end_line": 461,
+    "type": "section"
+  },
+  {
+    "title": "If the comet cannot be moved and impact is certain, the only \"resource-conscious\" way to save the atmosphere is Atmospheric Hardening:",
+    "start_line": 462,
+    "end_line": 467,
+    "type": "section"
+  },
+  {
+    "title": "There are three specific thresholds where moving the Earth becomes the logical choice:",
+    "start_line": 468,
+    "end_line": 468,
+    "type": "section"
+  },
+  {
+    "title": "1. The Solar Expansion (The Red Giant Phase)",
+    "start_line": 469,
+    "end_line": 472,
+    "type": "section"
+  },
+  {
+    "title": "2. A \"Deadly Neighborhood\" (Supernova or Rogue Star)",
+    "start_line": 473,
+    "end_line": 476,
+    "type": "section"
+  },
+  {
+    "title": "3. The \"Kessler Syndrome\" or Solar Flare Extreme",
+    "start_line": 477,
+    "end_line": 508,
+    "type": "section"
+  },
+  {
+    "title": "1. The \"Pop-up\" Habitat (Expandable Modules)",
+    "start_line": 509,
+    "end_line": 513,
+    "type": "section"
+  },
+  {
+    "title": "2. Space 3D Printing (Sentient \"Seeds\")",
+    "start_line": 514,
+    "end_line": 518,
+    "type": "section"
+  },
+  {
+    "title": "3. Rotating O’Neill Cylinders (The \"True\" Space City)",
+    "start_line": 519,
+    "end_line": 555,
+    "type": "section"
+  },
+  {
+    "title": "1. The Moon as a \"Gravity Elevator\"",
+    "start_line": 556,
+    "end_line": 559,
+    "type": "section"
+  },
+  {
+    "title": "2. Turning the Moon into a Fuel Station",
+    "start_line": 560,
+    "end_line": 566,
+    "type": "section"
+  },
+  {
+    "title": "3. The \"Hollow Moon\" Shipyard",
+    "start_line": 567,
+    "end_line": 572,
+    "type": "section"
+  },
+  {
+    "title": "4. The Wildest Option: Moving the Moon Itself",
+    "start_line": 573,
+    "end_line": 602,
+    "type": "section"
+  },
+  {
+    "title": "Here is why \"The Wandering Moon\" is a more logical starting point for a planetary exodus:",
+    "start_line": 603,
+    "end_line": 603,
+    "type": "section"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "line": 470,
+    "match": "billion years",
+    "context": "As the Sun ages, it burns hydrogen faster, becoming about 10% brighter every billion years."
+  },
+  {
+    "line": 471,
+    "match": "billion years",
+    "context": "The Deadline: In about 1 billion years, the Sun will be so hot that Earth’s oceans will evaporate."
+  },
+  {
+    "line": 475,
+    "match": "100 years before",
+    "context": "The Deadline: 50–100 years before the encounter."
+  },
+  {
+    "line": 679,
+    "match": "billion years",
+    "context": "The Earth-Tugboat (Option B) is the \"Better\" Moral Solution. If the goal is to save the planet and everything that ever lived on it, we must take the "
+  },
+  {
+    "line": 772,
+    "match": "Phase 1: The \"Lifeboat\" Preparation (Years 0",
+    "context": "Phase 1: The \"Lifeboat\" Preparation (Years 0–500)"
+  },
+  {
+    "line": 779,
+    "match": "Phase 2: The \"Red Giant\" Shift (Years 500",
+    "context": "Phase 2: The \"Red Giant\" Shift (Years 500 – 1 Billion)"
+  },
+  {
+    "line": 800,
+    "match": "billion years",
+    "context": "Resource Management: You have a billion years to mine other planets (like Mercury or asteroids) to bring materials to your \"Earth-Moon Ship\" before yo"
+  },
+  {
+    "line": 934,
+    "match": "billion years",
+    "context": "The Reality: That is equivalent to burning all the fossil fuels on Earth every second for a billion years. * The Solution: We cannot do this with \"Ear"
+  },
+  {
+    "line": 947,
+    "match": "1-10",
+    "context": "Getting started isn't about moving the planet yet; it's about establishing the foothold. | Step | Difficulty (1-10) | Status | | :--- | :--- | :--- | "
+  },
+  {
+    "line": 1016,
+    "match": "billion years",
+    "context": "Humans have a \"Circadian Rhythm\" hard-coded into our DNA by 4 billion years of sunrises."
+  },
+  {
+    "line": 1021,
+    "match": "Year 5",
+    "context": "The Problem: If the engineers in Year 5,000 forget how to repair the fusion injectors because the \"user manual\" is in a dead language or a corrupted f"
+  },
+  {
+    "line": 1048,
+    "match": "Year 2",
+    "context": "Perhaps the hardest unsolved problem is War. How do you ensure that in Year 2,000 of the journey, a group of people doesn't decide to \"take over\" the "
+  },
+  {
+    "line": 1055,
+    "match": "Year 100",
+    "context": "Year 100: We have a permanent colony on the Moon. It’s no longer \"space\"; it’s just another \"territory.\""
+  },
+  {
+    "line": 1056,
+    "match": "Year 250",
+    "context": "Year 250: The first \"nudge\" happens. People feel a tiny change in the tides, but life goes on. The \"impossible\" has become \"normal.\""
+  },
+  {
+    "line": 1057,
+    "match": "Year 500",
+    "context": "Year 500: The technology to move a planet is no longer experimental—it's legacy tech. The children born in this era would view a static planet as \"pri"
+  },
+  {
+    "line": 1060,
+    "match": "Year 200",
+    "context": "Closed-Loop Success: By Year 200, we would likely have mastered \"Synthetic Biology.\" We wouldn't just be trying to keep Earth plants alive; we would h"
+  },
+  {
+    "line": 1219,
+    "match": "100 years after",
+    "context": "The Timeline: At a slow, safe acceleration, we would be tethered to the Sun for about 50 to 100 years after leaving Earth's original orbit."
+  },
+  {
+    "line": 1236,
+    "match": "0-500",
+    "context": "Years 0-500"
+  },
+  {
+    "line": 1240,
+    "match": "500-600",
+    "context": "Years 500-600"
+  },
+  {
+    "line": 1278,
+    "match": "Year 500",
+    "context": "Departure (Year 500)"
+  },
+  {
+    "line": 1279,
+    "match": "Year 5",
+    "context": "Arrival (Year 5,000)"
+  },
+  {
+    "line": 1375,
+    "match": "000 - 10",
+    "context": "2,000 - 10,000 Years"
+  },
+  {
+    "line": 1381,
+    "match": "100 - 300",
+    "context": "100 - 300 Years"
+  },
+  {
+    "line": 1597,
+    "match": "100 years before",
+    "context": "Would you like to explore adding \"Vanguard Arks\" to your manifesto—small scout ships that leave 100 years before the Earth to scout the path and set u"
+  },
+  {
+    "line": 1603,
+    "match": "000 years before",
+    "context": "The Mission: They arrive at the target star 500 to 1,000 years before the Earth."
+  },
+  {
+    "line": 1686,
+    "match": "0-100",
+    "context": "Phase 1 (Years 0-100): Build the Lunar Refineries and the first 1% of the Dyson Swarm."
+  },
+  {
+    "line": 1686,
+    "match": "Phase 1 (Years 0",
+    "context": "Phase 1 (Years 0-100): Build the Lunar Refineries and the first 1% of the Dyson Swarm."
+  },
+  {
+    "line": 1687,
+    "match": "100-300",
+    "context": "Phase 2 (Years 100-300): Transition to \"Underground/Underwater\" architecture. Start the Vanguard Fleet launch."
+  },
+  {
+    "line": 1687,
+    "match": "Phase 2 (Years 100",
+    "context": "Phase 2 (Years 100-300): Transition to \"Underground/Underwater\" architecture. Start the Vanguard Fleet launch."
+  },
+  {
+    "line": 1688,
+    "match": "300-500",
+    "context": "Phase 3 (Years 300-500): Move the Moon into the \"Tug\" position. Begin Earth's acceleration."
+  },
+  {
+    "line": 1688,
+    "match": "Phase 3 (Years 300",
+    "context": "Phase 3 (Years 300-500): Move the Moon into the \"Tug\" position. Begin Earth's acceleration."
+  },
+  {
+    "line": 1689,
+    "match": "Year 500",
+    "context": "Phase 4 (Year 500+): Enter the \"Long Dark.\" 90% of the population enters Cryo-Rotation. Surface factories build the Arrival Swarm."
+  },
+  {
+    "line": 1689,
+    "match": "Phase 4 (Year 500",
+    "context": "Phase 4 (Year 500+): Enter the \"Long Dark.\" 90% of the population enters Cryo-Rotation. Surface factories build the Arrival Swarm."
+  },
+  {
+    "line": 1690,
+    "match": "Year 4",
+    "context": "Phase 5 (Year 4,000): Vanguard arrives at the target. Begins building the Reception Swarm."
+  },
+  {
+    "line": 1690,
+    "match": "Phase 5 (Year 4",
+    "context": "Phase 5 (Year 4,000): Vanguard arrives at the target. Begins building the Reception Swarm."
+  },
+  {
+    "line": 1691,
+    "match": "Year 5",
+    "context": "Phase 6 (Year 5,000): Earth arrives. The Great Thaw begins."
+  },
+  {
+    "line": 1691,
+    "match": "Phase 6 (Year 5",
+    "context": "Phase 6 (Year 5,000): Earth arrives. The Great Thaw begins."
+  },
+  {
+    "line": 1792,
+    "match": "Billion Years",
+    "context": "1. The \"Comfort\" Deadline: 500 Million to 1 Billion Years"
+  },
+  {
+    "line": 1793,
+    "match": "billion years",
+    "context": "This is the one that matters for your plan. Main-sequence stars like the Sun get roughly 10% brighter every billion years."
+  },
+  {
+    "line": 1794,
+    "match": "million years",
+    "context": "The \"Moist Greenhouse\" Effect: In about 600 million years, the Sun will be hot enough to disrupt Earth's carbon cycle. This will kill off most complex"
+  },
+  {
+    "line": 1795,
+    "match": "billion years",
+    "context": "The Boiling Point: In about 1 billion years, the Sun's increased luminosity will cause the oceans to start evaporating into a \"runaway greenhouse.\" At"
+  },
+  {
+    "line": 1796,
+    "match": "million years",
+    "context": "The Strategy: This confirms your 500-year ramp-up is perfectly timed. We don't need to leave today, but we need to have the technology mastered within"
+  },
+  {
+    "line": 1797,
+    "match": "Billion Years",
+    "context": "2. The \"Red Giant\" Phase: 5 Billion Years"
+  },
+  {
+    "line": 1801,
+    "match": "6-7",
+    "context": "3. The \"Final Fade\": 6-7 Billion Years"
+  },
+  {
+    "line": 1801,
+    "match": "Billion Years",
+    "context": "3. The \"Final Fade\": 6-7 Billion Years"
+  },
+  {
+    "line": 1810,
+    "match": "0 - 100",
+    "context": "0 - 100 Million"
+  },
+  {
+    "line": 1828,
+    "match": "million years",
+    "context": "Since we have about 500 million years of \"safety\" before the oceans start to boil, does that change the urgency of your 500-year transition, or do you"
+  },
+  {
+    "line": 1846,
+    "match": "0-500",
+    "context": "Years 0-500"
+  },
+  {
+    "line": 1849,
+    "match": "500-1",
+    "context": "Years 500-1k"
+  },
+  {
+    "line": 1975,
+    "match": "Year 50",
+    "context": "1. The Timeline: Year 50 to 150"
+  },
+  {
+    "line": 1977,
+    "match": "Year 50",
+    "context": "Year 50–70: Launch of the Automated Prospectors. These small drones map the composition of the Moon and the Asteroid Belt to find the specific metals "
+  },
+  {
+    "line": 1978,
+    "match": "Year 70",
+    "context": "Year 70–100: Deployment of Mass Drivers on the Moon. Instead of \"ships\" carrying everything, we build electromagnetic rails that \"fling\" refined mater"
+  },
+  {
+    "line": 1979,
+    "match": "Year 100",
+    "context": "Year 100+: The birth of the Heavy Freighters. These are massive, nuclear-powered ships designed to move raw materials between the Asteroid Belt and Ea"
+  },
+  {
+    "line": 2121,
+    "match": "billion years",
+    "context": "When we move the Earth and Moon, we aren't just taking our mass; we are removing the \"anchors\" that have held the inner Solar System in balance for 4 "
+  },
+  {
+    "line": 2136,
+    "match": "million years",
+    "context": "The \"Resonance\" Risk: Gravity works through \"Resonance.\" Even a tiny nudge to a gas giant like Jupiter as we leave could, over 100 million years, caus"
+  },
+  {
+    "line": 2400,
+    "match": "Phase 0: The Shield (Years 0",
+    "context": "Phase 0: The Shield (Years 0–50)"
+  },
+  {
+    "line": 2404,
+    "match": "Phase I: The Battery (Years 50",
+    "context": "Phase I: The Battery (Years 50–150)"
+  },
+  {
+    "line": 2408,
+    "match": "Phase II: The Hive & The Tug (Years 150",
+    "context": "Phase II: The Hive & The Tug (Years 150–500)"
+  },
+  {
+    "line": 2412,
+    "match": "Phase III: The Departure & Stealth (Years 500",
+    "context": "Phase III: The Departure & Stealth (Years 500–1,000)"
+  },
+  {
+    "line": 2417,
+    "match": "Phase IV: The Long Dark (Years 1",
+    "context": "Phase IV: The Long Dark (Years 1,000–4,000)"
+  },
+  {
+    "line": 2421,
+    "match": "Phase V: Arrival & Deceleration (Years 4",
+    "context": "Phase V: Arrival & Deceleration (Years 4,000–5,000)"
+  },
+  {
+    "line": 2425,
+    "match": "Year 5",
+    "context": "Phase VI: The Great Thaw (Year 5,000+)"
+  },
+  {
+    "line": 2425,
+    "match": "Phase VI: The Great Thaw (Year 5",
+    "context": "Phase VI: The Great Thaw (Year 5,000+)"
+  },
+  {
+    "line": 2494,
+    "match": "14-30",
+    "context": "3. The \"Parable of the Talents\" (Matthew 25:14-30)"
+  },
+  {
+    "line": 2581,
+    "match": "billion years",
+    "context": "The Trigger: In about 5 billion years, the Sun will run out of hydrogen in its core and begin to expand. However, Earth becomes uninhabitable much soo"
+  },
+  {
+    "line": 2581,
+    "match": "billion years",
+    "context": "The Trigger: In about 5 billion years, the Sun will run out of hydrogen in its core and begin to expand. However, Earth becomes uninhabitable much soo"
+  },
+  {
+    "line": 2581,
+    "match": "billion years",
+    "context": "The Trigger: In about 5 billion years, the Sun will run out of hydrogen in its core and begin to expand. However, Earth becomes uninhabitable much soo"
+  },
+  {
+    "line": 2586,
+    "match": "Year 0",
+    "context": "Year 0–100: Deploy the Infrared Shield Net. We must secure the system from asteroids while we are at our most vulnerable (during construction)."
+  },
+  {
+    "line": 2587,
+    "match": "Year 100",
+    "context": "Year 100–200: Planetary Defense Iteration. We spend a century \"practicing\" moving small asteroids to perfect the Gravitational Tug physics we will eve"
+  },
+  {
+    "line": 2590,
+    "match": "Year 200",
+    "context": "Year 200–400: Mining the Giants. We don't take Jupiter, but we \"bleed\" it. We use Orbital Siphons (massive scoops in Jupiter’s upper atmosphere) to ha"
+  },
+  {
+    "line": 2595,
+    "match": "Year 500",
+    "context": "Year 500–600: The Great Descent. 10 billion people move into the Subterranean Hives. The surface is abandoned to the robots and the construction of th"
+  },
+  {
+    "line": 2599,
+    "match": "Year 700",
+    "context": "Year 700–800: The Moon-Engines (Mass Drivers and Fusion Thrusters) are ignited for the first time. We don't leave yet; we begin \"Orbital Lifting.\" * T"
+  },
+  {
+    "line": 2602,
+    "match": "Year 1",
+    "context": "Year 1,000: Escape Velocity. The Moon-Tug fires at 100\\text{%} capacity. Earth reaches \"Solar Escape Velocity.\""
+  },
+  {
+    "line": 2654,
+    "match": "2-5",
+    "context": "Century 2-5 (The Build-Up): Establish Lunar Point-Defense. As foundries appear on the Moon, the Shield expands to cover the Moon’s surface."
+  },
+  {
+    "line": 2655,
+    "match": "6-9",
+    "context": "Century 6-9 (The Active Shield): The network protects the Dyson Swarm and the Jupiter Siphons. It is now the most powerful weapon system in the solar "
+  },
+  {
+    "line": 2656,
+    "match": "Year 1",
+    "context": "Year 1,000 (Departure): The Defense Network transitions into the Vanguard Fleet. The satellites detach from their orbits and fly ahead of the Earth as"
+  },
+  {
+    "line": 2664,
+    "match": "Year 150",
+    "context": "Phase Completion: By Year 150, we should have a 1:1 digital twin of the Earth’s interior, identifying the exact \"Safe Zones\" where the Hives will sit."
+  },
+  {
+    "line": 2664,
+    "match": "Phase Completion: By Year 150",
+    "context": "Phase Completion: By Year 150, we should have a 1:1 digital twin of the Earth’s interior, identifying the exact \"Safe Zones\" where the Hives will sit."
+  },
+  {
+    "line": 2704,
+    "match": "300 years from",
+    "context": "Because we cannot predict exactly when the Sun will destabilize, we use a \"Relative Timeline.\" We start the clock (Year Zero) the moment our technolog"
+  },
+  {
+    "line": 2906,
+    "match": "200 years before",
+    "context": "The Optimal Path: We aim for 90% Readiness 200 years before the predicted \"Solar Danger Zone.\" This 200-year buffer is the \"Iteration Window\" where we"
+  },
+  {
+    "line": 2911,
+    "match": "Year 50",
+    "context": "The Asteroid Tug we tested in Year 50 becomes the Defense Interceptor in Year 100."
+  },
+  {
+    "line": 2911,
+    "match": "Year 100",
+    "context": "The Asteroid Tug we tested in Year 50 becomes the Defense Interceptor in Year 100."
+  },
+  {
+    "line": 2939,
+    "match": "Year 2",
+    "context": "The \"Breakthrough\" Factor: If our scientists (either the \"Dwellers\" awake on the ship or the DAI) discover New Physics (like a way to harness Dark Mat"
+  },
+  {
+    "line": 2955,
+    "match": "Year 300",
+    "context": "By Year 300 (The Build Phase), we will have moved past \"Qubits\" into Topological Quantum Computing."
+  },
+  {
+    "line": 2979,
+    "match": "Year 1",
+    "context": "By Year 1,000 (Departure), we will no longer distinguish between \"digital\" and \"physical.\" Our Hives, our Engines, and our very Bodies will be optimiz"
+  },
+  {
+    "line": 2998,
+    "match": "000 years from",
+    "context": "Purpose: To ensure that if the DAI ever fails or knowledge is lost, a human engineer 3,000 years from now can \"re-boot\" the planet using only the prin"
+  },
+  {
+    "line": 3280,
+    "match": "Year 200",
+    "context": "Your point about \"paradigm shifts\" is critical. If we discover a new law of physics in Year 200, the \"Rug\" must be able to re-weave itself without los"
+  },
+  {
+    "line": 3459,
+    "match": "Year 0",
+    "context": "Here is how the Oracle handles the Centuries of Preparation (Year 0 to Launch):"
+  },
+  {
+    "line": 3497,
+    "match": "Year 40",
+    "context": "If a breakthrough in Fusion happens in Year 40, the Oracle must immediately recalculate the Dyson Swarm requirements."
+  },
+  {
+    "line": 3498,
+    "match": "Year 80",
+    "context": "If a breakthrough in Consciousness Transfer happens in Year 80, the Oracle might suggest we don't need \"Physical Hives\" but \"Digital Servers.\""
+  },
+  {
+    "line": 3549,
+    "match": "2026-2100",
+    "context": "The First Draft: It generates the \"2026-2100 Strategic Manifesto\"—the first 50 pages of your 2,000-page document."
+  },
+  {
+    "line": 3565,
+    "match": "Year 450",
+    "context": "The Oracle prevents \"dramatic conclusions\" by treating Time as a Resource. * The Horizon Scan: While a human government reacts to a crisis now, the Or"
+  },
+  {
+    "line": 3565,
+    "match": "Year 2026",
+    "context": "The Oracle prevents \"dramatic conclusions\" by treating Time as a Resource. * The Horizon Scan: While a human government reacts to a crisis now, the Or"
+  },
+  {
+    "line": 3642,
+    "match": "Year 1",
+    "context": "If the humans of Year 1,000 decide that the \"Current Way\" is no longer working, they don't have to fight the Oracle. They can Refactor the Social Prot"
+  },
+  {
+    "line": 3672,
+    "match": "Year 100",
+    "context": "The Protocol: Any change to the Prime Directive requires a Multi-Centennial Ratification. * The Timeline: A change is proposed in Year 100. It is \"Sim"
+  },
+  {
+    "line": 3672,
+    "match": "Year 150",
+    "context": "The Protocol: Any change to the Prime Directive requires a Multi-Centennial Ratification. * The Timeline: A change is proposed in Year 100. It is \"Sim"
+  },
+  {
+    "line": 3724,
+    "match": "Year 3",
+    "context": "The Scenario: In Year 3,000, humans decide they prefer living as \"Space-Faring Swarms\" rather than on a planet. They want to dismantle the Earth for r"
+  },
+  {
+    "line": 3745,
+    "match": "Year 10",
+    "context": "The Oracle is a Scaffold. A scaffold is meant to be removed once the building can stand on its own. If the Oracle is still \"necessary\" in Year 10,000,"
+  },
+  {
+    "line": 3754,
+    "match": "billion years",
+    "context": "Starting in 2026, we are betting on Kinetic Planetary Movement. But what if, in 2045, we discover a way to \"re-ignite\" the Sun’s core or stabilize its"
+  },
+  {
+    "line": 3864,
+    "match": "Year 3",
+    "context": "R4.2: Transparency of Reason: The Oracle must provide a \"Human-Readable Audit Trail\" for every decision. A human in Year 3,000 must be able to ask, \"W"
+  }
+]
