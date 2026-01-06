@@ -743,8 +743,15 @@ def generate_html(content_map):
                 sections[doc.section].push(doc);
             });
 
-            // Build HTML
-            let html = '';
+            // Build HTML with Home button at top
+            let html = `
+                <div class="nav-item home-nav" id="homeNav" style="border-bottom: 2px solid #2c3e50; margin-bottom: 15px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+                    <span class="icon">🏠</span>
+                    <span class="title" style="font-weight: 600;">Home</span>
+                    <span class="word-count"></span>
+                </div>
+            `;
+            
             for (const [section, docs] of Object.entries(sections)) {
                 html += `<div class="nav-section">`;
                 html += `<div class="nav-section-title">${section}</div>`;
@@ -764,8 +771,15 @@ def generate_html(content_map):
             
             nav.innerHTML = html;
 
-            // Add click handlers
-            document.querySelectorAll('.nav-item').forEach(item => {
+            // Add click handler for Home button
+            document.getElementById('homeNav').addEventListener('click', () => {
+                showWelcome();
+                sidebar.classList.remove('open');
+                sidebarOverlay.classList.remove('show');
+            });
+
+            // Add click handlers for document navigation
+            document.querySelectorAll('.nav-item:not(.home-nav)').forEach(item => {
                 item.addEventListener('click', () => {
                     const file = item.getAttribute('data-file');
                     loadDocument(file);
