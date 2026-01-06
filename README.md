@@ -29,7 +29,7 @@ This isn't science fiction—it's speculative engineering grounded in real physi
 
 **View the complete white paper:**
 
-🔗 **[GitHub Pages Preview](https://YOUR_USERNAME.github.io/planetary-exodus/)** *(Update with your GitHub Pages URL)*
+🔗 **[https://timkey.github.io/Aethelgard-Protocol/](https://timkey.github.io/Aethelgard-Protocol/)**
 
 The HTML viewer features:
 - 📱 Mobile-responsive design with hamburger menu
@@ -136,8 +136,8 @@ Generates fresh `index.html` with all markdown content embedded.
 ### Build Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/planetary-exodus.git
-   cd planetary-exodus
+   git clone https://github.com/timkey/Aethelgard-Protocol.git
+   cd Aethelgard-Protocol
    ```
 
 2. Generate HTML:
@@ -242,7 +242,7 @@ This repository is configured for GitHub Pages. To deploy:
 
 2. **Access URL:**
    ```
-   https://YOUR_USERNAME.github.io/planetary-exodus/
+   https://timkey.github.io/Aethelgard-Protocol/
    ```
 
 3. **Custom Domain (Optional):**
@@ -298,8 +298,8 @@ Special thanks to the original raw material that inspired this synthesis.
 
 Questions, feedback, or collaboration inquiries:
 
-- **GitHub Issues:** [Open an issue](https://github.com/YOUR_USERNAME/planetary-exodus/issues)
-- **Email:** your.email@example.com *(Update with your contact)*
+- **GitHub Issues:** [Open an issue](https://github.com/timkey/Aethelgard-Protocol/issues)
+- **GitHub Repository:** [https://github.com/timkey/Aethelgard-Protocol](https://github.com/timkey/Aethelgard-Protocol)
 
 ---
 
