@@ -27,7 +27,12 @@ documents = [
     {'file': 'docs/15_Chapter_14.md', 'title': 'Ch 14: Geopolitical Integration', 'section': 'Part 3: Governance & Social', 'icon': '🌐'},
     {'file': 'docs/16_Chapter_15.md', 'title': 'Ch 15: Theological Reconciliation', 'section': 'Part 3: Governance & Social', 'icon': '🕊️'},
     {'file': 'docs/17_Chapter_16.md', 'title': 'Ch 16: Social Cohesion', 'section': 'Part 3: Governance & Social', 'icon': '🤝'},
-    {'file': 'docs/18_Chapter_17.md', 'title': 'Ch 17: Economic Models', 'section': 'Part 3: Governance & Social', 'icon': '💰'}
+    {'file': 'docs/18_Chapter_17.md', 'title': 'Ch 17: Economic Models', 'section': 'Part 3: Governance & Social', 'icon': '💰'},
+    {'file': 'docs/19_Chapter_18.md', 'title': 'Ch 18: Phase Zero (2026-2050)', 'section': 'Part 4: Implementation Roadmap', 'icon': '🚀'},
+    {'file': 'docs/20_Chapter_19.md', 'title': 'Ch 19: Phase One (2050-2150)', 'section': 'Part 4: Implementation Roadmap', 'icon': '🏗️'},
+    {'file': 'docs/21_Chapter_20.md', 'title': 'Ch 20: Phase Two (2150-2500)', 'section': 'Part 4: Implementation Roadmap', 'icon': '🌑'},
+    {'file': 'docs/22_Chapter_21.md', 'title': 'Ch 21: Phase Three (2500-4500)', 'section': 'Part 4: Implementation Roadmap', 'icon': '🌌'},
+    {'file': 'docs/23_Chapter_22.md', 'title': 'Ch 22: Phase Four (4500-5200+)', 'section': 'Part 4: Implementation Roadmap', 'icon': '🏡'}
 ]
 
 def escape_js_string(text):
@@ -528,7 +533,12 @@ def generate_html(content_map):
             { file: 'docs/15_Chapter_14.md', title: 'Ch 14: Geopolitical Integration', section: 'Part 3: Governance & Social', icon: '🌐' },
             { file: 'docs/16_Chapter_15.md', title: 'Ch 15: Theological Reconciliation', section: 'Part 3: Governance & Social', icon: '🕊️' },
             { file: 'docs/17_Chapter_16.md', title: 'Ch 16: Social Cohesion', section: 'Part 3: Governance & Social', icon: '🤝' },
-            { file: 'docs/18_Chapter_17.md', title: 'Ch 17: Economic Models', section: 'Part 3: Governance & Social', icon: '💰' }
+            { file: 'docs/18_Chapter_17.md', title: 'Ch 17: Economic Models', section: 'Part 3: Governance & Social', icon: '💰' },
+            { file: 'docs/19_Chapter_18.md', title: 'Ch 18: Phase Zero (2026-2050)', section: 'Part 4: Implementation Roadmap', icon: '🚀' },
+            { file: 'docs/20_Chapter_19.md', title: 'Ch 19: Phase One (2050-2150)', section: 'Part 4: Implementation Roadmap', icon: '🏗️' },
+            { file: 'docs/21_Chapter_20.md', title: 'Ch 20: Phase Two (2150-2500)', section: 'Part 4: Implementation Roadmap', icon: '🌑' },
+            { file: 'docs/22_Chapter_21.md', title: 'Ch 21: Phase Three (2500-4500)', section: 'Part 4: Implementation Roadmap', icon: '🌌' },
+            { file: 'docs/23_Chapter_22.md', title: 'Ch 22: Phase Four (4500-5200+)', section: 'Part 4: Implementation Roadmap', icon: '🏡' }
         ];
 
         let currentDoc = null;
