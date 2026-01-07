@@ -1,5 +1,5 @@
 # Aethelgard Protocol - Master Table of Contents
-## The White Paper: A 5,000-Year Plan for Planetary Migration
+## The White Paper: A Multi-Billion-Year Framework for Planetary Survival
 
 **Document Status:** Draft v1.0  
 **Date:** 2026-01-05  
@@ -12,12 +12,14 @@
 
 This master table of contents outlines the complete structure of the Aethelgard Protocol White Paper. The document is organized into four major parts plus appendices:
 
-1. **Foundations and Rationale** - Why we must move Earth
+1. **Foundations and Rationale** - Why we must develop planetary mobility capability
 2. **Technical Architecture** - Engineering systems and specifications
-3. **Governance and Social Systems** - Managing humanity over millennia
-4. **Implementation Roadmap** - The 4,000-year timeline
+3. **Governance and Social Systems** - Managing capability development across deep time
+4. **Implementation Roadmap** - Phase Zero (2026-2150+) testing and beyond
 
 Each section includes page estimates to guide document generation.
+
+> **Timeline Note:** The Protocol operates on a realistic solar timeline (~1 billion years until ocean evaporation). Phase Zero (2026-2150+) focuses on testing and capability development, ensuring proven systems exist when solar brightening necessitates evacuation ~500 million years hence.
 
 ---
 
@@ -29,8 +31,8 @@ Each section includes page estimates to guide document generation.
     *Political, Ethical, and Knowledge gaps*
   - **The Solution: Poly-Centric Oracle Architecture** [3p]
     *Four Oracles working in synthesis*
-  - **The Mission: A 5,000-Year Journey** [2p]
-    *Timeline and destination*
+  - **The Mission: Phase Zero Testing Era** [2p]
+    *2026-2150+ testing and capability validation*
   - **Reading Guide** [1p]
     *How to use this document*
 - **Part 1: Foundations and Rationale** [100p]
@@ -172,7 +174,7 @@ Each section includes page estimates to guide document generation.
     - **12.4 Revival Procedures** [3p]
       *Safe awakening*
 - **Part 3: Governance and Social Systems** [100p]
-  *How humanity maintains cohesion over 5,000 years*
+  *How humanity maintains cohesion across deep time*
   - **Chapter 13: The Transition from Democracy to Protocol** [18p]
     *Evolution of human governance*
     - **13.1 The Competence Collapse** [4p]
@@ -231,7 +233,7 @@ Each section includes page estimates to guide document generation.
       *Deep-time economics*
 - **Part 4: Implementation Roadmap** [80p]
   *The 2026-6000 timeline*
-  - **Chapter 18: Phase Zero (2026-2050)** [15p]
+  - **Chapter 18: Phase Zero (2026-2150+)** [15p]
     *Foundation and defense*
     - **18.1 Defense Network Deployment** [4p]
       *Sentinel infrastructure*
@@ -241,7 +243,7 @@ Each section includes page estimates to guide document generation.
       *Neutrino tomography*
     - **18.4 MVP Oracle Development** [4p]
       *First synthesis engine*
-  - **Chapter 19: Phase One (2050-2150)** [18p]
+  - **Chapter 19: Phase One (2150-10,000+)** [18p]
     *Energy and construction*
     - **19.1 Dyson Swarm Construction** [5p]
       *Solar energy collection*
@@ -251,7 +253,7 @@ Each section includes page estimates to guide document generation.
       *Moon-based manufacturing*
     - **19.4 Hive Excavation** [4p]
       *Underground city construction*
-  - **Chapter 20: Phase Two (2150-2500)** [15p]
+  - **Chapter 20: Phase Two (10,000-100M Years)** [15p]
     *The Great Migration*
     - **20.1 Surface Abandonment** [4p]
       *Population descent*
@@ -261,7 +263,7 @@ Each section includes page estimates to guide document generation.
       *First orbital adjustment*
     - **20.4 System Testing** [3p]
       *Full integration*
-  - **Chapter 21: Phase Three (2500-3000)** [12p]
+  - **Chapter 21: Phase Three (100M-500M Years)** [12p]
     *Solar escape*
     - **21.1 Escape Velocity Achievement** [4p]
       *Leaving the solar system*

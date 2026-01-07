@@ -1,7 +1,7 @@
 # Appendix A: Technical Constants and Physical Parameters
 ## Reference Tables for Aethelgard Protocol Engineering
 
-**Purpose:** This appendix provides authoritative physical constants, engineering specifications, and derived calculations referenced throughout the Protocol documentation. All values sourced from Phase Zero measurements (2026-2050) and updated through Phase One validation (2050-2150).
+**Purpose:** This appendix provides authoritative physical constants, engineering specifications, and derived calculations referenced throughout the Protocol documentation. All values sourced from Phase Zero measurements (2026-2150+) and updated through Phase One validation.
 
 ---
 
@@ -108,7 +108,7 @@
 | **Efficiency** | 70% | % | Thrust/power |
 | **Propellant** | Xenon | — | 131.3 atomic mass |
 | **Mass flow rate** | 2.04 × 10⁸ | kg/s | Total for all drives |
-| **Propellant reserve** | 2 × 10¹⁸ | kg | 5,000-year supply |
+| **Propellant reserve** | 2 × 10¹⁸ | kg | Multi-generational supply |
 | **Drive lifespan** | 500 | years | With maintenance |
 
 *Source: raw.txt:714-831*
@@ -307,10 +307,10 @@ $$E = \\frac{1}{2} m v^2 \\times 2 = m v^2$$
 - Velocity: 3 × 10⁵ m/s
 - Energy: 5.4 × 10³⁵ J
 
-**Energy supply (Dyson Swarm over 5,000 years):**
+**Energy supply (Dyson Swarm for interstellar transit):**
 
 - Power: 10¹⁶ W
-- Duration: 1.58 × 10¹¹ s (5,000 years)
+- Duration: Variable (mission-dependent)
 - Total energy: 1.58 × 10²⁷ J
 
 **Ratio:** 1.58 × 10²⁷ J / 5.4 × 10³⁵ J = 2.9 × 10⁻⁹

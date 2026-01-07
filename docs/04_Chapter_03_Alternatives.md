@@ -36,7 +36,7 @@ A **generation ship** (or "ark ship") is a massive spacecraft designed to carry 
 
 **The fundamental problem: genetic diversity.**
 
-A ship with **10,000 people faces genetic drift** *(raw.txt:1565)*. Over 5,000 years, rare genetic diseases would multiply. Small populations experience:
+A ship with **10,000 people faces genetic drift** *(raw.txt:1565)*. Over multi-generational interstellar voyages, rare genetic diseases would multiply. Small populations experience:
 - **Founder effects:** Limited initial genetic variation
 - **Inbreeding depression:** Accumulation of deleterious alleles
 - **Loss of alleles:** Random genetic drift eliminates variants
@@ -57,7 +57,7 @@ A generation ship faces a unique psychological problem: **none of the passengers
 - **Generation 5:** The journey is "normal," Earth is a story, motivation erodes
 - **Generation 50:** 1,000 years into the journey—**who are we flying for?**
 
-If the journey takes **5,000 years**, a human family tree would go through **150+ generations** *(raw.txt:1308)*. By generation 50, the original mission may be seen as:
+For **interstellar journeys**, a human family tree would go through **150+ generations** *(raw.txt:1308)*. By generation 50, the original mission may be seen as:
 - A prison sentence imposed by ancestors
 - A religious myth no one believes anymore
 - An obsolete plan that should be abandoned
@@ -80,7 +80,7 @@ Generation ships face an insurmountable problem: **they cannot carry Earth's bio
 - **Soil microbiomes:** Billions of species critical to agriculture
 - **Atmosphere:** Only recycled air, never "wind" or "weather"
 
-Experiments like **Biosphere 2 failed** due to CO₂ creep and soil imbalances *(raw.txt:1008)*. We haven't figured out how to keep a **small-scale ecosystem stable for 100 years**, let alone 5,000 *(raw.txt:1008)*.
+Experiments like **Biosphere 2 failed** due to CO₂ creep and soil imbalances *(raw.txt:1008)*. We haven't figured out how to keep a **small-scale ecosystem stable for 100 years**, let alone multi-generational interstellar timeframes *(raw.txt:1008)*.
 
 A generation ship is not a "planet"—it's a **sealed container**. If the soil chemistry fails, the crew starves. If the water recycling clogs, they die of thirst. If a single keystone species goes extinct (e.g., nitrogen-fixing bacteria), the entire system collapses.
 
@@ -253,7 +253,7 @@ But for the **primary objective**—preserving the complete biosphere and ensuri
 4. **Proven resilience:** Earth's systems have 4 billion years of track record
 5. **Moral imperative:** We save **everything**, not just a select few
 
-The most logical conclusion: If we have the energy to build an ark ship capable of surviving 5,000 years, we technically have the energy to **just take the whole planet with us** *(raw.txt:1594)*.
+The most logical conclusion: If we have the energy to build an ark ship capable of surviving multi-generational transit, we technically have the energy to **just take the whole planet with us** *(raw.txt:1594)*.
 
 The question is not "Why move Earth?" The question is **"Why abandon it?"**
 
@@ -262,7 +262,7 @@ The question is not "Why move Earth?" The question is **"Why abandon it?"**
 **Chapter 3 Summary:**
 - Generation ships face genetic drift in populations under 10,000 *(raw.txt:1565)*
 - 10-billion-person gene pool is evolutionarily stable *(raw.txt:1565)*
-- Small gene pools "rot" over 5,000 years *(raw.txt:1264)*
+- Small gene pools "rot" over multi-generational timeframes *(raw.txt:1264)*
 - Biosphere 2 failed; closed ecosystems are unstable *(raw.txt:1008)*
 - Biosphere and species are inseparable *(raw.txt:1558)*
 - O'Neill Cylinders require Dyson-scale construction capacity

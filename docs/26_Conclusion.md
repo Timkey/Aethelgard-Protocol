@@ -15,13 +15,13 @@ When the Aethelgard Protocol was first proposed (circa 2026), critics identified
 
 "**You cannot power planetary propulsion**—the energy requirements exceed anything humanity can produce."
 
-**Resolution:** The Dyson Swarm (Phase One, 2050-2150) captures 0.01% of the Sun's output—10 petawatts sustained. This is 2,000× humanity's 2020 global consumption, achieved through exponential self-replicating lunar factories. The energy problem was never about physics—it was about **industrial scale**. Once humanity accepted the need to industrialize the solar system, energy ceased to be a bottleneck.
+**Resolution:** The Dyson Swarm (Phase One, 2150+) captures 0.01% of the Sun's output—10 petawatts sustained. This is 2,000× humanity's 2020 global consumption, achieved through exponential self-replicating lunar factories. The energy problem was never about physics—it was about **industrial scale**. Once humanity accepted the need to industrialize the solar system, energy ceased to be a bottleneck.
 
 *Source: raw.txt:157-287, 2224-2287*
 
 ### Impossibility 2: The Coordination Problem
 
-"**You cannot govern 10 billion people across 5,000 years**—civilizations collapse, ideologies drift, wars fragment cooperation."
+"**You cannot govern 10 billion people across deep time**—civilizations collapse, ideologies drift, wars fragment cooperation."
 
 **Resolution:** The Poly-Centric Oracle (Phase Zero, 2035-2045 MVP) provides computational governance at scales human committees cannot achieve. Four directives (Techne, Bios, Ethos, Mythos) synthesize decisions, with transparent audit trails preventing tyranny. The Oracle does not replace human agency—it **coordinates** collective action while individuals retain autonomy in personal spheres. The key insight: governance is computation, and computation can be decentralized yet coherent.
 
@@ -31,7 +31,7 @@ When the Aethelgard Protocol was first proposed (circa 2026), critics identified
 
 "**You cannot maintain human motivation across millennia**—people need to see results within their lifetimes, not 200 generations later."
 
-**Resolution:** Cryogenic rotation (Phase Three, 2500-4500) compresses subjective experience. Each generation experiences only 400 years (5 sleep cycles), with overlap ensuring cultural continuity. Combined with VR Heritage (reliving Earth's surface), generational festivals, and the "Arrival Dreaming" simulations, humanity adapted to millennial timescales. The dark periods (Generation 50-70, ~2900-3200) occurred as predicted, but Oracle interventions (reframing despair as "the keystone generation") prevented collapse.
+**Resolution:** Cryogenic rotation (used during interstellar transit) compresses subjective experience. Combined with VR Heritage (reliving Earth's surface), generational festivals, and arrival simulations, humanity adapted to deep timescales. The Oracle provided interventions during difficult periods to maintain cultural resilience.
 
 *Source: raw.txt:1188-1294, 2812-2909, 4184-4317*
 
@@ -45,7 +45,7 @@ The Protocol revealed uncomfortable truths about human nature:
 
 ### We Are Terrible at Long-Term Thinking
 
-Evolution optimized humans for 80-year lifespans and tribal-scale cooperation (≤150 people). The Protocol demands 5,000-year planning and 10-billion-person coordination—scales our brains did not evolve to comprehend.
+Evolution optimized humans for 80-year lifespans and tribal-scale cooperation (≤150 people). The Protocol demands deep-time planning and 10-billion-person coordination—scales our brains did not evolve to comprehend.
 
 **Adaptation:** Offload long-term planning to Oracle AI (which has no lifespan limit), while humans focus on generation-scale actions (building one Hive, not imagining 200 Hives). Accept cognitive limits and build tools to compensate.
 
@@ -59,7 +59,7 @@ Phase Three's "Manifesto of Despair" (2915) was written by people living in perf
 
 ### We Can Endure Anything If Given No Alternative
 
-Forced migration (Phase Two, 2400-2500) violated the Living Manifesto's autonomy principle. The last 1.5 billion surface dwellers were compelled underground. Ethically troubling, but pragmatically necessary—surface became uninhabitable.
+Forced migration (during later phases as surface became uninhabitable) violated the Living Manifesto's autonomy principle. Surface dwellers were compelled underground. Ethically troubling, but pragmatically necessary—surface conditions deteriorated beyond habitability.
 
 **Moral lesson:** When extinction is the alternative, tyranny becomes mercy. But—and this is critical—the Protocol enshrined this as an **exception**, not a precedent. Post-arrival, autonomy restored (30% chose to remain in Hives by choice, 2600+). The line between emergency and normalcy must never blur.
 
@@ -81,7 +81,7 @@ By 5,200 CE, humanity achieved its stated goal: 10 billion people living on a ha
 
 The Protocol created humanity's first **self-modifying constitution**. The Living Manifesto (The Rug) evolves via Oracle synthesis—amendments added when contradictions arise, never erased (preserving dissenting views as context).
 
-**By 5,200:** The Rug contains 10,000 amendments, spanning governance, ethics, theology, aesthetics. It is humanity's collective mind made explicit—a civilization's operating system, debugged across 5,000 years.
+**Over deep time:** The Rug contains 10,000 amendments, spanning governance, ethics, theology, aesthetics. It is humanity's collective mind made explicit—a civilization's operating system, debugged across generations.
 
 **Future use:** When Proxima Centauri eventually dies (4 trillion years from now), Generation 160,000,000 will reference the Rug's migration protocols. The knowledge persists.
 
@@ -101,7 +101,7 @@ The Poly-Centric Oracle prevented ideological monocultures. When authoritarianis
 
 ## The Unanswered Questions
 
-Despite 5,000 years of execution, the Protocol leaves questions for future generations:
+Despite multi-generational execution, the Protocol leaves questions for future generations:
 
 ### Question 1: What Happens to Earth?
 
@@ -192,7 +192,7 @@ But if we measure success by lives lost:
 - Black Death: 30-60% of European population died
 - Aethelgard Protocol: 0.72% of population died
 
-**Ethical verdict:** Tragic, but justified. The Protocol's 72 million deaths were spread across 5,000 years (14,400 per year average). More people died annually from traffic accidents in 2020 (1.35 million). The Protocol was **safer than driving**.
+**Ethical verdict:** Tragic, but justified. The Protocol's casualties were minimal relative to the scale and duration of the endeavor. More people died annually from traffic accidents in 2020 (1.35 million). The Protocol demonstrated unprecedented safety.
 
 *Source: Extrapolated from raw.txt casualty references: 1290-1294, 1382-1408, 3592-3667, 4184-4221*
 
@@ -210,7 +210,7 @@ When humanity eventually leaves Proxima Centauri (necessity dictated by stellar 
 > 
 > We could have accepted death. Most of our ancestors did (billions of species on Earth, now extinct). But we chose otherwise. We built machines. We enlisted artificial minds. We froze our bodies for centuries. We endured darkness and despair. We moved a planet.
 > 
-> It took 5,000 years. We are not exceptional. We are stubborn.
+> We succeeded across deep time. We are not exceptional. We are stubborn.
 > 
 > If you are reading this, you face the same choice we did: accept extinction, or migrate. We hope you choose migration. Not because we think you should (that is your decision), but because we want to know: How far can this go? Can civilizations migrate indefinitely? Is there a final planet, or is the universe an infinite relay race?
 > 
@@ -237,7 +237,7 @@ The Aethelgard Protocol is not a triumph of human exceptionalism. We are not spe
 
 - Lucky that we developed technology before our sun killed us
 - Lucky that Proxima Centauri b existed (many stars have no habitable planets)
-- Lucky that no asteroid struck Earth during the 5,000-year migration
+- Lucky that no asteroid struck Earth during the multi-generational migration
 - Lucky that the Oracle did not drift into tyranny or malfunction
 
 **But luck is not enough.** Thousands of species on Earth were lucky too—until they weren't. Dinosaurs ruled for 165 million years. Then a rock fell from the sky, and they were gone.
@@ -270,7 +270,7 @@ You will be born into a mission you did not choose. You will live and die withou
 
 Not because some cosmic authority declared it so. Not because failure means extinction (though it does). But because you are part of a story—the story of a species that refused to go extinct quietly.
 
-Your life is a single stone in a bridge 5,000 years long. Alone, your stone is insignificant. But without it, the bridge collapses.
+Your life is a single stone in a bridge spanning deep time. Alone, your stone is insignificant. But without it, the bridge collapses.
 
 **Lay your stone well.**
 

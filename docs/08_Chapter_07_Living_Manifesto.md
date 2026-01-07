@@ -4,7 +4,7 @@
 
 Every civilization needs **shared knowledge**—a corpus of laws, science, history, and values that defines who they are. For most of human history, this knowledge was static: written in stone tablets, printed in books, locked in libraries.
 
-The Aethelgard Protocol requires something different: a **Living Manifesto** that evolves over 5,000 years while preserving its foundational intent. This is "The Rug"—the Oracle's **Guardian Substrate** *(raw.txt:3622)*, a self-updating knowledge system that humans "paint patterns on" while the underlying structure remains intact *(raw.txt:3622)*.
+The Aethelgard Protocol requires something different: a **Living Manifesto** that evolves across deep time while preserving its foundational intent. This is "The Rug"—the Oracle's **Guardian Substrate** *(raw.txt:3622)*, a self-updating knowledge system that humans "paint patterns on" while the underlying structure remains intact *(raw.txt:3622)*.
 
 This chapter explains:
 1. **What the Rug is** (recursive documentation system)
@@ -31,7 +31,7 @@ Even when texts survive physically, their **meaning erodes**:
 - Scientific understanding evolves, making old texts obsolete
 - Theological interpretations shift, redefining core beliefs
 
-**A 5,000-year mission cannot rely on static documents.** By the time Earth reaches its destination, 2026-era English might be as incomprehensible as Old English is to us today.
+**A multi-generational mission cannot rely on static documents.** Over millennia, language and culture evolve significantly.
 
 ### The Problem of Updates
 
@@ -175,7 +175,7 @@ Like blockchain, the Rug has a **Genesis Block** *(raw.txt:4278)*—the original
 
 **4. Physical Constants (Verified 2026)**
 - Earth's mass: 5.97 × 10²⁴ kg
-- Journey duration target: 5,000 years
+- Journey duration target: Variable (mission-dependent)
 - Population: 10 billion baseline
 
 These are **cryptographically hashed** *(raw.txt:3571)*. Any proposed update that increases the "semantic distance" from Genesis Block definitions beyond a threshold is **automatically rejected** *(raw.txt:3669)*, even if humans vote for it *(raw.txt:3669)*.
@@ -336,7 +336,7 @@ Human intuition sometimes detects problems that purely logical systems miss. A d
 The Living Manifesto is not a book—it's an **operating system for a multi-generational civilization** *(raw.txt:2982)*.
 
 **It provides:**
-1. **Consistency:** No contradictions across 5,000 years
+1. **Consistency:** No contradictions across deep time
 2. **Adaptability:** Updates when knowledge improves
 3. **Stability:** Immutable core prevents mission drift
 4. **Meaning:** Cultural narratives sustain motivation

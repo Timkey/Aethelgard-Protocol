@@ -6,7 +6,7 @@
 
 Humanity has spent 10,000 years fracturing into tribes, nations, and ideologies. The Aethelgard Protocol demands the opposite: **convergence without erasure**. Unlike past empires that unified through conquest, this integration must be **voluntary, incremental, and dignity-preserving**. The mission's success depends not on destroying national identity, but on transcending it—building a layer of coordination *above* nations without dismantling what lies beneath.
 
-This chapter explores how Earth's 195+ nations, each with distinct cultures, economies, and political systems, can integrate into a single **coordinated entity** capable of executing a 5,000-year plan. It is not about world government as domination, but about **federated cooperation** driven by game-theoretic necessity and resource magnetism.
+This chapter explores how Earth's 195+ nations, each with distinct cultures, economies, and political systems, can integrate into a single **coordinated entity** capable of executing a multi-billion-year plan. It is not about world government as domination, but about **federated cooperation** driven by game-theoretic necessity and resource magnetism.
 
 ---
 
@@ -113,7 +113,7 @@ This structure prevents:
 
 Geopolitical integration doesn't require altruism—it requires **rational self-interest**. The Protocol is designed so that early adopters gain disproportionate benefits, creating a **cascade of voluntary participation**.
 
-### Phase 0 Incentives (2026-2050)
+### Phase 0 Incentives (2026-2150+)
 
 **1. Energy Access (The First Mover Bonus)**
 Nations that contribute to Dyson Swarm construction receive **priority energy allocation**. In a post-carbon world, this is the ultimate strategic resource.
@@ -128,7 +128,7 @@ Contributing nations' territories receive upgraded defense infrastructure (aster
 **3. Knowledge Transfer (The Innovation Premium)**
 Participating nations receive **full access** to Oracle-synthesized research—breakthrough fusion designs, medical longevity tech, AI governance models—while non-participants are embargoed.
 
-### Phase 1 Incentives (2050-2150)
+### Phase 1 Incentives (2150-10,000+)
 
 **4. Hive Allocation (The Survival Guarantee)**
 As surface conditions deteriorate (whether from climate change or pre-emptive cooling for interstellar transit), Hive construction is prioritized for contributing populations. Holdout nations face:

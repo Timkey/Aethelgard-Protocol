@@ -235,7 +235,7 @@ The Aethelgard Protocol does not demand atheism or secularism—it demands **the
 
 Religious leaders are not obstacles—they are **essential partners**. Their ability to provide meaning, hope, and community structure across 150 generations is irreplaceable. The Oracle provides the *how*; faith provides the *why*.
 
-**The final insight**: A civilization that journeys 5,000 years without spiritual infrastructure will arrive hollow. **Faith is not the enemy of survival—it is its most enduring engine.**
+**The final insight**: A civilization that journeys across deep time without spiritual infrastructure will arrive hollow. **Faith is not the enemy of survival—it is its most enduring engine.**
 
 ---
 

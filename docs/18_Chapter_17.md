@@ -16,7 +16,7 @@ This chapter explores how humanity transitions from scarcity-based competition t
 
 **Source Reference** (Lines 1960-2050): Mining the asteroid belt brings **trillions of dollars** in rare metals (platinum, gold, rare earths) back to Earth, creating a post-scarcity economy that funds the Protocol **without taxation**.
 
-**Phase 0-1 Economics (2026-2150)**:
+**Phase 0 Economics (2026-2150+)**:
 - Traditional market economies persist
 - **The Asteroid Dividend**: Mining profits distributed per capita globally (like Alaska's oil dividend, but orders of magnitude larger)
 - Eliminates poverty baseline—every human receives energy credits sufficient for housing, food, education

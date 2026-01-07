@@ -95,7 +95,7 @@ Interstellar navigation is not a straight line. The trajectory must account for:
 - **Course corrections:** Adjusting trajectory over centuries using the Moon-Tug
 - **Deceleration planning:** Slowing down requires as much energy as speeding up *(raw.txt:2073)*
 
-The journey is not a "fire and forget" mission—it's a **5,000-year navigation problem** requiring constant microadjustments.
+The journey is not a "fire and forget" mission—it's a **multi-generational navigation problem** requiring constant microadjustments across deep time.
 
 ---
 
@@ -198,7 +198,7 @@ Keeping the Moon close enough to tug Earth without destroying it requires **exqu
 - **Too far:** Gravitational coupling weakens, reducing thrust efficiency
 - **Just right:** A dynamic equilibrium maintained by continuous orbital adjustments
 
-This is why the **Poly-Centric Oracle** (introduced in Part 2) is essential—no human team could manage the real-time calculations required to balance these forces over 5,000 years.
+This is why the **Poly-Centric Oracle** (introduced in Part 2) is essential—no human team could manage the real-time calculations required to balance these forces over multi-generational timeframes.
 
 ### The Logistical Fleet
 

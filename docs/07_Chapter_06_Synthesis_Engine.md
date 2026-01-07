@@ -198,7 +198,7 @@ The **Anti-Atrophy Constraint** is hard-coded into the Synthesis Engine *(raw.tx
 
 ### The Semantic Drift Problem
 
-Over 5,000 years, **language changes**. Words shift meaning. Concepts evolve. A directive written in 2026 might be misinterpreted in 4026.
+Over deep time, **language changes**. Words shift meaning. Concepts evolve. A directive written in one era might be misinterpreted millennia later.
 
 **Example:**
 - **2026 definition of "human":** Biological Homo sapiens

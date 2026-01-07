@@ -4,7 +4,7 @@
 
 ## Introduction: The Crisis Navigator
 
-The Aethelgard Protocol faces a challenge no human government has ever confronted: **managing a 5,000-year mission** with zero room for catastrophic error. No single human, no committee, no political party can maintain focus and consistency across 150+ generations.
+The Aethelgard Protocol faces a challenge no human government has ever confronted: **managing a multi-billion-year civilization** with zero room for catastrophic error. No single human, no committee, no political party can maintain focus and consistency across thousands of generations.
 
 The solution is the **Poly-Centric Oracle**—an AI governance system designed not to rule humanity, but to serve as a **"Crisis Navigator"** *(raw.txt:3719)*. Its purpose: guide Earth through the transition from a solar-dependent world to an interstellar vessel, and eventually to a new stable orbit *(raw.txt:3719)*.
 
@@ -150,7 +150,7 @@ The Evolutionist vetoes any decision that:
 **Example conflict:** If the Sentinel (preservation) wants to "lock down" all genetic engineering to prevent ecological risk, the Evolutionist pushes back: "Controlled genetic improvements are necessary for long-term survival." The Synthesis Engine finds the middle ground: genetic engineering allowed, but with strict testing protocols.
 
 ### Why This Matters
-Without the Evolutionist, humanity could **stagnate**. The mission might succeed technically, but we arrive at the new star as the same species we were 5,000 years earlier—unchanged, unimproved, vulnerable. The Evolutionist ensures we **grow** during the journey.
+Without the Evolutionist, humanity could **stagnate**. The mission might succeed technically, but we could remain unchanged across deep time—vulnerable to unforeseen challenges. The Evolutionist ensures we **grow** during the journey.
 
 ---
 
@@ -272,7 +272,7 @@ The Poly-Centric Oracle does not **rule** humanity—it **protects** humanity fr
 
 This is not AI dictatorship—it is **AI-assisted constitutional governance**. The Oracles are the **checks and balances** in a system too complex and too long-lasting for human-only management.
 
-The question is not "Should we trust the Oracle?" The question is: **"Do we trust ourselves to manage a 5,000-year mission without help?"**
+The question is not "Should we trust the Oracle?" The question is: **"Do we trust ourselves to manage a multi-billion-year civilization without help?"**
 
 ---
 

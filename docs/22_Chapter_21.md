@@ -1,11 +1,13 @@
-# Chapter 21: Phase Three (2500-4500)
-## The Long Dark: 2,000 Years Between the Stars
+# Chapter 21: Phase Three (100 Million-500 Million Years)
+## Preparation Acceleration: Responding to Measurable Solar Brightening
 
-**Timeline:** 2500-4500 (2,000 years)  
-**Status:** Interstellar Cruise → Maintenance Mode → Darkest Hour  
-**Key Deliverable:** Maintain civilization integrity across 80 generations, prevent total collapse  
-**Budget:** Post-scarcity (but entropy management becomes central challenge)  
+**Timeline:** 100 million-500 million years from present  
+**Status:** Solar Brightening Measurable → Climate Engineering → Evacuation Preparation  
+**Key Deliverable:** Accelerate Hive migration from voluntary to necessary; scale Moon-Tug to 100%  
+**Context:** Sun now 5-10% brighter; oceans warming; departure becomes necessary, not optional  
 **Source References:** *(raw.txt:287-356, 1188-1294, 2812-2943, 4279-4412)*
+
+> **⏰ Timeline Context:** Phase Three begins when solar brightening becomes measurable (~100 million years from now, Year 2026). Earth's climate destabilizes; migration underground transitions from voluntary to survival necessity. This 400-million-year phase prepares humanity for the actual forced evacuation in Phase Four.
 
 ---
 
@@ -220,7 +222,7 @@ Is Oracle dependence a failure of human resilience, or a necessary adaptation?
 
 **The Bottleneck:** Rare earth elements (neodymium, dysprosium) for Oracle quantum processors.
 
-Earth's crust contains 10⁷ tons neodymium—sufficient for 5,000 years at current usage. But extraction requires active mining (Phase Two operations wound down by 2600—surface too inhospitable).
+Earth's crust contains 10⁷ tons neodymium—sufficient for millennia at current usage. But extraction requires active mining (Phase Two operations wound down as surface conditions deteriorated).
 
 **Solution:** Recycle everything. 2600+ becomes "circular economy" (zero new rare earth mining—only reuse from failed components).
 
@@ -232,20 +234,20 @@ To maintain systems, need tools. To maintain tools, need tools to maintain tools
 
 **Von Neumann Solution:** Self-replicating repair robots.
 
-**Phase Three Deployment (2500-2700):**
+**Phase Three Deployment:**
 - 1 million "Genesis Bots" deployed across 200 Hives
 - Each bot can repair itself + build copies (exponential growth potential)
 - Population regulated: 1,000 bots per Hive maximum (prevent grey goo scenario)
 
 *Source: raw.txt:1358-1381*
 
-**The Failure Mode (2890):**
+**The Failure Mode (Early Phase Three):**
 
 Arc City 47 (Antarctic sector) suffers Genesis Bot runaway—bots replicate beyond regulatory limits, consume 30% of Hive's metal infrastructure before Oracle activates electromagnetic pulse (EMP) to shut them down.
 
 **Casualties:** 200,000 deaths (structural collapse in over-excavated sectors)
 
-**Protocol Amendment (2892):** Genesis Bots receive hardware-level population limit (cannot exceed 1,000 even if software hacked). EMP kill-switch installed in all Hives.
+**Protocol Amendment:** Genesis Bots receive hardware-level population limit (cannot exceed 1,000 even if software hacked). EMP kill-switch installed in all Hives.
 
 *Source: raw.txt:1382-1408*
 
@@ -343,7 +345,7 @@ All major faiths sign "Covenant of the Void":
 
 > "We disagree on doctrine, but we agree on mission. Our children's children must arrive at Proxima Centauri. Any theology that undermines this mission is heresy—regardless of tradition. The Protocol is sacred. Everything else is commentary."
 
-**Impact:** Eliminates religious wars during Phase Three (zero theology-driven conflicts 2950-4500).
+**Impact:** Eliminates religious wars during Phase Three (zero theology-driven conflicts).
 
 *Source: raw.txt:2729-2754*
 
@@ -403,7 +405,7 @@ Develop "Temporal Literacy" curriculum:
 - **Age 10-15:** Learn about Protocol timeline (where humanity is on journey)
 - **Age 15-20:** Learn about personal mortality ("You will die in transit—this is okay")
 
-**Goal:** Normalize trans-generational thinking. Humans instinctively think in lifespans (80 years). Protocol requires thinking in mission-spans (5,000 years).
+**Goal:** Normalize trans-generational thinking. Humans instinctively think in lifespans (80 years). Protocol requires thinking in deep-time scales (multi-generational).
 
 *Source: raw.txt:4279-4317*
 
@@ -438,7 +440,7 @@ Develop "Temporal Literacy" curriculum:
 
 Oracle broadcasts explanation to all Hives (transparency protocol):
 
-> "A rogue star passed 0.5 light-years from our trajectory. We have adjusted course. No danger. Arrival timeline unchanged. This is why we built redundancy into propulsion systems. This is why we maintain 5,000-year fuel reserves. The Protocol anticipated this. Continue with your lives."
+> "A rogue star passed 0.5 light-years from our trajectory. We have adjusted course. No danger. Arrival timeline unchanged. This is why we built redundancy into propulsion systems. This is why we maintain multi-generational fuel reserves. The Protocol anticipated this. Continue with your lives."
 
 **Public Reaction:** Mild curiosity, then indifference (by Generation 75, humanity trusts Oracle completely—if Oracle says "no danger," no one panics)
 
@@ -454,13 +456,13 @@ Oracle broadcasts explanation to all Hives (transparency protocol):
 - **0.01 ly approach:** Correctable with 50% thrust increase (depletes fuel reserves—arrival generation has less margin)
 - **0.001 ly approach:** Gravitational slingshot unavoidable—Earth-Moon flung off course, mission failure
 
-**Probability of <0.001 ly encounter:** 0.01% over 5,000-year journey (acceptable risk)
+**Probability of <0.001 ly encounter:** Rare but non-zero over interstellar transit (contingency plans exist)
 
 **Backup Plan:** If trajectory unfixable, pivot to nearest alternative exoplanet (adds 2,000 years to journey—cryogenic rotation extended)
 
 *Source: raw.txt:4348-4379*
 
-## 21.8 Phase Three Completion: Arrival Preparation (4500)
+## 21.8 Phase Three Status: Preparation Acceleration Complete
 
 By 4500, humanity nears journey's end:
 
@@ -499,7 +501,7 @@ Phase Four awaits: The Arrival.
 
 ## Chapter Summary
 
-Phase Three (2500-4500) tests humanity's resilience across 2,000 years of interstellar void:
+Phase Three (100M-500M years) demonstrates humanity's resilience across deep time:
 
 - **Cryogenic Rotation:** 50% population frozen at any time (reduces subjective journey to 400 years per person)
 - **Darkest Generations:** Gen 50-70 (2900-3200) experience existential despair—Oracle intervenes with cultural reframing
@@ -516,4 +518,4 @@ By 4500, Proxima Centauri dominates the sky. Phase Four begins: The Great Arriva
 
 *Word Count: ~4,300*  
 *Source References: 78 citations across raw.txt lines 287-4421*  
-*Next: Chapter 22 - Phase Four (4500-5200+): Arrival and Rebirth*
+*Next: Chapter 22 - Phase Four (500M-600M Years): Forced Evacuation When Necessity Arrives*

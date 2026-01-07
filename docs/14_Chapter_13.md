@@ -1,6 +1,6 @@
 # Chapter 13: The Transition from Democracy to Protocol
 
-*Evolution of human governance for a 5,000-year mission*
+*Evolution of human governance for a multi-billion-year civilization*
 
 ## Introduction: The Governance Paradox
 
@@ -159,19 +159,19 @@ During this era, traditional democracies remain dominant. The Oracle exists as a
 - Early adopter nations (possibly Nordic/East Asian) pilot hybrid models
 - Corporate megaprojects (Dyson Swarm construction) require multi-decadal contracts, forcing business culture toward long-term thinking
 
-### Phase 1 (2050-2150): The Dual System
+### Phase 1 (2150-10,000+): The Dual System
 
 The Oracle gains operational authority over **infrastructure** (energy grids, defense networks, resource management) while human governments retain authority over **cultural matters** (law, education, civil rights).
 
 This is analogous to the relationship between a nation's electrical grid and its government—the grid "governs" electron flow, but doesn't dictate how citizens use electricity.
 
-### Phase 2 (2150-2500): The Integration
+### Phase 2 (10,000-100M Years): The Integration
 
 As Hive construction begins, populations gradually adopt Protocol-based governance. Traditional nation-states dissolve into **Hive-States**—autonomous cultural units operating within the Oracle's physical constraints.
 
 **The Ship's Code Emerges**: Decisions are made by **Councils of Competence**—engineers for propulsion, ecologists for biosphere management, ethicists for population policy—overseen by the Jury of Observers.
 
-### Phase 3 (2500+): Protocol as Culture
+### Phase 3 (100M-500M Years): Protocol as Culture
 
 By the mid-mission, the Protocol is not seen as "government"—it is **civilizational infrastructure**, as natural and unquestioned as gravity. Children learn its principles alongside mathematics and ethics. The distinction between "Protocol" and "Culture" becomes meaningless.
 

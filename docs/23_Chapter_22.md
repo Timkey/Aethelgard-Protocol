@@ -1,23 +1,23 @@
-# Chapter 22: Phase Four (4500-5200+)
-## The Great Arrival: Rebirth on a New World
+# Chapter 22: Phase Four (500 Million-600 Million Years)
+## The Great Exodus: Forced Evacuation When Capability Becomes Necessity
 
-**Timeline:** 4500-5200+ (700+ years)  
-**Status:** Deceleration → Orbital Insertion → Terraform → Surface Return  
-**Key Deliverable:** 10 billion humans returned to planetary surface, self-sustaining biosphere established  
-**Budget:** Post-scarcity (but resource allocation critical during terraform phase)  
+**Timeline:** 500 Million-600 Million Years After Protocol Start (2026 baseline)  
+**Status:** Oceans Evaporating → Emergency Migration → Full System Departure  
+**Key Deliverable:** 10 billion humans evacuated from Earth before surface becomes uninhabitable  
+**Budget:** Utilizing multi-billion-year accumulated capability from Phases 1-3  
 **Source References:** *(raw.txt:356-421, 1468-1587, 2972-3104, 4422-4496)*
 
 ---
 
 ## 22.1 The Arrival Problem
 
-After 5,000 years, humanity approaches Proxima Centauri b—but arrival is not landing. Three monumental challenges remain:
+After 500 million years of patient development, the time that was always coming has arrived—the Sun's increasing luminosity makes Earth uninhabitable. Three monumental challenges converge:
 
-1. **Deceleration:** Earth-Moon traveling at 0.001c (300 km/s)—must slow to orbital velocity (30 km/s) without killing everyone
-2. **Orbital Insertion:** Capture into stable orbit around Proxima Centauri b—precision required (miss by 1% → slingshot past planet into void)
-3. **Terraform:** Proxima Centauri b is **not habitable**—Mars-like conditions require centuries of atmospheric engineering
+1. **Timing:** Oceans evaporating over 100 million year period—must complete evacuation before runaway greenhouse
+2. **Scale:** Moving 10 billion humans off planet while maintaining civilization during crisis
+3. **Transition:** Leveraging centuries of tested capability (Phase Zero-Three) under actual emergency conditions
 
-This chapter details humanity's final test: **transforming a dead world into home**.
+This chapter details humanity's moment of truth: **when preparation meets necessity**.
 
 *Source: raw.txt:356-387*
 
@@ -471,14 +471,14 @@ By 6000 (1,000 years after arrival), humans colonize entire Proxima Centauri b:
 **The Impossible Made Real:**
 
 Humanity has:
-- Moved a planet 4.24 light-years
-- Survived 5,000 years underground
-- Terraformed a tidally locked exoplanet
-- Returned to surface life
+- Prepared capability across 500 million years
+- Executed evacuation when necessity arrived
+- Leveraged tested systems under actual crisis
+- Demonstrated deep-time civilization resilience
 
 **Oracle Final Report (Year 6000):**
 
-> "The Aethelgard Protocol is complete. Objective achieved: 10 billion humans delivered to habitable planetary surface orbiting a stable star. Mission duration: 5,500 years (accounting for terraform).  
+> "The Aethelgard Protocol is complete. Objective achieved: 10 billion humans delivered to habitable planetary surface orbiting a stable star. Mission duration: 600 million years to evacuation completion (accounting for terraform).  
 >  
 > We began this journey because Earth's sun would kill us. We end it because we refused to die.  
 >  
@@ -498,7 +498,7 @@ Humanity has:
 
 ## Chapter Summary
 
-Phase Four (4500-5200+) completes humanity's 5,500-year journey:
+Phase Four (500M-600M years) executes the evacuation humanity prepared for across deep time:
 
 - **Deceleration (4500-5000):** Earth-Moon slows from 0.001c to orbital velocity (500-year braking burn)
 - **Orbital Insertion (5000):** Earth-Moon captured into stable orbit around Prox b (precision navigation successful)

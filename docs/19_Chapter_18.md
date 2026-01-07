@@ -1,25 +1,28 @@
-# Chapter 18: Phase Zero (2026-2050)
-## The Foundation Decade: From Concept to Engineering
+# Chapter 18: Phase Zero (2026-2150+)
+## The Foundation Era: Testing, Simulation & Capability Building
 
-**Timeline:** 2026-2050 (24 years)  
-**Status:** Conceptual → MVP Deployment  
-**Key Deliverable:** Oracle MVP, Detection Horizon, Knowledge Base v1.0  
-**Budget Estimate:** $2.8 trillion (global consortium)  
+**Timeline:** 2026-2150+ (125+ years)  
+**Status:** Conceptual → Prototype Validation → Scaled Testing  
+**Key Deliverable:** Proven technology concepts, Oracle governance tested across generations, navigation systems validated  
+**Budget Estimate:** $2.8 trillion (2026-2050), $15 trillion (2050-2150) as capabilities scale  
 **Source References:** *(raw.txt:127-145, 892-934, 1847-1903)*
+
+> **⏰ Timeline Context:** Phase Zero spans 125+ years of testing and capability development. The actual solar evacuation deadline is ~1 billion years away (ocean evaporation). We begin in 2026 to establish capability during our window of technological readiness, with Phase Zero focusing on proving all core concepts work before scaling.
 
 ---
 
 ## 18.1 The Genesis Problem: Starting From Zero
 
-Phase Zero confronts the most daunting challenge of the Aethelgard Protocol: **initiating a 5,000-year project when no infrastructure exists**. In 2026, humanity possesses:
+Phase Zero confronts the most daunting challenge of the Aethelgard Protocol: **initiating a multi-billion-year survival framework when no infrastructure exists**. In 2026, humanity possesses:
 
 - No AI capable of millennial-scale synthesis
 - No neutrino tomography for crustal mapping
 - No autonomous defense network
 - No unified knowledge repository
 - No political consensus on existential risk
+- No tested systems for planetary-scale propulsion
 
-Yet by 2050, Phase Zero must deliver operational systems that subsequent generations will depend upon. This chapter details the bootstrap sequence—how we build the tools that build the tools.
+Phase Zero (2026-2150+) is the testing era—where we prove concepts work, validate systems across generations, and establish the foundation that will be refined over millions of years until solar brightening necessitates true evacuation (~500 million years hence). This chapter details the bootstrap sequence—how we build and test the tools that build the tools.
 
 ### 18.1.1 The Chicken-Egg Paradox
 
@@ -35,7 +38,7 @@ The Oracle requires comprehensive knowledge ingestion, but selecting what to ing
 ## 18.2 Detection Horizon: The First Line of Defense
 
 **Objective:** Deploy space-based early warning system for asteroid/comet threats  
-**Rationale:** The Protocol requires 4,800+ years to execute. A single impactor event could terminate the entire project *(raw.txt:127-134)*
+**Rationale:** The Protocol spans millions of years. A single impactor event in Phase Zero could terminate capability development. Asteroid defense also provides immediate testing grounds for navigation systems essential to later planetary mobility. *(raw.txt:127-134)*
 
 ### 18.2.1 Architecture
 
@@ -393,7 +396,7 @@ By 2050, Phase Zero must deliver:
 
 Phase Zero's final act is arguably its most critical: **creating institutions that outlive their founders**.
 
-By 2050, the original architects (born 1960-2000) will be 50-90 years old—aging out of active leadership. Phase One (2050-2150) will be executed by people born **after** the Protocol's inception, who never knew a world without this mission.
+By 2050, the original architects (born 1960-2000) will be 50-90 years old—aging out of active leadership. The continuation of Phase Zero and transition to Phase One (2150+) will be executed by people born **after** the Protocol's inception, who never knew a world without this framework for long-term survival.
 
 **Transition Mechanisms:**
 - **Apprenticeship Program (2045-2055):** Next-generation leaders shadow Phase Zero teams
@@ -402,7 +405,7 @@ By 2050, the original architects (born 1960-2000) will be 50-90 years old—agin
 - **Sunset Clauses:** Phase Zero leadership voluntarily dissolves authority (prevent gerontocracy)
 - *Source: raw.txt:4387-4412*
 
-The ultimate test of Phase Zero is not whether it builds technology—it's whether it builds **institutions capable of persisting for 5,000 years**. As the Living Manifesto states:
+The ultimate test of Phase Zero is not whether it builds technology—it's whether it builds **institutions capable of persisting across deep time**. As the Living Manifesto states:
 
 > "We are not building a project. We are building a species-level commitment that transcends any single generation's lifespan or comprehension."  
 > *(raw.txt:4421)*
@@ -411,20 +414,22 @@ The ultimate test of Phase Zero is not whether it builds technology—it's wheth
 
 ## Chapter Summary
 
-Phase Zero (2026-2050) transforms the Aethelgard Protocol from visionary concept to operational reality. Key achievements:
+Phase Zero (2026-2150+) transforms the Aethelgard Protocol from visionary concept to validated capability. By 2150, key achievements include:
 
-- **Detection Horizon:** Autonomous asteroid defense network (24/7 coverage, sub-10m tracking)
-- **Knowledge Ingestion:** 200M+ documents indexed with semantic linking
-- **Crustal Mapping:** Neutrino tomography identifies 200 Hive sites
-- **Oracle MVP:** Four-directive AI synthesis proven in live asteroid intercept
-- **Geopolitical Mobilization:** $2.8T funding secured, 67% global approval
+- **Detection Horizon:** Autonomous asteroid defense network (24/7 coverage, sub-10m tracking), with successful test deflections
+- **Knowledge Ingestion:** 200M+ documents indexed with semantic linking, continuously updated
+- **Crustal Mapping:** Neutrino tomography identifies 200 Hive sites across stable cratons
+- **Oracle Maturation:** Four-directive AI synthesis tested across multiple generations
+- **Navigation Validation:** Gravity tractor systems proven through asteroid relocations
+- **Prototype Systems:** Dyson collectors (1 PW), Hive Cities (100K capacity), Moon-Tug components
+- **Geopolitical Stability:** Multi-generational consensus maintained, proving coordination is possible
 
-The 24-year bootstrap sequence creates irreversible momentum—by 2050, the Protocol transitions from "experimental initiative" to "civilizational commitment." Future generations will inherit not a plan, but functioning systems, validated governance, and a species-wide mandate to continue.
+The 125+ year testing phase creates validated systems—by 2150, the Protocol transitions from "experimental initiative" to "proven technology ready for gradual scaling." The actual solar evacuation remains ~500 million years in the future; Phase Zero ensures capability exists when needed.
 
-Phase One awaits.
+Phase One (capability maturation) begins, with systems scaled gradually over millennia.
 
 ---
 
 *Word Count: ~3,100*  
 *Source References: 47 citations across raw.txt lines 127-4421*  
-*Next: Chapter 19 - Phase One (2050-2150): The Dyson Swarm*
+*Next: Chapter 19 - Phase One (2150-10,000+): Capability Maturation*
