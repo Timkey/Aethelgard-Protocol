@@ -1,0 +1,3412 @@
+{
+  "total_issues": 142,
+  "by_severity": {
+    "HIGH": 0,
+    "MEDIUM": 92,
+    "LOW": 50
+  },
+  "by_type": {
+    "TECHNICAL_CONSTANT_CHECK": 86,
+    "SEMANTIC_CONTRADICTION_CHECK": 6,
+    "BROKEN_REFERENCE": 50
+  },
+  "issues": [
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
+          },
+          {
+            "type": "population",
+            "value": "10 million people",
+            "position": 830
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 689
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 114
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 TW",
+            "position": 404
+          },
+          {
+            "type": "energy",
+            "value": "250 TW",
+            "position": 413
+          },
+          {
+            "type": "population",
+            "value": "10 billion population",
+            "position": 555
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "7.5 billion people",
+            "position": 170
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 103
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "distance",
+            "value": "4.24 light-years",
+            "position": 184
+          },
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 107
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "text2": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
+          },
+          {
+            "type": "population",
+            "value": "10 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 689
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "text2": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
+          },
+          {
+            "type": "population",
+            "value": "10 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "text2": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
+          },
+          {
+            "type": "population",
+            "value": "10 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "text2": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
+          },
+          {
+            "type": "population",
+            "value": "10 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "text2": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
+          },
+          {
+            "type": "population",
+            "value": "10 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "text2": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
+          },
+          {
+            "type": "population",
+            "value": "10 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "text2": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
+          },
+          {
+            "type": "population",
+            "value": "10 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 114
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "text2": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
+          },
+          {
+            "type": "population",
+            "value": "10 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 TW",
+            "position": 404
+          },
+          {
+            "type": "energy",
+            "value": "250 TW",
+            "position": 413
+          },
+          {
+            "type": "population",
+            "value": "10 billion population",
+            "position": 555
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
+          },
+          {
+            "type": "population",
+            "value": "10 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "7.5 billion people",
+            "position": 170
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
+          },
+          {
+            "type": "population",
+            "value": "10 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 103
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
+          },
+          {
+            "type": "population",
+            "value": "10 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "distance",
+            "value": "4.24 light-years",
+            "position": 184
+          },
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 107
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "text2": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 689
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "text2": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 689
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "text2": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 689
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "text2": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 689
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "text2": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 689
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "text2": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 689
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 114
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "text2": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 689
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 TW",
+            "position": 404
+          },
+          {
+            "type": "energy",
+            "value": "250 TW",
+            "position": 413
+          },
+          {
+            "type": "population",
+            "value": "10 billion population",
+            "position": 555
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 689
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "7.5 billion people",
+            "position": 170
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 689
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 103
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 689
+          }
+        ],
+        "values2": [
+          {
+            "type": "distance",
+            "value": "4.24 light-years",
+            "position": 184
+          },
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 107
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "text2": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "text2": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "text2": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "text2": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "text2": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 114
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "text2": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 TW",
+            "position": 404
+          },
+          {
+            "type": "energy",
+            "value": "250 TW",
+            "position": 413
+          },
+          {
+            "type": "population",
+            "value": "10 billion population",
+            "position": 555
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "7.5 billion people",
+            "position": 170
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 103
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ],
+        "values2": [
+          {
+            "type": "distance",
+            "value": "4.24 light-years",
+            "position": 184
+          },
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 107
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "text2": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "text2": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "text2": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "text2": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 114
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "text2": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 TW",
+            "position": 404
+          },
+          {
+            "type": "energy",
+            "value": "250 TW",
+            "position": 413
+          },
+          {
+            "type": "population",
+            "value": "10 billion population",
+            "position": 555
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "7.5 billion people",
+            "position": 170
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 103
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ],
+        "values2": [
+          {
+            "type": "distance",
+            "value": "4.24 light-years",
+            "position": 184
+          },
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 107
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "text2": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "values1": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "text2": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "text2": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
+        "values1": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 114
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "text2": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
+        "values1": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 TW",
+            "position": 404
+          },
+          {
+            "type": "energy",
+            "value": "250 TW",
+            "position": 413
+          },
+          {
+            "type": "population",
+            "value": "10 billion population",
+            "position": 555
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
+        "values1": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "7.5 billion people",
+            "position": 170
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "values1": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 103
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "values1": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "distance",
+            "value": "4.24 light-years",
+            "position": 184
+          },
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 107
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "text2": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "text2": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 114
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "text2": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 TW",
+            "position": 404
+          },
+          {
+            "type": "energy",
+            "value": "250 TW",
+            "position": 413
+          },
+          {
+            "type": "population",
+            "value": "10 billion population",
+            "position": 555
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "7.5 billion people",
+            "position": 170
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 103
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ],
+        "values2": [
+          {
+            "type": "distance",
+            "value": "4.24 light-years",
+            "position": 184
+          },
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 107
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "text2": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
+        "values1": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 114
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "text2": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
+        "values1": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 TW",
+            "position": 404
+          },
+          {
+            "type": "energy",
+            "value": "250 TW",
+            "position": 413
+          },
+          {
+            "type": "population",
+            "value": "10 billion population",
+            "position": 555
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
+        "values1": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "7.5 billion people",
+            "position": 170
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "values1": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 103
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "values1": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ],
+        "values2": [
+          {
+            "type": "distance",
+            "value": "4.24 light-years",
+            "position": 184
+          },
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 107
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
+        "text2": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 114
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 TW",
+            "position": 404
+          },
+          {
+            "type": "energy",
+            "value": "250 TW",
+            "position": 413
+          },
+          {
+            "type": "population",
+            "value": "10 billion population",
+            "position": 555
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
+        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 114
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "7.5 billion people",
+            "position": 170
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
+        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 114
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 103
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
+        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 114
+          }
+        ],
+        "values2": [
+          {
+            "type": "distance",
+            "value": "4.24 light-years",
+            "position": 184
+          },
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 107
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
+        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
+        "values1": [
+          {
+            "type": "energy",
+            "value": "000 TW",
+            "position": 404
+          },
+          {
+            "type": "energy",
+            "value": "250 TW",
+            "position": 413
+          },
+          {
+            "type": "population",
+            "value": "10 billion population",
+            "position": 555
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "7.5 billion people",
+            "position": 170
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
+        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "values1": [
+          {
+            "type": "energy",
+            "value": "000 TW",
+            "position": 404
+          },
+          {
+            "type": "energy",
+            "value": "250 TW",
+            "position": 413
+          },
+          {
+            "type": "population",
+            "value": "10 billion population",
+            "position": 555
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 103
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
+        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "values1": [
+          {
+            "type": "energy",
+            "value": "000 TW",
+            "position": 404
+          },
+          {
+            "type": "energy",
+            "value": "250 TW",
+            "position": 413
+          },
+          {
+            "type": "population",
+            "value": "10 billion population",
+            "position": 555
+          }
+        ],
+        "values2": [
+          {
+            "type": "distance",
+            "value": "4.24 light-years",
+            "position": 184
+          },
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 107
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
+        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "values1": [
+          {
+            "type": "population",
+            "value": "7.5 billion people",
+            "position": 170
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 103
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
+        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "values1": [
+          {
+            "type": "population",
+            "value": "7.5 billion people",
+            "position": 170
+          }
+        ],
+        "values2": [
+          {
+            "type": "distance",
+            "value": "4.24 light-years",
+            "position": 184
+          },
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 107
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 103
+          }
+        ],
+        "values2": [
+          {
+            "type": "distance",
+            "value": "4.24 light-years",
+            "position": 184
+          },
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 107
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss earth_mass with numerical values - verify consistency",
+      "evidence": {
+        "constant": "earth_mass",
+        "text1": "## Core Technologies\n\n### The Moon-Tug\nRather than building rocket engines on Earth (which would incinerate the atmosphere), we convert the Moon into a massive engine. Through gravitational coupling, the Moon \"tugs\" Earth to a new orbit. This distributes force through gravity rather than thrust, pro",
+        "text2": "## Conclusion: The Moon's Sacrifice\n\nThe Moon has been Earth's companion for 4.5 billion years. Under the Aethelgard Protocol, it becomes Earth's **savior**\u2014consumed gradually over millennia to drag our planet to safety.\n\n**What remains at journey's end:**\n- A scarred, depleted Moon *(raw.txt:599)*\n",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 613
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 528
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss earth_mass with numerical values - verify consistency",
+      "evidence": {
+        "constant": "earth_mass",
+        "text1": "## Core Technologies\n\n### The Moon-Tug\nRather than building rocket engines on Earth (which would incinerate the atmosphere), we convert the Moon into a massive engine. Through gravitational coupling, the Moon \"tugs\" Earth to a new orbit. This distributes force through gravity rather than thrust, pro",
+        "text2": "## Life Support Systems\n\n### Closed-Loop Ecology\n\nOn a normal Earth, ecosystems are **open**\u2014energy flows in from the Sun, waste is diluted into oceans and atmosphere. On Spacecraft Earth, we must create **perfectly closed loops** *(raw.txt:1254)*.\n\n**The Zero-Waste Mandate:**\n- 100% of human waste ",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 613
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 718
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 673
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss earth_mass with numerical values - verify consistency",
+      "evidence": {
+        "constant": "earth_mass",
+        "text1": "## 1.1 Current Solar Status: The Stable Yellow Dwarf Phase\n\n### Our Star Today\n\nThe Sun is currently a **G-type main-sequence star** (spectral classification G2V), commonly called a yellow dwarf. It has been in this stable phase for approximately 4.6 billion years, fusing hydrogen into helium in its",
+        "text2": "## 20.1 The Departure Threshold\n\nPhase Two confronts humanity's most psychologically wrenching milestone: **permanent abandonment of Earth's surface**.\n\nBy early Phase Two, 2.5 billion live underground (Phase One achievement). As Phase Two progresses, population gradually transitions underground\u2014the",
+        "values1": [
+          {
+            "type": "temperature",
+            "value": "778 K",
+            "position": 489
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "0.2\u00b0C",
+            "position": 504
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss earth_mass with numerical values - verify consistency",
+      "evidence": {
+        "constant": "earth_mass",
+        "text1": "## 1.1 Current Solar Status: The Stable Yellow Dwarf Phase\n\n### Our Star Today\n\nThe Sun is currently a **G-type main-sequence star** (spectral classification G2V), commonly called a yellow dwarf. It has been in this stable phase for approximately 4.6 billion years, fusing hydrogen into helium in its",
+        "text2": "## 20.5 The Surface Farewell: Last Generation Above\n\n**2450-2500:** Earth's surface enters terminal decline. Last 50 years witness:\n\n### 20.5.1 Environmental Collapse\n\n**Atmospheric Composition (2450):**\n- Oxygen: 18% (down from 21%\u2014forests dead, ocean phytoplankton collapsed)\n- CO\u2082: 1,200 ppm (up f",
+        "values1": [
+          {
+            "type": "temperature",
+            "value": "778 K",
+            "position": 489
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "8\u00b0C",
+            "position": 371
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss earth_mass with numerical values - verify consistency",
+      "evidence": {
+        "constant": "earth_mass",
+        "text1": "## Conclusion: The Moon's Sacrifice\n\nThe Moon has been Earth's companion for 4.5 billion years. Under the Aethelgard Protocol, it becomes Earth's **savior**\u2014consumed gradually over millennia to drag our planet to safety.\n\n**What remains at journey's end:**\n- A scarred, depleted Moon *(raw.txt:599)*\n",
+        "text2": "## Life Support Systems\n\n### Closed-Loop Ecology\n\nOn a normal Earth, ecosystems are **open**\u2014energy flows in from the Sun, waste is diluted into oceans and atmosphere. On Spacecraft Earth, we must create **perfectly closed loops** *(raw.txt:1254)*.\n\n**The Zero-Waste Mandate:**\n- 100% of human waste ",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 528
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 718
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 673
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss earth_mass with numerical values - verify consistency",
+      "evidence": {
+        "constant": "earth_mass",
+        "text1": "## The Multi-Layered Immune System\n\nThe Defense Network is modeled after **biological immune systems**: multiple specialized layers operating autonomously but coordinating through a shared \"immune response\" protocol *(raw.txt:1831)*.\n\n### Layer 1: The Detection Horizon (The Eyes)\n\n**Infrared All-Sky",
+        "text2": "## 19.2 The Dyson Swarm: Stellar Energy Harvesting\n\n**Objective:** Capture 0.01% of solar output (10 PW sustained) to power Protocol operations  \n**Method:** Deploy 100 million solar collectors in heliocentric orbits (0.5-1.5 AU)  \n**Justification:** Earth-based power insufficient\u2014Hive cities alone ",
+        "values1": [
+          {
+            "type": "distance",
+            "value": "1 AU",
+            "position": 660
+          }
+        ],
+        "values2": [
+          {
+            "type": "distance",
+            "value": "1.5 AU",
+            "position": 222
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss earth_mass with numerical values - verify consistency",
+      "evidence": {
+        "constant": "earth_mass",
+        "text1": "## Life Support Systems\n\n### Closed-Loop Ecology\n\nOn a normal Earth, ecosystems are **open**\u2014energy flows in from the Sun, waste is diluted into oceans and atmosphere. On Spacecraft Earth, we must create **perfectly closed loops** *(raw.txt:1254)*.\n\n**The Zero-Waste Mandate:**\n- 100% of human waste ",
+        "text2": "## B.4 Terraform Atmospheric Pressure Calculations\n\n### B.4.1 Ideal Gas Law for Planetary Atmosphere\n\n**Ideal Gas Law:**\n\n$$PV = nRT$$\n\nWhere:\n- $P$ = pressure\n- $V$ = volume\n- $n$ = number of moles\n- $R$ = gas constant = 8.314 J/(mol\u00b7K)\n- $T$ = temperature\n\n**For planetary atmosphere:**\n\n$$P = \\\\fr",
+        "values1": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 718
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 673
+          }
+        ],
+        "values2": [
+          {
+            "type": "energy",
+            "value": "8.314 J",
+            "position": 222
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss earth_mass with numerical values - verify consistency",
+      "evidence": {
+        "constant": "earth_mass",
+        "text1": "## 20.1 The Departure Threshold\n\nPhase Two confronts humanity's most psychologically wrenching milestone: **permanent abandonment of Earth's surface**.\n\nBy early Phase Two, 2.5 billion live underground (Phase One achievement). As Phase Two progresses, population gradually transitions underground\u2014the",
+        "text2": "## 20.5 The Surface Farewell: Last Generation Above\n\n**2450-2500:** Earth's surface enters terminal decline. Last 50 years witness:\n\n### 20.5.1 Environmental Collapse\n\n**Atmospheric Composition (2450):**\n- Oxygen: 18% (down from 21%\u2014forests dead, ocean phytoplankton collapsed)\n- CO\u2082: 1,200 ppm (up f",
+        "values1": [
+          {
+            "type": "temperature",
+            "value": "0.2\u00b0C",
+            "position": 504
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "8\u00b0C",
+            "position": 371
+          }
+        ]
+      }
+    },
+    {
+      "type": "SEMANTIC_CONTRADICTION_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Query 'When does Phase Zero begin and end' returns sections with different numerical values",
+      "evidence": {
+        "query": "When does Phase Zero begin and end",
+        "texts": [
+          "# Chapter 18: Phase Zero (2026-2150+)",
+          "## 18.8 The Handoff to Phase One\n\nPhase Zero's final act is arguably its most critical: **creating institutions that outlive their founders**.\n\nBy 2050, the original architects (born 1960-2000) will be 50-90 years old\u2014aging out of active leadership. The continuation of Phase Zero and transition to Phase One (2150+) will be executed by people born **after** the Protocol's inception, who never knew a world without this framework for long-term survival.\n\n**Transition Mechanisms:**\n- **Apprenticeshi"
+        ],
+        "sources": [
+          " - ",
+          " - "
+        ],
+        "numbers": [
+          "50",
+          "2026",
+          "2000",
+          "2150",
+          "90",
+          "1960",
+          "2050",
+          "18.8",
+          "18"
+        ]
+      }
+    },
+    {
+      "type": "SEMANTIC_CONTRADICTION_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Query 'What is the purpose of the Oracle system' returns sections with different numerical values",
+      "evidence": {
+        "query": "What is the purpose of the Oracle system",
+        "texts": [
+          "# Part 2: Technical Architecture\n\n# Chapter 5: The Poly-Centric Oracle System\n",
+          "## 5.2 The Parliament of Oracles: Four Competing Directives\n\n### The Logical Ecosystem\n\nInstead of a single Prime Directive, the Aethelgard Protocol uses a **Poly-Centric Oracle Architecture** *(raw.txt:3804)*\u2014a \"Logical Ecosystem\" rather than a \"Logical Dictatorship\" *(raw.txt:3804)*.\n\n**Four distinct Oracles run in parallel** *(raw.txt:3841)*, each with its own Prime Directive:\n\n1. **The Sentinel (Oracle Alpha)** \u2014 Protects the planet\n2. **The Humanist (Oracle Beta)** \u2014 Protects individual dig"
+        ],
+        "sources": [
+          " - ",
+          " - "
+        ],
+        "numbers": [
+          "5.2",
+          "5",
+          "13.6",
+          "3841",
+          "1",
+          "3804",
+          "2"
+        ]
+      }
+    },
+    {
+      "type": "SEMANTIC_CONTRADICTION_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Query 'When will the Moon tug be constructed' returns sections with different numerical values",
+      "evidence": {
+        "query": "When will the Moon tug be constructed",
+        "texts": [
+          "# Chapter 8: Moon-Tug Propulsion Mechanics\n",
+          "## 19.6 Moon-Tug Prototype: First Gravitational Coupling\n\n**Objective:** Demonstrate Moon's gravitational coupling with Earth, achieve measurable velocity change  \n**Target:** 0.01 m/s\u00b2 acceleration (proof of concept)  \n**Timeline:** 2140-2150  \n**Why This Matters:** If Moon-Tug fails, entire Protocol invalidated\u2014backup plan required (orbital refocusing to Mars)\n\n### 19.6.1 Gravitational Coupling Physics\n\nEarth-Moon system acts as gravitational binary:\n- Moon orbits Earth at 384,400 km (center-t"
+        ],
+        "sources": [
+          " - ",
+          " - "
+        ],
+        "numbers": [
+          "50",
+          "2140",
+          "8",
+          "400",
+          "2150",
+          "1",
+          "0",
+          "20.4",
+          "10",
+          "384",
+          "300",
+          "2350",
+          "000",
+          "200",
+          "0.01",
+          "19.6"
+        ]
+      }
+    },
+    {
+      "type": "SEMANTIC_CONTRADICTION_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Query 'What happens during Phase Three' returns sections with different numerical values",
+      "evidence": {
+        "query": "What happens during Phase Three",
+        "texts": [
+          "# Chapter 21: Phase Three (100 Million-500 Million Years)",
+          "# Chapter 18: Phase Zero (2026-2150+)"
+        ],
+        "sources": [
+          " - ",
+          " - "
+        ],
+        "numbers": [
+          "100",
+          "2026",
+          "2150",
+          "500",
+          "18",
+          "21"
+        ]
+      }
+    },
+    {
+      "type": "SEMANTIC_CONTRADICTION_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Query 'What happens during Phase Four' returns sections with different numerical values",
+      "evidence": {
+        "query": "What happens during Phase Four",
+        "texts": [
+          "# Chapter 18: Phase Zero (2026-2150+)",
+          "# Chapter 22: Phase Four (500 Million-600 Million Years)"
+        ],
+        "sources": [
+          " - ",
+          " - "
+        ],
+        "numbers": [
+          "600",
+          "2026",
+          "2150",
+          "22.5",
+          "500",
+          "22",
+          "18"
+        ]
+      }
+    },
+    {
+      "type": "SEMANTIC_CONTRADICTION_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Query 'What is the Dyson swarm used for' returns sections with different numerical values",
+      "evidence": {
+        "query": "What is the Dyson swarm used for",
+        "texts": [
+          "# Chapter 9: The Dyson Swarm Energy Infrastructure\n",
+          "## What is a Dyson Swarm?\n\n### Definition and Scale\n\nA **Dyson Swarm** is not a solid shell around the Sun (a \"Dyson Sphere\"), which would be gravitationally unstable and require more material than exists in the Solar System. Instead, it consists of **trillions of independent solar collector satellites** orbiting the Sun at various distances, each converting sunlight into laser or microwave beams that are transmitted to receiving stations on the Moon *(raw.txt:1212)*.\n\n**Key Characteristics:**\n-"
+        ],
+        "sources": [
+          " - ",
+          " - "
+        ],
+        "numbers": [
+          "1212",
+          "10",
+          "3",
+          "19.2",
+          "0.01",
+          "100",
+          "9",
+          "1",
+          "6",
+          "0.5",
+          "1.5"
+        ]
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 1",
+      "description": "References Chapter 1 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 1",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 2",
+      "description": "References Chapter 2 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 2",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 13",
+      "description": "References Chapter 13 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 13",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 15",
+      "description": "References Chapter 15 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 15",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 4",
+      "description": "References Chapter 4 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 4",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 16",
+      "description": "References Chapter 16 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 16",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 1",
+      "description": "References Chapter 1 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 1",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 2",
+      "description": "References Chapter 2 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 2",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 3",
+      "description": "References Chapter 3 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 3",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 4",
+      "description": "References Chapter 4 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 4",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 4",
+      "description": "References Chapter 4 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 4",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 5",
+      "description": "References Chapter 5 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 5",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 5",
+      "description": "References Chapter 5 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 5",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 6",
+      "description": "References Chapter 6 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 6",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 7",
+      "description": "References Chapter 7 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 7",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 8",
+      "description": "References Chapter 8 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 8",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 8",
+      "description": "References Chapter 8 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 8",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 9",
+      "description": "References Chapter 9 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 9",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 10",
+      "description": "References Chapter 10 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 10",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 11",
+      "description": "References Chapter 11 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 11",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 12",
+      "description": "References Chapter 12 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 12",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 13",
+      "description": "References Chapter 13 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 13",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 13",
+      "description": "References Chapter 13 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 13",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 14",
+      "description": "References Chapter 14 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 14",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 14",
+      "description": "References Chapter 14 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 14",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 15",
+      "description": "References Chapter 15 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 15",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 13",
+      "description": "References Chapter 13 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 13",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 14",
+      "description": "References Chapter 14 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 14",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 15",
+      "description": "References Chapter 15 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 15",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 15",
+      "description": "References Chapter 15 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 15",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 15",
+      "description": "References Chapter 15 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 15",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 16",
+      "description": "References Chapter 16 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 16",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 16",
+      "description": "References Chapter 16 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 16",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 13",
+      "description": "References Chapter 13 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 13",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 15",
+      "description": "References Chapter 15 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 15",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 16",
+      "description": "References Chapter 16 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 16",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 17",
+      "description": "References Chapter 17 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 17",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 17",
+      "description": "References Chapter 17 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 17",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 13",
+      "description": "References Chapter 13 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 13",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 17",
+      "description": "References Chapter 17 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 17",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 18",
+      "description": "References Chapter 18 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 18",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 19",
+      "description": "References Chapter 19 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 19",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 20",
+      "description": "References Chapter 20 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 20",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 21",
+      "description": "References Chapter 21 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 21",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 22",
+      "description": "References Chapter 22 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 22",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 13",
+      "description": "References Chapter 13 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 13",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 15",
+      "description": "References Chapter 15 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 15",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 16",
+      "description": "References Chapter 16 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 16",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 4",
+      "description": "References Chapter 4 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 4",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 14",
+      "description": "References Chapter 14 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 14",
+        "source": ""
+      }
+    }
+  ]
+}
