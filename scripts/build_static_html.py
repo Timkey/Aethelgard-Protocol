@@ -35,6 +35,7 @@ documents = [
     {'file': 'docs/23_Chapter_22.md', 'title': 'Ch 22: Phase Four (500M-600M Years)', 'section': 'Part 4: Implementation Roadmap', 'icon': '🏡'},
     {'file': 'docs/24_Appendix_A_Constants.md', 'title': 'Appendix A: Technical Constants', 'section': 'Part 5: Appendices', 'icon': '📐'},
     {'file': 'docs/25_Appendix_B_Math.md', 'title': 'Appendix B: Mathematical Proofs', 'section': 'Part 5: Appendices', 'icon': '📊'},
+    {'file': 'docs/27_Appendix_C_Statistics.md', 'title': 'Appendix C: Statistical Analysis', 'section': 'Part 5: Appendices', 'icon': '📈'},
     {'file': 'docs/26_Conclusion.md', 'title': 'Conclusion: Species-Level Commitment', 'section': 'Conclusion', 'icon': '🌟'}
 ]
 
@@ -705,6 +706,7 @@ def generate_html(content_map):
             { file: 'docs/23_Chapter_22.md', title: 'Ch 22: Phase Four (500M-600M Years)', section: 'Part 4: Implementation Roadmap', icon: '🏡' },
             { file: 'docs/24_Appendix_A_Constants.md', title: 'Appendix A: Technical Constants', section: 'Part 5: Appendices', icon: '📐' },
             { file: 'docs/25_Appendix_B_Math.md', title: 'Appendix B: Mathematical Proofs', section: 'Part 5: Appendices', icon: '📊' },
+            { file: 'docs/27_Appendix_C_Statistics.md', title: 'Appendix C: Statistical Analysis', section: 'Part 5: Appendices', icon: '📈' },
             { file: 'docs/26_Conclusion.md', title: 'Conclusion: Species-Level Commitment', section: 'Conclusion', icon: '🌟' }
         ];
 
@@ -838,6 +840,13 @@ def generate_html(content_map):
                             <span class="stat-value">${totalPages}</span>
                             <span class="stat-label">Pages</span>
                         </div>
+                        <div class="stat">
+                            <span class="stat-value">~2 hrs</span>
+                            <span class="stat-label">Reading Time</span>
+                        </div>
+                    </div>
+                    <div class="description" style="margin-top: 20px; padding: 16px; background: rgba(74, 144, 226, 0.1); border-radius: 8px; border-left: 3px solid #4a90e2;">
+                        <strong>🔑 Key Concepts:</strong> Dyson Swarm (48 refs) • Aethelgard Protocol (44) • Proxima Centauri (21) • Hive Cities (20) • Synthesis Engine (20)
                     </div>
                     <div class="start-hint">
                         ← Select a chapter from the sidebar to begin

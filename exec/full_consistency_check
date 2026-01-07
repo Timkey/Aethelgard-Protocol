@@ -1,0 +1,14 @@
+#!/bin/bash
+# Run comprehensive consistency check using vector DB
+
+cd "$(dirname "$0")/.."
+
+echo "🔍 Running comprehensive consistency check..."
+echo ""
+
+docker-compose exec -T worker python3 /app/scripts/comprehensive_consistency_check.py
+
+echo ""
+echo "📊 Reports generated:"
+echo "  - reports/consistency_issues.json (structured data)"
+echo "  - reports/consistency_issues.md (human-readable)"

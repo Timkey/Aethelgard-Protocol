@@ -1,0 +1,13 @@
+#!/bin/bash
+# Quick re-ingestion after manual document edits
+
+cd "$(dirname "$0")/.."
+
+echo "🔄 Re-ingesting documents to update vector DB..."
+echo ""
+
+docker-compose exec -T worker python3 /app/scripts/ingest_to_vector_db.py
+
+echo ""
+echo "✅ Vector DB updated with latest changes"
+echo "   You can now run consistency checks with fresh data"
