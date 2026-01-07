@@ -321,14 +321,31 @@ See [LICENSE](LICENSE) for full details.
 
 ## 🙏 Acknowledgments
 
-This white paper synthesizes concepts from:
+### Origin & Source Material
+
+This white paper is derived from an extended interrogation with **Google's Gemini AI** exploring multi-billion-year human survival scenarios. The original conversation generated a comprehensive technical framework that was then structured, edited, and expanded into this document.
+
+**Original Conversation:**  
+🔗 [View the Gemini conversation](https://gemini.google.com/share/70d6ae8852cb) that produced the source material (`data/raw.txt`)
+
+### Document Architecture & Tooling
+
+The transformation from raw conversation to structured white paper was performed by **GitHub Copilot (Claude Sonnet 4.5)**, which:
+- Architected the 28-chapter document structure and narrative flow
+- Developed the build system (static HTML generator, vector database for consistency checking)
+- Created the containerized development environment (Docker, Qdrant vector DB)
+- Implemented the iterative consistency checking workflow
+- Performed editorial work (timeline reconciliation, cross-reference validation)
+- Designed the web interface and responsive HTML viewer
+
+### Scientific & Engineering Foundations
+
+This work synthesizes concepts from:
 - **NASA's Interstellar Propulsion Studies** (Project Longshot, Breakthrough Starshot)
 - **Gerard K. O'Neill's Space Colonization** (The High Frontier)
 - **Freeman Dyson's Megastructure Concepts** (Dyson Sphere/Swarm)
 - **Robert Zubrin's Mars Direct** (In-situ resource utilization)
 - **Isaac Arthur's Megastructures Series** (YouTube — deep-dive on civilization-scale engineering)
-
-Special thanks to the original raw material that inspired this synthesis.
 
 ---
 
