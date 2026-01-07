@@ -1,0 +1,14 @@
+#!/bin/bash
+# Generate statistical analysis from vector DB
+
+cd "$(dirname "$0")/.."
+
+echo "📊 Generating statistics from vector database..."
+echo ""
+
+docker-compose exec -T worker python3 /app/scripts/extract_vector_stats.py
+
+echo ""
+echo "📈 Stats generated! Now run:"
+echo "   python3 scripts/build_static_html.py"
+echo "   (to include new Appendix C in the build)"

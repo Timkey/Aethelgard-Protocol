@@ -35,6 +35,7 @@ documents = [
     {'file': 'docs/23_Chapter_22.md', 'title': 'Ch 22: Phase Four (500M-600M Years)', 'section': 'Part 4: Implementation Roadmap', 'icon': '🏡'},
     {'file': 'docs/24_Appendix_A_Constants.md', 'title': 'Appendix A: Technical Constants', 'section': 'Part 5: Appendices', 'icon': '📐'},
     {'file': 'docs/25_Appendix_B_Math.md', 'title': 'Appendix B: Mathematical Proofs', 'section': 'Part 5: Appendices', 'icon': '📊'},
+    {'file': 'docs/27_Appendix_C_Statistics.md', 'title': 'Appendix C: Statistical Analysis', 'section': 'Part 5: Appendices', 'icon': '📈'},
     {'file': 'docs/26_Conclusion.md', 'title': 'Conclusion: Species-Level Commitment', 'section': 'Conclusion', 'icon': '🌟'}
 ]
 
@@ -705,6 +706,7 @@ def generate_html(content_map):
             { file: 'docs/23_Chapter_22.md', title: 'Ch 22: Phase Four (500M-600M Years)', section: 'Part 4: Implementation Roadmap', icon: '🏡' },
             { file: 'docs/24_Appendix_A_Constants.md', title: 'Appendix A: Technical Constants', section: 'Part 5: Appendices', icon: '📐' },
             { file: 'docs/25_Appendix_B_Math.md', title: 'Appendix B: Mathematical Proofs', section: 'Part 5: Appendices', icon: '📊' },
+            { file: 'docs/27_Appendix_C_Statistics.md', title: 'Appendix C: Statistical Analysis', section: 'Part 5: Appendices', icon: '📈' },
             { file: 'docs/26_Conclusion.md', title: 'Conclusion: Species-Level Commitment', section: 'Conclusion', icon: '🌟' }
         ];
 
@@ -819,6 +821,15 @@ def generate_html(content_map):
                         entire biosphere across interstellar space.
                     </div>
                     <div class="description" style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #2a3f5f;">
+                        <strong>🧬 Origin:</strong> This framework emerged from an extended interrogation with Google's Gemini AI, 
+                        exploring multi-billion-year survival scenarios. View the 
+                        <a href="https://gemini.google.com/share/70d6ae8852cb" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           style="color: #4a90e2; text-decoration: none; border-bottom: 1px solid #4a90e2;">original conversation</a>
+                        that generated the source material (data/raw.txt).
+                    </div>
+                    <div class="description" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #2a3f5f;">
                         <strong>📦 Open Source:</strong> This project is available on 
                         <a href="https://github.com/timkey/Aethelgard-Protocol" 
                            target="_blank" 
@@ -838,6 +849,13 @@ def generate_html(content_map):
                             <span class="stat-value">${totalPages}</span>
                             <span class="stat-label">Pages</span>
                         </div>
+                        <div class="stat">
+                            <span class="stat-value">~2 hrs</span>
+                            <span class="stat-label">Reading Time</span>
+                        </div>
+                    </div>
+                    <div class="description" style="margin-top: 20px; padding: 16px; background: rgba(74, 144, 226, 0.1); border-radius: 8px; border-left: 3px solid #4a90e2;">
+                        <strong>🔑 Key Concepts:</strong> Dyson Swarm (48 refs) • Aethelgard Protocol (44) • Proxima Centauri (21) • Hive Cities (20) • Synthesis Engine (20)
                     </div>
                     <div class="start-hint">
                         ← Select a chapter from the sidebar to begin

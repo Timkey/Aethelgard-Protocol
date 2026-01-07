@@ -1,0 +1,16 @@
+#!/bin/bash
+# Interactive consistency fix loop with automatic vector DB updates
+
+cd "$(dirname "$0")/.."
+
+echo "🔄 Iterative Consistency Fix Loop"
+echo ""
+echo "This will:"
+echo "  1. Check for inconsistencies"
+echo "  2. Show you what needs fixing"
+echo "  3. Wait for you to apply fixes"
+echo "  4. Re-ingest documents (update vector DB)"
+echo "  5. Re-check until done"
+echo ""
+
+docker-compose exec -T worker python3 /app/scripts/iterative_consistency_fix.py "$@"
