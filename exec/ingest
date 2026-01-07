@@ -1,0 +1,10 @@
+#!/bin/bash
+# Ingest all documents into vector database
+# Usage: exec/ingest [--reset]
+
+EXEC_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+echo "📖 Ingesting Planetary Exodus documents..."
+echo ""
+
+"$EXEC_DIR/docker_run" scripts/ingest_to_vector_db.py "$@"

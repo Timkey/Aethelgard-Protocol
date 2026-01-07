@@ -1,0 +1,13 @@
+#!/bin/bash
+# Stop Docker services
+# Usage: exec/stop
+
+EXEC_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$EXEC_DIR")"
+
+cd "$PROJECT_ROOT"
+
+echo "🛑 Stopping Planetary Exodus services..."
+docker-compose down
+
+echo "✅ Services stopped"

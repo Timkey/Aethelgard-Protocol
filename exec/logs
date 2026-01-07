@@ -1,0 +1,16 @@
+#!/bin/bash
+# View service logs
+# Usage: exec/logs [service_name]
+
+EXEC_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$EXEC_DIR")"
+
+cd "$PROJECT_ROOT"
+
+if [ -z "$1" ]; then
+    echo "📋 Showing logs for all services (Ctrl+C to exit)..."
+    docker-compose logs -f
+else
+    echo "📋 Showing logs for $1 (Ctrl+C to exit)..."
+    docker-compose logs -f "$1"
+fi
