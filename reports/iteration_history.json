@@ -1,0 +1,32 @@
+[
+  {
+    "iteration": 1,
+    "timestamp": "2026-01-07T18:37:22.502646",
+    "total_issues": 137,
+    "by_severity": {
+      "HIGH": 0,
+      "MEDIUM": 92,
+      "LOW": 45
+    },
+    "by_type": {
+      "TECHNICAL_CONSTANT_CHECK": 86,
+      "SEMANTIC_CONTRADICTION_CHECK": 6,
+      "BROKEN_REFERENCE": 45
+    }
+  },
+  {
+    "iteration": 2,
+    "timestamp": "2026-01-07T22:16:43.259704",
+    "total_issues": 142,
+    "by_severity": {
+      "HIGH": 0,
+      "MEDIUM": 92,
+      "LOW": 50
+    },
+    "by_type": {
+      "TECHNICAL_CONSTANT_CHECK": 86,
+      "SEMANTIC_CONTRADICTION_CHECK": 6,
+      "BROKEN_REFERENCE": 50
+    }
+  }
+]

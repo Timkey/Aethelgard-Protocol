@@ -1,7 +1,7 @@
 # Chapter 22: Phase Four (500 Million-600 Million Years)
 ## The Great Exodus: When Preparation Meets Necessity
 
-**Timeline:** 500 Million-600 Million Years After Protocol Start (2026 baseline)  
+**Timeline:** 500 Million-600 Million Years After Protocol Start  
 **Status:** Solar Brightening Accelerating → Evacuation Execution → Interstellar Departure  
 **Key Deliverable:** 10 billion humans successfully transitioned off Earth as oceans evaporate  
 **Budget:** Utilizing multi-billion-year accumulated capability from Phases 1-3  
@@ -25,7 +25,7 @@ This chapter details humanity's moment of truth: **when half a billion years of 
 
 **Solar Evolution by Phase Four:**
 - **Luminosity:** Sun now 10% brighter than at Protocol start (500M years of steady increase)
-- **Global Temperature:** Surface average +15°C above 2026 baseline
+- **Global Temperature:** Surface average +15°C above Phase Zero baseline
 - **Ocean Status:** Evaporation rate exceeds precipitation—net loss accelerating over millions of years
 - **Atmospheric Pressure:** 1.2 atm (water vapor greenhouse effect accelerating)
 - **Habitability Window:** Tens of millions of years remaining before runaway greenhouse becomes irreversible
@@ -120,7 +120,7 @@ The final surface dweller chose to be last—Dr. Kenji Yamamoto, atmospheric sci
 >
 > Descending to Hive City Prime. See you at the new world."
 
-*Source: raw.txt:3513-3544*
+*Source: raw.txt:3544*
 
 ## 22.3 Departure Preparation: Activating the Moon-Tug (Phase Four Final Stage)
 
@@ -210,7 +210,7 @@ Managing evacuation of 10 billion humans while maintaining civilization stabilit
 
 ### 22.4.3 Knowledge Preservation Across Deep Time
 
-**The Test of Phase Four:** Would knowledge built in 2026 still work 500 million years later?
+**The Test of Phase Four:** Would knowledge built in Phase Zero still work 500 million years later?
 
 **Answer: Yes**
 
@@ -253,7 +253,7 @@ Phase Four (500M-600M years) demonstrates the vindication of deep-time planning:
 **Key Insights:**
 
 1. **Preparation Beats Panic:** Building capability when you CAN (Phase Zero-Three) meant success when you MUST (Phase Four)
-2. **Deep Time Works:** Knowledge and systems from 2026 remained valid 500 million years later
+2. **Deep Time Works:** Knowledge and systems from Phase Zero remained valid 500 million years later
 3. **Testing Matters:** Every major system had been validated before critical use
 4. **Oracle Essential:** Human committees could never coordinate this complexity
 5. **10 Billion Mandate Honored:** No one left behind during evacuation

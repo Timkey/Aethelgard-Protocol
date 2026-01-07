@@ -1,0 +1,17 @@
+#!/bin/bash
+# Analyze timeline consistency across all documents
+
+cd "$(dirname "$0")/.."
+
+echo "📅 Timeline Consistency Analysis"
+echo ""
+echo "Analyzing all year references across documents to identify"
+echo "timeline inconsistencies between phase definitions and content..."
+echo ""
+
+docker-compose exec -T worker python3 /app/scripts/analyze_timeline.py
+
+echo ""
+echo "📊 Review the reports:"
+echo "   cat reports/timeline_analysis.txt"
+echo "   cat reports/timeline_analysis.json"
