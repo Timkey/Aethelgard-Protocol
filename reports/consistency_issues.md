@@ -1,20 +1,20 @@
 # Consistency Issues Report
 
-**Generated:** 2026-01-07T22:16:42.358228
+**Generated:** 2026-01-07T23:48:51.726933
 
-**Total Issues:** 142
+**Total Issues:** 187
 
 ## Summary by Severity
 
 - **HIGH:** 0
-- **MEDIUM:** 92
-- **LOW:** 50
+- **MEDIUM:** 132
+- **LOW:** 55
 
 ## Summary by Type
 
-- **TECHNICAL_CONSTANT_CHECK:** 86
-- **BROKEN_REFERENCE:** 50
-- **SEMANTIC_CONTRADICTION_CHECK:** 6
+- **TECHNICAL_CONSTANT_CHECK:** 125
+- **BROKEN_REFERENCE:** 55
+- **SEMANTIC_CONTRADICTION_CHECK:** 7
 
 ---
 
@@ -670,9 +670,87 @@
 
 ---
 
+### 51. [LOW] References Chapter 13 but chapter may not exist or is empty
+
+**Location 1:** 
+
+**Location 2:** Chapter 13
+
+**Evidence:**
+
+- **reference:** Chapter 13
+- **source:** 
+
+---
+
+### 52. [LOW] References Chapter 15 but chapter may not exist or is empty
+
+**Location 1:** 
+
+**Location 2:** Chapter 15
+
+**Evidence:**
+
+- **reference:** Chapter 15
+- **source:** 
+
+---
+
+### 53. [LOW] References Chapter 16 but chapter may not exist or is empty
+
+**Location 1:** 
+
+**Location 2:** Chapter 16
+
+**Evidence:**
+
+- **reference:** Chapter 16
+- **source:** 
+
+---
+
+### 54. [LOW] References Chapter 4 but chapter may not exist or is empty
+
+**Location 1:** 
+
+**Location 2:** Chapter 4
+
+**Evidence:**
+
+- **reference:** Chapter 4
+- **source:** 
+
+---
+
+### 55. [LOW] References Chapter 14 but chapter may not exist or is empty
+
+**Location 1:** 
+
+**Location 2:** Chapter 14
+
+**Evidence:**
+
+- **reference:** Chapter 14
+- **source:** 
+
+---
+
 ## SEMANTIC_CONTRADICTION_CHECK
 
-### 1. [MEDIUM] Query 'When does Phase Zero begin and end' returns sections with different numerical values
+### 1. [MEDIUM] Query 'How long until the Sun becomes uninhabitable' returns sections with different numerical values
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **query:** How long until the Sun becomes uninhabitable
+- **texts:** ['## 1.3 The Red Giant Phase: 5 Billion Year Timeline\n\n### The Final Transformation\n\nIn approximately **5 billion years**, the Sun will exhaust its core hydrogen and transition to the **red giant phase**. This is not a gradual change; it is a dramatic metamorphosis that will fundamentally alter the solar system.\n\n**What happens during red giant expansion:**\n1. **Core collapse:** Hydrogen-depleted core contracts under gravity\n2. **Shell burning:** Hydrogen fusion moves to a shell around the core\n3.', '## 21.1 The Transition: When Maintenance Becomes Preparation\n\n**Phase Two Status (Year 100 Million):** Systems operational for 100M years; Earth fully habitable; 40% Hive population voluntary  \n**Phase Three Status (Year 100 Million):** Solar brightening now measurable at 1% increase per 10M years—climate models predict uninhabitability within 500M years  \n**Psychological Shift:** "Maintenance era" becomes "countdown era"—abstract threat becomes tangible timeline\n\n### 21.1.1 First Detection: The']
+- **sources:** [' - ', ' - ']
+- **numbers:** ['3', '21.1', '5', '2', '1', '1.3', '40', '100']
+
+---
+
+### 2. [MEDIUM] Query 'When does Phase Zero begin and end' returns sections with different numerical values
 
 **Location 1:**  - 
 
@@ -681,11 +759,11 @@
 - **query:** When does Phase Zero begin and end
 - **texts:** ['# Chapter 18: Phase Zero (2026-2150+)', "## 18.8 The Handoff to Phase One\n\nPhase Zero's final act is arguably its most critical: **creating institutions that outlive their founders**.\n\nBy 2050, the original architects (born 1960-2000) will be 50-90 years old—aging out of active leadership. The continuation of Phase Zero and transition to Phase One (2150+) will be executed by people born **after** the Protocol's inception, who never knew a world without this framework for long-term survival.\n\n**Transition Mechanisms:**\n- **Apprenticeshi"]
 - **sources:** [' - ', ' - ']
-- **numbers:** ['50', '2026', '2000', '2150', '90', '1960', '2050', '18.8', '18']
+- **numbers:** ['2150', '18', '50', '90', '18.8', '2050', '1960', '2026', '2000']
 
 ---
 
-### 2. [MEDIUM] Query 'What is the purpose of the Oracle system' returns sections with different numerical values
+### 3. [MEDIUM] Query 'What is the purpose of the Oracle system' returns sections with different numerical values
 
 **Location 1:**  - 
 
@@ -694,11 +772,11 @@
 - **query:** What is the purpose of the Oracle system
 - **texts:** ['# Part 2: Technical Architecture\n\n# Chapter 5: The Poly-Centric Oracle System\n', '## 5.2 The Parliament of Oracles: Four Competing Directives\n\n### The Logical Ecosystem\n\nInstead of a single Prime Directive, the Aethelgard Protocol uses a **Poly-Centric Oracle Architecture** *(raw.txt:3804)*—a "Logical Ecosystem" rather than a "Logical Dictatorship" *(raw.txt:3804)*.\n\n**Four distinct Oracles run in parallel** *(raw.txt:3841)*, each with its own Prime Directive:\n\n1. **The Sentinel (Oracle Alpha)** — Protects the planet\n2. **The Humanist (Oracle Beta)** — Protects individual dig']
 - **sources:** [' - ', ' - ']
-- **numbers:** ['5.2', '5', '13.6', '3841', '1', '3804', '2']
+- **numbers:** ['13.6', '2', '5', '5.2', '1', '3804', '3841']
 
 ---
 
-### 3. [MEDIUM] Query 'When will the Moon tug be constructed' returns sections with different numerical values
+### 4. [MEDIUM] Query 'When will the Moon tug be constructed' returns sections with different numerical values
 
 **Location 1:**  - 
 
@@ -707,11 +785,11 @@
 - **query:** When will the Moon tug be constructed
 - **texts:** ['# Chapter 8: Moon-Tug Propulsion Mechanics\n', "## 19.6 Moon-Tug Prototype: First Gravitational Coupling\n\n**Objective:** Demonstrate Moon's gravitational coupling with Earth, achieve measurable velocity change  \n**Target:** 0.01 m/s² acceleration (proof of concept)  \n**Timeline:** 2140-2150  \n**Why This Matters:** If Moon-Tug fails, entire Protocol invalidated—backup plan required (orbital refocusing to Mars)\n\n### 19.6.1 Gravitational Coupling Physics\n\nEarth-Moon system acts as gravitational binary:\n- Moon orbits Earth at 384,400 km (center-t"]
 - **sources:** [' - ', ' - ']
-- **numbers:** ['50', '2140', '8', '400', '2150', '1', '0', '20.4', '10', '384', '300', '2350', '000', '200', '0.01', '19.6']
+- **numbers:** ['2150', '400', '2140', '0.01', '10', '1', '19.6', '8', '21.3', '384']
 
 ---
 
-### 4. [MEDIUM] Query 'What happens during Phase Three' returns sections with different numerical values
+### 5. [MEDIUM] Query 'What happens during Phase Three' returns sections with different numerical values
 
 **Location 1:**  - 
 
@@ -720,11 +798,11 @@
 - **query:** What happens during Phase Three
 - **texts:** ['# Chapter 21: Phase Three (100 Million-500 Million Years)', '# Chapter 18: Phase Zero (2026-2150+)']
 - **sources:** [' - ', ' - ']
-- **numbers:** ['100', '2026', '2150', '500', '18', '21']
+- **numbers:** ['2150', '500', '18', '2026', '21', '100']
 
 ---
 
-### 5. [MEDIUM] Query 'What happens during Phase Four' returns sections with different numerical values
+### 6. [MEDIUM] Query 'What happens during Phase Four' returns sections with different numerical values
 
 **Location 1:**  - 
 
@@ -733,11 +811,11 @@
 - **query:** What happens during Phase Four
 - **texts:** ['# Chapter 18: Phase Zero (2026-2150+)', '# Chapter 22: Phase Four (500 Million-600 Million Years)']
 - **sources:** [' - ', ' - ']
-- **numbers:** ['600', '2026', '2150', '22.5', '500', '22', '18']
+- **numbers:** ['2150', '600', '500', '18', '2026', '22.5', '22']
 
 ---
 
-### 6. [MEDIUM] Query 'What is the Dyson swarm used for' returns sections with different numerical values
+### 7. [MEDIUM] Query 'What is the Dyson swarm used for' returns sections with different numerical values
 
 **Location 1:**  - 
 
@@ -746,7 +824,7 @@
 - **query:** What is the Dyson swarm used for
 - **texts:** ['# Chapter 9: The Dyson Swarm Energy Infrastructure\n', '## What is a Dyson Swarm?\n\n### Definition and Scale\n\nA **Dyson Swarm** is not a solid shell around the Sun (a "Dyson Sphere"), which would be gravitationally unstable and require more material than exists in the Solar System. Instead, it consists of **trillions of independent solar collector satellites** orbiting the Sun at various distances, each converting sunlight into laser or microwave beams that are transmitted to receiving stations on the Moon *(raw.txt:1212)*.\n\n**Key Characteristics:**\n-']
 - **sources:** [' - ', ' - ']
-- **numbers:** ['1212', '10', '3', '19.2', '0.01', '100', '9', '1', '6', '0.5', '1.5']
+- **numbers:** ['9', '19.2', '3', '0.01', '1212', '10', '0.5', '1', '1.5', '6', '100']
 
 ---
 
@@ -962,13 +1040,15 @@ In the **Shift Change Model**, Earth's 10 billion people are divided into **rota
 **Status:** Genesis Block v1.0  
 **Date:** 2026-01-05  
 **Phase Zero Duration:** 125+ years (2026-2150+) - Testing & ...
-- **text2:** ## 20.3 Population Migration: The Carrot and the Stick
+- **text2:** ## 20.7 Population Dynamics: The Stable Era
 
-**2150 Status:** 2.5B underground (25% of 10B)  
-**2500 Target:** 10B underground (100%)  
-**Challenge:** Migrate 7.5 billion people who do not ...
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
+
+### 20.7.1 Population Plateau
+
+**Year 10,000:** 10 billion ...
 - **values1:** [{'type': 'population', 'value': '10 billion humans', 'position': 348}]
-- **values2:** [{'type': 'population', 'value': '7.5 billion people', 'position': 170}]
+- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
 
 ---
 
@@ -984,19 +1064,85 @@ In the **Shift Change Model**, Earth's 10 billion people are divided into **rota
 **Status:** Genesis Block v1.0  
 **Date:** 2026-01-05  
 **Phase Zero Duration:** 125+ years (2026-2150+) - Testing & ...
-- **text2:** ## 20.8 Phase Two Completion: The Threshold Crossed
+- **text2:** ## 20.8 Phase Two Completion: The Mature Civilization
 
-By 2500, Phase Two achieves:
+By Year 100 Million, Phase Two achieves:
 
-**Population:**
-- ✅ 10 billion humans underground (100% migration complete)
-- ✅ Zero surface population (last human d...
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
 - **values1:** [{'type': 'population', 'value': '10 billion humans', 'position': 348}]
-- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 103}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
 
 ---
 
 ### 12. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival
+
+**Status:** Genesis Block v1.0  
+**Date:** 2026-01-05  
+**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & ...
+- **text2:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **values1:** [{'type': 'population', 'value': '10 billion humans', 'position': 348}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+
+---
+
+### 13. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival
+
+**Status:** Genesis Block v1.0  
+**Date:** 2026-01-05  
+**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & ...
+- **text2:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **values1:** [{'type': 'population', 'value': '10 billion humans', 'position': 348}]
+- **values2:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+
+---
+
+### 14. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival
+
+**Status:** Genesis Block v1.0  
+**Date:** 2026-01-05  
+**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & ...
+- **text2:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **values1:** [{'type': 'population', 'value': '10 billion humans', 'position': 348}]
+- **values2:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+
+---
+
+### 15. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1013,14 +1159,14 @@ By 2500, Phase Two achieves:
 **Did the Aethelgard Protocol succeed?**
 
 By purely technical metrics: **Yes.**
-- 10 billion humans alive and thriving (5,200)
-- Earth-Moon system transported 4.24 light-years...
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
 - **values1:** [{'type': 'population', 'value': '10 billion humans', 'position': 348}]
-- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 184}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
 
 ---
 
-### 13. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 16. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1043,7 +1189,7 @@ Managing 10 billion people across deep time requires:
 
 ---
 
-### 14. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 17. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1066,7 +1212,7 @@ The 10 Billion Mandate is not optional. It is the **foundation** upon which the 
 
 ---
 
-### 15. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 18. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1086,7 +1232,7 @@ The Aethelgard Protocol is not an evacuation plan for a select few. It is a **ci
 
 ---
 
-### 16. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 19. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1109,7 +1255,7 @@ The Aethelgard Protocol is not an evacuation plan for a select few. It is a **ci
 
 ---
 
-### 17. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 20. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1129,7 +1275,7 @@ By the time Earth is midway through its journey, the planet is no longer a fragi
 
 ---
 
-### 18. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 21. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1149,7 +1295,7 @@ Sustaining 10 billion people for multi-generational interstellar transit in clos
 
 ---
 
-### 19. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 22. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1173,7 +1319,7 @@ In the **Shift Change Model**, Earth's 10 billion people are divided into **rota
 
 ---
 
-### 20. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 23. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1196,7 +1342,7 @@ In the **Shift Change Model**, Earth's 10 billion people are divided into **rota
 
 ---
 
-### 21. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 24. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1208,17 +1354,19 @@ In the **Shift Change Model**, Earth's 10 billion people are divided into **rota
 ### The Concept
 
 **O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Propose...
-- **text2:** ## 20.3 Population Migration: The Carrot and the Stick
+- **text2:** ## 20.7 Population Dynamics: The Stable Era
 
-**2150 Status:** 2.5B underground (25% of 10B)  
-**2500 Target:** 10B underground (100%)  
-**Challenge:** Migrate 7.5 billion people who do not ...
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
+
+### 20.7.1 Population Plateau
+
+**Year 10,000:** 10 billion ...
 - **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 754}, {'type': 'population', 'value': '10 million people', 'position': 830}]
-- **values2:** [{'type': 'population', 'value': '7.5 billion people', 'position': 170}]
+- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
 
 ---
 
-### 22. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 25. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1230,19 +1378,85 @@ In the **Shift Change Model**, Earth's 10 billion people are divided into **rota
 ### The Concept
 
 **O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Propose...
-- **text2:** ## 20.8 Phase Two Completion: The Threshold Crossed
+- **text2:** ## 20.8 Phase Two Completion: The Mature Civilization
 
-By 2500, Phase Two achieves:
+By Year 100 Million, Phase Two achieves:
 
-**Population:**
-- ✅ 10 billion humans underground (100% migration complete)
-- ✅ Zero surface population (last human d...
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
 - **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 754}, {'type': 'population', 'value': '10 million people', 'position': 830}]
-- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 103}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
 
 ---
 
-### 23. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 26. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 3.3 O'Neill Cylinders: Space Habitat Constraints
+
+### The Concept
+
+**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Propose...
+- **text2:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 754}, {'type': 'population', 'value': '10 million people', 'position': 830}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+
+---
+
+### 27. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 3.3 O'Neill Cylinders: Space Habitat Constraints
+
+### The Concept
+
+**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Propose...
+- **text2:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 754}, {'type': 'population', 'value': '10 million people', 'position': 830}]
+- **values2:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+
+---
+
+### 28. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 3.3 O'Neill Cylinders: Space Habitat Constraints
+
+### The Concept
+
+**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Propose...
+- **text2:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 754}, {'type': 'population', 'value': '10 million people', 'position': 830}]
+- **values2:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+
+---
+
+### 29. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1259,146 +1473,10 @@ By 2500, Phase Two achieves:
 **Did the Aethelgard Protocol succeed?**
 
 By purely technical metrics: **Yes.**
-- 10 billion humans alive and thriving (5,200)
-- Earth-Moon system transported 4.24 light-years...
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
 - **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 754}, {'type': 'population', 'value': '10 million people', 'position': 830}]
-- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 184}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
-
----
-
-### 24. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## 4.5 Practical Implementation: Making It Work
-
-### Population Management
-
-Managing 10 billion people across deep time requires:
-- **Stable birth/death balance:** Births must equal deaths to prevent ...
-- **text2:** ## Conclusion: The Mandate is Non-Negotiable
-
-The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
-
-**We save everyone because:**
-1. **Genetics:*...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
-- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
-
----
-
-### 25. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## 4.5 Practical Implementation: Making It Work
-
-### Population Management
-
-Managing 10 billion people across deep time requires:
-- **Stable birth/death balance:** Births must equal deaths to prevent ...
-- **text2:** ## Introduction: Subsurface Resilience
-
-The Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**—the e...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
-- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 175}]
-
----
-
-### 26. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## 4.5 Practical Implementation: Making It Work
-
-### Population Management
-
-Managing 10 billion people across deep time requires:
-- **Stable birth/death balance:** Births must equal deaths to prevent ...
-- **text2:** ## Timeline: The Deep Build
-
-| Era | Task | Survival Metric |
-|---|---|---|
-| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
-| **Years 150-350** | Vitri...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
-- **values2:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
-
----
-
-### 27. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## 4.5 Practical Implementation: Making It Work
-
-### Population Management
-
-Managing 10 billion people across deep time requires:
-- **Stable birth/death balance:** Births must equal deaths to prevent ...
-- **text2:** ## Conclusion: The Fortress Planet
-
-By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
-- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
-
----
-
-### 28. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## 4.5 Practical Implementation: Making It Work
-
-### Population Management
-
-Managing 10 billion people across deep time requires:
-- **Stable birth/death balance:** Births must equal deaths to prevent ...
-- **text2:** ## Introduction: The Efficiency Pivot
-
-Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
-- **values2:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
-
----
-
-### 29. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## 4.5 Practical Implementation: Making It Work
-
-### Population Management
-
-Managing 10 billion people across deep time requires:
-- **Stable birth/death balance:** Births must equal deaths to prevent ...
-- **text2:** ## The Shift Change Civilization
-
-### Population Rotation: The 10:1 Ratio
-
-In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
-
-- **Active ...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
-- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
 
 ---
 
@@ -1415,14 +1493,14 @@ In the **Shift Change Model**, Earth's 10 billion people are divided into **rota
 
 Managing 10 billion people across deep time requires:
 - **Stable birth/death balance:** Births must equal deaths to prevent ...
-- **text2:** ## The Resource Math: 10:1 Advantage
+- **text2:** ## Conclusion: The Mandate is Non-Negotiable
 
-| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |
-|---|---|---|---|
-| **Oxygen Production** | 100% | 10% | 10x |
-| **Food S...
+The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
+
+**We save everyone because:**
+1. **Genetics:*...
 - **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
-- **values2:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
+- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
 
 ---
 
@@ -1439,13 +1517,11 @@ Managing 10 billion people across deep time requires:
 
 Managing 10 billion people across deep time requires:
 - **Stable birth/death balance:** Births must equal deaths to prevent ...
-- **text2:** ## 20.3 Population Migration: The Carrot and the Stick
+- **text2:** ## Introduction: Subsurface Resilience
 
-**2150 Status:** 2.5B underground (25% of 10B)  
-**2500 Target:** 10B underground (100%)  
-**Challenge:** Migrate 7.5 billion people who do not ...
+The Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**—the e...
 - **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
-- **values2:** [{'type': 'population', 'value': '7.5 billion people', 'position': 170}]
+- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 175}]
 
 ---
 
@@ -1462,19 +1538,228 @@ Managing 10 billion people across deep time requires:
 
 Managing 10 billion people across deep time requires:
 - **Stable birth/death balance:** Births must equal deaths to prevent ...
-- **text2:** ## 20.8 Phase Two Completion: The Threshold Crossed
+- **text2:** ## Timeline: The Deep Build
 
-By 2500, Phase Two achieves:
-
-**Population:**
-- ✅ 10 billion humans underground (100% migration complete)
-- ✅ Zero surface population (last human d...
+| Era | Task | Survival Metric |
+|---|---|---|
+| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
+| **Years 150-350** | Vitri...
 - **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
-- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 103}]
+- **values2:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
 
 ---
 
 ### 33. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 4.5 Practical Implementation: Making It Work
+
+### Population Management
+
+Managing 10 billion people across deep time requires:
+- **Stable birth/death balance:** Births must equal deaths to prevent ...
+- **text2:** ## Conclusion: The Fortress Planet
+
+By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
+- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
+
+---
+
+### 34. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 4.5 Practical Implementation: Making It Work
+
+### Population Management
+
+Managing 10 billion people across deep time requires:
+- **Stable birth/death balance:** Births must equal deaths to prevent ...
+- **text2:** ## Introduction: The Efficiency Pivot
+
+Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
+- **values2:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
+
+---
+
+### 35. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 4.5 Practical Implementation: Making It Work
+
+### Population Management
+
+Managing 10 billion people across deep time requires:
+- **Stable birth/death balance:** Births must equal deaths to prevent ...
+- **text2:** ## The Shift Change Civilization
+
+### Population Rotation: The 10:1 Ratio
+
+In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
+
+- **Active ...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
+- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
+
+---
+
+### 36. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 4.5 Practical Implementation: Making It Work
+
+### Population Management
+
+Managing 10 billion people across deep time requires:
+- **Stable birth/death balance:** Births must equal deaths to prevent ...
+- **text2:** ## The Resource Math: 10:1 Advantage
+
+| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |
+|---|---|---|---|
+| **Oxygen Production** | 100% | 10% | 10x |
+| **Food S...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
+- **values2:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
+
+---
+
+### 37. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 4.5 Practical Implementation: Making It Work
+
+### Population Management
+
+Managing 10 billion people across deep time requires:
+- **Stable birth/death balance:** Births must equal deaths to prevent ...
+- **text2:** ## 20.7 Population Dynamics: The Stable Era
+
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
+
+### 20.7.1 Population Plateau
+
+**Year 10,000:** 10 billion ...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
+- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
+
+---
+
+### 38. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 4.5 Practical Implementation: Making It Work
+
+### Population Management
+
+Managing 10 billion people across deep time requires:
+- **Stable birth/death balance:** Births must equal deaths to prevent ...
+- **text2:** ## 20.8 Phase Two Completion: The Mature Civilization
+
+By Year 100 Million, Phase Two achieves:
+
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
+
+---
+
+### 39. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 4.5 Practical Implementation: Making It Work
+
+### Population Management
+
+Managing 10 billion people across deep time requires:
+- **Stable birth/death balance:** Births must equal deaths to prevent ...
+- **text2:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+
+---
+
+### 40. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 4.5 Practical Implementation: Making It Work
+
+### Population Management
+
+Managing 10 billion people across deep time requires:
+- **Stable birth/death balance:** Births must equal deaths to prevent ...
+- **text2:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
+- **values2:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+
+---
+
+### 41. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 4.5 Practical Implementation: Making It Work
+
+### Population Management
+
+Managing 10 billion people across deep time requires:
+- **Stable birth/death balance:** Births must equal deaths to prevent ...
+- **text2:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
+- **values2:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+
+---
+
+### 42. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1492,14 +1777,14 @@ Managing 10 billion people across deep time requires:
 **Did the Aethelgard Protocol succeed?**
 
 By purely technical metrics: **Yes.**
-- 10 billion humans alive and thriving (5,200)
-- Earth-Moon system transported 4.24 light-years...
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
 - **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 85}, {'type': 'population', 'value': '10 billion people', 'position': 689}]
-- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 184}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
 
 ---
 
-### 34. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 43. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1520,215 +1805,6 @@ The Aethelgard Protocol is not an evacuation plan for a select few. It is a **ci
 
 ---
 
-### 35. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Conclusion: The Mandate is Non-Negotiable
-
-The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
-
-**We save everyone because:**
-1. **Genetics:*...
-- **text2:** ## Timeline: The Deep Build
-
-| Era | Task | Survival Metric |
-|---|---|---|
-| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
-| **Years 150-350** | Vitri...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
-- **values2:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
-
----
-
-### 36. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Conclusion: The Mandate is Non-Negotiable
-
-The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
-
-**We save everyone because:**
-1. **Genetics:*...
-- **text2:** ## Conclusion: The Fortress Planet
-
-By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
-- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
-
----
-
-### 37. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Conclusion: The Mandate is Non-Negotiable
-
-The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
-
-**We save everyone because:**
-1. **Genetics:*...
-- **text2:** ## Introduction: The Efficiency Pivot
-
-Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
-- **values2:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
-
----
-
-### 38. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Conclusion: The Mandate is Non-Negotiable
-
-The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
-
-**We save everyone because:**
-1. **Genetics:*...
-- **text2:** ## The Shift Change Civilization
-
-### Population Rotation: The 10:1 Ratio
-
-In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
-
-- **Active ...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
-- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
-
----
-
-### 39. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Conclusion: The Mandate is Non-Negotiable
-
-The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
-
-**We save everyone because:**
-1. **Genetics:*...
-- **text2:** ## The Resource Math: 10:1 Advantage
-
-| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |
-|---|---|---|---|
-| **Oxygen Production** | 100% | 10% | 10x |
-| **Food S...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
-- **values2:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
-
----
-
-### 40. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Conclusion: The Mandate is Non-Negotiable
-
-The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
-
-**We save everyone because:**
-1. **Genetics:*...
-- **text2:** ## 20.3 Population Migration: The Carrot and the Stick
-
-**2150 Status:** 2.5B underground (25% of 10B)  
-**2500 Target:** 10B underground (100%)  
-**Challenge:** Migrate 7.5 billion people who do not ...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
-- **values2:** [{'type': 'population', 'value': '7.5 billion people', 'position': 170}]
-
----
-
-### 41. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Conclusion: The Mandate is Non-Negotiable
-
-The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
-
-**We save everyone because:**
-1. **Genetics:*...
-- **text2:** ## 20.8 Phase Two Completion: The Threshold Crossed
-
-By 2500, Phase Two achieves:
-
-**Population:**
-- ✅ 10 billion humans underground (100% migration complete)
-- ✅ Zero surface population (last human d...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
-- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 103}]
-
----
-
-### 42. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Conclusion: The Mandate is Non-Negotiable
-
-The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
-
-**We save everyone because:**
-1. **Genetics:*...
-- **text2:** ## The Final Accounting
-
-**Did the Aethelgard Protocol succeed?**
-
-By purely technical metrics: **Yes.**
-- 10 billion humans alive and thriving (5,200)
-- Earth-Moon system transported 4.24 light-years...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
-- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 184}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
-
----
-
-### 43. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Introduction: Subsurface Resilience
-
-The Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**—the e...
-- **text2:** ## Timeline: The Deep Build
-
-| Era | Task | Survival Metric |
-|---|---|---|
-| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
-| **Years 150-350** | Vitri...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 175}]
-- **values2:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
-
----
-
 ### 44. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
@@ -1736,14 +1812,20 @@ The Aethelgard Protocol is not an evacuation plan for a select few. It is a **ci
 **Evidence:**
 
 - **constant:** population
-- **text1:** ## Introduction: Subsurface Resilience
+- **text1:** ## Conclusion: The Mandate is Non-Negotiable
 
-The Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**—the e...
-- **text2:** ## Conclusion: The Fortress Planet
+The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
 
-By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 175}]
-- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
+**We save everyone because:**
+1. **Genetics:*...
+- **text2:** ## Timeline: The Deep Build
+
+| Era | Task | Survival Metric |
+|---|---|---|
+| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
+| **Years 150-350** | Vitri...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
+- **values2:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
 
 ---
 
@@ -1754,6 +1836,280 @@ By the time Earth is midway through its journey, the planet is no longer a fragi
 **Evidence:**
 
 - **constant:** population
+- **text1:** ## Conclusion: The Mandate is Non-Negotiable
+
+The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
+
+**We save everyone because:**
+1. **Genetics:*...
+- **text2:** ## Conclusion: The Fortress Planet
+
+By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
+- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
+
+---
+
+### 46. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Mandate is Non-Negotiable
+
+The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
+
+**We save everyone because:**
+1. **Genetics:*...
+- **text2:** ## Introduction: The Efficiency Pivot
+
+Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
+- **values2:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
+
+---
+
+### 47. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Mandate is Non-Negotiable
+
+The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
+
+**We save everyone because:**
+1. **Genetics:*...
+- **text2:** ## The Shift Change Civilization
+
+### Population Rotation: The 10:1 Ratio
+
+In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
+
+- **Active ...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
+- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
+
+---
+
+### 48. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Mandate is Non-Negotiable
+
+The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
+
+**We save everyone because:**
+1. **Genetics:*...
+- **text2:** ## The Resource Math: 10:1 Advantage
+
+| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |
+|---|---|---|---|
+| **Oxygen Production** | 100% | 10% | 10x |
+| **Food S...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
+- **values2:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
+
+---
+
+### 49. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Mandate is Non-Negotiable
+
+The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
+
+**We save everyone because:**
+1. **Genetics:*...
+- **text2:** ## 20.7 Population Dynamics: The Stable Era
+
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
+
+### 20.7.1 Population Plateau
+
+**Year 10,000:** 10 billion ...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
+- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
+
+---
+
+### 50. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Mandate is Non-Negotiable
+
+The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
+
+**We save everyone because:**
+1. **Genetics:*...
+- **text2:** ## 20.8 Phase Two Completion: The Mature Civilization
+
+By Year 100 Million, Phase Two achieves:
+
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
+
+---
+
+### 51. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Mandate is Non-Negotiable
+
+The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
+
+**We save everyone because:**
+1. **Genetics:*...
+- **text2:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+
+---
+
+### 52. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Mandate is Non-Negotiable
+
+The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
+
+**We save everyone because:**
+1. **Genetics:*...
+- **text2:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
+- **values2:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+
+---
+
+### 53. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Mandate is Non-Negotiable
+
+The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
+
+**We save everyone because:**
+1. **Genetics:*...
+- **text2:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
+- **values2:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+
+---
+
+### 54. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Mandate is Non-Negotiable
+
+The 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.
+
+**We save everyone because:**
+1. **Genetics:*...
+- **text2:** ## The Final Accounting
+
+**Did the Aethelgard Protocol succeed?**
+
+By purely technical metrics: **Yes.**
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 202}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+
+---
+
+### 55. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Introduction: Subsurface Resilience
+
+The Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**—the e...
+- **text2:** ## Timeline: The Deep Build
+
+| Era | Task | Survival Metric |
+|---|---|---|
+| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
+| **Years 150-350** | Vitri...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 175}]
+- **values2:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
+
+---
+
+### 56. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Introduction: Subsurface Resilience
+
+The Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**—the e...
+- **text2:** ## Conclusion: The Fortress Planet
+
+By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 175}]
+- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
+
+---
+
+### 57. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
 - **text1:** ## Introduction: Subsurface Resilience
 
 The Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**—the e...
@@ -1765,7 +2121,7 @@ Sustaining 10 billion people for multi-generational interstellar transit in clos
 
 ---
 
-### 46. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 58. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1787,7 +2143,7 @@ In the **Shift Change Model**, Earth's 10 billion people are divided into **rota
 
 ---
 
-### 47. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 59. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1808,7 +2164,7 @@ The Aethelgard Protocol is not an evacuation plan for a select few. It is a **ci
 
 ---
 
-### 48. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 60. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1818,17 +2174,19 @@ The Aethelgard Protocol is not an evacuation plan for a select few. It is a **ci
 - **text1:** ## Introduction: Subsurface Resilience
 
 The Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**—the e...
-- **text2:** ## 20.3 Population Migration: The Carrot and the Stick
+- **text2:** ## 20.7 Population Dynamics: The Stable Era
 
-**2150 Status:** 2.5B underground (25% of 10B)  
-**2500 Target:** 10B underground (100%)  
-**Challenge:** Migrate 7.5 billion people who do not ...
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
+
+### 20.7.1 Population Plateau
+
+**Year 10,000:** 10 billion ...
 - **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 175}]
-- **values2:** [{'type': 'population', 'value': '7.5 billion people', 'position': 170}]
+- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
 
 ---
 
-### 49. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 61. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1838,19 +2196,79 @@ The Aethelgard Protocol is not an evacuation plan for a select few. It is a **ci
 - **text1:** ## Introduction: Subsurface Resilience
 
 The Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**—the e...
-- **text2:** ## 20.8 Phase Two Completion: The Threshold Crossed
+- **text2:** ## 20.8 Phase Two Completion: The Mature Civilization
 
-By 2500, Phase Two achieves:
+By Year 100 Million, Phase Two achieves:
 
-**Population:**
-- ✅ 10 billion humans underground (100% migration complete)
-- ✅ Zero surface population (last human d...
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
 - **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 175}]
-- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 103}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
 
 ---
 
-### 50. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 62. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Introduction: Subsurface Resilience
+
+The Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**—the e...
+- **text2:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 175}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+
+---
+
+### 63. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Introduction: Subsurface Resilience
+
+The Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**—the e...
+- **text2:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 175}]
+- **values2:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+
+---
+
+### 64. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Introduction: Subsurface Resilience
+
+The Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**—the e...
+- **text2:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 175}]
+- **values2:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+
+---
+
+### 65. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1865,14 +2283,14 @@ The Aethelgard Protocol is not an evacuation plan for a select few. It is a **ci
 **Did the Aethelgard Protocol succeed?**
 
 By purely technical metrics: **Yes.**
-- 10 billion humans alive and thriving (5,200)
-- Earth-Moon system transported 4.24 light-years...
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
 - **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 175}]
-- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 184}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
 
 ---
 
-### 51. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 66. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -1893,337 +2311,6 @@ By the time Earth is midway through its journey, the planet is no longer a fragi
 
 ---
 
-### 52. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Timeline: The Deep Build
-
-| Era | Task | Survival Metric |
-|---|---|---|
-| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
-| **Years 150-350** | Vitri...
-- **text2:** ## Introduction: The Efficiency Pivot
-
-Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
-- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
-- **values2:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
-
----
-
-### 53. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Timeline: The Deep Build
-
-| Era | Task | Survival Metric |
-|---|---|---|
-| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
-| **Years 150-350** | Vitri...
-- **text2:** ## The Shift Change Civilization
-
-### Population Rotation: The 10:1 Ratio
-
-In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
-
-- **Active ...
-- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
-- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
-
----
-
-### 54. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Timeline: The Deep Build
-
-| Era | Task | Survival Metric |
-|---|---|---|
-| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
-| **Years 150-350** | Vitri...
-- **text2:** ## The Resource Math: 10:1 Advantage
-
-| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |
-|---|---|---|---|
-| **Oxygen Production** | 100% | 10% | 10x |
-| **Food S...
-- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
-- **values2:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
-
----
-
-### 55. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Timeline: The Deep Build
-
-| Era | Task | Survival Metric |
-|---|---|---|
-| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
-| **Years 150-350** | Vitri...
-- **text2:** ## 20.3 Population Migration: The Carrot and the Stick
-
-**2150 Status:** 2.5B underground (25% of 10B)  
-**2500 Target:** 10B underground (100%)  
-**Challenge:** Migrate 7.5 billion people who do not ...
-- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
-- **values2:** [{'type': 'population', 'value': '7.5 billion people', 'position': 170}]
-
----
-
-### 56. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Timeline: The Deep Build
-
-| Era | Task | Survival Metric |
-|---|---|---|
-| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
-| **Years 150-350** | Vitri...
-- **text2:** ## 20.8 Phase Two Completion: The Threshold Crossed
-
-By 2500, Phase Two achieves:
-
-**Population:**
-- ✅ 10 billion humans underground (100% migration complete)
-- ✅ Zero surface population (last human d...
-- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
-- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 103}]
-
----
-
-### 57. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Timeline: The Deep Build
-
-| Era | Task | Survival Metric |
-|---|---|---|
-| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
-| **Years 150-350** | Vitri...
-- **text2:** ## The Final Accounting
-
-**Did the Aethelgard Protocol succeed?**
-
-By purely technical metrics: **Yes.**
-- 10 billion humans alive and thriving (5,200)
-- Earth-Moon system transported 4.24 light-years...
-- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
-- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 184}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
-
----
-
-### 58. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Conclusion: The Fortress Planet
-
-By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
-- **text2:** ## Introduction: The Efficiency Pivot
-
-Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
-- **values2:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
-
----
-
-### 59. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Conclusion: The Fortress Planet
-
-By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
-- **text2:** ## The Shift Change Civilization
-
-### Population Rotation: The 10:1 Ratio
-
-In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
-
-- **Active ...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
-- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
-
----
-
-### 60. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Conclusion: The Fortress Planet
-
-By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
-- **text2:** ## The Resource Math: 10:1 Advantage
-
-| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |
-|---|---|---|---|
-| **Oxygen Production** | 100% | 10% | 10x |
-| **Food S...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
-- **values2:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
-
----
-
-### 61. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Conclusion: The Fortress Planet
-
-By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
-- **text2:** ## 20.3 Population Migration: The Carrot and the Stick
-
-**2150 Status:** 2.5B underground (25% of 10B)  
-**2500 Target:** 10B underground (100%)  
-**Challenge:** Migrate 7.5 billion people who do not ...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
-- **values2:** [{'type': 'population', 'value': '7.5 billion people', 'position': 170}]
-
----
-
-### 62. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Conclusion: The Fortress Planet
-
-By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
-- **text2:** ## 20.8 Phase Two Completion: The Threshold Crossed
-
-By 2500, Phase Two achieves:
-
-**Population:**
-- ✅ 10 billion humans underground (100% migration complete)
-- ✅ Zero surface population (last human d...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
-- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 103}]
-
----
-
-### 63. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Conclusion: The Fortress Planet
-
-By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
-- **text2:** ## The Final Accounting
-
-**Did the Aethelgard Protocol succeed?**
-
-By purely technical metrics: **Yes.**
-- 10 billion humans alive and thriving (5,200)
-- Earth-Moon system transported 4.24 light-years...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
-- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 184}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
-
----
-
-### 64. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Introduction: The Efficiency Pivot
-
-Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
-- **text2:** ## The Shift Change Civilization
-
-### Population Rotation: The 10:1 Ratio
-
-In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
-
-- **Active ...
-- **values1:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
-- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
-
----
-
-### 65. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Introduction: The Efficiency Pivot
-
-Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
-- **text2:** ## The Resource Math: 10:1 Advantage
-
-| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |
-|---|---|---|---|
-| **Oxygen Production** | 100% | 10% | 10x |
-| **Food S...
-- **values1:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
-- **values2:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
-
----
-
-### 66. [MEDIUM] Both sections discuss population with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** population
-- **text1:** ## Introduction: The Efficiency Pivot
-
-Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
-- **text2:** ## 20.3 Population Migration: The Carrot and the Stick
-
-**2150 Status:** 2.5B underground (25% of 10B)  
-**2500 Target:** 10B underground (100%)  
-**Challenge:** Migrate 7.5 billion people who do not ...
-- **values1:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
-- **values2:** [{'type': 'population', 'value': '7.5 billion people', 'position': 170}]
-
----
-
 ### 67. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
@@ -2231,18 +2318,17 @@ Sustaining 10 billion people for multi-generational interstellar transit in clos
 **Evidence:**
 
 - **constant:** population
-- **text1:** ## Introduction: The Efficiency Pivot
+- **text1:** ## Timeline: The Deep Build
+
+| Era | Task | Survival Metric |
+|---|---|---|
+| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
+| **Years 150-350** | Vitri...
+- **text2:** ## Introduction: The Efficiency Pivot
 
 Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
-- **text2:** ## 20.8 Phase Two Completion: The Threshold Crossed
-
-By 2500, Phase Two achieves:
-
-**Population:**
-- ✅ 10 billion humans underground (100% migration complete)
-- ✅ Zero surface population (last human d...
-- **values1:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
-- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 103}]
+- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
+- **values2:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
 
 ---
 
@@ -2253,18 +2339,21 @@ By 2500, Phase Two achieves:
 **Evidence:**
 
 - **constant:** population
-- **text1:** ## Introduction: The Efficiency Pivot
+- **text1:** ## Timeline: The Deep Build
 
-Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
-- **text2:** ## The Final Accounting
+| Era | Task | Survival Metric |
+|---|---|---|
+| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
+| **Years 150-350** | Vitri...
+- **text2:** ## The Shift Change Civilization
 
-**Did the Aethelgard Protocol succeed?**
+### Population Rotation: The 10:1 Ratio
 
-By purely technical metrics: **Yes.**
-- 10 billion humans alive and thriving (5,200)
-- Earth-Moon system transported 4.24 light-years...
-- **values1:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
-- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 184}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
+
+- **Active ...
+- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
+- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
 
 ---
 
@@ -2275,20 +2364,19 @@ By purely technical metrics: **Yes.**
 **Evidence:**
 
 - **constant:** population
-- **text1:** ## The Shift Change Civilization
+- **text1:** ## Timeline: The Deep Build
 
-### Population Rotation: The 10:1 Ratio
-
-In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
-
-- **Active ...
+| Era | Task | Survival Metric |
+|---|---|---|
+| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
+| **Years 150-350** | Vitri...
 - **text2:** ## The Resource Math: 10:1 Advantage
 
 | Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |
 |---|---|---|---|
 | **Oxygen Production** | 100% | 10% | 10x |
 | **Food S...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
+- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
 - **values2:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
 
 ---
@@ -2300,20 +2388,21 @@ In the **Shift Change Model**, Earth's 10 billion people are divided into **rota
 **Evidence:**
 
 - **constant:** population
-- **text1:** ## The Shift Change Civilization
+- **text1:** ## Timeline: The Deep Build
 
-### Population Rotation: The 10:1 Ratio
+| Era | Task | Survival Metric |
+|---|---|---|
+| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
+| **Years 150-350** | Vitri...
+- **text2:** ## 20.7 Population Dynamics: The Stable Era
 
-In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
 
-- **Active ...
-- **text2:** ## 20.3 Population Migration: The Carrot and the Stick
+### 20.7.1 Population Plateau
 
-**2150 Status:** 2.5B underground (25% of 10B)  
-**2500 Target:** 10B underground (100%)  
-**Challenge:** Migrate 7.5 billion people who do not ...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
-- **values2:** [{'type': 'population', 'value': '7.5 billion people', 'position': 170}]
+**Year 10,000:** 10 billion ...
+- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
+- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
 
 ---
 
@@ -2324,22 +2413,21 @@ In the **Shift Change Model**, Earth's 10 billion people are divided into **rota
 **Evidence:**
 
 - **constant:** population
-- **text1:** ## The Shift Change Civilization
+- **text1:** ## Timeline: The Deep Build
 
-### Population Rotation: The 10:1 Ratio
+| Era | Task | Survival Metric |
+|---|---|---|
+| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
+| **Years 150-350** | Vitri...
+- **text2:** ## 20.8 Phase Two Completion: The Mature Civilization
 
-In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
+By Year 100 Million, Phase Two achieves:
 
-- **Active ...
-- **text2:** ## 20.8 Phase Two Completion: The Threshold Crossed
-
-By 2500, Phase Two achieves:
-
-**Population:**
-- ✅ 10 billion humans underground (100% migration complete)
-- ✅ Zero surface population (last human d...
-- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
-- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 103}]
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
+- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
 
 ---
 
@@ -2350,6 +2438,605 @@ By 2500, Phase Two achieves:
 **Evidence:**
 
 - **constant:** population
+- **text1:** ## Timeline: The Deep Build
+
+| Era | Task | Survival Metric |
+|---|---|---|
+| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
+| **Years 150-350** | Vitri...
+- **text2:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+
+---
+
+### 73. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Timeline: The Deep Build
+
+| Era | Task | Survival Metric |
+|---|---|---|
+| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
+| **Years 150-350** | Vitri...
+- **text2:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
+- **values2:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+
+---
+
+### 74. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Timeline: The Deep Build
+
+| Era | Task | Survival Metric |
+|---|---|---|
+| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
+| **Years 150-350** | Vitri...
+- **text2:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
+- **values2:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+
+---
+
+### 75. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Timeline: The Deep Build
+
+| Era | Task | Survival Metric |
+|---|---|---|
+| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |
+| **Years 150-350** | Vitri...
+- **text2:** ## The Final Accounting
+
+**Did the Aethelgard Protocol succeed?**
+
+By purely technical metrics: **Yes.**
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
+- **values1:** [{'type': 'population', 'value': '50 million people', 'position': 830}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+
+---
+
+### 76. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Fortress Planet
+
+By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
+- **text2:** ## Introduction: The Efficiency Pivot
+
+Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
+- **values2:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
+
+---
+
+### 77. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Fortress Planet
+
+By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
+- **text2:** ## The Shift Change Civilization
+
+### Population Rotation: The 10:1 Ratio
+
+In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
+
+- **Active ...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
+- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
+
+---
+
+### 78. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Fortress Planet
+
+By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
+- **text2:** ## The Resource Math: 10:1 Advantage
+
+| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |
+|---|---|---|---|
+| **Oxygen Production** | 100% | 10% | 10x |
+| **Food S...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
+- **values2:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
+
+---
+
+### 79. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Fortress Planet
+
+By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
+- **text2:** ## 20.7 Population Dynamics: The Stable Era
+
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
+
+### 20.7.1 Population Plateau
+
+**Year 10,000:** 10 billion ...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
+- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
+
+---
+
+### 80. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Fortress Planet
+
+By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
+- **text2:** ## 20.8 Phase Two Completion: The Mature Civilization
+
+By Year 100 Million, Phase Two achieves:
+
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
+
+---
+
+### 81. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Fortress Planet
+
+By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
+- **text2:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+
+---
+
+### 82. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Fortress Planet
+
+By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
+- **text2:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
+- **values2:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+
+---
+
+### 83. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Fortress Planet
+
+By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
+- **text2:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
+- **values2:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+
+---
+
+### 84. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Conclusion: The Fortress Planet
+
+By the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt...
+- **text2:** ## The Final Accounting
+
+**Did the Aethelgard Protocol succeed?**
+
+By purely technical metrics: **Yes.**
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 214}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+
+---
+
+### 85. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Introduction: The Efficiency Pivot
+
+Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
+- **text2:** ## The Shift Change Civilization
+
+### Population Rotation: The 10:1 Ratio
+
+In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
+
+- **Active ...
+- **values1:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
+- **values2:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
+
+---
+
+### 86. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Introduction: The Efficiency Pivot
+
+Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
+- **text2:** ## The Resource Math: 10:1 Advantage
+
+| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |
+|---|---|---|---|
+| **Oxygen Production** | 100% | 10% | 10x |
+| **Food S...
+- **values1:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
+- **values2:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
+
+---
+
+### 87. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Introduction: The Efficiency Pivot
+
+Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
+- **text2:** ## 20.7 Population Dynamics: The Stable Era
+
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
+
+### 20.7.1 Population Plateau
+
+**Year 10,000:** 10 billion ...
+- **values1:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
+- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
+
+---
+
+### 88. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Introduction: The Efficiency Pivot
+
+Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
+- **text2:** ## 20.8 Phase Two Completion: The Mature Civilization
+
+By Year 100 Million, Phase Two achieves:
+
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
+- **values1:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
+
+---
+
+### 89. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Introduction: The Efficiency Pivot
+
+Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
+- **text2:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **values1:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+
+---
+
+### 90. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Introduction: The Efficiency Pivot
+
+Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
+- **text2:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **values1:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
+- **values2:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+
+---
+
+### 91. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Introduction: The Efficiency Pivot
+
+Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
+- **text2:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **values1:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
+- **values2:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+
+---
+
+### 92. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Introduction: The Efficiency Pivot
+
+Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements fo...
+- **text2:** ## The Final Accounting
+
+**Did the Aethelgard Protocol succeed?**
+
+By purely technical metrics: **Yes.**
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
+- **values1:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 237}, {'type': 'population', 'value': '10 billion people', 'position': 50}, {'type': 'population', 'value': '1 billion people', 'position': 604}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+
+---
+
+### 93. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## The Shift Change Civilization
+
+### Population Rotation: The 10:1 Ratio
+
+In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
+
+- **Active ...
+- **text2:** ## The Resource Math: 10:1 Advantage
+
+| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |
+|---|---|---|---|
+| **Oxygen Production** | 100% | 10% | 10x |
+| **Food S...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
+- **values2:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
+
+---
+
+### 94. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## The Shift Change Civilization
+
+### Population Rotation: The 10:1 Ratio
+
+In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
+
+- **Active ...
+- **text2:** ## 20.7 Population Dynamics: The Stable Era
+
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
+
+### 20.7.1 Population Plateau
+
+**Year 10,000:** 10 billion ...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
+- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
+
+---
+
+### 95. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## The Shift Change Civilization
+
+### Population Rotation: The 10:1 Ratio
+
+In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
+
+- **Active ...
+- **text2:** ## 20.8 Phase Two Completion: The Mature Civilization
+
+By Year 100 Million, Phase Two achieves:
+
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
+
+---
+
+### 96. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## The Shift Change Civilization
+
+### Population Rotation: The 10:1 Ratio
+
+In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
+
+- **Active ...
+- **text2:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+
+---
+
+### 97. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## The Shift Change Civilization
+
+### Population Rotation: The 10:1 Ratio
+
+In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
+
+- **Active ...
+- **text2:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
+- **values2:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+
+---
+
+### 98. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## The Shift Change Civilization
+
+### Population Rotation: The 10:1 Ratio
+
+In the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:
+
+- **Active ...
+- **text2:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
+- **values2:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+
+---
+
+### 99. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
 - **text1:** ## The Shift Change Civilization
 
 ### Population Rotation: The 10:1 Ratio
@@ -2362,14 +3049,14 @@ In the **Shift Change Model**, Earth's 10 billion people are divided into **rota
 **Did the Aethelgard Protocol succeed?**
 
 By purely technical metrics: **Yes.**
-- 10 billion humans alive and thriving (5,200)
-- Earth-Moon system transported 4.24 light-years...
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
 - **values1:** [{'type': 'population', 'value': '10 billion people', 'position': 114}]
-- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 184}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
 
 ---
 
-### 73. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 100. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -2382,17 +3069,19 @@ By purely technical metrics: **Yes.**
 |---|---|---|---|
 | **Oxygen Production** | 100% | 10% | 10x |
 | **Food S...
-- **text2:** ## 20.3 Population Migration: The Carrot and the Stick
+- **text2:** ## 20.7 Population Dynamics: The Stable Era
 
-**2150 Status:** 2.5B underground (25% of 10B)  
-**2500 Target:** 10B underground (100%)  
-**Challenge:** Migrate 7.5 billion people who do not ...
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
+
+### 20.7.1 Population Plateau
+
+**Year 10,000:** 10 billion ...
 - **values1:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
-- **values2:** [{'type': 'population', 'value': '7.5 billion people', 'position': 170}]
+- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
 
 ---
 
-### 74. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 101. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -2405,19 +3094,88 @@ By purely technical metrics: **Yes.**
 |---|---|---|---|
 | **Oxygen Production** | 100% | 10% | 10x |
 | **Food S...
-- **text2:** ## 20.8 Phase Two Completion: The Threshold Crossed
+- **text2:** ## 20.8 Phase Two Completion: The Mature Civilization
 
-By 2500, Phase Two achieves:
+By Year 100 Million, Phase Two achieves:
 
-**Population:**
-- ✅ 10 billion humans underground (100% migration complete)
-- ✅ Zero surface population (last human d...
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
 - **values1:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
-- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 103}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
 
 ---
 
-### 75. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 102. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## The Resource Math: 10:1 Advantage
+
+| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |
+|---|---|---|---|
+| **Oxygen Production** | 100% | 10% | 10x |
+| **Food S...
+- **text2:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **values1:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+
+---
+
+### 103. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## The Resource Math: 10:1 Advantage
+
+| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |
+|---|---|---|---|
+| **Oxygen Production** | 100% | 10% | 10x |
+| **Food S...
+- **text2:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **values1:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
+- **values2:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+
+---
+
+### 104. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## The Resource Math: 10:1 Advantage
+
+| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |
+|---|---|---|---|
+| **Oxygen Production** | 100% | 10% | 10x |
+| **Food S...
+- **text2:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **values1:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
+- **values2:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+
+---
+
+### 105. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -2435,88 +3193,374 @@ By 2500, Phase Two achieves:
 **Did the Aethelgard Protocol succeed?**
 
 By purely technical metrics: **Yes.**
-- 10 billion humans alive and thriving (5,200)
-- Earth-Moon system transported 4.24 light-years...
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
 - **values1:** [{'type': 'energy', 'value': '000 TW', 'position': 404}, {'type': 'energy', 'value': '250 TW', 'position': 413}, {'type': 'population', 'value': '10 billion population', 'position': 555}]
-- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 184}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
 
 ---
 
-### 76. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 106. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
 **Evidence:**
 
 - **constant:** population
-- **text1:** ## 20.3 Population Migration: The Carrot and the Stick
+- **text1:** ## 20.7 Population Dynamics: The Stable Era
 
-**2150 Status:** 2.5B underground (25% of 10B)  
-**2500 Target:** 10B underground (100%)  
-**Challenge:** Migrate 7.5 billion people who do not ...
-- **text2:** ## 20.8 Phase Two Completion: The Threshold Crossed
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
 
-By 2500, Phase Two achieves:
+### 20.7.1 Population Plateau
 
-**Population:**
-- ✅ 10 billion humans underground (100% migration complete)
-- ✅ Zero surface population (last human d...
-- **values1:** [{'type': 'population', 'value': '7.5 billion people', 'position': 170}]
-- **values2:** [{'type': 'population', 'value': '10 billion humans', 'position': 103}]
+**Year 10,000:** 10 billion ...
+- **text2:** ## 20.8 Phase Two Completion: The Mature Civilization
+
+By Year 100 Million, Phase Two achieves:
+
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
+- **values1:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
 
 ---
 
-### 77. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 107. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
 **Evidence:**
 
 - **constant:** population
-- **text1:** ## 20.3 Population Migration: The Carrot and the Stick
+- **text1:** ## 20.7 Population Dynamics: The Stable Era
 
-**2150 Status:** 2.5B underground (25% of 10B)  
-**2500 Target:** 10B underground (100%)  
-**Challenge:** Migrate 7.5 billion people who do not ...
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
+
+### 20.7.1 Population Plateau
+
+**Year 10,000:** 10 billion ...
+- **text2:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **values1:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+
+---
+
+### 108. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 20.7 Population Dynamics: The Stable Era
+
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
+
+### 20.7.1 Population Plateau
+
+**Year 10,000:** 10 billion ...
+- **text2:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **values1:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
+- **values2:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+
+---
+
+### 109. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 20.7 Population Dynamics: The Stable Era
+
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
+
+### 20.7.1 Population Plateau
+
+**Year 10,000:** 10 billion ...
+- **text2:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **values1:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
+- **values2:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+
+---
+
+### 110. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 20.7 Population Dynamics: The Stable Era
+
+**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?
+
+### 20.7.1 Population Plateau
+
+**Year 10,000:** 10 billion ...
 - **text2:** ## The Final Accounting
 
 **Did the Aethelgard Protocol succeed?**
 
 By purely technical metrics: **Yes.**
-- 10 billion humans alive and thriving (5,200)
-- Earth-Moon system transported 4.24 light-years...
-- **values1:** [{'type': 'population', 'value': '7.5 billion people', 'position': 170}]
-- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 184}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
+- **values1:** [{'type': 'population', 'value': '10 billion humans', 'position': 189}, {'type': 'population', 'value': '12 billion humans', 'position': 246}, {'type': 'population', 'value': '15 billion humans', 'position': 334}, {'type': 'population', 'value': '15 billion humans', 'position': 410}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
 
 ---
 
-### 78. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+### 111. [MEDIUM] Both sections discuss population with numerical values - verify consistency
 
 **Location 1:**  - 
 
 **Evidence:**
 
 - **constant:** population
-- **text1:** ## 20.8 Phase Two Completion: The Threshold Crossed
+- **text1:** ## 20.8 Phase Two Completion: The Mature Civilization
 
-By 2500, Phase Two achieves:
+By Year 100 Million, Phase Two achieves:
 
-**Population:**
-- ✅ 10 billion humans underground (100% migration complete)
-- ✅ Zero surface population (last human d...
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
+- **text2:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **values1:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
+- **values2:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+
+---
+
+### 112. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 20.8 Phase Two Completion: The Mature Civilization
+
+By Year 100 Million, Phase Two achieves:
+
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
+- **text2:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **values1:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
+- **values2:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+
+---
+
+### 113. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 20.8 Phase Two Completion: The Mature Civilization
+
+By Year 100 Million, Phase Two achieves:
+
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
+- **text2:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **values1:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
+- **values2:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+
+---
+
+### 114. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 20.8 Phase Two Completion: The Mature Civilization
+
+By Year 100 Million, Phase Two achieves:
+
+**Infrastructure:**
+- ✅ Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)
+- ✅ Moon-T...
 - **text2:** ## The Final Accounting
 
 **Did the Aethelgard Protocol succeed?**
 
 By purely technical metrics: **Yes.**
-- 10 billion humans alive and thriving (5,200)
-- Earth-Moon system transported 4.24 light-years...
-- **values1:** [{'type': 'population', 'value': '10 billion humans', 'position': 103}]
-- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 184}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
+- **values1:** [{'type': 'population', 'value': '15 billion humans', 'position': 439}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
 
 ---
 
-### 79. [MEDIUM] Both sections discuss earth_mass with numerical values - verify consistency
+### 115. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **text2:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **values1:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+- **values2:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+
+---
+
+### 116. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **text2:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **values1:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+- **values2:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+
+---
+
+### 117. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## Chapter Summary
+
+Phase Two (10,000-100 Million Years) represents humanity's longest and most stable era:
+
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy...
+- **text2:** ## The Final Accounting
+
+**Did the Aethelgard Protocol succeed?**
+
+By purely technical metrics: **Yes.**
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
+- **values1:** [{'type': 'population', 'value': '15 billion humans', 'position': 783}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+
+---
+
+### 118. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **text2:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **values1:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+- **values2:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+
+---
+
+### 119. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 21.2 Accelerated Underground Migration
+
+**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  
+**Phase Three Target:** 95% underground by Year 500M (when surface b...
+- **text2:** ## The Final Accounting
+
+**Did the Aethelgard Protocol succeed?**
+
+By purely technical metrics: **Yes.**
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
+- **values1:** [{'type': 'temperature', 'value': '2°C', 'position': 536}, {'type': 'population', 'value': '8.25 billion humans', 'position': 266}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+
+---
+
+### 120. [MEDIUM] Both sections discuss population with numerical values - verify consistency
+
+**Location 1:**  - 
+
+**Evidence:**
+
+- **constant:** population
+- **text1:** ## 21.7 Phase Three Completion: Countdown Begins
+
+By Year 500 Million, Phase Three achieves its mandate:
+
+**Infrastructure Ready:**
+- ✅ 300 Hive cities operational (capacity 30B, population 13.5B = 90...
+- **text2:** ## The Final Accounting
+
+**Did the Aethelgard Protocol succeed?**
+
+By purely technical metrics: **Yes.**
+- 10 billion humans alive and thriving post-arrival
+- Hive infrastructure sustained across 500 ...
+- **values1:** [{'type': 'population', 'value': '13.5 billion humans', 'position': 499}]
+- **values2:** [{'type': 'distance', 'value': '4.24 light-years', 'position': 254}, {'type': 'population', 'value': '10 billion humans', 'position': 107}]
+
+---
+
+### 121. [MEDIUM] Both sections discuss earth_mass with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -2535,7 +3579,7 @@ The Moon has been Earth's companion for 4.5 billion years. Under the Aethelgard 
 
 ---
 
-### 80. [MEDIUM] Both sections discuss earth_mass with numerical values - verify consistency
+### 122. [MEDIUM] Both sections discuss earth_mass with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -2556,53 +3600,7 @@ On a normal Earth, ecosystems are **open**—energy flows in from the Sun, waste
 
 ---
 
-### 81. [MEDIUM] Both sections discuss earth_mass with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** earth_mass
-- **text1:** ## 1.1 Current Solar Status: The Stable Yellow Dwarf Phase
-
-### Our Star Today
-
-The Sun is currently a **G-type main-sequence star** (spectral classification G2V), commonly called a yellow dwarf. It h...
-- **text2:** ## 20.1 The Departure Threshold
-
-Phase Two confronts humanity's most psychologically wrenching milestone: **permanent abandonment of Earth's surface**.
-
-By early Phase Two, 2.5 billion live undergroun...
-- **values1:** [{'type': 'temperature', 'value': '778 K', 'position': 489}]
-- **values2:** [{'type': 'temperature', 'value': '0.2°C', 'position': 504}]
-
----
-
-### 82. [MEDIUM] Both sections discuss earth_mass with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** earth_mass
-- **text1:** ## 1.1 Current Solar Status: The Stable Yellow Dwarf Phase
-
-### Our Star Today
-
-The Sun is currently a **G-type main-sequence star** (spectral classification G2V), commonly called a yellow dwarf. It h...
-- **text2:** ## 20.5 The Surface Farewell: Last Generation Above
-
-**2450-2500:** Earth's surface enters terminal decline. Last 50 years witness:
-
-### 20.5.1 Environmental Collapse
-
-**Atmospheric Composition (2450)...
-- **values1:** [{'type': 'temperature', 'value': '778 K', 'position': 489}]
-- **values2:** [{'type': 'temperature', 'value': '8°C', 'position': 371}]
-
----
-
-### 83. [MEDIUM] Both sections discuss earth_mass with numerical values - verify consistency
+### 123. [MEDIUM] Both sections discuss earth_mass with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -2622,7 +3620,7 @@ On a normal Earth, ecosystems are **open**—energy flows in from the Sun, waste
 
 ---
 
-### 84. [MEDIUM] Both sections discuss earth_mass with numerical values - verify consistency
+### 124. [MEDIUM] Both sections discuss earth_mass with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -2641,7 +3639,7 @@ The Defense Network is modeled after **biological immune systems**: multiple spe
 
 ---
 
-### 85. [MEDIUM] Both sections discuss earth_mass with numerical values - verify consistency
+### 125. [MEDIUM] Both sections discuss earth_mass with numerical values - verify consistency
 
 **Location 1:**  - 
 
@@ -2668,30 +3666,6 @@ Where:
 -...
 - **values1:** [{'type': 'energy', 'value': '000 Terawatts', 'position': 718}, {'type': 'population', 'value': '10 billion people', 'position': 673}]
 - **values2:** [{'type': 'energy', 'value': '8.314 J', 'position': 222}]
-
----
-
-### 86. [MEDIUM] Both sections discuss earth_mass with numerical values - verify consistency
-
-**Location 1:**  - 
-
-**Evidence:**
-
-- **constant:** earth_mass
-- **text1:** ## 20.1 The Departure Threshold
-
-Phase Two confronts humanity's most psychologically wrenching milestone: **permanent abandonment of Earth's surface**.
-
-By early Phase Two, 2.5 billion live undergroun...
-- **text2:** ## 20.5 The Surface Farewell: Last Generation Above
-
-**2450-2500:** Earth's surface enters terminal decline. Last 50 years witness:
-
-### 20.5.1 Environmental Collapse
-
-**Atmospheric Composition (2450)...
-- **values1:** [{'type': 'temperature', 'value': '0.2°C', 'position': 504}]
-- **values2:** [{'type': 'temperature', 'value': '8°C', 'position': 371}]
 
 ---
 
