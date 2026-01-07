@@ -2,7 +2,7 @@
 
 ## Introduction: Subsurface Resilience
 
-The Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**—the entire population of Earth—across a 5,000-year interstellar journey *(raw.txt:890)*.
+The Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**—the entire population of Earth—across multi-generational deep time *(raw.txt:890)*.
 
 This requires a radical rethinking of human architecture. Surface structures—skyscrapers, coastal cities, traditional suburbs—are obsolete in an era of tectonic shifts, asteroid impacts, and the eventual freezing of Earth's surface. The new paradigm is **Subsurface Resilience**: building down, not up, transforming Earth's crust into a fortress that can withstand millennia of stress *(raw.txt:952)*.
 
@@ -53,7 +53,7 @@ Traditional skyscrapers are **death traps** during tectonic events—tall, rigid
 
 ### Seismic Isolation: Floating Cities
 
-The greatest engineering challenge is **tectonic stability** over 5,000 years. Bedrock shifts. Earthquakes occur. The Moon-Tug creates unprecedented tidal stresses. Traditional foundations would crack and fail.
+The greatest engineering challenge is **tectonic stability** across deep time. Bedrock shifts. Earthquakes occur. The Moon-Tug creates unprecedented tidal stresses. Traditional foundations would crack and fail.
 
 **Solution: Magnetic Levitation Foundations** *(raw.txt:978)*
 - Hive Cities don't sit directly on rock; they **float** on beds of powerful magnets or high-viscosity super-fluids
@@ -232,7 +232,7 @@ All Hives meet **minimum quality standards**:
 
 ### The Dual-Homed Society
 
-To preserve mental health during 5,000 years underground, humans need **connection to nature** *(raw.txt:986)*.
+To preserve mental health during long-duration underground habitation, humans need **connection to nature** *(raw.txt:986)*.
 
 **Solution: The Park Layer**
 - **Surface Access Stations:** Transparent domes on the surface where people can see "natural" light and trees
@@ -300,7 +300,7 @@ By Year 150, we have identified **1,000+ optimal Hive sites** globally, each cap
 
 ## Knowledge Continuity: The Digital Priesthood
 
-The hardest part of a 5,000-year mission is not food or air—it's **knowledge preservation** *(raw.txt:1290)*.
+The hardest part of a multi-generational mission is not food or air—it's **knowledge preservation** *(raw.txt:1290)*.
 
 **The Problem:**
 We need to ensure that **150 generations from now**, a technician still knows how to fix a fusion reactor built 4,000 years ago.

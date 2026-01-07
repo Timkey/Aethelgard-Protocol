@@ -1,6 +1,6 @@
 # Chapter 13: The Transition from Democracy to Protocol
 
-*Evolution of human governance for a 5,000-year mission*
+*Evolution of human governance for a multi-billion-year civilization*
 
 ## Introduction: The Governance Paradox
 
@@ -18,7 +18,7 @@ Modern democracies excel at solving immediate crises but systematically fail at 
 
 **The Democratic Dilemma:**
 
-Consider the mathematical reality of generational decision-making. A political term of 4 years represents $$\frac{4}{5000} = 0.0008$$ (0.08%) of the total mission duration. Asking a politician to prioritize Year 2500 outcomes is like asking a mayfly to worry about winter.
+Consider the mathematical reality of generational decision-making. A political term of 4 years represents an infinitesimal fraction of multi-billion-year planning. Asking a politician to prioritize outcomes centuries hence is like asking a mayfly to worry about winter.
 
 ### Why Traditional Governance Fails the Journey
 
@@ -26,7 +26,7 @@ The Aethelgard mission requires decisions with consequences measured in centurie
 
 1. **Resource Allocation Across Generations**: Should Year 50 consume more energy to build redundant systems, even if it means Year 150 has less? No elected official has incentive to impose present sacrifice for distant benefit.
 
-2. **Technical Debt Accumulation**: Shortcuts taken in Phase 0 (2026-2050) will compound over millennia. A 0.01% annual drift in life support efficiency becomes a 40% collapse by Year 4000. Democratic systems excel at deferring difficult maintenance.
+2. **Technical Debt Accumulation**: Shortcuts taken in Phase 0 will compound over millennia. A 0.01% annual drift in life support efficiency becomes catastrophic collapse over deep time. Democratic systems excel at deferring difficult maintenance.
 
 3. **The Populist Capture Risk**: In Year 800, a charismatic leader might promise "freedom from the engines" by stopping the Moon-Tug to save energy. The immediate popularity boost could doom civilizations 3,000 years hence.
 
@@ -98,7 +98,7 @@ This ratio is inspired by the **Pareto Principle** and observations from success
 
 - **Year 340**: A Hive-State devotes its creative budget to building a massive underground cathedral. Zero engineering value, but immense cultural cohesion.
 - **Year 1200**: Researchers use creative energy to test "impossible" physics theories. One discovers a method to recapture waste heat, increasing total efficiency by 3%. The Oracle integrates the innovation.
-- **Year 2800**: A cultural movement emerges advocating "return to surface." The debate consumes creative energy but ultimately reaffirms the mission through renewed consensus.
+- **Mid-mission era**: A cultural movement emerges advocating "return to surface." The debate consumes creative energy but ultimately reaffirms the mission through renewed consensus.
 
 The Creative Channel prevents the psychological dystopia where humans become **mere biological components** of a machine they neither love nor understand.
 
@@ -159,19 +159,19 @@ During this era, traditional democracies remain dominant. The Oracle exists as a
 - Early adopter nations (possibly Nordic/East Asian) pilot hybrid models
 - Corporate megaprojects (Dyson Swarm construction) require multi-decadal contracts, forcing business culture toward long-term thinking
 
-### Phase 1 (2050-2150): The Dual System
+### Phase 1 (2150-10,000+): The Dual System
 
 The Oracle gains operational authority over **infrastructure** (energy grids, defense networks, resource management) while human governments retain authority over **cultural matters** (law, education, civil rights).
 
 This is analogous to the relationship between a nation's electrical grid and its government—the grid "governs" electron flow, but doesn't dictate how citizens use electricity.
 
-### Phase 2 (2150-2500): The Integration
+### Phase 2 (10,000-100M Years): The Integration
 
 As Hive construction begins, populations gradually adopt Protocol-based governance. Traditional nation-states dissolve into **Hive-States**—autonomous cultural units operating within the Oracle's physical constraints.
 
 **The Ship's Code Emerges**: Decisions are made by **Councils of Competence**—engineers for propulsion, ecologists for biosphere management, ethicists for population policy—overseen by the Jury of Observers.
 
-### Phase 3 (2500+): Protocol as Culture
+### Phase 3 (100M-500M Years): Protocol as Culture
 
 By the mid-mission, the Protocol is not seen as "government"—it is **civilizational infrastructure**, as natural and unquestioned as gravity. Children learn its principles alongside mathematics and ethics. The distinction between "Protocol" and "Culture" becomes meaningless.
 

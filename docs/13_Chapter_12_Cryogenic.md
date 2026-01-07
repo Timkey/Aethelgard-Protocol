@@ -2,7 +2,7 @@
 
 ## Introduction: The Efficiency Pivot
 
-Sustaining 10 billion people for 5,000 years in closed-loop Hive Cities is possible—but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychological toll of living underground for 150 consecutive generations risks "Darkness Psychosis"—a cultural and mental decay that could undermine the mission.
+Sustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible—but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychological toll of living underground for many consecutive generations risks "Darkness Psychosis"—a cultural and mental decay that could undermine the mission.
 
 The solution is **Cryogenic Hibernation** (Sleep Stasis): rotating the population in long-duration sleep cycles so that only a fraction—approximately 1 billion people—are awake at any given time *(raw.txt:1299)*.
 
@@ -10,7 +10,7 @@ This transforms Aethelgard from a **constant population model** (10 billion alwa
 
 - **10x reduction** in food, oxygen, and living space requirements
 - **Psychological relief:** No one experiences 80 consecutive years underground
-- **Knowledge continuity:** Original engineers can be present for arrival, 5,000 years later
+- **Knowledge continuity:** Original engineers can be present for arrival, millennia later
 - **Resource flexibility:** Population can be scaled up or down based on mission phase
 
 This chapter describes:
@@ -34,7 +34,7 @@ In the **Shift Change Model**, Earth's 10 billion people are divided into **rota
 **Cycle Duration:**
 - A typical person lives **5 years active**, then sleeps **45 years** in stasis
 - Upon waking, they rejoin society 45 years in the future, contributing for another 5 years before returning to stasis
-- Over a 5,000-year journey, a single individual experiences approximately **100 wake cycles**, subjectively "living" for 500 years
+- Over multi-generational interstellar transit, a single individual experiences approximately **100 wake cycles**, subjectively "living" for 500 years
 
 **Advantages:**
 1. **Resource Efficiency:** Only 10% of food, oxygen, and energy is required at any given time
@@ -178,7 +178,7 @@ Do you wake with your family, or do you "leapfrog" each other? *(raw.txt:1332)*
 
 **Cultural Adaptation:**
 - **Subjective Time:** A parent who sleeps 45 years while their child is awake ages only 5 years; child ages 50 years. Upon reunion, parent is younger than child. Society normalizes this.
-- **Extended Families:** Across 100 wake cycles, a single person may have 5,000 descendants. Family reunions involve thousands of people, spanning millennia of objective time.
+- **Extended Families:** Across 100 wake cycles, a single person may have thousands of descendants. Family reunions involve thousands of people, spanning millennia of objective time.
 
 ### Duty and Consent
 
@@ -253,16 +253,16 @@ Surface habitats still operational during this phase (Dyson Swarm active, Earth 
 - Conduct research, create art, live normal lives (just underground)
 
 **Cultural Evolution:**
-By Year 2000, **no one remembers Sol**. The Sun is a myth. Earth is "home" as an abstract concept, not a memory. Society becomes fully adapted to nomadic existence.
+After many generations in transit, **no one remembers Sol**. The Sun is a myth. Earth is "home" as an abstract concept, not a memory. Society becomes fully adapted to nomadic existence.
 
-### Phase 4: Arrival (Years 4,000-5,000)
+### Phase 4: Arrival (Phase Five Era)
 
 **Status:** Population awakening accelerates.
 
 **Schedule:**
 - Years 4,000-4,500: 30% awake (3 billion people)
 - Years 4,500-4,900: 60% awake (6 billion people)
-- Year 4,900-5,000: 100% awake (10 billion people)
+- Final approach: 100% awake (10 billion people)
 
 **Reason:**
 High workforce needed for:
@@ -271,7 +271,7 @@ High workforce needed for:
 - Surface recolonization (building new cities on warm surface)
 
 **The Final Wake Cycle:**
-Year 5000 is the **"Grand Awakening"**—the last stasis cohort wakes to see Earth orbiting a new sun, surface temperature rising, oceans melting. Children born underground will walk on grass for the first time.
+The arrival era is the **"Grand Awakening"**—the last stasis cohort wakes to see Earth orbiting a new sun, surface temperature rising, oceans melting. Children born underground will walk on grass for the first time.
 
 ---
 
@@ -301,7 +301,7 @@ Interstellar space is psychologically brutal *(raw.txt:1308)*:
 - Risk of **existential despair**: "Why are we doing this?"
 
 **Stasis as Psychological Relief:**
-For the average person, the 5,000-year journey feels like a **series of working holidays**. You wake, work for 5 years, see progress, reconnect with family, then sleep. Subjectively, the journey is 50-100 years of active life spread across millennia *(raw.txt:1309)*.
+For the average person, the interstellar journey feels like a **series of working holidays**. You wake, work for 5 years, see progress, reconnect with family, then sleep. Subjectively, the journey is 50-100 years of active life spread across millennia *(raw.txt:1309)*.
 
 ### Knowledge Retention: The Original Engineers
 
@@ -328,10 +328,10 @@ Vitrification of whole humans is experimental. Assuming 500 years of development
 **Predicted Failure Rates:**
 - **Year 500:** 10% fail to wake (90% survival)
 - **Year 1000:** 5% fail to wake (95% survival)
-- **Year 2000:** 1% fail to wake (99% survival)
-- **Year 4000:** 0.1% fail to wake (99.9% survival)
+- **Early mission:** 1% fail to wake (99% survival)
+- **Late mission:** 0.1% fail to wake (99.9% survival)
 
-**Over 5,000 years:**
+**Over multi-generational timeframes:**
 If each person completes 100 wake cycles at 99% survival per cycle, cumulative survival is ~37% (63% die during stasis over the full journey).
 
 **Mitigation:**
@@ -376,7 +376,7 @@ A solar flare, rogue AI, or sabotage causes simultaneous failure of multiple Pod
 
 The Shift Change Civilization transforms humanity from a **planetary species** to a **nomadic spacefaring culture**.
 
-With cryogenic rotation, we are no longer constrained by human lifespan or resource scarcity. The 5,000-year journey to the first destination is just **the beginning**. Upon arrival:
+With cryogenic rotation, we are no longer constrained by human lifespan or resource scarcity. The interstellar journey to the first destination is just **the beginning**. Upon arrival:
 
 **Option 1: Permanent Settlement**
 - Thaw Earth, restart ecosystems, colonize new star system
@@ -391,7 +391,7 @@ With cryogenic rotation, we are no longer constrained by human lifespan or resou
 **The Great Traveler:**
 The Earth-Moon system becomes a **"Great Traveler"**—a mobile civilization hopping from star to star, refueling and exploring *(raw.txt:1347)*. We are no longer refugees fleeing a dying sun; we are **nomadic explorers** seeking the perfect home.
 
-With stasis, the journey is not measured in years but in **wake cycles**. A person alive at departure (Year 500) can realistically be present for the **10th stellar arrival** (Year 25,000) after experiencing only 500 subjective years.
+With stasis, the journey is not measured in years but in **wake cycles**. A person alive at departure can realistically be present for **multiple stellar arrivals** after experiencing only 500 subjective years.
 
 As the Manifesto states: *"We are no longer citizens of Earth. We are citizens of Time itself."*
 

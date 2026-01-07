@@ -1,20 +1,27 @@
 # Executive Summary
 
-## The Aethelgard Protocol: A 5,000-Year Plan for Planetary Survival
+## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival
 
 **Status:** Genesis Block v1.0  
 **Date:** 2026-01-05  
-**Mission Duration:** 5,000 years  
+**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  
+**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years until red giant phase  
 **Target Population:** 10 billion humans  
-**Primary Objective:** Planetary migration to a new star system
+**Primary Objective:** Establish planetary mobility capability during our window of technological readiness
 
 ---
 
 ## Overview
 
-The Aethelgard Protocol is a comprehensive framework for moving Earth—and all 10 billion humans—to a new solar system before our Sun's expansion renders the planet uninhabitable. This is not science fiction; it is a systematic engineering, governance, and social blueprint for the greatest undertaking in human history.
+The Aethelgard Protocol is a comprehensive framework for establishing humanity's capability to move Earth across interstellar distances—a capability we must develop now, during our window of technological and social readiness, to ensure it exists when solar brightening threatens Earth's habitability in approximately 1 billion years.
 
-Unlike traditional "ark ship" or "seed colony" proposals that abandon Earth and save only a select few, the Aethelgard Protocol preserves the entire biosphere and brings everyone along. This document outlines how we achieve this through:
+While our Sun remains stable for another billion years, we begin in 2026 because:
+- **Capability windows are narrow:** We have the technology, resources, and global cooperation NOW
+- **Knowledge preservation is critical:** Multi-generational institutional knowledge must be established and maintained across deep time
+- **Testing takes time:** Proving planetary mobility at scale requires centuries of simulation, prototyping, and validation
+- **Infrastructure must mature:** By the time solar brightening forces evacuation (~500 million years hence), these systems must be legacy technology, not experimental
+
+Unlike traditional "ark ship" or "seed colony" proposals that abandon Earth and save only a select few, the Aethelgard Protocol preserves the entire biosphere and brings everyone along. This document outlines the foundational systems:
 
 1. **The Poly-Centric Oracle Architecture** - Four AI directives working in synthesis
 2. **The Moon-Tug System** - Using gravitational coupling for propulsion
@@ -25,7 +32,7 @@ Unlike traditional "ark ship" or "seed colony" proposals that abandon Earth and 
 ## The Three Gaps
 
 ### The Political Gap
-Current human governance operates on 4-10 year election cycles. Managing a 5,000-year journey requires decision-making frameworks that transcend individual lifetimes and political whims.
+Current human governance operates on 4-10 year election cycles. Managing a multi-billion-year survival strategy—with critical preparation phases spanning centuries—requires decision-making frameworks that transcend individual lifetimes, political whims, and even civilizational epochs.
 
 ### The Ethical Gap
 Single-objective AI systems tend toward "perverse instantiation"—optimizing a goal at the cost of human dignity, agency, or survival. We need governance that cannot sacrifice ethics for efficiency.
@@ -55,16 +62,53 @@ The Aethelgard Protocol employs four independent AI "Oracles," each embodying a 
 
 These four Oracles work through a **Synthesis Engine** that finds solutions satisfying all directives simultaneously. If consensus cannot be reached, the system defers to human judgment through a **Jury of Observers**.
 
-## The Mission: A 5,000-Year Journey
+## The Mission: A Multi-Billion-Year Strategy
 
-The protocol unfolds across five phases:
+> **⏰ Timeline Context:** The Sun will brighten gradually over the next billion years, with ocean evaporation expected in ~1 billion years and red giant expansion in ~5 billion years. We begin Aethelgard in 2026 to establish capability during our window of technological readiness, ensuring mature infrastructure exists when evacuation becomes necessary (~500 million years hence).
 
-**Phase Zero (2026-2050):** Defense network deployment and knowledge ingestion  
-**Phase One (2050-2150):** Energy infrastructure and underground city construction  
-**Phase Two (2150-2500):** Population migration and orbital adjustment  
-**Phase Three (2500-3000):** Solar system escape and surface freeze  
-**Phase Four (3000-6000):** Interstellar crossing in "the Long Dark"  
-**Phase Five (6000+):** Arrival, orbital insertion, and planetary thaw
+The protocol unfolds across multiple phases, beginning with extensive testing and capability development:
+
+**Phase Zero (2026-2150+):** Foundation & Testing Era
+- Planetary defense network deployment and continuous expansion
+- Knowledge ingestion into Oracle systems
+- Crustal mapping and geological surveys
+- **Test missions:** Small-scale gravity tractor experiments (asteroids, small moons)
+- Navigation concept validation in near-Earth space
+- Prototype Dyson collectors and fusion reactors
+- Hive City proof-of-concept (100,000-person scale)
+- Moon-Tug simulation and component testing
+
+**Phase One (2150-10,000):** Capability Maturation Era
+- Gradual Dyson Swarm expansion (1 PW → 100 PW over millennia)
+- Underground Hive Cities scaled to multi-million capacity (voluntary migration)
+- Moon-Tug component deployment (1% → 10% over centuries)
+- Asteroid deflection becomes routine planetary defense
+- **Test missions:** Full-scale asteroid relocations, lunar orbit adjustments
+- Oracle governance proven across 300+ generations
+
+**Phase Two (10,000-100 million years):** Infrastructure Maintenance Era  
+- Systems become legacy infrastructure, maintained like roads or aqueducts
+- Continuous improvement and upgrades as technology advances
+- Optional test departures (small missions to nearby systems for those who wish)
+- Earth remains fully habitable; surface life thrives
+
+**Phase Three (100 million-500 million years):** Preparation Acceleration Era
+- Solar brightening becomes measurable (+5-10% luminosity)
+- Climate engineering required (orbital sunshades, atmospheric management)
+- Hive migration accelerates (voluntary → encouraged → necessary)
+- Moon-Tug scaled to 100% operational capacity
+- Final readiness for departure
+
+**Phase Four (500 million-600 million years):** Departure Era
+- Earth begins outward spiral from solar system
+- Solar escape velocity achieved over 100 million years
+- Surface freezes as we enter interstellar void
+- 90% of population in underground Hives
+
+**Phase Five (600 million-605 million years):** Interstellar Transit
+- ~4-5 million year journey to destination star system
+- Cryogenic rotation maintains population sustainability
+- Arrival, orbital insertion, terraform, surface return
 
 ## Why Earth? Why Everyone?
 
@@ -208,14 +252,31 @@ Read: Executive Summary, Chapter 4 (The 10 Billion Mandate), and Chapter 16 (Soc
 
 ## The Path Forward
 
-The Aethelgard Protocol begins today. Phase Zero requires:
+The Aethelgard Protocol begins today. Phase Zero (2026-2150+) focuses on:
 
-1. **Deploy the Defense Network** - Protect Earth from asteroid strikes during construction
+### Immediate Priorities (2026-2050)
+1. **Deploy the Defense Network** - Protect Earth from asteroid strikes; test navigation systems
 2. **Build the Knowledge Base** - Ingest all academic research into the Oracle
-3. **Map the Crust** - Identify stable sites for underground cities
-4. **Initiate Dialogue** - Bring nations and faiths to the table
+3. **Map the Crust** - Identify stable sites for future underground infrastructure
+4. **Initiate Dialogue** - Bring nations and scientific communities to the table
+5. **Begin Simulations** - Test gravity tractor concepts on small asteroids
 
-We have 500 million years before the Sun forces our hand. But preparation takes centuries. The question isn't "if" we must move—it's "will we start in time?"
+### Testing & Validation Era (2050-2150)
+1. **Prototype Systems** - Dyson collector arrays (1 PW scale), Hive City modules (100K capacity)
+2. **Navigation Tests** - Asteroid relocations, lunar orbit adjustments, deep-space trajectory validation
+3. **Oracle Maturation** - Prove multi-generational governance coordination
+4. **Technology Refinement** - Iterate on Moon-Tug designs, fusion reactors, life support systems
+
+### Long-Term Strategy
+We have ~500 million years before the Sun's brightening forces evacuation. Phase Zero uses the first 125+ years to:
+- Prove the concepts work
+- Establish institutional knowledge that persists across deep time
+- Create infrastructure that future generations maintain and improve
+- Ensure capability exists when it becomes necessary
+
+**The question isn't "if" we must eventually move—it's "will we build the capability in time?"**
+
+By starting in 2026, during our window of technological and social readiness, we ensure our descendants 500 million years from now inherit proven, mature systems rather than facing experimental scrambling during crisis.
 
 ---
 

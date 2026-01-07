@@ -98,7 +98,7 @@ $$\\Delta v = 1.67 \\times 10^{-8} \\times 6.3 \\times 10^{10} = 1.05 \\times 10
 
 **This is only 1 km/s, not 300 km/s (target velocity)!**
 
-### B.1.5 Correct Formulation: Continuous Thrust Over 5,000 Years
+### B.1.5 Correct Formulation: Continuous Thrust Over Multi-Generational Transit
 
 The confusion arises from mixing instantaneous acceleration with time-averaged acceleration. Let's recalculate:
 
@@ -235,7 +235,7 @@ $$E_k = \\frac{1}{2} \\times 6.046 \\times 10^{24} \\times (3 \\times 10^5)^2 = 
 
 ### B.3.2 Power Requirements Over Mission Duration
 
-**Mission duration:** $t = 5,000$ years = $1.58 \\times 10^{11}$ s
+**Mission duration:** $t = $ variable (mission-dependent)
 
 **Average power required:**
 
@@ -263,7 +263,7 @@ $$E_{propellant} = \\frac{1}{2} m_{prop} v_e^2$$
 
 $$E_{propellant} = \\frac{1}{2} \\times 2 \\times 10^{18} \\times (4.9 \\times 10^5)^2 = 2.40 \\times 10^{29}\\text{ J}$$
 
-**Power requirement over 5,000 years:**
+**Power requirement over interstellar transit:**
 
 $$P = \\frac{2.40 \\times 10^{29}}{1.58 \\times 10^{11}} = 1.52 \\times 10^{18}\\text{ W}$$
 
@@ -435,7 +435,7 @@ $$\\Delta v_{max} = 2 v_{star}$$
 
 **To reach 300 km/s:** Need 3 stellar slingshots (strategically planned encounters)
 
-**Protocol navigation:** Oracle calculates optimal trajectory to pass near 2-3 stars during 5,000-year journey, gaining velocity "for free" via gravity assists.
+**Protocol navigation:** Oracle calculates optimal trajectory to pass near 2-3 stars during interstellar journey, gaining velocity "for free" via gravity assists.
 
 *Source: raw.txt:242-287, 4348-4379*
 

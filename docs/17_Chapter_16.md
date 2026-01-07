@@ -6,7 +6,7 @@
 
 Human civilization has never maintained continuity beyond 50-60 generations. Empires rise and fall in centuries; languages evolve into mutual unintelligibility within 500 years; cultural memory fades into myth. The Aethelgard Protocol demands **150 consecutive generations** maintain not just survival, but *purposeful unity* toward a shared goal they will never personally witness.
 
-This is humanity's most profound psychological challenge: **how do we preserve identity, meaning, and motivation across 5,000 years?**
+This is humanity's most profound psychological challenge: **how do we preserve identity, meaning, and motivation across deep time?**
 
 ---
 

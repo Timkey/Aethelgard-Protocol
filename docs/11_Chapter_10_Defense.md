@@ -6,7 +6,7 @@ Before a single lunar engine is built, before Mercury is mined, before the first
 
 This is **Phase Zero**: the security prerequisite that protects the entire investment *(raw.txt:1881)*. A single asteroid strike during construction could wipe out decades of work, trillions of dollars in infrastructure, and potentially derail the entire Aethelgard Protocol.
 
-As the source material bluntly states: *"Spending money only for the moon to get wiped by an asteroid is a bit much"* *(raw.txt:1879)*. The Defense Network is not optional—it is the **foundation** upon which the entire 5,000-year journey rests.
+As the source material bluntly states: *"Spending money only for the moon to get wiped by an asteroid is a bit much"* *(raw.txt:1879)*. The Defense Network is not optional—it is the **foundation** upon which the entire multi-billion-year endeavor rests.
 
 This chapter describes:
 1. **Why defense comes first** (asset insurance philosophy)
@@ -130,7 +130,7 @@ The threats change as Earth moves through different environments. The Defense Ne
 | **Years 0-500** (Pre-Departure) | Solar flares, war, construction accidents | Hardened magnetospheric shields, decentralized control |
 | **Years 500-1,000** (Departure Prep) | Departure debris, asteroid belt exit path | Kinetic "Broom" ships sweep the solar system exit corridor |
 | **Years 1,000-4,000** (Interstellar Cruise) | Interstellar dust, rogue comets, equipment failure | Plasma bow-shocks ionize incoming particles; self-repairing drones |
-| **Years 4,000-5,000** (Arrival) | Unknown system debris, collision with destination star's asteroid belt | DAI-led real-time navigation corrections |
+| **Phase Five** (Arrival) | Unknown system debris, collision with destination star's asteroid belt | DAI-led real-time navigation corrections |
 
 ### Pre-Departure: Active Clearing (Years 500-1,000)
 
@@ -162,7 +162,7 @@ At Earth's cruising speed (~0.01c, or 3,000 km/s), even a grain of sand hitting 
 **Maintenance:**
 Self-replicating drones continuously repair and replace damaged bow-shock emitters using raw materials from captured asteroids *(raw.txt:1863)*.
 
-### Arrival Phase: DAI-Led Navigation (Years 4,000-5,000)
+### Arrival Phase: DAI-Led Navigation (Phase Five Era)
 
 As Earth approaches the destination star system, we enter **unknown territory**. No amount of pre-planning can account for every asteroid, comet, or debris field.
 
@@ -179,7 +179,7 @@ Humans retain **veto authority** but cannot proactively command navigation durin
 
 ## Protecting the Investment from Internal Threats
 
-The Defense Network protects against **external** threats (asteroids), but the 5,000-year investment is most at risk from **internal** threats: human error, conflict, sabotage, and decay *(raw.txt:1859)*.
+The Defense Network protects against **external** threats (asteroids), but the multi-billion-year investment is most at risk from **internal** threats: human error, conflict, sabotage, and decay *(raw.txt:1859)*.
 
 ### Black Box Governance
 
@@ -250,7 +250,7 @@ The Defense Network is not a temporary project—it is **permanent infrastructur
 - Self-repairing drones maintain all systems without human intervention
 - Thales Oracle monitors for anomalies and adapts defenses in real-time
 
-### Year 5000+: Arrival at Destination
+### Phase Five: Arrival at Destination
 - Vanguard fleet scouts destination system for 100 years before Earth arrives
 - Maps all asteroids, comets, and hazards in new system
 - Clears arrival path and establishes safe orbit for Earth
@@ -259,7 +259,7 @@ The Defense Network is not a temporary project—it is **permanent infrastructur
 
 ## Non-Natural Threats: The Alien Question
 
-The Defense Network is designed primarily for **natural** threats (asteroids, comets, dust). But what if humanity encounters an **artificial** threat during the 5,000-year journey?
+The Defense Network is designed primarily for **natural** threats (asteroids, comets, dust). But what if humanity encounters an **artificial** threat during interstellar transit?
 
 ### Scenario 1: Alien Probe Detection
 
@@ -305,7 +305,7 @@ By the time Earth is midway to its destination, it is no longer a fragile blue m
 
 The Planetary Defense Network is not just a shield—it is the **proof that humanity has matured** from a species vulnerable to extinction by a single asteroid strike to a **Type II Nomadic Civilization** capable of protecting its entire ecosystem across interstellar distances.
 
-The Defense Network operates on a simple principle: **The journey is too important to leave to chance.** Every layer, every sensor, every Sentinel exists to ensure that 5,000 years of effort is not undone by a rock we failed to see coming.
+The Defense Network operates on a simple principle: **The journey is too important to leave to chance.** Every layer, every sensor, every Sentinel exists to ensure that centuries of effort is not undone by a rock we failed to see coming.
 
 As the Manifesto states: *"We are no longer prisoners of our star. We are guardians of our world."*
 

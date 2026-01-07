@@ -24,7 +24,7 @@ Population genetics defines a **minimum viable population (MVP)** as the smalles
 - Minimum: ~500 individuals (50/500 rule)
 - Preferred: ~5,000 individuals
 
-**For long-term survival (5,000+ years):**
+**For long-term survival (deep time):**
 - Minimum: ~10,000 individuals *(raw.txt:1565)*
 - Ideal: **Billions**
 
@@ -50,7 +50,7 @@ With 10 billion people, **you carry every allele that exists**. The entire spect
 
 ### Future-Proofing Against Unknown Threats
 
-We cannot predict what challenges humanity will face in 5,000 years:
+We cannot predict what challenges humanity will face across deep time:
 - New pathogens in the destination star system
 - Environmental conditions requiring specific adaptations
 - Evolutionary pressures we cannot anticipate
@@ -175,7 +175,7 @@ If we abandon the 10 Billion Mandate and select only a "worthy few," we face **m
 
 ### The Precedent We Set
 
-The Aethelgard Protocol is not just about surviving the next 5,000 years—it is about **what kind of species we become**.
+The Aethelgard Protocol is not just about surviving the next centuries—it is about **what kind of species we become** across deep time.
 
 If we save everyone, we establish a precedent:
 - **Humanity is indivisible** (we rise or fall together)
@@ -195,7 +195,7 @@ If we abandon anyone, we establish a different precedent:
 
 ### Population Management
 
-Managing 10 billion people over 5,000 years requires:
+Managing 10 billion people across deep time requires:
 - **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*
 - **Global Harmony Pact:** Every new life is a celebrated, planned addition *(raw.txt:1263)*
 - **Social infrastructure:** Education, healthcare, mental health support for all
@@ -208,7 +208,7 @@ This is not dystopian control—it is **survival logistics**. A generation ship 
 To house 10 billion people during the frozen journey, we build **Underground Hive Cities**:
 - **Geological stability:** Located in tectonically inactive zones
 - **Self-sufficient ecosystems:** Hydroponics, aquaculture, air recycling
-- **Multi-generational design:** Built to last 5,000+ years
+- **Multi-generational design:** Built to last across deep time
 - **Cultural spaces:** Museums, theaters, parks (artificial but psychologically essential)
 
 These are not prisons—they are **planetary lifeboats**. Designed with architecture that supports mental health, community, and hope *(raw.txt:972)*.

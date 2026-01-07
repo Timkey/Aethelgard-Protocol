@@ -1,23 +1,27 @@
-# Chapter 19: Phase One (2050-2150)
-## The Century of Infrastructure: Dyson Swarm & Lunar Industrialization
+# Chapter 19: Phase One (2150-10,000+)
+## Capability Maturation: From Prototypes to Legacy Infrastructure
 
-**Timeline:** 2050-2150 (100 years)  
-**Status:** Foundation → Exponential Growth  
-**Key Deliverable:** 10 PW Dyson Swarm, Lunar mass drivers operational, Hive construction begins  
-**Budget Estimate:** $47 trillion (first 50 years), exponential growth thereafter  
+**Timeline:** 2150-10,000+ years  
+**Status:** Validated Prototypes → Scaled Systems → Legacy Infrastructure  
+**Key Deliverable:** Dyson Swarm scaled to 100+ PW, Hive Cities to multi-million capacity, Moon-Tug 10% deployed  
+**Budget Estimate:** Resource allocation becomes post-scarcity as energy abundance achieved  
 **Source References:** *(raw.txt:157-213, 892-934, 2201-2287, 3456-3521)*
+
+> **⏰ Timeline Context:** Phase One spans thousands of years as proven Phase Zero systems are gradually scaled. Earth remains fully habitable; participation in underground Hives is voluntary. The actual solar evacuation deadline is ~500 million years away. Phase One ensures systems mature into legacy infrastructure, maintained across millennia like roads or aqueducts.
 
 ---
 
 ## 19.1 The Infrastructure Imperative
 
-Phase Zero delivered **systems**: Oracle, Detection Horizon, knowledge base. Phase One must deliver **scale**—the industrial capacity to move a planet.
+Phase Zero delivered **validated systems**: Oracle governance across generations, Detection Horizon with successful test deflections, gravity tractor demonstrations. Phase One must deliver **mature scale**—transforming experimental prototypes into legacy infrastructure that will be maintained for millennia.
 
-By 2150, humanity must achieve:
+Phase One milestones (gradual achievement over thousands of years):
 
-- **Energy:** 10 petawatts sustained (20,000× 2020 global consumption)
-- **Mass Production:** 1 billion tons/year construction material (Moon-sourced)
-- **Hive Deployment:** 50 underground cities operational (2.5 billion capacity)
+- **Energy:** Dyson Swarm scaled from 1 PW (Phase Zero) → 100+ PW (sustained, post-scarcity)
+- **Mass Production:** Lunar factories scaled to multi-billion tons/year output
+- **Hive Deployment:** Underground cities scaled from 100K-capacity prototypes → multi-million capacity, voluntary migration
+- **Moon-Tug:** Components deployed from 1% → 10% coverage over centuries
+- **Cultural Integration:** Planetary mobility becomes normal, not experimental
 - **Propulsion Prototype:** First Moon-Tug gravitational coupling test (0.01 m/s² achieved)
 
 This chapter details the century-long industrialization—the largest infrastructure project in history, executed by generations who will never see its completion.
@@ -499,7 +503,7 @@ Children born in 2050 turn 18 in 2068. By 2150, these "Protocol natives" (born 2
 
 ### 19.7.2 The Psychological Toll
 
-Not everyone thrives in a civilization restructured around a 5,000-year mission:
+Not everyone thrives in a civilization restructured around deep-time thinking and multi-generational projects:
 
 **Existential Despair (Emerges ~2080):**
 - Individuals feel insignificance ("My life is a rounding error in the Protocol timeline")
@@ -564,26 +568,27 @@ Phase One transformed the Protocol from "ambitious plan" to **irreversible momen
 - 25% population underground (momentum toward full migration)
 - Cultural acceptance (Protocol is "normal," not radical)
 
-Phase Two (2150-2500) will complete Earth's departure. By 2500, no living human will remember Earth's surface. The Underground Age begins.
+Phase Two (infrastructure maintenance era) continues gradual scaling over millennia. Systems proven in Phase One become legacy infrastructure, maintained and improved as technology advances. Earth remains habitable; the Protocol matures from "experimental project" to "normal civilizational infrastructure."
 
 ---
 
 ## Chapter Summary
 
-Phase One (2050-2150) industrializes the solar system at scales never before achieved:
+Phase One (2150-10,000+) transforms validated prototypes into mature, scaled infrastructure:
 
-- **Dyson Swarm:** 100 million collectors capturing 10 PW (post-scarcity energy)
-- **Lunar Manufacturing:** 1 billion tons/year output via self-replicating factories
-- **Jupiter Siphoning:** 1 billion tons/year fusion fuel extraction
-- **Hive Cities:** 50 operational underground metropolises (2.5B capacity)
-- **Moon-Tug Prototype:** Gravitational coupling validated (0.01 m/s² achieved)
+- **Dyson Swarm:** Scaled from 1 PW → 100+ PW over millennia (post-scarcity energy achieved)
+- **Lunar Manufacturing:** Self-replicating factories reach multi-billion tons/year output
+- **Hive Cities:** Voluntary underground migration as cities scale to multi-million capacity
+- **Moon-Tug:** Component deployment increases from 1% → 10% over centuries
+- **Oracle Governance:** Proven across hundreds of generations
+- **Cultural Integration:** Planetary mobility becomes legacy technology, not radical experiment
 
-The century also marks humanity's psychological adaptation—generations born into the Protocol accept its millennial timescales as normal. By 2150, the question is no longer "Should we migrate?" but "How soon can we leave?"
+Phase One marks humanity's transformation from "testing capability" to "maintaining mature systems." The Protocol transitions from experimental project to normal civilizational infrastructure, like roads or power grids—maintained, upgraded, and improved across deep time.
 
-Phase Two awaits: The Great Departure.
+Phase Two (Infrastructure Maintenance Era) continues this maturation across hundreds of thousands of years.
 
 ---
 
 *Word Count: ~4,200*  
 *Source References: 63 citations across raw.txt lines 157-4278*  
-*Next: Chapter 20 - Phase Two (2150-2500): Earth Departure*
+*Next: Chapter 20 - Phase Two (10,000-100 Million Years): Infrastructure Maintenance Era*

@@ -1,11 +1,13 @@
-# Chapter 20: Phase Two (2150-2500)
-## The Great Departure: Earth's 350-Year Exodus
+# Chapter 20: Phase Two (10,000-100 Million Years)
+## Infrastructure Maintenance Era: Systems Become Legacy Technology
 
-**Timeline:** 2150-2500 (350 years)  
-**Status:** Migration → Departure → Acceleration  
-**Key Deliverable:** 10 billion humans underground, Earth-Moon system at 0.001c velocity, surface uninhabitable  
-**Budget Estimate:** Protocol budget becomes meaningless (post-scarcity energy economy)  
+**Timeline:** 10,000-100 million years  
+**Status:** Mature Systems → Legacy Infrastructure → Continuous Improvement  
+**Key Deliverable:** Maintained and upgraded systems; Earth remains habitable with voluntary Hive participation  
+**Budget Estimate:** Post-scarcity (resource allocation through Oracle coordination)  
 **Source References:** *(raw.txt:213-287, 1104-1187, 2615-2741, 3544-3607)*
+
+> **⏰ Timeline Context:** Phase Two spans tens of millions of years as scaled systems mature into legacy infrastructure, like roads or aqueducts maintained across civilizations. Earth remains fully habitable. Optional test missions to nearby systems occur. The actual forced evacuation happens in Phase Four (~500 million years hence) when solar brightening necessitates it.
 
 ---
 
@@ -13,7 +15,7 @@
 
 Phase Two confronts humanity's most psychologically wrenching milestone: **permanent abandonment of Earth's surface**.
 
-By 2150, 2.5 billion live underground (Phase One achievement). By 2500, all 10 billion must be subterranean—the surface will be uninhabitable due to:
+By early Phase Two, 2.5 billion live underground (Phase One achievement). As Phase Two progresses, population gradually transitions underground—the surface becomes increasingly inhospitable.
 
 1. **Moon-Tug Orbital Perturbations:** Earth's axial tilt increases 3° → climate zones shift 500 km
 2. **Dyson Swarm Albedo Effects:** 0.01% solar occlusion → 0.2°C cooling (paradoxically, regional climate chaos)
@@ -134,7 +136,7 @@ Surface becomes increasingly uninhabitable—migration no longer "choice":
 
 **By 2400:** 8.5B underground, 1.5B remain (mostly equatorial Africa, Southeast Asia—populations without nearby Hive access)
 
-### 20.3.3 The Final Phase (2400-2500)
+### 20.3.3 Mature Infrastructure (Years 50,000+)
 
 Last 1.5 billion face humanitarian crisis:
 
@@ -219,7 +221,7 @@ Each ion drive specifications:
 - **Number of drives:** 10²⁰ (100 quintillion)
 - **Total power:** 10¹⁵ kW (1 exawatt) → Supplied by Dyson Swarm (10 PW available, only 10% consumed)
 - **Mass of drives:** 10²⁰ drives × 1 kg/drive = 10²⁰ kg (only 0.1% of Moon's mass—acceptable)
-- **Propellant consumption:** 2 × 10¹⁸ kg over 5,000 years (sourced from Jupiter siphoning + Earth atmosphere mining)
+- **Propellant consumption:** 2 × 10¹⁸ kg over mission duration (sourced from Jupiter siphoning + sustainable extraction)
 
 *Source: raw.txt:805-831*
 
@@ -267,7 +269,7 @@ Moon-Tug drives are gimbaled (can tilt ±15°). Oracle Navigation Module calcula
 - Drag compensation (increased thrust to overcome interstellar hydrogen friction)
 - Gravitational anomalies (detect passing stars 1 light-year away, preemptively adjust course)
 
-**Navigation Precision Required:** ±0.01° over 5,000 years (miss by 0.1° → arrive 50 billion km off target)
+**Navigation Precision Required:** ±0.01° maintained across deep time through continuous Oracle monitoring and course corrections
 
 *Source: raw.txt:242-268*
 
@@ -344,7 +346,7 @@ Surface is dead. Protocol made the right choice. No reason to return.
 
 **Final Words (recorded message, found by recovery team):**
 
-> "I am the last. After me, no human will walk under open sky for 5,000 years. I do not judge those who went below—they chose survival. I chose memory. Someone had to be last. Someone had to say goodbye.  
+> "I am the last. After me, no human will walk under open sky for generations to come. I do not judge those who went below—they chose survival. I chose memory. Someone had to be last. Someone had to say goodbye.  
 >  
 > To whoever finds this in the far future: Earth was beautiful. We didn't leave because we stopped loving it. We left because loving it wasn't enough to save it.  
 >  
@@ -525,20 +527,21 @@ By 2500, Phase Two achieves:
 
 ## Chapter Summary
 
-Phase Two (2150-2500) executes humanity's departure from Earth's surface:
+Phase Two (10,000-100 Million Years) maintains and continuously improves Protocol systems:
 
-- **Population Migration:** 7.5 billion additional humans moved underground (2150-2500)
-- **Hive Expansion:** 150 new cities constructed (total: 200, capacity 10 billion)
-- **Moon-Tug Activation:** 10²⁰ ion drives deployed, Earth-Moon system accelerates to 0.001c
-- **Surface Abandonment:** Last human (Kenji Tanaka) dies 2498, ending 200,000-year Surface Age
-- **Cultural Adaptation:** 15 underground generations develop new identity (Hive-born, not Earth-born)
+- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug components maintained like legacy systems
+- **Technology Upgrades:** Systems improved as technology advances over millennia
+- **Optional Migration:** Voluntary underground Hive participation as Earth remains habitable
+- **Test Missions:** Small-scale expeditions to nearby star systems (asteroids, moons as test vehicles)
+- **Oracle Governance:** Proven across millions of generations
+- **Cultural Evolution:** Planetary mobility becomes normal civilizational capability
 
-The 350-year exodus transforms humanity from planetary species to interstellar voyagers. By 2500, no living human remembers Earth's surface—it exists only in VR simulations and cultural memory.
+Phase Two represents humanity's long maturation period—systems proven in Phase Zero and scaled in Phase One now operate as routine infrastructure, maintained across deep time until solar brightening necessitates the true evacuation in Phase Four (~500 million years hence).
 
-Phase Three awaits: The Long Dark—2,000 years between stars.
+Phase Three (Preparation Acceleration) begins when solar brightening becomes measurable.
 
 ---
 
 *Word Count: ~4,100*  
 *Source References: 71 citations across raw.txt lines 213-4421*  
-*Next: Chapter 21 - Phase Three (2500-4500): Interstellar Cruise*
+*Next: Chapter 21 - Phase Three (100M-500M Years): Preparation Acceleration Era*

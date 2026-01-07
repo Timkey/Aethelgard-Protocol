@@ -16,7 +16,7 @@ This chapter explores how humanity transitions from scarcity-based competition t
 
 **Source Reference** (Lines 1960-2050): Mining the asteroid belt brings **trillions of dollars** in rare metals (platinum, gold, rare earths) back to Earth, creating a post-scarcity economy that funds the Protocol **without taxation**.
 
-**Phase 0-1 Economics (2026-2150)**:
+**Phase 0 Economics (2026-2150+)**:
 - Traditional market economies persist
 - **The Asteroid Dividend**: Mining profits distributed per capita globally (like Alaska's oil dividend, but orders of magnitude larger)
 - Eliminates poverty baseline—every human receives energy credits sufficient for housing, food, education
@@ -117,7 +117,7 @@ By 2150, **90% of physical/cognitive labor is automated**. AI and robotics handl
 **Example Use Cases**:
 - **Year 340**: A Hive devotes sandbox energy to building an underground cathedral (zero engineering value, immense cultural cohesion)
 - **Year 1200**: Researchers test "impossible" physics, discovering 3% efficiency improvement
-- **Year 2800**: A movement debates "returning to surface"—consumes energy but reaffirms mission through renewed consensus
+- **Mid-mission era**: A movement debates "returning to surface"—consumes energy but reaffirms mission through renewed consensus
 
 ---
 
@@ -145,7 +145,7 @@ Traditional inheritance—passing wealth to descendants—creates **class strati
 
 ### Cryogenic Complications
 
-**The Challenge**: If a person enters cryosleep in Year 500 and wakes in Year 3000, are they "new generation" or still Gen-20?
+**The Challenge**: If a person enters cryosleep in early mission and wakes millennia later, are they "new generation" or still their original cohort?
 
 **The Solution**:
 - **Subjective Age** determines status—how many waking years experienced, not calendar years

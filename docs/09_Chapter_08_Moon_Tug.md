@@ -189,7 +189,7 @@ We can safely consume **up to 10% of the Moon's mass** *(raw.txt:858)* without c
 **Available propellant:**
 - Moon's mass: 7.34 × 10²² kg
 - Safe consumption limit: ~7 × 10²¹ kg
-- Must be managed over 5,000-year journey
+- Must be managed across multi-generational timeframes
 
 **Beyond 10%:** The Moon becomes "hollowed out" and could collapse under its own gravity *(raw.txt:858)*.
 
@@ -263,7 +263,7 @@ The Synthesis Engine (Oracle) continuously calculates the **optimal Moon-Earth d
 - Earth's velocity increases (orbital mechanics shift)
 - Propulsion phases change (acceleration vs. coasting)
 
-**Continuous adjustment required**—no human team could manage the real-time calculations over 5,000 years. This is why the Poly-Centric Oracle is essential.
+**Continuous adjustment required**—no human team could manage the real-time calculations across deep time. This is why the Poly-Centric Oracle is essential.
 
 ---
 
@@ -316,7 +316,7 @@ The Synthesis Engine (Oracle) continuously calculates the **optimal Moon-Earth d
 - Cryogenic sleep for majority of population
 - Skeleton crew maintains systems
 
-### Phase 4: Deceleration (Years 4,000–5,000)
+### Phase 4: Deceleration (Phase Five Era)
 
 **Objective:** Slow down to enter target star's gravity well
 
@@ -422,7 +422,7 @@ The Moon-Tug requires a **massive, autonomous infrastructure** *(raw.txt:1974)*:
 - Manage resource allocation
 - Execute navigation commands
 
-**This is not a static installation—it's a living industrial ecosystem** operating continuously for 5,000 years.
+**This is not a static installation—it's a living industrial ecosystem** operating across deep time.
 
 ---
 
@@ -459,7 +459,7 @@ The Moon dies so Earth can live. It is the ultimate act of planetary symbiosis�
 - Course changes require decades of thrust *(raw.txt:1359)*
 - Deceleration harder than acceleration *(raw.txt:2073)*
 - Logistical fleet maintains Moon infrastructure *(raw.txt:1974)*
-- Moon gradually consumed over 5,000 years *(raw.txt:599)*
+- Moon gradually consumed during interstellar transit *(raw.txt:599)*
 
 **Next Chapter:** The Dyson Swarm—harvesting stellar energy to power the Moon-Tug, including construction timeline, energy beaming, and long-term maintenance.
 
