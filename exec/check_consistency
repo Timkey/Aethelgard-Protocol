@@ -1,0 +1,10 @@
+#!/bin/bash
+# Run automated consistency checks
+# Usage: exec/check_consistency
+
+EXEC_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+echo "🔬 Running consistency checks across all documents..."
+echo ""
+
+"$EXEC_DIR/docker_run" scripts/check_consistency_vector.py

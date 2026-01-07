@@ -45,20 +45,34 @@ The HTML viewer features:
 ```
 Planetary Exodus/
 ├── README.md                          # This file
-├── index.html                         # Self-contained HTML viewer (458.4 KB)
-├── data/
-│   └── raw.txt                        # Source material (4,496 lines)
-├── docs/                              # Markdown documents (27 files)
+├── index.html                         # Self-contained HTML viewer (467 KB)
+├── docs/                              # White paper chapters (27 markdown files)
 │   ├── 00_Master_TOC.md              # Table of Contents
 │   ├── 01_Executive_Summary.md       # Executive Summary
-│   ├── 02-05_Chapter_*.md            # Part 1: Foundations (4 chapters)
-│   ├── 06-13_Chapter_*.md            # Part 2: Technical Architecture (8 chapters)
-│   ├── 14-18_Chapter_*.md            # Part 3: Governance & Social (5 chapters)
-│   ├── 19-23_Chapter_*.md            # Part 4: Implementation Roadmap (5 chapters)
-│   ├── 24-25_Appendix_*.md           # Part 5: Appendices (2 technical refs)
+│   ├── 02-23_Chapter_*.md            # 22 chapters across 4 parts
+│   ├── 24-25_Appendix_*.md           # Technical references
 │   └── 26_Conclusion.md              # Conclusion
-└── scripts/
-    └── build_static_html.py          # HTML generator
+├── project/                           # Project documentation
+│   ├── PROJECT_STATUS.md             # Development status
+│   ├── Quick_Start.md                # Quick start guide
+│   ├── SYSTEM_SUMMARY.md             # System overview
+│   ├── TIMELINE_FIX_COMPLETED.md     # Timeline consistency work
+│   └── *.md                          # Other project notes
+├── scripts/                           # Build and analysis tools
+│   ├── build_static_html.py          # HTML generator
+│   ├── ingest_to_vector_db.py        # Vector DB ingestion
+│   ├── search_docs.py                # Semantic search
+│   ├── check_consistency_vector.py   # Consistency checker
+│   └── VECTOR_DB_README.md           # Vector DB documentation
+├── exec/                              # Containerized commands
+│   ├── start                         # Start services
+│   ├── ingest                        # Ingest documents
+│   ├── search                        # Search documents
+│   └── check_consistency             # Check consistency
+├── docker-compose.yml                 # Container orchestration
+├── Dockerfile                         # Worker container
+└── data/
+    └── raw.txt                        # Source material (4,496 lines)
 ```
 
 ---
@@ -124,6 +138,30 @@ All chapters available as standalone markdown files.
 python3 scripts/build_static_html.py
 ```
 Generates fresh `index.html` with all markdown content embedded.
+
+### Semantic Search & Consistency Checking
+
+Use the containerized vector database for advanced document analysis:
+
+```bash
+# Start services (Docker required)
+./exec/start
+
+# Ingest documents into vector database
+./exec/ingest --reset
+
+# Search semantically
+./exec/search "energy to move Earth"
+./exec/search "Phase Four timeline" --top-k 5
+
+# Check consistency across all documents
+./exec/check_consistency
+
+# Stop services
+./exec/stop
+```
+
+See [scripts/VECTOR_DB_README.md](scripts/VECTOR_DB_README.md) for full documentation.
 
 ---
 

@@ -1,0 +1,26 @@
+#!/bin/bash
+# Start Docker services
+# Usage: exec/start
+
+EXEC_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$EXEC_DIR")"
+
+cd "$PROJECT_ROOT"
+
+echo "🚀 Starting Planetary Exodus services..."
+docker-compose up -d
+
+echo "⏳ Waiting for services..."
+sleep 3
+
+echo ""
+echo "✅ Services started:"
+docker-compose ps
+
+echo ""
+echo "🌐 Qdrant API: http://localhost:6333"
+echo ""
+echo "Next steps:"
+echo "  • Ingest documents: exec/ingest --reset"
+echo "  • Search: exec/search 'your query'"
+echo "  • Check consistency: exec/check_consistency"

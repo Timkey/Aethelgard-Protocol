@@ -642,6 +642,15 @@ def generate_html(content_map):
                         and Moon to a new star system, preserving 10 billion people and Earth's 
                         entire biosphere across interstellar space.
                     </div>
+                    <div class="description" style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #2a3f5f;">
+                        <strong>📦 Open Source:</strong> This project is available on 
+                        <a href="https://github.com/timkey/Aethelgard-Protocol" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           style="color: #4a90e2; text-decoration: none; border-bottom: 1px solid #4a90e2;">
+                            GitHub
+                        </a>
+                    </div>
                     <div class="stats">
                         <div class="stat">
                             <span class="stat-value" id="total-chapters">—</span>
@@ -808,6 +817,13 @@ def generate_html(content_map):
                         A comprehensive technical white paper detailing the plan to move Earth 
                         and Moon to a new star system, preserving 10 billion people and Earth's 
                         entire biosphere across interstellar space.
+                    </div>
+                    <div class="description" style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #2a3f5f;">
+                        <strong>📦 Open Source:</strong> This project is available on 
+                        <a href="https://github.com/timkey/Aethelgard-Protocol" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           style="color: #4a90e2; text-decoration: none; border-bottom: 1px solid #4a90e2;">GitHub</a>
                     </div>
                     <div class="stats">
                         <div class="stat">

@@ -1,0 +1,16 @@
+#!/bin/bash
+# Search documents using semantic vector search
+# Usage: exec/search "your query" [--top-k N]
+
+EXEC_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+if [ -z "$1" ]; then
+    echo "Usage: exec/search 'your search query' [--top-k N]"
+    echo ""
+    echo "Examples:"
+    echo "  exec/search 'energy to move Earth'"
+    echo "  exec/search 'Phase Four timeline' --top-k 5"
+    exit 1
+fi
+
+"$EXEC_DIR/docker_run" scripts/search_docs.py "$@"
