@@ -1,3 +1,6 @@
 qdrant_data/
 __pycache__/
 *.pyc
+
+# SMB/Network share temporary delete files
+.smbdelete*
