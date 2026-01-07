@@ -328,6 +328,16 @@ This white paper is derived from an extended interrogation with **Google's Gemin
 **Original Conversation:**  
 🔗 [View the Gemini conversation](https://gemini.google.com/share/70d6ae8852cb) that produced the source material (`data/raw.txt`)
 
+### Document Architecture & Tooling
+
+The transformation from raw conversation to structured white paper was performed by **GitHub Copilot (Claude Sonnet 4.5)**, which:
+- Architected the 28-chapter document structure and narrative flow
+- Developed the build system (static HTML generator, vector database for consistency checking)
+- Created the containerized development environment (Docker, Qdrant vector DB)
+- Implemented the iterative consistency checking workflow
+- Performed editorial work (timeline reconciliation, cross-reference validation)
+- Designed the web interface and responsive HTML viewer
+
 ### Scientific & Engineering Foundations
 
 This work synthesizes concepts from:
