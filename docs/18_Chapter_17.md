@@ -117,7 +117,7 @@ By 2150, **90% of physical/cognitive labor is automated**. AI and robotics handl
 **Example Use Cases**:
 - **Year 340**: A Hive devotes sandbox energy to building an underground cathedral (zero engineering value, immense cultural cohesion)
 - **Year 1200**: Researchers test "impossible" physics, discovering 3% efficiency improvement
-- **Year 2800**: A movement debates "returning to surface"—consumes energy but reaffirms mission through renewed consensus
+- **Mid-mission era**: A movement debates "returning to surface"—consumes energy but reaffirms mission through renewed consensus
 
 ---
 
@@ -145,7 +145,7 @@ Traditional inheritance—passing wealth to descendants—creates **class strati
 
 ### Cryogenic Complications
 
-**The Challenge**: If a person enters cryosleep in Year 500 and wakes in Year 3000, are they "new generation" or still Gen-20?
+**The Challenge**: If a person enters cryosleep in early mission and wakes millennia later, are they "new generation" or still their original cohort?
 
 **The Solution**:
 - **Subjective Age** determines status—how many waking years experienced, not calendar years

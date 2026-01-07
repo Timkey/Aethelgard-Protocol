@@ -185,8 +185,8 @@ These are **cryptographically hashed** *(raw.txt:3571)*. Any proposed update tha
 Without an immutable core, the mission could drift:
 - **Year 500:** "10 billion is too many; let's aim for 5 billion"
 - **Year 1500:** "Actually, 1 million is sufficient"
-- **Year 3000:** "We can upload minds; physical bodies are optional"
-- **Year 5000:** "Mission accomplished!" (arrives with 1,000 digital uploads, Earth abandoned)
+- **Mid-mission era:** "We can upload minds; physical bodies are optional"
+- **Late mission era:** "Mission accomplished!" (arrives with 1,000 digital uploads, Earth abandoned)
 
 The **Immutable Intent** *(raw.txt:3571)* prevents this. The goal is hashed into the Oracle's code—it cannot be "voted away" by a tired 50th generation or "optimized away" by a cold AI *(raw.txt:3571)*.
 

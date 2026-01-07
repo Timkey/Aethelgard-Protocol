@@ -18,7 +18,7 @@ Modern democracies excel at solving immediate crises but systematically fail at 
 
 **The Democratic Dilemma:**
 
-Consider the mathematical reality of generational decision-making. A political term of 4 years represents $$\frac{4}{5000} = 0.0008$$ (0.08%) of the total mission duration. Asking a politician to prioritize Year 2500 outcomes is like asking a mayfly to worry about winter.
+Consider the mathematical reality of generational decision-making. A political term of 4 years represents an infinitesimal fraction of multi-billion-year planning. Asking a politician to prioritize outcomes centuries hence is like asking a mayfly to worry about winter.
 
 ### Why Traditional Governance Fails the Journey
 
@@ -26,7 +26,7 @@ The Aethelgard mission requires decisions with consequences measured in centurie
 
 1. **Resource Allocation Across Generations**: Should Year 50 consume more energy to build redundant systems, even if it means Year 150 has less? No elected official has incentive to impose present sacrifice for distant benefit.
 
-2. **Technical Debt Accumulation**: Shortcuts taken in Phase 0 (2026-2050) will compound over millennia. A 0.01% annual drift in life support efficiency becomes a 40% collapse by Year 4000. Democratic systems excel at deferring difficult maintenance.
+2. **Technical Debt Accumulation**: Shortcuts taken in Phase 0 will compound over millennia. A 0.01% annual drift in life support efficiency becomes catastrophic collapse over deep time. Democratic systems excel at deferring difficult maintenance.
 
 3. **The Populist Capture Risk**: In Year 800, a charismatic leader might promise "freedom from the engines" by stopping the Moon-Tug to save energy. The immediate popularity boost could doom civilizations 3,000 years hence.
 
@@ -98,7 +98,7 @@ This ratio is inspired by the **Pareto Principle** and observations from success
 
 - **Year 340**: A Hive-State devotes its creative budget to building a massive underground cathedral. Zero engineering value, but immense cultural cohesion.
 - **Year 1200**: Researchers use creative energy to test "impossible" physics theories. One discovers a method to recapture waste heat, increasing total efficiency by 3%. The Oracle integrates the innovation.
-- **Year 2800**: A cultural movement emerges advocating "return to surface." The debate consumes creative energy but ultimately reaffirms the mission through renewed consensus.
+- **Mid-mission era**: A cultural movement emerges advocating "return to surface." The debate consumes creative energy but ultimately reaffirms the mission through renewed consensus.
 
 The Creative Channel prevents the psychological dystopia where humans become **mere biological components** of a machine they neither love nor understand.
 

@@ -253,7 +253,7 @@ Surface habitats still operational during this phase (Dyson Swarm active, Earth 
 - Conduct research, create art, live normal lives (just underground)
 
 **Cultural Evolution:**
-By Year 2000, **no one remembers Sol**. The Sun is a myth. Earth is "home" as an abstract concept, not a memory. Society becomes fully adapted to nomadic existence.
+After many generations in transit, **no one remembers Sol**. The Sun is a myth. Earth is "home" as an abstract concept, not a memory. Society becomes fully adapted to nomadic existence.
 
 ### Phase 4: Arrival (Phase Five Era)
 
@@ -271,7 +271,7 @@ High workforce needed for:
 - Surface recolonization (building new cities on warm surface)
 
 **The Final Wake Cycle:**
-Year 5000 is the **"Grand Awakening"**—the last stasis cohort wakes to see Earth orbiting a new sun, surface temperature rising, oceans melting. Children born underground will walk on grass for the first time.
+The arrival era is the **"Grand Awakening"**—the last stasis cohort wakes to see Earth orbiting a new sun, surface temperature rising, oceans melting. Children born underground will walk on grass for the first time.
 
 ---
 
@@ -328,8 +328,8 @@ Vitrification of whole humans is experimental. Assuming 500 years of development
 **Predicted Failure Rates:**
 - **Year 500:** 10% fail to wake (90% survival)
 - **Year 1000:** 5% fail to wake (95% survival)
-- **Year 2000:** 1% fail to wake (99% survival)
-- **Year 4000:** 0.1% fail to wake (99.9% survival)
+- **Early mission:** 1% fail to wake (99% survival)
+- **Late mission:** 0.1% fail to wake (99.9% survival)
 
 **Over multi-generational timeframes:**
 If each person completes 100 wake cycles at 99% survival per cycle, cumulative survival is ~37% (63% die during stasis over the full journey).

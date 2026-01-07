@@ -250,7 +250,7 @@ The Defense Network is not a temporary project—it is **permanent infrastructur
 - Self-repairing drones maintain all systems without human intervention
 - Thales Oracle monitors for anomalies and adapts defenses in real-time
 
-### Year 5000+: Arrival at Destination
+### Phase Five: Arrival at Destination
 - Vanguard fleet scouts destination system for 100 years before Earth arrives
 - Maps all asteroids, comets, and hazards in new system
 - Clears arrival path and establishes safe orbit for Earth
