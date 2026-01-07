@@ -1,14 +1,14 @@
 {
   "overview": {
-    "total_sections": 271,
+    "total_sections": 279,
     "total_documents": 1,
-    "total_words": 32136,
-    "avg_section_length": 118
+    "total_words": 32499,
+    "avg_section_length": 116
   },
   "document_breakdown": {
     "Unknown": {
-      "section_count": 271,
-      "total_words": 32136,
+      "section_count": 279,
+      "total_words": 32499,
       "sections": [
         {
           "title": "",
@@ -1364,17 +1364,57 @@
           "title": "",
           "number": "",
           "word_count": 155
+        },
+        {
+          "title": "",
+          "number": "",
+          "word_count": 11
+        },
+        {
+          "title": "",
+          "number": "",
+          "word_count": 29
+        },
+        {
+          "title": "",
+          "number": "",
+          "word_count": 23
+        },
+        {
+          "title": "",
+          "number": "",
+          "word_count": 61
+        },
+        {
+          "title": "",
+          "number": "",
+          "word_count": 23
+        },
+        {
+          "title": "",
+          "number": "",
+          "word_count": 43
+        },
+        {
+          "title": "",
+          "number": "",
+          "word_count": 126
+        },
+        {
+          "title": "",
+          "number": "",
+          "word_count": 47
         }
       ]
     }
   },
   "timeline_stats": {
     "phase_mentions": {
-      "Zero": 38,
-      "One": 26,
-      "Two": 19,
-      "Four": 15,
-      "Three": 12
+      "Zero": 39,
+      "One": 27,
+      "Two": 20,
+      "Four": 16,
+      "Three": 13
     },
     "year_ranges": [
       [
@@ -1991,12 +2031,12 @@
       ]
     ],
     "temporal_keywords": {
-      "years": 204,
-      "million years": 26,
-      "billion years": 31,
-      "centuries": 21,
-      "decades": 6,
-      "millennia": 25
+      "years": 208,
+      "million years": 27,
+      "billion years": 32,
+      "centuries": 22,
+      "decades": 7,
+      "millennia": 26
     }
   },
   "technical_stats": {
@@ -2007,48 +2047,48 @@
     "numerical_constants": {}
   },
   "concept_frequency": {
-    "Oracle System": 1,
-    "Dyson Swarm": 48,
+    "Oracle System": 2,
+    "Dyson Swarm": 49,
     "Moon Tug": 0,
-    "Hive Cities": 20,
-    "Cryogenic": 13,
-    "Proxima Centauri": 21,
+    "Hive Cities": 21,
+    "Cryogenic": 14,
+    "Proxima Centauri": 22,
     "Alpha Centauri": 0,
-    "Solar System": 6,
-    "Synthesis Engine": 20,
-    "Aethelgard Protocol": 44
+    "Solar System": 7,
+    "Synthesis Engine": 21,
+    "Aethelgard Protocol": 45
   },
   "top_keywords": {
-    "earth": 285,
-    "years": 204,
-    "phase": 159,
-    "moon": 155,
-    "billion": 137,
-    "protocol": 129,
-    "oracle": 127,
-    "system": 119,
-    "year": 102,
-    "energy": 100,
-    "systems": 90,
-    "human": 82,
-    "hive": 77,
-    "source": 75,
-    "surface": 75,
-    "across": 74,
-    "mass": 73,
-    "chapter": 71,
-    "humanity": 66,
-    "population": 65,
-    "over": 64,
-    "swarm": 64,
-    "solar": 63,
-    "aethelgard": 61,
-    "mission": 61,
-    "planetary": 60,
-    "time": 60,
-    "into": 59,
-    "when": 58,
-    "dyson": 58
+    "earth": 286,
+    "years": 208,
+    "phase": 166,
+    "moon": 156,
+    "billion": 139,
+    "protocol": 131,
+    "oracle": 129,
+    "system": 122,
+    "year": 103,
+    "energy": 102,
+    "systems": 91,
+    "human": 83,
+    "hive": 79,
+    "chapter": 77,
+    "source": 76,
+    "surface": 76,
+    "across": 75,
+    "mass": 75,
+    "population": 67,
+    "humanity": 67,
+    "swarm": 66,
+    "solar": 65,
+    "over": 65,
+    "aethelgard": 63,
+    "time": 62,
+    "mission": 62,
+    "planetary": 61,
+    "into": 60,
+    "when": 59,
+    "dyson": 59
   },
   "cross_references": {
     "": [
@@ -2096,7 +2136,12 @@
       "Chapter 19",
       "Chapter 20",
       "Chapter 21",
-      "Chapter 22"
+      "Chapter 22",
+      "Chapter 13",
+      "Chapter 15",
+      "Chapter 16",
+      "Chapter 4",
+      "Chapter 14"
     ]
   }
 }
