@@ -821,6 +821,15 @@ def generate_html(content_map):
                         entire biosphere across interstellar space.
                     </div>
                     <div class="description" style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #2a3f5f;">
+                        <strong>🧬 Origin:</strong> This framework emerged from an extended interrogation with Google's Gemini AI, 
+                        exploring multi-billion-year survival scenarios. View the 
+                        <a href="https://gemini.google.com/share/70d6ae8852cb" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           style="color: #4a90e2; text-decoration: none; border-bottom: 1px solid #4a90e2;">original conversation</a>
+                        that generated the source material (data/raw.txt).
+                    </div>
+                    <div class="description" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #2a3f5f;">
                         <strong>📦 Open Source:</strong> This project is available on 
                         <a href="https://github.com/timkey/Aethelgard-Protocol" 
                            target="_blank" 
