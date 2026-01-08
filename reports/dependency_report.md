@@ -49,15 +49,15 @@
 - **deep time**: Used in 19 documents
 - **cryogenic**: Used in 18 documents
 - **departure**: Used in 16 documents
+- **million years**: Used in 15 documents
+- **Phase Zero**: Used in 14 documents
+- **evacuation**: Used in 14 documents
+- **Phase One**: Used in 13 documents
 - **Living Manifesto**: Used in 13 documents
-- **million years**: Used in 13 documents
 - **Hive Cities**: Used in 13 documents
-- **Phase Zero**: Used in 12 documents
+- **Phase Four**: Used in 12 documents
 - **Synthesis Engine**: Used in 11 documents
-- **Phase One**: Used in 10 documents
-- **evacuation**: Used in 10 documents
-- **Phase 1**: Used in 10 documents
-- **Phase 2**: Used in 9 documents
+- **solar brightening**: Used in 10 documents
 
 ## Premise Dependencies
 
@@ -65,25 +65,25 @@
 
 *Deep-time timeline (500M years)*
 
-**Affected documents:** 23
+**Affected documents:** 24
 
 - 00_Master_TOC - 🔴 HIGH (6 references)
 - 21_Chapter_20 - 🔴 HIGH (6 references)
 - 22_Chapter_21 - 🔴 HIGH (6 references)
 - 01_Executive_Summary - 🟡 MEDIUM (5 references)
-- 23_Chapter_22 - 🟡 MEDIUM (5 references)
+- 20_Chapter_19 - 🟡 MEDIUM (5 references)
 
 ### Timeline Near Term
 
 *Near-term timeline (2026-10K years)*
 
-**Affected documents:** 19
+**Affected documents:** 21
 
 - 00_Master_TOC - 🟡 MEDIUM (4 references)
 - 01_Executive_Summary - 🟡 MEDIUM (4 references)
 - 02_Chapter_01_Solar_Imperative - 🟡 MEDIUM (4 references)
+- 15_Chapter_14 - 🟡 MEDIUM (4 references)
 - 19_Chapter_18 - 🟡 MEDIUM (4 references)
-- 24_Appendix_A_Constants - 🟡 MEDIUM (4 references)
 
 ### Dyson Infrastructure
 
@@ -161,7 +161,7 @@
 
 *Solar evolution physics*
 
-**Affected documents:** 11
+**Affected documents:** 13
 
 - 24_Appendix_A_Constants - 🟡 MEDIUM (3 references)
 - 00_Master_TOC - 🟢 LOW (2 references)

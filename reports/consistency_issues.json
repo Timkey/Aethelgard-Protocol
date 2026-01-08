@@ -1,14 +1,14 @@
 {
-  "total_issues": 142,
+  "total_issues": 172,
   "by_severity": {
     "HIGH": 0,
-    "MEDIUM": 92,
-    "LOW": 50
+    "MEDIUM": 117,
+    "LOW": 55
   },
   "by_type": {
-    "TECHNICAL_CONSTANT_CHECK": 86,
-    "SEMANTIC_CONTRADICTION_CHECK": 6,
-    "BROKEN_REFERENCE": 50
+    "TECHNICAL_CONSTANT_CHECK": 110,
+    "SEMANTIC_CONTRADICTION_CHECK": 7,
+    "BROKEN_REFERENCE": 55
   },
   "issues": [
     {
@@ -284,33 +284,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
-        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
-        "values1": [
-          {
-            "type": "population",
-            "value": "10 billion humans",
-            "position": 348
-          }
-        ],
-        "values2": [
-          {
-            "type": "population",
-            "value": "7.5 billion people",
-            "position": 170
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss population with numerical values - verify consistency",
-      "evidence": {
-        "constant": "population",
-        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
-        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "text2": "## 20.7 Population Dynamics: The Stable Era\n\n**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?\n\n### 20.7.1 Population Plateau\n\n**Year 10,000:** 10 billion humans (Phase One legacy)  \n**Year 100,000:** 12 billion humans (20% growth over 90,000 years = 0.00",
         "values1": [
           {
             "type": "population",
@@ -322,38 +296,131 @@
           {
             "type": "population",
             "value": "10 billion humans",
-            "position": 103
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss population with numerical values - verify consistency",
-      "evidence": {
-        "constant": "population",
-        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
-        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
-        "values1": [
-          {
-            "type": "population",
-            "value": "10 billion humans",
-            "position": 348
-          }
-        ],
-        "values2": [
-          {
-            "type": "distance",
-            "value": "4.24 light-years",
-            "position": 184
+            "position": 189
           },
           {
             "type": "population",
+            "value": "12 billion humans",
+            "position": 246
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 334
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 410
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## 20.8 Phase Two Completion: The Mature Civilization\n\nBy Year 100 Million, Phase Two achieves:\n\n**Infrastructure:**\n- \u2705 Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)\n- \u2705 Moon-Tug validated through multiple test missions (ready for actual evacuation when needed)\n- \u2705 200 Hive c",
+        "values1": [
+          {
+            "type": "population",
             "value": "10 billion humans",
-            "position": 107
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 439
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## Chapter Summary\n\nPhase Two (10,000-100 Million Years) represents humanity's longest and most stable era:\n\n- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy systems across geological timescales\n- **Voluntary Underground Living:** 40% of humans choose Hives",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 783
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## 21.2 Accelerated Underground Migration\n\n**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  \n**Phase Three Target:** 95% underground by Year 500M (when surface becomes uninhabitable)  \n**Challenge:** Migrate 55% of population (8.25 billion humans) over 400M yea",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "2\u00b0C",
+            "position": 536
+          },
+          {
+            "type": "population",
+            "value": "8.25 billion humans",
+            "position": 266
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Aethelgard Protocol: A Multi-Billion-Year Framework for Planetary Survival\n\n**Status:** Genesis Block v1.0  \n**Date:** 2026-01-05  \n**Phase Zero Duration:** 125+ years (2026-2150+) - Testing & Capability Building  \n**Solar Timeline:** ~1 billion years until ocean evaporation; ~5 billion years",
+        "text2": "## 21.7 Phase Three Completion: Countdown Begins\n\nBy Year 500 Million, Phase Three achieves its mandate:\n\n**Infrastructure Ready:**\n- \u2705 300 Hive cities operational (capacity 30B, population 13.5B = 90% underground)\n- \u2705 Dyson Swarm expanded to 2 trillion collectors (25 PW sustained output)\n- \u2705 Moon-T",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 348
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "13.5 billion humans",
+            "position": 499
           }
         ]
       }
@@ -640,38 +707,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
-        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
-        "values1": [
-          {
-            "type": "population",
-            "value": "10 billion people",
-            "position": 754
-          },
-          {
-            "type": "population",
-            "value": "10 million people",
-            "position": 830
-          }
-        ],
-        "values2": [
-          {
-            "type": "population",
-            "value": "7.5 billion people",
-            "position": 170
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss population with numerical values - verify consistency",
-      "evidence": {
-        "constant": "population",
-        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
-        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "text2": "## 20.7 Population Dynamics: The Stable Era\n\n**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?\n\n### 20.7.1 Population Plateau\n\n**Year 10,000:** 10 billion humans (Phase One legacy)  \n**Year 100,000:** 12 billion humans (20% growth over 90,000 years = 0.00",
         "values1": [
           {
             "type": "population",
@@ -688,7 +724,22 @@
           {
             "type": "population",
             "value": "10 billion humans",
-            "position": 103
+            "position": 189
+          },
+          {
+            "type": "population",
+            "value": "12 billion humans",
+            "position": 246
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 334
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 410
           }
         ]
       }
@@ -702,7 +753,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
-        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "text2": "## 20.8 Phase Two Completion: The Mature Civilization\n\nBy Year 100 Million, Phase Two achieves:\n\n**Infrastructure:**\n- \u2705 Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)\n- \u2705 Moon-Tug validated through multiple test missions (ready for actual evacuation when needed)\n- \u2705 200 Hive c",
         "values1": [
           {
             "type": "population",
@@ -717,14 +768,107 @@
         ],
         "values2": [
           {
-            "type": "distance",
-            "value": "4.24 light-years",
-            "position": 184
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 439
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "text2": "## Chapter Summary\n\nPhase Two (10,000-100 Million Years) represents humanity's longest and most stable era:\n\n- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy systems across geological timescales\n- **Voluntary Underground Living:** 40% of humans choose Hives",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
           },
           {
             "type": "population",
-            "value": "10 billion humans",
-            "position": 107
+            "value": "10 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 783
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "text2": "## 21.2 Accelerated Underground Migration\n\n**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  \n**Phase Three Target:** 95% underground by Year 500M (when surface becomes uninhabitable)  \n**Challenge:** Migrate 55% of population (8.25 billion humans) over 400M yea",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
+          },
+          {
+            "type": "population",
+            "value": "10 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "2\u00b0C",
+            "position": 536
+          },
+          {
+            "type": "population",
+            "value": "8.25 billion humans",
+            "position": 266
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 3.3 O'Neill Cylinders: Space Habitat Constraints\n\n### The Concept\n\n**O'Neill Cylinders** are massive rotating space habitats that simulate gravity through centrifugal force *(raw.txt:500)*. Proposed by physicist Gerard K. O'Neill in the 1970s, they could theoretically house millions of people.\n\n*",
+        "text2": "## 21.7 Phase Three Completion: Countdown Begins\n\nBy Year 500 Million, Phase Three achieves its mandate:\n\n**Infrastructure Ready:**\n- \u2705 300 Hive cities operational (capacity 30B, population 13.5B = 90% underground)\n- \u2705 Dyson Swarm expanded to 2 trillion collectors (25 PW sustained output)\n- \u2705 Moon-T",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 754
+          },
+          {
+            "type": "population",
+            "value": "10 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "13.5 billion humans",
+            "position": 499
           }
         ]
       }
@@ -975,38 +1119,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
-        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
-        "values1": [
-          {
-            "type": "population",
-            "value": "10 billion people",
-            "position": 85
-          },
-          {
-            "type": "population",
-            "value": "10 billion people",
-            "position": 689
-          }
-        ],
-        "values2": [
-          {
-            "type": "population",
-            "value": "7.5 billion people",
-            "position": 170
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss population with numerical values - verify consistency",
-      "evidence": {
-        "constant": "population",
-        "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
-        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "text2": "## 20.7 Population Dynamics: The Stable Era\n\n**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?\n\n### 20.7.1 Population Plateau\n\n**Year 10,000:** 10 billion humans (Phase One legacy)  \n**Year 100,000:** 12 billion humans (20% growth over 90,000 years = 0.00",
         "values1": [
           {
             "type": "population",
@@ -1023,7 +1136,22 @@
           {
             "type": "population",
             "value": "10 billion humans",
-            "position": 103
+            "position": 189
+          },
+          {
+            "type": "population",
+            "value": "12 billion humans",
+            "position": 246
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 334
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 410
           }
         ]
       }
@@ -1037,7 +1165,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
-        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "text2": "## 20.8 Phase Two Completion: The Mature Civilization\n\nBy Year 100 Million, Phase Two achieves:\n\n**Infrastructure:**\n- \u2705 Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)\n- \u2705 Moon-Tug validated through multiple test missions (ready for actual evacuation when needed)\n- \u2705 200 Hive c",
         "values1": [
           {
             "type": "population",
@@ -1052,14 +1180,107 @@
         ],
         "values2": [
           {
-            "type": "distance",
-            "value": "4.24 light-years",
-            "position": 184
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 439
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "text2": "## Chapter Summary\n\nPhase Two (10,000-100 Million Years) represents humanity's longest and most stable era:\n\n- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy systems across geological timescales\n- **Voluntary Underground Living:** 40% of humans choose Hives",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
           },
           {
             "type": "population",
-            "value": "10 billion humans",
-            "position": 107
+            "value": "10 billion people",
+            "position": 689
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 783
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "text2": "## 21.2 Accelerated Underground Migration\n\n**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  \n**Phase Three Target:** 95% underground by Year 500M (when surface becomes uninhabitable)  \n**Challenge:** Migrate 55% of population (8.25 billion humans) over 400M yea",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 689
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "2\u00b0C",
+            "position": 536
+          },
+          {
+            "type": "population",
+            "value": "8.25 billion humans",
+            "position": 266
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 4.5 Practical Implementation: Making It Work\n\n### Population Management\n\nManaging 10 billion people across deep time requires:\n- **Stable birth/death balance:** Births must equal deaths to prevent overcrowding *(raw.txt:1263)*\n- **Global Harmony Pact:** Every new life is a celebrated, planned add",
+        "text2": "## 21.7 Phase Three Completion: Countdown Begins\n\nBy Year 500 Million, Phase Three achieves its mandate:\n\n**Infrastructure Ready:**\n- \u2705 300 Hive cities operational (capacity 30B, population 13.5B = 90% underground)\n- \u2705 Dyson Swarm expanded to 2 trillion collectors (25 PW sustained output)\n- \u2705 Moon-T",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 85
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 689
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "13.5 billion humans",
+            "position": 499
           }
         ]
       }
@@ -1249,33 +1470,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
-        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
-        "values1": [
-          {
-            "type": "population",
-            "value": "10 billion people",
-            "position": 202
-          }
-        ],
-        "values2": [
-          {
-            "type": "population",
-            "value": "7.5 billion people",
-            "position": 170
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss population with numerical values - verify consistency",
-      "evidence": {
-        "constant": "population",
-        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
-        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "text2": "## 20.7 Population Dynamics: The Stable Era\n\n**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?\n\n### 20.7.1 Population Plateau\n\n**Year 10,000:** 10 billion humans (Phase One legacy)  \n**Year 100,000:** 12 billion humans (20% growth over 90,000 years = 0.00",
         "values1": [
           {
             "type": "population",
@@ -1287,38 +1482,131 @@
           {
             "type": "population",
             "value": "10 billion humans",
-            "position": 103
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss population with numerical values - verify consistency",
-      "evidence": {
-        "constant": "population",
-        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
-        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
-        "values1": [
-          {
-            "type": "population",
-            "value": "10 billion people",
-            "position": 202
-          }
-        ],
-        "values2": [
-          {
-            "type": "distance",
-            "value": "4.24 light-years",
-            "position": 184
+            "position": 189
           },
           {
             "type": "population",
-            "value": "10 billion humans",
-            "position": 107
+            "value": "12 billion humans",
+            "position": 246
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 334
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 410
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "text2": "## 20.8 Phase Two Completion: The Mature Civilization\n\nBy Year 100 Million, Phase Two achieves:\n\n**Infrastructure:**\n- \u2705 Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)\n- \u2705 Moon-Tug validated through multiple test missions (ready for actual evacuation when needed)\n- \u2705 200 Hive c",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 439
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "text2": "## Chapter Summary\n\nPhase Two (10,000-100 Million Years) represents humanity's longest and most stable era:\n\n- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy systems across geological timescales\n- **Voluntary Underground Living:** 40% of humans choose Hives",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 783
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "text2": "## 21.2 Accelerated Underground Migration\n\n**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  \n**Phase Three Target:** 95% underground by Year 500M (when surface becomes uninhabitable)  \n**Challenge:** Migrate 55% of population (8.25 billion humans) over 400M yea",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "2\u00b0C",
+            "position": 536
+          },
+          {
+            "type": "population",
+            "value": "8.25 billion humans",
+            "position": 266
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Mandate is Non-Negotiable\n\nThe 10 Billion Mandate is not optional. It is the **foundation** upon which the Aethelgard Protocol stands.\n\n**We save everyone because:**\n1. **Genetics:** 10 billion people ensure evolutionary stability *(raw.txt:1565)*\n2. **Skills:** Civilizations need",
+        "text2": "## 21.7 Phase Three Completion: Countdown Begins\n\nBy Year 500 Million, Phase Three achieves its mandate:\n\n**Infrastructure Ready:**\n- \u2705 300 Hive cities operational (capacity 30B, population 13.5B = 90% underground)\n- \u2705 Dyson Swarm expanded to 2 trillion collectors (25 PW sustained output)\n- \u2705 Moon-T",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 202
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "13.5 billion humans",
+            "position": 499
           }
         ]
       }
@@ -1482,33 +1770,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
-        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
-        "values1": [
-          {
-            "type": "population",
-            "value": "10 billion people",
-            "position": 175
-          }
-        ],
-        "values2": [
-          {
-            "type": "population",
-            "value": "7.5 billion people",
-            "position": 170
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss population with numerical values - verify consistency",
-      "evidence": {
-        "constant": "population",
-        "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
-        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "text2": "## 20.7 Population Dynamics: The Stable Era\n\n**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?\n\n### 20.7.1 Population Plateau\n\n**Year 10,000:** 10 billion humans (Phase One legacy)  \n**Year 100,000:** 12 billion humans (20% growth over 90,000 years = 0.00",
         "values1": [
           {
             "type": "population",
@@ -1520,38 +1782,131 @@
           {
             "type": "population",
             "value": "10 billion humans",
-            "position": 103
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss population with numerical values - verify consistency",
-      "evidence": {
-        "constant": "population",
-        "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
-        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
-        "values1": [
-          {
-            "type": "population",
-            "value": "10 billion people",
-            "position": 175
-          }
-        ],
-        "values2": [
-          {
-            "type": "distance",
-            "value": "4.24 light-years",
-            "position": 184
+            "position": 189
           },
           {
             "type": "population",
-            "value": "10 billion humans",
-            "position": 107
+            "value": "12 billion humans",
+            "position": 246
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 334
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 410
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "text2": "## 20.8 Phase Two Completion: The Mature Civilization\n\nBy Year 100 Million, Phase Two achieves:\n\n**Infrastructure:**\n- \u2705 Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)\n- \u2705 Moon-Tug validated through multiple test missions (ready for actual evacuation when needed)\n- \u2705 200 Hive c",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 439
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "text2": "## Chapter Summary\n\nPhase Two (10,000-100 Million Years) represents humanity's longest and most stable era:\n\n- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy systems across geological timescales\n- **Voluntary Underground Living:** 40% of humans choose Hives",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 783
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "text2": "## 21.2 Accelerated Underground Migration\n\n**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  \n**Phase Three Target:** 95% underground by Year 500M (when surface becomes uninhabitable)  \n**Challenge:** Migrate 55% of population (8.25 billion humans) over 400M yea",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "2\u00b0C",
+            "position": 536
+          },
+          {
+            "type": "population",
+            "value": "8.25 billion humans",
+            "position": 266
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: Subsurface Resilience\n\nThe Aethelgard Protocol is not an evacuation plan for a select few. It is a **civilizational preservation project** designed to save **10 billion people**\u2014the entire population of Earth\u2014across multi-generational deep time *(raw.txt:890)*.\n\nThis requires a radi",
+        "text2": "## 21.7 Phase Three Completion: Countdown Begins\n\nBy Year 500 Million, Phase Three achieves its mandate:\n\n**Infrastructure Ready:**\n- \u2705 300 Hive cities operational (capacity 30B, population 13.5B = 90% underground)\n- \u2705 Dyson Swarm expanded to 2 trillion collectors (25 PW sustained output)\n- \u2705 Moon-T",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 175
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "13.5 billion humans",
+            "position": 499
           }
         ]
       }
@@ -1689,33 +2044,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
-        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
-        "values1": [
-          {
-            "type": "population",
-            "value": "50 million people",
-            "position": 830
-          }
-        ],
-        "values2": [
-          {
-            "type": "population",
-            "value": "7.5 billion people",
-            "position": 170
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss population with numerical values - verify consistency",
-      "evidence": {
-        "constant": "population",
-        "text1": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
-        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "text2": "## 20.7 Population Dynamics: The Stable Era\n\n**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?\n\n### 20.7.1 Population Plateau\n\n**Year 10,000:** 10 billion humans (Phase One legacy)  \n**Year 100,000:** 12 billion humans (20% growth over 90,000 years = 0.00",
         "values1": [
           {
             "type": "population",
@@ -1727,38 +2056,131 @@
           {
             "type": "population",
             "value": "10 billion humans",
-            "position": 103
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss population with numerical values - verify consistency",
-      "evidence": {
-        "constant": "population",
-        "text1": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
-        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
-        "values1": [
-          {
-            "type": "population",
-            "value": "50 million people",
-            "position": 830
-          }
-        ],
-        "values2": [
-          {
-            "type": "distance",
-            "value": "4.24 light-years",
-            "position": 184
+            "position": 189
           },
           {
             "type": "population",
-            "value": "10 billion humans",
-            "position": 107
+            "value": "12 billion humans",
+            "position": 246
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 334
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 410
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "text2": "## 20.8 Phase Two Completion: The Mature Civilization\n\nBy Year 100 Million, Phase Two achieves:\n\n**Infrastructure:**\n- \u2705 Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)\n- \u2705 Moon-Tug validated through multiple test missions (ready for actual evacuation when needed)\n- \u2705 200 Hive c",
+        "values1": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 439
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "text2": "## Chapter Summary\n\nPhase Two (10,000-100 Million Years) represents humanity's longest and most stable era:\n\n- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy systems across geological timescales\n- **Voluntary Underground Living:** 40% of humans choose Hives",
+        "values1": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 783
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "text2": "## 21.2 Accelerated Underground Migration\n\n**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  \n**Phase Three Target:** 95% underground by Year 500M (when surface becomes uninhabitable)  \n**Challenge:** Migrate 55% of population (8.25 billion humans) over 400M yea",
+        "values1": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "2\u00b0C",
+            "position": 536
+          },
+          {
+            "type": "population",
+            "value": "8.25 billion humans",
+            "position": 266
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Timeline: The Deep Build\n\n| Era | Task | Survival Metric |\n|---|---|---|\n| **Years 50-150** | Global tomography | Identifying 100% stable craton sites *(raw.txt:2684)* |\n| **Years 150-350** | Vitrification | Turning rock into glass-walled fortresses *(raw.txt:2686)* |\n| **Years 350-500** | Seismi",
+        "text2": "## 21.7 Phase Three Completion: Countdown Begins\n\nBy Year 500 Million, Phase Three achieves its mandate:\n\n**Infrastructure Ready:**\n- \u2705 300 Hive cities operational (capacity 30B, population 13.5B = 90% underground)\n- \u2705 Dyson Swarm expanded to 2 trillion collectors (25 PW sustained output)\n- \u2705 Moon-T",
+        "values1": [
+          {
+            "type": "population",
+            "value": "50 million people",
+            "position": 830
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "13.5 billion humans",
+            "position": 499
           }
         ]
       }
@@ -1870,33 +2292,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
-        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
-        "values1": [
-          {
-            "type": "population",
-            "value": "10 billion people",
-            "position": 214
-          }
-        ],
-        "values2": [
-          {
-            "type": "population",
-            "value": "7.5 billion people",
-            "position": 170
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss population with numerical values - verify consistency",
-      "evidence": {
-        "constant": "population",
-        "text1": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
-        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "text2": "## 20.7 Population Dynamics: The Stable Era\n\n**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?\n\n### 20.7.1 Population Plateau\n\n**Year 10,000:** 10 billion humans (Phase One legacy)  \n**Year 100,000:** 12 billion humans (20% growth over 90,000 years = 0.00",
         "values1": [
           {
             "type": "population",
@@ -1908,38 +2304,131 @@
           {
             "type": "population",
             "value": "10 billion humans",
-            "position": 103
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss population with numerical values - verify consistency",
-      "evidence": {
-        "constant": "population",
-        "text1": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
-        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
-        "values1": [
-          {
-            "type": "population",
-            "value": "10 billion people",
-            "position": 214
-          }
-        ],
-        "values2": [
-          {
-            "type": "distance",
-            "value": "4.24 light-years",
-            "position": 184
+            "position": 189
           },
           {
             "type": "population",
-            "value": "10 billion humans",
-            "position": 107
+            "value": "12 billion humans",
+            "position": 246
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 334
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 410
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "text2": "## 20.8 Phase Two Completion: The Mature Civilization\n\nBy Year 100 Million, Phase Two achieves:\n\n**Infrastructure:**\n- \u2705 Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)\n- \u2705 Moon-Tug validated through multiple test missions (ready for actual evacuation when needed)\n- \u2705 200 Hive c",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 439
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "text2": "## Chapter Summary\n\nPhase Two (10,000-100 Million Years) represents humanity's longest and most stable era:\n\n- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy systems across geological timescales\n- **Voluntary Underground Living:** 40% of humans choose Hives",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 783
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "text2": "## 21.2 Accelerated Underground Migration\n\n**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  \n**Phase Three Target:** 95% underground by Year 500M (when surface becomes uninhabitable)  \n**Challenge:** Migrate 55% of population (8.25 billion humans) over 400M yea",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "2\u00b0C",
+            "position": 536
+          },
+          {
+            "type": "population",
+            "value": "8.25 billion humans",
+            "position": 266
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Conclusion: The Fortress Planet\n\nBy the time Earth is midway through its journey, the planet is no longer a fragile biosphere clinging to a rocky surface. It is a **biological spaceship** *(raw.txt:1594)*:\n\n- **10 billion people** living in self-sustaining Hive Cities\n- **100% closed-loop ecology",
+        "text2": "## 21.7 Phase Three Completion: Countdown Begins\n\nBy Year 500 Million, Phase Three achieves its mandate:\n\n**Infrastructure Ready:**\n- \u2705 300 Hive cities operational (capacity 30B, population 13.5B = 90% underground)\n- \u2705 Dyson Swarm expanded to 2 trillion collectors (25 PW sustained output)\n- \u2705 Moon-T",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 214
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "13.5 billion humans",
+            "position": 499
           }
         ]
       }
@@ -2035,43 +2524,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
-        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
-        "values1": [
-          {
-            "type": "energy",
-            "value": "000 Terawatts",
-            "position": 237
-          },
-          {
-            "type": "population",
-            "value": "10 billion people",
-            "position": 50
-          },
-          {
-            "type": "population",
-            "value": "1 billion people",
-            "position": 604
-          }
-        ],
-        "values2": [
-          {
-            "type": "population",
-            "value": "7.5 billion people",
-            "position": 170
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss population with numerical values - verify consistency",
-      "evidence": {
-        "constant": "population",
-        "text1": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
-        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "text2": "## 20.7 Population Dynamics: The Stable Era\n\n**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?\n\n### 20.7.1 Population Plateau\n\n**Year 10,000:** 10 billion humans (Phase One legacy)  \n**Year 100,000:** 12 billion humans (20% growth over 90,000 years = 0.00",
         "values1": [
           {
             "type": "energy",
@@ -2093,7 +2546,22 @@
           {
             "type": "population",
             "value": "10 billion humans",
-            "position": 103
+            "position": 189
+          },
+          {
+            "type": "population",
+            "value": "12 billion humans",
+            "position": 246
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 334
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 410
           }
         ]
       }
@@ -2107,7 +2575,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
-        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "text2": "## 20.8 Phase Two Completion: The Mature Civilization\n\nBy Year 100 Million, Phase Two achieves:\n\n**Infrastructure:**\n- \u2705 Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)\n- \u2705 Moon-Tug validated through multiple test missions (ready for actual evacuation when needed)\n- \u2705 200 Hive c",
         "values1": [
           {
             "type": "energy",
@@ -2127,14 +2595,122 @@
         ],
         "values2": [
           {
-            "type": "distance",
-            "value": "4.24 light-years",
-            "position": 184
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 439
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "text2": "## Chapter Summary\n\nPhase Two (10,000-100 Million Years) represents humanity's longest and most stable era:\n\n- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy systems across geological timescales\n- **Voluntary Underground Living:** 40% of humans choose Hives",
+        "values1": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
           },
           {
             "type": "population",
-            "value": "10 billion humans",
-            "position": 107
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 783
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "text2": "## 21.2 Accelerated Underground Migration\n\n**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  \n**Phase Three Target:** 95% underground by Year 500M (when surface becomes uninhabitable)  \n**Challenge:** Migrate 55% of population (8.25 billion humans) over 400M yea",
+        "values1": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "2\u00b0C",
+            "position": 536
+          },
+          {
+            "type": "population",
+            "value": "8.25 billion humans",
+            "position": 266
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Introduction: The Efficiency Pivot\n\nSustaining 10 billion people for multi-generational interstellar transit in closed-loop Hive Cities is possible\u2014but resource-intensive. The power requirements for food production alone approach **2,000 Terawatts** continuous *(raw.txt:1259)*, and the psychologi",
+        "text2": "## 21.7 Phase Three Completion: Countdown Begins\n\nBy Year 500 Million, Phase Three achieves its mandate:\n\n**Infrastructure Ready:**\n- \u2705 300 Hive cities operational (capacity 30B, population 13.5B = 90% underground)\n- \u2705 Dyson Swarm expanded to 2 trillion collectors (25 PW sustained output)\n- \u2705 Moon-T",
+        "values1": [
+          {
+            "type": "energy",
+            "value": "000 Terawatts",
+            "position": 237
+          },
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 50
+          },
+          {
+            "type": "population",
+            "value": "1 billion people",
+            "position": 604
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "13.5 billion humans",
+            "position": 499
           }
         ]
       }
@@ -2184,7 +2760,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
-        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
+        "text2": "## 20.7 Population Dynamics: The Stable Era\n\n**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?\n\n### 20.7.1 Population Plateau\n\n**Year 10,000:** 10 billion humans (Phase One legacy)  \n**Year 100,000:** 12 billion humans (20% growth over 90,000 years = 0.00",
         "values1": [
           {
             "type": "population",
@@ -2195,8 +2771,23 @@
         "values2": [
           {
             "type": "population",
-            "value": "7.5 billion people",
-            "position": 170
+            "value": "10 billion humans",
+            "position": 189
+          },
+          {
+            "type": "population",
+            "value": "12 billion humans",
+            "position": 246
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 334
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 410
           }
         ]
       }
@@ -2210,7 +2801,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
-        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "text2": "## 20.8 Phase Two Completion: The Mature Civilization\n\nBy Year 100 Million, Phase Two achieves:\n\n**Infrastructure:**\n- \u2705 Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)\n- \u2705 Moon-Tug validated through multiple test missions (ready for actual evacuation when needed)\n- \u2705 200 Hive c",
         "values1": [
           {
             "type": "population",
@@ -2221,8 +2812,8 @@
         "values2": [
           {
             "type": "population",
-            "value": "10 billion humans",
-            "position": 103
+            "value": "15 billion humans",
+            "position": 439
           }
         ]
       }
@@ -2236,7 +2827,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
-        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "text2": "## Chapter Summary\n\nPhase Two (10,000-100 Million Years) represents humanity's longest and most stable era:\n\n- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy systems across geological timescales\n- **Voluntary Underground Living:** 40% of humans choose Hives",
         "values1": [
           {
             "type": "population",
@@ -2246,14 +2837,66 @@
         ],
         "values2": [
           {
-            "type": "distance",
-            "value": "4.24 light-years",
-            "position": 184
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 783
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
+        "text2": "## 21.2 Accelerated Underground Migration\n\n**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  \n**Phase Three Target:** 95% underground by Year 500M (when surface becomes uninhabitable)  \n**Challenge:** Migrate 55% of population (8.25 billion humans) over 400M yea",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 114
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "2\u00b0C",
+            "position": 536
           },
           {
             "type": "population",
-            "value": "10 billion humans",
-            "position": 107
+            "value": "8.25 billion humans",
+            "position": 266
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## The Shift Change Civilization\n\n### Population Rotation: The 10:1 Ratio\n\nIn the **Shift Change Model**, Earth's 10 billion people are divided into **rotation cohorts** *(raw.txt:1302)*:\n\n- **Active Shift (1 billion):** Awake, working, living normally in Hive Cities\n- **Sleeping Reserve (9 billion)",
+        "text2": "## 21.7 Phase Three Completion: Countdown Begins\n\nBy Year 500 Million, Phase Three achieves its mandate:\n\n**Infrastructure Ready:**\n- \u2705 300 Hive cities operational (capacity 30B, population 13.5B = 90% underground)\n- \u2705 Dyson Swarm expanded to 2 trillion collectors (25 PW sustained output)\n- \u2705 Moon-T",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion people",
+            "position": 114
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "13.5 billion humans",
+            "position": 499
           }
         ]
       }
@@ -2267,7 +2910,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
-        "text2": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
+        "text2": "## 20.7 Population Dynamics: The Stable Era\n\n**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?\n\n### 20.7.1 Population Plateau\n\n**Year 10,000:** 10 billion humans (Phase One legacy)  \n**Year 100,000:** 12 billion humans (20% growth over 90,000 years = 0.00",
         "values1": [
           {
             "type": "energy",
@@ -2288,8 +2931,23 @@
         "values2": [
           {
             "type": "population",
-            "value": "7.5 billion people",
-            "position": 170
+            "value": "10 billion humans",
+            "position": 189
+          },
+          {
+            "type": "population",
+            "value": "12 billion humans",
+            "position": 246
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 334
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 410
           }
         ]
       }
@@ -2303,7 +2961,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
-        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "text2": "## 20.8 Phase Two Completion: The Mature Civilization\n\nBy Year 100 Million, Phase Two achieves:\n\n**Infrastructure:**\n- \u2705 Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)\n- \u2705 Moon-Tug validated through multiple test missions (ready for actual evacuation when needed)\n- \u2705 200 Hive c",
         "values1": [
           {
             "type": "energy",
@@ -2324,8 +2982,8 @@
         "values2": [
           {
             "type": "population",
-            "value": "10 billion humans",
-            "position": 103
+            "value": "15 billion humans",
+            "position": 439
           }
         ]
       }
@@ -2339,7 +2997,7 @@
       "evidence": {
         "constant": "population",
         "text1": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
-        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "text2": "## Chapter Summary\n\nPhase Two (10,000-100 Million Years) represents humanity's longest and most stable era:\n\n- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy systems across geological timescales\n- **Voluntary Underground Living:** 40% of humans choose Hives",
         "values1": [
           {
             "type": "energy",
@@ -2359,14 +3017,9 @@
         ],
         "values2": [
           {
-            "type": "distance",
-            "value": "4.24 light-years",
-            "position": 184
-          },
-          {
             "type": "population",
-            "value": "10 billion humans",
-            "position": 107
+            "value": "15 billion humans",
+            "position": 783
           }
         ]
       }
@@ -2379,20 +3032,35 @@
       "description": "Both sections discuss population with numerical values - verify consistency",
       "evidence": {
         "constant": "population",
-        "text1": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
-        "text2": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
+        "text1": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
+        "text2": "## 21.2 Accelerated Underground Migration\n\n**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  \n**Phase Three Target:** 95% underground by Year 500M (when surface becomes uninhabitable)  \n**Challenge:** Migrate 55% of population (8.25 billion humans) over 400M yea",
         "values1": [
           {
+            "type": "energy",
+            "value": "000 TW",
+            "position": 404
+          },
+          {
+            "type": "energy",
+            "value": "250 TW",
+            "position": 413
+          },
+          {
             "type": "population",
-            "value": "7.5 billion people",
-            "position": 170
+            "value": "10 billion population",
+            "position": 555
           }
         ],
         "values2": [
           {
+            "type": "temperature",
+            "value": "2\u00b0C",
+            "position": 536
+          },
+          {
             "type": "population",
-            "value": "10 billion humans",
-            "position": 103
+            "value": "8.25 billion humans",
+            "position": 266
           }
         ]
       }
@@ -2405,25 +3073,30 @@
       "description": "Both sections discuss population with numerical values - verify consistency",
       "evidence": {
         "constant": "population",
-        "text1": "## 20.3 Population Migration: The Carrot and the Stick\n\n**2150 Status:** 2.5B underground (25% of 10B)  \n**2500 Target:** 10B underground (100%)  \n**Challenge:** Migrate 7.5 billion people who do not want to leave surface\n\n### 20.3.1 The Voluntary Phase (2150-2250)\n\nPhase Two begins with incentives ",
-        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "text1": "## The Resource Math: 10:1 Advantage\n\n| Resource | Constant Population (10B) | Stasis Rotation (1B Awake) | Reduction Factor |\n|---|---|---|---|\n| **Oxygen Production** | 100% | 10% | 10x |\n| **Food Supply** | 100% | 10% | 10x |\n| **Living Space** | High (full cities) | Low (small Hives + Pod wareho",
+        "text2": "## 21.7 Phase Three Completion: Countdown Begins\n\nBy Year 500 Million, Phase Three achieves its mandate:\n\n**Infrastructure Ready:**\n- \u2705 300 Hive cities operational (capacity 30B, population 13.5B = 90% underground)\n- \u2705 Dyson Swarm expanded to 2 trillion collectors (25 PW sustained output)\n- \u2705 Moon-T",
         "values1": [
           {
+            "type": "energy",
+            "value": "000 TW",
+            "position": 404
+          },
+          {
+            "type": "energy",
+            "value": "250 TW",
+            "position": 413
+          },
+          {
             "type": "population",
-            "value": "7.5 billion people",
-            "position": 170
+            "value": "10 billion population",
+            "position": 555
           }
         ],
         "values2": [
           {
-            "type": "distance",
-            "value": "4.24 light-years",
-            "position": 184
-          },
-          {
             "type": "population",
-            "value": "10 billion humans",
-            "position": 107
+            "value": "13.5 billion humans",
+            "position": 499
           }
         ]
       }
@@ -2436,25 +3109,334 @@
       "description": "Both sections discuss population with numerical values - verify consistency",
       "evidence": {
         "constant": "population",
-        "text1": "## 20.8 Phase Two Completion: The Threshold Crossed\n\nBy 2500, Phase Two achieves:\n\n**Population:**\n- \u2705 10 billion humans underground (100% migration complete)\n- \u2705 Zero surface population (last human died 2498)\n- \u2705 200 Hive cities operational (50M capacity each)\n\n**Propulsion:**\n- \u2705 Moon-Tug operatio",
-        "text2": "## The Final Accounting\n\n**Did the Aethelgard Protocol succeed?**\n\nBy purely technical metrics: **Yes.**\n- 10 billion humans alive and thriving (5,200)\n- Earth-Moon system transported 4.24 light-years\n- Proxima Centauri b terraformed to habitability\n- Mission duration: 5,200 years (within initial 10",
+        "text1": "## 20.7 Population Dynamics: The Stable Era\n\n**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?\n\n### 20.7.1 Population Plateau\n\n**Year 10,000:** 10 billion humans (Phase One legacy)  \n**Year 100,000:** 12 billion humans (20% growth over 90,000 years = 0.00",
+        "text2": "## 20.8 Phase Two Completion: The Mature Civilization\n\nBy Year 100 Million, Phase Two achieves:\n\n**Infrastructure:**\n- \u2705 Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)\n- \u2705 Moon-Tug validated through multiple test missions (ready for actual evacuation when needed)\n- \u2705 200 Hive c",
         "values1": [
           {
             "type": "population",
             "value": "10 billion humans",
-            "position": 103
+            "position": 189
+          },
+          {
+            "type": "population",
+            "value": "12 billion humans",
+            "position": 246
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 334
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 410
           }
         ],
         "values2": [
           {
-            "type": "distance",
-            "value": "4.24 light-years",
-            "position": 184
-          },
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 439
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 20.7 Population Dynamics: The Stable Era\n\n**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?\n\n### 20.7.1 Population Plateau\n\n**Year 10,000:** 10 billion humans (Phase One legacy)  \n**Year 100,000:** 12 billion humans (20% growth over 90,000 years = 0.00",
+        "text2": "## Chapter Summary\n\nPhase Two (10,000-100 Million Years) represents humanity's longest and most stable era:\n\n- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy systems across geological timescales\n- **Voluntary Underground Living:** 40% of humans choose Hives",
+        "values1": [
           {
             "type": "population",
             "value": "10 billion humans",
-            "position": 107
+            "position": 189
+          },
+          {
+            "type": "population",
+            "value": "12 billion humans",
+            "position": 246
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 334
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 410
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 783
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 20.7 Population Dynamics: The Stable Era\n\n**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?\n\n### 20.7.1 Population Plateau\n\n**Year 10,000:** 10 billion humans (Phase One legacy)  \n**Year 100,000:** 12 billion humans (20% growth over 90,000 years = 0.00",
+        "text2": "## 21.2 Accelerated Underground Migration\n\n**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  \n**Phase Three Target:** 95% underground by Year 500M (when surface becomes uninhabitable)  \n**Challenge:** Migrate 55% of population (8.25 billion humans) over 400M yea",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 189
+          },
+          {
+            "type": "population",
+            "value": "12 billion humans",
+            "position": 246
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 334
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 410
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "2\u00b0C",
+            "position": 536
+          },
+          {
+            "type": "population",
+            "value": "8.25 billion humans",
+            "position": 266
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 20.7 Population Dynamics: The Stable Era\n\n**Question:** With post-scarcity economy and unlimited energy, why doesn't population explode?\n\n### 20.7.1 Population Plateau\n\n**Year 10,000:** 10 billion humans (Phase One legacy)  \n**Year 100,000:** 12 billion humans (20% growth over 90,000 years = 0.00",
+        "text2": "## 21.7 Phase Three Completion: Countdown Begins\n\nBy Year 500 Million, Phase Three achieves its mandate:\n\n**Infrastructure Ready:**\n- \u2705 300 Hive cities operational (capacity 30B, population 13.5B = 90% underground)\n- \u2705 Dyson Swarm expanded to 2 trillion collectors (25 PW sustained output)\n- \u2705 Moon-T",
+        "values1": [
+          {
+            "type": "population",
+            "value": "10 billion humans",
+            "position": 189
+          },
+          {
+            "type": "population",
+            "value": "12 billion humans",
+            "position": 246
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 334
+          },
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 410
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "13.5 billion humans",
+            "position": 499
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 20.8 Phase Two Completion: The Mature Civilization\n\nBy Year 100 Million, Phase Two achieves:\n\n**Infrastructure:**\n- \u2705 Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)\n- \u2705 Moon-Tug validated through multiple test missions (ready for actual evacuation when needed)\n- \u2705 200 Hive c",
+        "text2": "## Chapter Summary\n\nPhase Two (10,000-100 Million Years) represents humanity's longest and most stable era:\n\n- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy systems across geological timescales\n- **Voluntary Underground Living:** 40% of humans choose Hives",
+        "values1": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 439
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 783
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 20.8 Phase Two Completion: The Mature Civilization\n\nBy Year 100 Million, Phase Two achieves:\n\n**Infrastructure:**\n- \u2705 Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)\n- \u2705 Moon-Tug validated through multiple test missions (ready for actual evacuation when needed)\n- \u2705 200 Hive c",
+        "text2": "## 21.2 Accelerated Underground Migration\n\n**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  \n**Phase Three Target:** 95% underground by Year 500M (when surface becomes uninhabitable)  \n**Challenge:** Migrate 55% of population (8.25 billion humans) over 400M yea",
+        "values1": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 439
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "2\u00b0C",
+            "position": 536
+          },
+          {
+            "type": "population",
+            "value": "8.25 billion humans",
+            "position": 266
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 20.8 Phase Two Completion: The Mature Civilization\n\nBy Year 100 Million, Phase Two achieves:\n\n**Infrastructure:**\n- \u2705 Dyson Swarm operational for 100M years (25 PW output, 99.99% uptime)\n- \u2705 Moon-Tug validated through multiple test missions (ready for actual evacuation when needed)\n- \u2705 200 Hive c",
+        "text2": "## 21.7 Phase Three Completion: Countdown Begins\n\nBy Year 500 Million, Phase Three achieves its mandate:\n\n**Infrastructure Ready:**\n- \u2705 300 Hive cities operational (capacity 30B, population 13.5B = 90% underground)\n- \u2705 Dyson Swarm expanded to 2 trillion collectors (25 PW sustained output)\n- \u2705 Moon-T",
+        "values1": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 439
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "13.5 billion humans",
+            "position": 499
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Chapter Summary\n\nPhase Two (10,000-100 Million Years) represents humanity's longest and most stable era:\n\n- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy systems across geological timescales\n- **Voluntary Underground Living:** 40% of humans choose Hives",
+        "text2": "## 21.2 Accelerated Underground Migration\n\n**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  \n**Phase Three Target:** 95% underground by Year 500M (when surface becomes uninhabitable)  \n**Challenge:** Migrate 55% of population (8.25 billion humans) over 400M yea",
+        "values1": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 783
+          }
+        ],
+        "values2": [
+          {
+            "type": "temperature",
+            "value": "2\u00b0C",
+            "position": 536
+          },
+          {
+            "type": "population",
+            "value": "8.25 billion humans",
+            "position": 266
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## Chapter Summary\n\nPhase Two (10,000-100 Million Years) represents humanity's longest and most stable era:\n\n- **Infrastructure Maintenance:** Dyson Swarm, Hive Cities, Moon-Tug maintained like legacy systems across geological timescales\n- **Voluntary Underground Living:** 40% of humans choose Hives",
+        "text2": "## 21.7 Phase Three Completion: Countdown Begins\n\nBy Year 500 Million, Phase Three achieves its mandate:\n\n**Infrastructure Ready:**\n- \u2705 300 Hive cities operational (capacity 30B, population 13.5B = 90% underground)\n- \u2705 Dyson Swarm expanded to 2 trillion collectors (25 PW sustained output)\n- \u2705 Moon-T",
+        "values1": [
+          {
+            "type": "population",
+            "value": "15 billion humans",
+            "position": 783
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "13.5 billion humans",
+            "position": 499
+          }
+        ]
+      }
+    },
+    {
+      "type": "TECHNICAL_CONSTANT_CHECK",
+      "severity": "MEDIUM",
+      "section1": " - ",
+      "section2": " - ",
+      "description": "Both sections discuss population with numerical values - verify consistency",
+      "evidence": {
+        "constant": "population",
+        "text1": "## 21.2 Accelerated Underground Migration\n\n**Phase Two Migration Rate:** 40% underground (voluntary choice, stable for 90M years)  \n**Phase Three Target:** 95% underground by Year 500M (when surface becomes uninhabitable)  \n**Challenge:** Migrate 55% of population (8.25 billion humans) over 400M yea",
+        "text2": "## 21.7 Phase Three Completion: Countdown Begins\n\nBy Year 500 Million, Phase Three achieves its mandate:\n\n**Infrastructure Ready:**\n- \u2705 300 Hive cities operational (capacity 30B, population 13.5B = 90% underground)\n- \u2705 Dyson Swarm expanded to 2 trillion collectors (25 PW sustained output)\n- \u2705 Moon-T",
+        "values1": [
+          {
+            "type": "temperature",
+            "value": "2\u00b0C",
+            "position": 536
+          },
+          {
+            "type": "population",
+            "value": "8.25 billion humans",
+            "position": 266
+          }
+        ],
+        "values2": [
+          {
+            "type": "population",
+            "value": "13.5 billion humans",
+            "position": 499
           }
         ]
       }
@@ -2512,58 +3494,6 @@
             "type": "population",
             "value": "10 billion people",
             "position": 673
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss earth_mass with numerical values - verify consistency",
-      "evidence": {
-        "constant": "earth_mass",
-        "text1": "## 1.1 Current Solar Status: The Stable Yellow Dwarf Phase\n\n### Our Star Today\n\nThe Sun is currently a **G-type main-sequence star** (spectral classification G2V), commonly called a yellow dwarf. It has been in this stable phase for approximately 4.6 billion years, fusing hydrogen into helium in its",
-        "text2": "## 20.1 The Departure Threshold\n\nPhase Two confronts humanity's most psychologically wrenching milestone: **permanent abandonment of Earth's surface**.\n\nBy early Phase Two, 2.5 billion live underground (Phase One achievement). As Phase Two progresses, population gradually transitions underground\u2014the",
-        "values1": [
-          {
-            "type": "temperature",
-            "value": "778 K",
-            "position": 489
-          }
-        ],
-        "values2": [
-          {
-            "type": "temperature",
-            "value": "0.2\u00b0C",
-            "position": 504
-          }
-        ]
-      }
-    },
-    {
-      "type": "TECHNICAL_CONSTANT_CHECK",
-      "severity": "MEDIUM",
-      "section1": " - ",
-      "section2": " - ",
-      "description": "Both sections discuss earth_mass with numerical values - verify consistency",
-      "evidence": {
-        "constant": "earth_mass",
-        "text1": "## 1.1 Current Solar Status: The Stable Yellow Dwarf Phase\n\n### Our Star Today\n\nThe Sun is currently a **G-type main-sequence star** (spectral classification G2V), commonly called a yellow dwarf. It has been in this stable phase for approximately 4.6 billion years, fusing hydrogen into helium in its",
-        "text2": "## 20.5 The Surface Farewell: Last Generation Above\n\n**2450-2500:** Earth's surface enters terminal decline. Last 50 years witness:\n\n### 20.5.1 Environmental Collapse\n\n**Atmospheric Composition (2450):**\n- Oxygen: 18% (down from 21%\u2014forests dead, ocean phytoplankton collapsed)\n- CO\u2082: 1,200 ppm (up f",
-        "values1": [
-          {
-            "type": "temperature",
-            "value": "778 K",
-            "position": 489
-          }
-        ],
-        "values2": [
-          {
-            "type": "temperature",
-            "value": "8\u00b0C",
-            "position": 371
           }
         ]
       }
@@ -2657,28 +3587,30 @@
       }
     },
     {
-      "type": "TECHNICAL_CONSTANT_CHECK",
+      "type": "SEMANTIC_CONTRADICTION_CHECK",
       "severity": "MEDIUM",
       "section1": " - ",
       "section2": " - ",
-      "description": "Both sections discuss earth_mass with numerical values - verify consistency",
+      "description": "Query 'How long until the Sun becomes uninhabitable' returns sections with different numerical values",
       "evidence": {
-        "constant": "earth_mass",
-        "text1": "## 20.1 The Departure Threshold\n\nPhase Two confronts humanity's most psychologically wrenching milestone: **permanent abandonment of Earth's surface**.\n\nBy early Phase Two, 2.5 billion live underground (Phase One achievement). As Phase Two progresses, population gradually transitions underground\u2014the",
-        "text2": "## 20.5 The Surface Farewell: Last Generation Above\n\n**2450-2500:** Earth's surface enters terminal decline. Last 50 years witness:\n\n### 20.5.1 Environmental Collapse\n\n**Atmospheric Composition (2450):**\n- Oxygen: 18% (down from 21%\u2014forests dead, ocean phytoplankton collapsed)\n- CO\u2082: 1,200 ppm (up f",
-        "values1": [
-          {
-            "type": "temperature",
-            "value": "0.2\u00b0C",
-            "position": 504
-          }
+        "query": "How long until the Sun becomes uninhabitable",
+        "texts": [
+          "## 1.3 The Red Giant Phase: 5 Billion Year Timeline\n\n### The Final Transformation\n\nIn approximately **5 billion years**, the Sun will exhaust its core hydrogen and transition to the **red giant phase**. This is not a gradual change; it is a dramatic metamorphosis that will fundamentally alter the solar system.\n\n**What happens during red giant expansion:**\n1. **Core collapse:** Hydrogen-depleted core contracts under gravity\n2. **Shell burning:** Hydrogen fusion moves to a shell around the core\n3.",
+          "## 21.1 The Transition: When Maintenance Becomes Preparation\n\n**Phase Two Status (Year 100 Million):** Systems operational for 100M years; Earth fully habitable; 40% Hive population voluntary  \n**Phase Three Status (Year 100 Million):** Solar brightening now measurable at 1% increase per 10M years\u2014climate models predict uninhabitability within 500M years  \n**Psychological Shift:** \"Maintenance era\" becomes \"countdown era\"\u2014abstract threat becomes tangible timeline\n\n### 21.1.1 First Detection: The"
         ],
-        "values2": [
-          {
-            "type": "temperature",
-            "value": "8\u00b0C",
-            "position": 371
-          }
+        "sources": [
+          " - ",
+          " - "
+        ],
+        "numbers": [
+          "2",
+          "1.3",
+          "5",
+          "100",
+          "1",
+          "3",
+          "40",
+          "21.1"
         ]
       }
     },
@@ -2699,15 +3631,15 @@
           " - "
         ],
         "numbers": [
-          "50",
-          "2026",
-          "2000",
-          "2150",
           "90",
-          "1960",
-          "2050",
+          "2000",
           "18.8",
-          "18"
+          "2026",
+          "1960",
+          "18",
+          "2150",
+          "2050",
+          "50"
         ]
       }
     },
@@ -2728,13 +3660,13 @@
           " - "
         ],
         "numbers": [
-          "5.2",
-          "5",
-          "13.6",
-          "3841",
-          "1",
+          "2",
           "3804",
-          "2"
+          "5",
+          "1",
+          "5.2",
+          "13.6",
+          "3841"
         ]
       }
     },
@@ -2755,22 +3687,16 @@
           " - "
         ],
         "numbers": [
-          "50",
+          "19.6",
+          "0.01",
+          "384",
           "2140",
           "8",
-          "400",
-          "2150",
-          "1",
-          "0",
-          "20.4",
+          "21.3",
           "10",
-          "384",
-          "300",
-          "2350",
-          "000",
-          "200",
-          "0.01",
-          "19.6"
+          "400",
+          "1",
+          "2150"
         ]
       }
     },
@@ -2793,10 +3719,10 @@
         "numbers": [
           "100",
           "2026",
-          "2150",
-          "500",
+          "21",
           "18",
-          "21"
+          "2150",
+          "500"
         ]
       }
     },
@@ -2817,13 +3743,13 @@
           " - "
         ],
         "numbers": [
-          "600",
           "2026",
-          "2150",
+          "600",
+          "18",
           "22.5",
+          "2150",
           "500",
-          "22",
-          "18"
+          "22"
         ]
       }
     },
@@ -2845,16 +3771,16 @@
         ],
         "numbers": [
           "1212",
-          "10",
-          "3",
-          "19.2",
           "0.01",
-          "100",
           "9",
-          "1",
           "6",
-          "0.5",
-          "1.5"
+          "10",
+          "1.5",
+          "19.2",
+          "100",
+          "1",
+          "3",
+          "0.5"
         ]
       }
     },
@@ -3350,6 +4276,61 @@
       "description": "References Chapter 22 but chapter may not exist or is empty",
       "evidence": {
         "reference": "Chapter 22",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 13",
+      "description": "References Chapter 13 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 13",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 15",
+      "description": "References Chapter 15 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 15",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 16",
+      "description": "References Chapter 16 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 16",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 4",
+      "description": "References Chapter 4 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 4",
+        "source": ""
+      }
+    },
+    {
+      "type": "BROKEN_REFERENCE",
+      "severity": "LOW",
+      "section1": "",
+      "section2": "Chapter 14",
+      "description": "References Chapter 14 but chapter may not exist or is empty",
+      "evidence": {
+        "reference": "Chapter 14",
         "source": ""
       }
     },

@@ -37,54 +37,54 @@
   ],
   "dependencies": {
     "00_Master_TOC": [
-      "21_Chapter_20",
-      "17_Chapter_16",
-      "12_Chapter_11_Hive_Cities",
-      "19_Chapter_18",
-      "22_Chapter_21",
-      "13_Chapter_12_Cryogenic",
-      "20_Chapter_19",
-      "04_Chapter_03_Alternatives",
-      "11_Chapter_10_Defense",
-      "16_Chapter_15",
-      "10_Chapter_09_Dyson_Swarm",
-      "18_Chapter_17",
       "06_Chapter_05_Oracle_System",
-      "09_Chapter_08_Moon_Tug",
-      "03_Chapter_02_Physics",
-      "15_Chapter_14",
       "07_Chapter_06_Synthesis_Engine",
-      "08_Chapter_07_Living_Manifesto",
-      "14_Chapter_13",
+      "15_Chapter_14",
+      "04_Chapter_03_Alternatives",
       "23_Chapter_22",
       "02_Chapter_01_Solar_Imperative",
-      "05_Chapter_04_Ten_Billion_Mandate"
+      "10_Chapter_09_Dyson_Swarm",
+      "17_Chapter_16",
+      "08_Chapter_07_Living_Manifesto",
+      "12_Chapter_11_Hive_Cities",
+      "19_Chapter_18",
+      "20_Chapter_19",
+      "13_Chapter_12_Cryogenic",
+      "03_Chapter_02_Physics",
+      "05_Chapter_04_Ten_Billion_Mandate",
+      "22_Chapter_21",
+      "09_Chapter_08_Moon_Tug",
+      "11_Chapter_10_Defense",
+      "16_Chapter_15",
+      "14_Chapter_13",
+      "18_Chapter_17",
+      "21_Chapter_20"
     ],
     "01_Executive_Summary": [
-      "14_Chapter_13",
-      "17_Chapter_16",
       "16_Chapter_15",
-      "05_Chapter_04_Ten_Billion_Mandate"
+      "14_Chapter_13",
+      "05_Chapter_04_Ten_Billion_Mandate",
+      "17_Chapter_16"
     ],
     "14_Chapter_13": [
       "15_Chapter_14"
     ],
     "15_Chapter_14": [
-      "14_Chapter_13",
-      "16_Chapter_15"
+      "16_Chapter_15",
+      "14_Chapter_13"
     ],
     "16_Chapter_15": [
-      "17_Chapter_16",
-      "15_Chapter_14"
+      "15_Chapter_14",
+      "17_Chapter_16"
     ],
     "17_Chapter_16": [
-      "14_Chapter_13",
       "16_Chapter_15",
+      "14_Chapter_13",
       "18_Chapter_17"
     ],
     "18_Chapter_17": [
-      "14_Chapter_13",
-      "17_Chapter_16"
+      "17_Chapter_16",
+      "14_Chapter_13"
     ],
     "19_Chapter_18": [
       "20_Chapter_19",
@@ -101,11 +101,11 @@
       "23_Chapter_22"
     ],
     "27_Appendix_C_Statistics": [
-      "14_Chapter_13",
-      "05_Chapter_04_Ten_Billion_Mandate",
       "17_Chapter_16",
+      "15_Chapter_14",
       "16_Chapter_15",
-      "15_Chapter_14"
+      "14_Chapter_13",
+      "05_Chapter_04_Ten_Billion_Mandate"
     ]
   },
   "reverse_dependencies": {
@@ -120,9 +120,9 @@
       "00_Master_TOC"
     ],
     "05_Chapter_04_Ten_Billion_Mandate": [
-      "27_Appendix_C_Statistics",
+      "01_Executive_Summary",
       "00_Master_TOC",
-      "01_Executive_Summary"
+      "27_Appendix_C_Statistics"
     ],
     "06_Chapter_05_Oracle_System": [
       "00_Master_TOC"
@@ -149,33 +149,33 @@
       "00_Master_TOC"
     ],
     "14_Chapter_13": [
-      "18_Chapter_17",
-      "01_Executive_Summary",
-      "27_Appendix_C_Statistics",
       "17_Chapter_16",
+      "00_Master_TOC",
       "15_Chapter_14",
-      "00_Master_TOC"
+      "27_Appendix_C_Statistics",
+      "18_Chapter_17",
+      "01_Executive_Summary"
     ],
     "15_Chapter_14": [
-      "14_Chapter_13",
       "16_Chapter_15",
+      "14_Chapter_13",
       "00_Master_TOC",
       "27_Appendix_C_Statistics"
     ],
     "16_Chapter_15": [
-      "01_Executive_Summary",
-      "27_Appendix_C_Statistics",
       "17_Chapter_16",
-      "19_Chapter_18",
+      "00_Master_TOC",
       "15_Chapter_14",
-      "00_Master_TOC"
+      "27_Appendix_C_Statistics",
+      "19_Chapter_18",
+      "01_Executive_Summary"
     ],
     "17_Chapter_16": [
-      "18_Chapter_17",
-      "27_Appendix_C_Statistics",
-      "01_Executive_Summary",
+      "00_Master_TOC",
       "16_Chapter_15",
-      "00_Master_TOC"
+      "27_Appendix_C_Statistics",
+      "18_Chapter_17",
+      "01_Executive_Summary"
     ],
     "18_Chapter_17": [
       "17_Chapter_16",
@@ -185,8 +185,8 @@
       "00_Master_TOC"
     ],
     "20_Chapter_19": [
-      "19_Chapter_18",
-      "00_Master_TOC"
+      "00_Master_TOC",
+      "19_Chapter_18"
     ],
     "21_Chapter_20": [
       "20_Chapter_19",
@@ -203,490 +203,512 @@
   },
   "concept_usage": {
     "Dyson Swarm": [
-      "21_Chapter_20",
-      "27_Appendix_C_Statistics",
-      "12_Chapter_11_Hive_Cities",
-      "22_Chapter_21",
-      "13_Chapter_12_Cryogenic",
-      "20_Chapter_19",
-      "04_Chapter_03_Alternatives",
-      "01_Executive_Summary",
-      "11_Chapter_10_Defense",
-      "24_Appendix_A_Constants",
-      "16_Chapter_15",
-      "10_Chapter_09_Dyson_Swarm",
-      "18_Chapter_17",
-      "09_Chapter_08_Moon_Tug",
-      "25_Appendix_B_Math",
-      "03_Chapter_02_Physics",
-      "15_Chapter_14",
       "00_Master_TOC",
-      "14_Chapter_13",
+      "15_Chapter_14",
+      "27_Appendix_C_Statistics",
+      "04_Chapter_03_Alternatives",
       "23_Chapter_22",
       "02_Chapter_01_Solar_Imperative",
+      "10_Chapter_09_Dyson_Swarm",
+      "26_Conclusion",
+      "25_Appendix_B_Math",
+      "12_Chapter_11_Hive_Cities",
+      "20_Chapter_19",
+      "13_Chapter_12_Cryogenic",
+      "03_Chapter_02_Physics",
       "05_Chapter_04_Ten_Billion_Mandate",
-      "26_Conclusion"
+      "01_Executive_Summary",
+      "22_Chapter_21",
+      "09_Chapter_08_Moon_Tug",
+      "11_Chapter_10_Defense",
+      "16_Chapter_15",
+      "14_Chapter_13",
+      "18_Chapter_17",
+      "21_Chapter_20",
+      "24_Appendix_A_Constants"
     ],
     "Dyson": [
-      "21_Chapter_20",
-      "27_Appendix_C_Statistics",
-      "12_Chapter_11_Hive_Cities",
-      "19_Chapter_18",
-      "22_Chapter_21",
-      "13_Chapter_12_Cryogenic",
-      "20_Chapter_19",
-      "04_Chapter_03_Alternatives",
-      "01_Executive_Summary",
-      "11_Chapter_10_Defense",
-      "24_Appendix_A_Constants",
-      "16_Chapter_15",
-      "10_Chapter_09_Dyson_Swarm",
-      "18_Chapter_17",
-      "09_Chapter_08_Moon_Tug",
-      "25_Appendix_B_Math",
-      "03_Chapter_02_Physics",
-      "15_Chapter_14",
       "07_Chapter_06_Synthesis_Engine",
       "00_Master_TOC",
-      "14_Chapter_13",
+      "15_Chapter_14",
+      "27_Appendix_C_Statistics",
+      "04_Chapter_03_Alternatives",
       "23_Chapter_22",
       "02_Chapter_01_Solar_Imperative",
+      "10_Chapter_09_Dyson_Swarm",
+      "26_Conclusion",
+      "25_Appendix_B_Math",
+      "12_Chapter_11_Hive_Cities",
+      "19_Chapter_18",
+      "20_Chapter_19",
+      "13_Chapter_12_Cryogenic",
+      "03_Chapter_02_Physics",
       "05_Chapter_04_Ten_Billion_Mandate",
-      "26_Conclusion"
+      "01_Executive_Summary",
+      "22_Chapter_21",
+      "09_Chapter_08_Moon_Tug",
+      "11_Chapter_10_Defense",
+      "16_Chapter_15",
+      "14_Chapter_13",
+      "18_Chapter_17",
+      "21_Chapter_20",
+      "24_Appendix_A_Constants"
     ],
     "Moon-Tug": [
-      "21_Chapter_20",
-      "12_Chapter_11_Hive_Cities",
-      "19_Chapter_18",
-      "22_Chapter_21",
-      "13_Chapter_12_Cryogenic",
-      "20_Chapter_19",
-      "01_Executive_Summary",
-      "24_Appendix_A_Constants",
-      "18_Chapter_17",
       "06_Chapter_05_Oracle_System",
-      "09_Chapter_08_Moon_Tug",
-      "25_Appendix_B_Math",
-      "03_Chapter_02_Physics",
-      "15_Chapter_14",
       "07_Chapter_06_Synthesis_Engine",
       "00_Master_TOC",
-      "08_Chapter_07_Living_Manifesto",
-      "14_Chapter_13",
+      "15_Chapter_14",
       "23_Chapter_22",
       "02_Chapter_01_Solar_Imperative",
-      "05_Chapter_04_Ten_Billion_Mandate"
+      "25_Appendix_B_Math",
+      "08_Chapter_07_Living_Manifesto",
+      "12_Chapter_11_Hive_Cities",
+      "19_Chapter_18",
+      "20_Chapter_19",
+      "13_Chapter_12_Cryogenic",
+      "03_Chapter_02_Physics",
+      "05_Chapter_04_Ten_Billion_Mandate",
+      "01_Executive_Summary",
+      "22_Chapter_21",
+      "09_Chapter_08_Moon_Tug",
+      "14_Chapter_13",
+      "18_Chapter_17",
+      "21_Chapter_20",
+      "24_Appendix_A_Constants"
     ],
     "Oracle System": [
-      "21_Chapter_20",
+      "06_Chapter_05_Oracle_System",
+      "00_Master_TOC",
+      "27_Appendix_C_Statistics",
       "23_Chapter_22",
+      "21_Chapter_20",
       "02_Chapter_01_Solar_Imperative",
       "01_Executive_Summary",
-      "27_Appendix_C_Statistics",
-      "06_Chapter_05_Oracle_System",
-      "09_Chapter_08_Moon_Tug",
-      "00_Master_TOC"
+      "09_Chapter_08_Moon_Tug"
     ],
     "Oracle": [
-      "21_Chapter_20",
-      "27_Appendix_C_Statistics",
-      "17_Chapter_16",
-      "19_Chapter_18",
-      "22_Chapter_21",
-      "13_Chapter_12_Cryogenic",
-      "20_Chapter_19",
-      "01_Executive_Summary",
-      "11_Chapter_10_Defense",
-      "24_Appendix_A_Constants",
-      "16_Chapter_15",
-      "10_Chapter_09_Dyson_Swarm",
-      "18_Chapter_17",
       "06_Chapter_05_Oracle_System",
-      "09_Chapter_08_Moon_Tug",
-      "25_Appendix_B_Math",
-      "03_Chapter_02_Physics",
-      "15_Chapter_14",
       "07_Chapter_06_Synthesis_Engine",
       "00_Master_TOC",
-      "08_Chapter_07_Living_Manifesto",
-      "14_Chapter_13",
+      "15_Chapter_14",
+      "27_Appendix_C_Statistics",
       "23_Chapter_22",
       "02_Chapter_01_Solar_Imperative",
+      "10_Chapter_09_Dyson_Swarm",
+      "26_Conclusion",
+      "17_Chapter_16",
+      "25_Appendix_B_Math",
+      "08_Chapter_07_Living_Manifesto",
+      "19_Chapter_18",
+      "20_Chapter_19",
+      "13_Chapter_12_Cryogenic",
+      "03_Chapter_02_Physics",
       "05_Chapter_04_Ten_Billion_Mandate",
-      "26_Conclusion"
+      "01_Executive_Summary",
+      "22_Chapter_21",
+      "09_Chapter_08_Moon_Tug",
+      "11_Chapter_10_Defense",
+      "16_Chapter_15",
+      "14_Chapter_13",
+      "18_Chapter_17",
+      "21_Chapter_20",
+      "24_Appendix_A_Constants"
     ],
     "Synthesis Engine": [
-      "01_Executive_Summary",
       "11_Chapter_10_Defense",
+      "07_Chapter_06_Synthesis_Engine",
+      "06_Chapter_05_Oracle_System",
+      "00_Master_TOC",
       "27_Appendix_C_Statistics",
       "05_Chapter_04_Ten_Billion_Mandate",
-      "06_Chapter_05_Oracle_System",
-      "09_Chapter_08_Moon_Tug",
       "19_Chapter_18",
-      "10_Chapter_09_Dyson_Swarm",
+      "01_Executive_Summary",
       "13_Chapter_12_Cryogenic",
-      "07_Chapter_06_Synthesis_Engine",
-      "00_Master_TOC"
+      "10_Chapter_09_Dyson_Swarm",
+      "09_Chapter_08_Moon_Tug"
     ],
     "Phase Zero": [
-      "21_Chapter_20",
-      "23_Chapter_22",
-      "02_Chapter_01_Solar_Imperative",
       "11_Chapter_10_Defense",
-      "01_Executive_Summary",
+      "00_Master_TOC",
+      "15_Chapter_14",
       "27_Appendix_C_Statistics",
-      "26_Conclusion",
-      "24_Appendix_A_Constants",
+      "23_Chapter_22",
+      "18_Chapter_17",
+      "02_Chapter_01_Solar_Imperative",
       "19_Chapter_18",
-      "22_Chapter_21",
       "20_Chapter_19",
-      "00_Master_TOC"
+      "01_Executive_Summary",
+      "21_Chapter_20",
+      "24_Appendix_A_Constants",
+      "22_Chapter_21",
+      "26_Conclusion"
     ],
     "Phase One": [
-      "21_Chapter_20",
-      "23_Chapter_22",
-      "01_Executive_Summary",
+      "00_Master_TOC",
+      "15_Chapter_14",
+      "16_Chapter_15",
       "27_Appendix_C_Statistics",
-      "26_Conclusion",
-      "24_Appendix_A_Constants",
+      "23_Chapter_22",
+      "21_Chapter_20",
+      "12_Chapter_11_Hive_Cities",
       "19_Chapter_18",
-      "22_Chapter_21",
       "20_Chapter_19",
-      "00_Master_TOC"
+      "01_Executive_Summary",
+      "24_Appendix_A_Constants",
+      "22_Chapter_21",
+      "26_Conclusion"
     ],
     "Phase Two": [
-      "21_Chapter_20",
-      "23_Chapter_22",
-      "01_Executive_Summary",
+      "00_Master_TOC",
       "27_Appendix_C_Statistics",
-      "22_Chapter_21",
+      "23_Chapter_22",
+      "21_Chapter_20",
       "20_Chapter_19",
-      "00_Master_TOC"
+      "01_Executive_Summary",
+      "22_Chapter_21",
+      "26_Conclusion"
     ],
     "Phase Three": [
-      "21_Chapter_20",
-      "23_Chapter_22",
-      "01_Executive_Summary",
+      "00_Master_TOC",
       "27_Appendix_C_Statistics",
-      "26_Conclusion",
+      "23_Chapter_22",
+      "21_Chapter_20",
+      "01_Executive_Summary",
       "22_Chapter_21",
-      "00_Master_TOC"
+      "26_Conclusion"
     ],
     "Phase Four": [
-      "21_Chapter_20",
-      "23_Chapter_22",
-      "01_Executive_Summary",
+      "00_Master_TOC",
+      "15_Chapter_14",
+      "16_Chapter_15",
       "27_Appendix_C_Statistics",
+      "23_Chapter_22",
+      "18_Chapter_17",
+      "12_Chapter_11_Hive_Cities",
+      "21_Chapter_20",
+      "20_Chapter_19",
+      "01_Executive_Summary",
       "22_Chapter_21",
-      "00_Master_TOC"
+      "26_Conclusion"
     ],
     "solar brightening": [
-      "21_Chapter_20",
+      "00_Master_TOC",
       "23_Chapter_22",
+      "21_Chapter_20",
+      "12_Chapter_11_Hive_Cities",
       "02_Chapter_01_Solar_Imperative",
-      "01_Executive_Summary",
       "19_Chapter_18",
+      "01_Executive_Summary",
+      "20_Chapter_19",
       "22_Chapter_21",
-      "00_Master_TOC"
+      "26_Conclusion"
     ],
     "cryogenic": [
+      "11_Chapter_10_Defense",
+      "17_Chapter_16",
+      "07_Chapter_06_Synthesis_Engine",
+      "06_Chapter_05_Oracle_System",
+      "00_Master_TOC",
+      "15_Chapter_14",
+      "25_Appendix_B_Math",
+      "22_Chapter_21",
+      "27_Appendix_C_Statistics",
       "23_Chapter_22",
       "18_Chapter_17",
-      "01_Executive_Summary",
-      "11_Chapter_10_Defense",
-      "27_Appendix_C_Statistics",
-      "06_Chapter_05_Oracle_System",
-      "26_Conclusion",
-      "09_Chapter_08_Moon_Tug",
-      "17_Chapter_16",
       "12_Chapter_11_Hive_Cities",
       "24_Appendix_A_Constants",
-      "25_Appendix_B_Math",
-      "10_Chapter_09_Dyson_Swarm",
-      "15_Chapter_14",
-      "22_Chapter_21",
+      "01_Executive_Summary",
       "13_Chapter_12_Cryogenic",
-      "07_Chapter_06_Synthesis_Engine",
-      "00_Master_TOC"
+      "10_Chapter_09_Dyson_Swarm",
+      "26_Conclusion",
+      "09_Chapter_08_Moon_Tug"
     ],
     "transit": [
-      "21_Chapter_20",
-      "12_Chapter_11_Hive_Cities",
-      "19_Chapter_18",
-      "22_Chapter_21",
-      "13_Chapter_12_Cryogenic",
-      "20_Chapter_19",
-      "04_Chapter_03_Alternatives",
-      "01_Executive_Summary",
-      "11_Chapter_10_Defense",
-      "24_Appendix_A_Constants",
-      "16_Chapter_15",
-      "10_Chapter_09_Dyson_Swarm",
-      "18_Chapter_17",
       "06_Chapter_05_Oracle_System",
-      "09_Chapter_08_Moon_Tug",
-      "25_Appendix_B_Math",
-      "15_Chapter_14",
       "07_Chapter_06_Synthesis_Engine",
       "00_Master_TOC",
-      "14_Chapter_13",
+      "15_Chapter_14",
+      "04_Chapter_03_Alternatives",
       "23_Chapter_22",
       "02_Chapter_01_Solar_Imperative",
-      "26_Conclusion"
+      "10_Chapter_09_Dyson_Swarm",
+      "26_Conclusion",
+      "25_Appendix_B_Math",
+      "12_Chapter_11_Hive_Cities",
+      "19_Chapter_18",
+      "20_Chapter_19",
+      "13_Chapter_12_Cryogenic",
+      "01_Executive_Summary",
+      "22_Chapter_21",
+      "09_Chapter_08_Moon_Tug",
+      "11_Chapter_10_Defense",
+      "16_Chapter_15",
+      "14_Chapter_13",
+      "18_Chapter_17",
+      "21_Chapter_20",
+      "24_Appendix_A_Constants"
     ],
     "evacuation": [
-      "21_Chapter_20",
-      "23_Chapter_22",
-      "02_Chapter_01_Solar_Imperative",
       "11_Chapter_10_Defense",
-      "01_Executive_Summary",
+      "00_Master_TOC",
+      "15_Chapter_14",
+      "16_Chapter_15",
+      "23_Chapter_22",
+      "18_Chapter_17",
+      "02_Chapter_01_Solar_Imperative",
       "12_Chapter_11_Hive_Cities",
       "19_Chapter_18",
-      "22_Chapter_21",
+      "01_Executive_Summary",
       "20_Chapter_19",
-      "00_Master_TOC"
+      "21_Chapter_20",
+      "22_Chapter_21",
+      "26_Conclusion"
     ],
     "Aethelgard Protocol": [
-      "27_Appendix_C_Statistics",
-      "17_Chapter_16",
-      "12_Chapter_11_Hive_Cities",
-      "19_Chapter_18",
-      "04_Chapter_03_Alternatives",
-      "01_Executive_Summary",
-      "11_Chapter_10_Defense",
-      "24_Appendix_A_Constants",
-      "16_Chapter_15",
-      "10_Chapter_09_Dyson_Swarm",
       "06_Chapter_05_Oracle_System",
-      "09_Chapter_08_Moon_Tug",
-      "03_Chapter_02_Physics",
-      "15_Chapter_14",
       "00_Master_TOC",
-      "08_Chapter_07_Living_Manifesto",
-      "14_Chapter_13",
+      "15_Chapter_14",
+      "27_Appendix_C_Statistics",
+      "04_Chapter_03_Alternatives",
       "23_Chapter_22",
       "02_Chapter_01_Solar_Imperative",
+      "10_Chapter_09_Dyson_Swarm",
+      "26_Conclusion",
+      "17_Chapter_16",
+      "08_Chapter_07_Living_Manifesto",
+      "12_Chapter_11_Hive_Cities",
+      "19_Chapter_18",
+      "03_Chapter_02_Physics",
       "05_Chapter_04_Ten_Billion_Mandate",
-      "26_Conclusion"
+      "01_Executive_Summary",
+      "09_Chapter_08_Moon_Tug",
+      "11_Chapter_10_Defense",
+      "16_Chapter_15",
+      "14_Chapter_13",
+      "24_Appendix_A_Constants"
     ],
     "Living Manifesto": [
+      "07_Chapter_06_Synthesis_Engine",
+      "00_Master_TOC",
+      "22_Chapter_21",
       "08_Chapter_07_Living_Manifesto",
+      "05_Chapter_04_Ten_Billion_Mandate",
       "21_Chapter_20",
       "02_Chapter_01_Solar_Imperative",
-      "01_Executive_Summary",
-      "05_Chapter_04_Ten_Billion_Mandate",
-      "26_Conclusion",
-      "24_Appendix_A_Constants",
       "12_Chapter_11_Hive_Cities",
       "19_Chapter_18",
+      "01_Executive_Summary",
+      "24_Appendix_A_Constants",
       "10_Chapter_09_Dyson_Swarm",
-      "22_Chapter_21",
-      "07_Chapter_06_Synthesis_Engine",
-      "00_Master_TOC"
+      "26_Conclusion"
     ],
     "governance": [
-      "21_Chapter_20",
-      "12_Chapter_11_Hive_Cities",
-      "19_Chapter_18",
-      "22_Chapter_21",
-      "20_Chapter_19",
-      "04_Chapter_03_Alternatives",
-      "01_Executive_Summary",
-      "11_Chapter_10_Defense",
-      "10_Chapter_09_Dyson_Swarm",
-      "18_Chapter_17",
       "06_Chapter_05_Oracle_System",
-      "15_Chapter_14",
       "07_Chapter_06_Synthesis_Engine",
       "00_Master_TOC",
-      "08_Chapter_07_Living_Manifesto",
-      "14_Chapter_13",
+      "15_Chapter_14",
+      "04_Chapter_03_Alternatives",
       "23_Chapter_22",
       "02_Chapter_01_Solar_Imperative",
+      "10_Chapter_09_Dyson_Swarm",
+      "26_Conclusion",
+      "08_Chapter_07_Living_Manifesto",
+      "12_Chapter_11_Hive_Cities",
+      "19_Chapter_18",
+      "20_Chapter_19",
       "05_Chapter_04_Ten_Billion_Mandate",
-      "26_Conclusion"
+      "01_Executive_Summary",
+      "22_Chapter_21",
+      "11_Chapter_10_Defense",
+      "14_Chapter_13",
+      "18_Chapter_17",
+      "21_Chapter_20"
     ],
     "deep time": [
-      "21_Chapter_20",
-      "17_Chapter_16",
-      "12_Chapter_11_Hive_Cities",
-      "19_Chapter_18",
-      "22_Chapter_21",
-      "20_Chapter_19",
-      "01_Executive_Summary",
-      "16_Chapter_15",
       "06_Chapter_05_Oracle_System",
-      "09_Chapter_08_Moon_Tug",
-      "03_Chapter_02_Physics",
       "07_Chapter_06_Synthesis_Engine",
       "00_Master_TOC",
-      "08_Chapter_07_Living_Manifesto",
-      "14_Chapter_13",
       "23_Chapter_22",
       "02_Chapter_01_Solar_Imperative",
+      "26_Conclusion",
+      "17_Chapter_16",
+      "08_Chapter_07_Living_Manifesto",
+      "12_Chapter_11_Hive_Cities",
+      "19_Chapter_18",
+      "20_Chapter_19",
+      "03_Chapter_02_Physics",
       "05_Chapter_04_Ten_Billion_Mandate",
-      "26_Conclusion"
+      "01_Executive_Summary",
+      "22_Chapter_21",
+      "09_Chapter_08_Moon_Tug",
+      "16_Chapter_15",
+      "14_Chapter_13",
+      "21_Chapter_20"
     ],
     "deep-time": [
-      "26_Conclusion",
-      "23_Chapter_22",
-      "20_Chapter_19",
-      "00_Master_TOC"
-    ],
-    "million years": [
-      "21_Chapter_20",
-      "23_Chapter_22",
-      "02_Chapter_01_Solar_Imperative",
-      "01_Executive_Summary",
-      "27_Appendix_C_Statistics",
-      "26_Conclusion",
-      "24_Appendix_A_Constants",
-      "25_Appendix_B_Math",
-      "12_Chapter_11_Hive_Cities",
-      "19_Chapter_18",
-      "22_Chapter_21",
-      "20_Chapter_19",
-      "00_Master_TOC"
-    ],
-    "10 billion": [
-      "21_Chapter_20",
-      "17_Chapter_16",
-      "12_Chapter_11_Hive_Cities",
-      "19_Chapter_18",
-      "13_Chapter_12_Cryogenic",
-      "20_Chapter_19",
-      "04_Chapter_03_Alternatives",
-      "01_Executive_Summary",
-      "11_Chapter_10_Defense",
-      "24_Appendix_A_Constants",
-      "16_Chapter_15",
-      "18_Chapter_17",
-      "06_Chapter_05_Oracle_System",
-      "09_Chapter_08_Moon_Tug",
-      "15_Chapter_14",
-      "07_Chapter_06_Synthesis_Engine",
       "00_Master_TOC",
-      "08_Chapter_07_Living_Manifesto",
-      "14_Chapter_13",
       "23_Chapter_22",
-      "02_Chapter_01_Solar_Imperative",
-      "05_Chapter_04_Ten_Billion_Mandate",
+      "18_Chapter_17",
+      "20_Chapter_19",
       "26_Conclusion"
     ],
-    "Hive Cities": [
+    "million years": [
+      "00_Master_TOC",
+      "15_Chapter_14",
+      "16_Chapter_15",
+      "25_Appendix_B_Math",
+      "27_Appendix_C_Statistics",
+      "23_Chapter_22",
       "21_Chapter_20",
+      "12_Chapter_11_Hive_Cities",
+      "02_Chapter_01_Solar_Imperative",
+      "19_Chapter_18",
+      "01_Executive_Summary",
+      "20_Chapter_19",
+      "24_Appendix_A_Constants",
+      "22_Chapter_21",
+      "26_Conclusion"
+    ],
+    "10 billion": [
+      "06_Chapter_05_Oracle_System",
+      "07_Chapter_06_Synthesis_Engine",
+      "00_Master_TOC",
+      "15_Chapter_14",
+      "04_Chapter_03_Alternatives",
       "23_Chapter_22",
       "02_Chapter_01_Solar_Imperative",
-      "11_Chapter_10_Defense",
-      "01_Executive_Summary",
-      "27_Appendix_C_Statistics",
-      "05_Chapter_04_Ten_Billion_Mandate",
-      "24_Appendix_A_Constants",
+      "26_Conclusion",
+      "17_Chapter_16",
+      "08_Chapter_07_Living_Manifesto",
       "12_Chapter_11_Hive_Cities",
       "19_Chapter_18",
-      "22_Chapter_21",
+      "20_Chapter_19",
       "13_Chapter_12_Cryogenic",
-      "20_Chapter_19"
+      "05_Chapter_04_Ten_Billion_Mandate",
+      "01_Executive_Summary",
+      "09_Chapter_08_Moon_Tug",
+      "11_Chapter_10_Defense",
+      "16_Chapter_15",
+      "14_Chapter_13",
+      "18_Chapter_17",
+      "21_Chapter_20",
+      "24_Appendix_A_Constants"
+    ],
+    "Hive Cities": [
+      "11_Chapter_10_Defense",
+      "27_Appendix_C_Statistics",
+      "23_Chapter_22",
+      "05_Chapter_04_Ten_Billion_Mandate",
+      "21_Chapter_20",
+      "02_Chapter_01_Solar_Imperative",
+      "12_Chapter_11_Hive_Cities",
+      "19_Chapter_18",
+      "01_Executive_Summary",
+      "20_Chapter_19",
+      "13_Chapter_12_Cryogenic",
+      "22_Chapter_21",
+      "24_Appendix_A_Constants"
     ],
     "Hive City": [
       "23_Chapter_22",
-      "01_Executive_Summary",
       "05_Chapter_04_Ten_Billion_Mandate",
-      "24_Appendix_A_Constants",
       "12_Chapter_11_Hive_Cities",
+      "24_Appendix_A_Constants",
+      "01_Executive_Summary",
       "10_Chapter_09_Dyson_Swarm"
     ],
     "departure": [
-      "21_Chapter_20",
-      "23_Chapter_22",
-      "02_Chapter_01_Solar_Imperative",
-      "01_Executive_Summary",
       "11_Chapter_10_Defense",
-      "06_Chapter_05_Oracle_System",
-      "26_Conclusion",
-      "24_Appendix_A_Constants",
       "17_Chapter_16",
-      "12_Chapter_11_Hive_Cities",
-      "16_Chapter_15",
-      "10_Chapter_09_Dyson_Swarm",
+      "07_Chapter_06_Synthesis_Engine",
+      "06_Chapter_05_Oracle_System",
       "15_Chapter_14",
+      "16_Chapter_15",
       "22_Chapter_21",
+      "23_Chapter_22",
+      "21_Chapter_20",
+      "02_Chapter_01_Solar_Imperative",
+      "12_Chapter_11_Hive_Cities",
+      "24_Appendix_A_Constants",
+      "01_Executive_Summary",
       "13_Chapter_12_Cryogenic",
-      "07_Chapter_06_Synthesis_Engine"
+      "10_Chapter_09_Dyson_Swarm",
+      "26_Conclusion"
     ],
     "Phase 1": [
-      "08_Chapter_07_Living_Manifesto",
-      "14_Chapter_13",
-      "21_Chapter_20",
       "11_Chapter_10_Defense",
-      "09_Chapter_08_Moon_Tug",
-      "12_Chapter_11_Hive_Cities",
-      "10_Chapter_09_Dyson_Swarm",
+      "07_Chapter_06_Synthesis_Engine",
       "15_Chapter_14",
+      "14_Chapter_13",
+      "08_Chapter_07_Living_Manifesto",
+      "21_Chapter_20",
+      "12_Chapter_11_Hive_Cities",
       "13_Chapter_12_Cryogenic",
-      "07_Chapter_06_Synthesis_Engine"
+      "10_Chapter_09_Dyson_Swarm",
+      "09_Chapter_08_Moon_Tug"
     ],
     "Phase 2": [
-      "08_Chapter_07_Living_Manifesto",
-      "14_Chapter_13",
-      "21_Chapter_20",
       "11_Chapter_10_Defense",
-      "09_Chapter_08_Moon_Tug",
+      "07_Chapter_06_Synthesis_Engine",
+      "14_Chapter_13",
+      "08_Chapter_07_Living_Manifesto",
+      "21_Chapter_20",
       "12_Chapter_11_Hive_Cities",
-      "10_Chapter_09_Dyson_Swarm",
       "13_Chapter_12_Cryogenic",
-      "07_Chapter_06_Synthesis_Engine"
+      "10_Chapter_09_Dyson_Swarm",
+      "09_Chapter_08_Moon_Tug"
     ],
     "Phase 3": [
-      "08_Chapter_07_Living_Manifesto",
+      "07_Chapter_06_Synthesis_Engine",
       "14_Chapter_13",
+      "08_Chapter_07_Living_Manifesto",
       "21_Chapter_20",
-      "09_Chapter_08_Moon_Tug",
       "12_Chapter_11_Hive_Cities",
-      "10_Chapter_09_Dyson_Swarm",
       "13_Chapter_12_Cryogenic",
-      "07_Chapter_06_Synthesis_Engine"
+      "10_Chapter_09_Dyson_Swarm",
+      "09_Chapter_08_Moon_Tug"
     ],
     "Phase 4": [
+      "07_Chapter_06_Synthesis_Engine",
       "08_Chapter_07_Living_Manifesto",
       "21_Chapter_20",
-      "09_Chapter_08_Moon_Tug",
       "12_Chapter_11_Hive_Cities",
       "13_Chapter_12_Cryogenic",
-      "07_Chapter_06_Synthesis_Engine"
+      "09_Chapter_08_Moon_Tug"
     ],
     "Phase 0": [
-      "14_Chapter_13",
-      "18_Chapter_17",
+      "11_Chapter_10_Defense",
       "15_Chapter_14",
-      "11_Chapter_10_Defense"
+      "14_Chapter_13",
+      "18_Chapter_17"
     ],
     "geological timescales": [
-      "21_Chapter_20",
-      "13_Chapter_12_Cryogenic"
+      "13_Chapter_12_Cryogenic",
+      "21_Chapter_20"
     ],
     "Lunar Vault": [
-      "26_Conclusion",
-      "24_Appendix_A_Constants",
       "17_Chapter_16",
       "19_Chapter_18",
-      "22_Chapter_21"
+      "24_Appendix_A_Constants",
+      "22_Chapter_21",
+      "26_Conclusion"
     ],
     "cryosleep": [
       "18_Chapter_17"
     ],
     "solar luminosity": [
+      "22_Chapter_21",
       "21_Chapter_20",
-      "24_Appendix_A_Constants",
-      "22_Chapter_21"
+      "24_Appendix_A_Constants"
     ],
     "Proxima Centauri": [
-      "21_Chapter_20",
-      "27_Appendix_C_Statistics",
-      "26_Conclusion",
-      "24_Appendix_A_Constants",
       "25_Appendix_B_Math",
-      "22_Chapter_21"
+      "27_Appendix_C_Statistics",
+      "21_Chapter_20",
+      "24_Appendix_A_Constants",
+      "22_Chapter_21",
+      "26_Conclusion"
     ]
   },
   "premise_chains": {
@@ -745,14 +767,18 @@
       },
       {
         "document": "15_Chapter_14",
-        "strength": 1
+        "strength": 2
       },
       {
         "document": "16_Chapter_15",
-        "strength": 1
+        "strength": 3
       },
       {
         "document": "17_Chapter_16",
+        "strength": 1
+      },
+      {
+        "document": "18_Chapter_17",
         "strength": 1
       },
       {
@@ -761,7 +787,7 @@
       },
       {
         "document": "20_Chapter_19",
-        "strength": 4
+        "strength": 5
       },
       {
         "document": "21_Chapter_20",
@@ -777,7 +803,7 @@
       },
       {
         "document": "26_Conclusion",
-        "strength": 3
+        "strength": 5
       },
       {
         "document": "27_Appendix_C_Statistics",
@@ -814,6 +840,10 @@
         "strength": 2
       },
       {
+        "document": "12_Chapter_11_Hive_Cities",
+        "strength": 1
+      },
+      {
         "document": "13_Chapter_12_Cryogenic",
         "strength": 1
       },
@@ -823,11 +853,15 @@
       },
       {
         "document": "15_Chapter_14",
-        "strength": 2
+        "strength": 4
+      },
+      {
+        "document": "16_Chapter_15",
+        "strength": 1
       },
       {
         "document": "18_Chapter_17",
-        "strength": 2
+        "strength": 3
       },
       {
         "document": "19_Chapter_18",
@@ -1472,11 +1506,19 @@
         "strength": 1
       },
       {
+        "document": "12_Chapter_11_Hive_Cities",
+        "strength": 1
+      },
+      {
         "document": "16_Chapter_15",
         "strength": 1
       },
       {
         "document": "19_Chapter_18",
+        "strength": 1
+      },
+      {
+        "document": "20_Chapter_19",
         "strength": 1
       },
       {
@@ -1497,7 +1539,7 @@
       },
       {
         "document": "26_Conclusion",
-        "strength": 1
+        "strength": 2
       }
     ]
   },
