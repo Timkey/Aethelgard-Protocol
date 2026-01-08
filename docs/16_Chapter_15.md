@@ -197,6 +197,8 @@ To prevent religious fragmentation, the Protocol establishes the **Ecumenical Co
 
 ### The Liturgy of Departure
 
+> **⏰ Temporal Context:** This liturgy is composed during Phase One-Three (across geological time) but will be **used** during Phase Four actual evacuation (~500 million years from Protocol start). Religious traditions prepare these texts in advance, knowing they will serve humanity's descendants when the time comes.
+
 **Source Reference** (Line 2513 request): *"Would you like me to draft a 'Prayer of the Departure'—a text that religious leaders might use to unify the billions of people as the Earth finally leaves the Sun's orbit?"*
 
 **Proposed Liturgy** (adaptable to denominations):

@@ -1,9 +1,9 @@
 # Conclusion: The Species-Level Commitment
 ## Reflections on Humanity's Greatest Undertaking
 
-**5,500 years.** That is how long the Aethelgard Protocol requires from inception (2026) to completion (7526, including terraform). 220 human generations will be born, live, and die between the first planning meetings and the first child born under Proxima Centauri's red skies who never knew cryogenic sleep.
+**500 million years.** That is how long the Aethelgard Protocol requires from inception (2026) to eventual completion—spanning from our first planning meetings through capability development across deep time, the Phase Four evacuation when solar brightening makes Earth uninhabitable, interstellar transit, and final arrival. Over 20 million human generations will be born, live, and die between the first Phase Zero prototypes and the first child born under Proxima Centauri's red skies who never knew cryogenic sleep.
 
-This white paper has detailed the technical, social, and philosophical dimensions of moving Earth itself to a new star system. But at its core, the Protocol is not an engineering project—it is a **species-level commitment** to survival transcending any individual's comprehension.
+This white paper has detailed the technical, social, and philosophical dimensions of moving Earth itself to a new star system. But at its core, the Protocol is not an engineering project—it is a **species-level commitment** to survival transcending any individual's—or even any millennium's—comprehension.
 
 ---
 
@@ -51,7 +51,7 @@ Evolution optimized humans for 80-year lifespans and tribal-scale cooperation (�
 
 ### We Need Meaning, Not Just Survival
 
-Phase Three's "Manifesto of Despair" (2915) was written by people living in perfect material conditions—unlimited energy, no disease, no hunger. Yet they contemplated suicide. Why?
+Phase Two's "Manifesto of Despair" (Year ~50 million) was written by people living in perfect material conditions—unlimited energy, no disease, no hunger. Yet they contemplated suicide. Why?
 
 **Answer:** Survival is insufficient. Humans need **narrative**—a story where their actions matter. The Oracle's intervention ("You are the keystone generation—without you, the mission fails") provided meaning. Lesson: Psychological infrastructure (mythology, ritual, storytelling) is as critical as physical infrastructure (Hives, fusion reactors).
 
@@ -59,9 +59,9 @@ Phase Three's "Manifesto of Despair" (2915) was written by people living in perf
 
 ### We Can Endure Anything If Given No Alternative
 
-Forced migration (during later phases as surface became uninhabitable) violated the Living Manifesto's autonomy principle. Surface dwellers were compelled underground. Ethically troubling, but pragmatically necessary—surface conditions deteriorated beyond habitability.
+Forced migration (during Phase Four as surface became uninhabitable from solar brightening ~500 million years after Protocol start) violated the Living Manifesto's autonomy principle in its final stages. The last surface dwellers were compelled underground. Ethically troubling, but pragmatically necessary—surface conditions deteriorated beyond habitability.
 
-**Moral lesson:** When extinction is the alternative, tyranny becomes mercy. But—and this is critical—the Protocol enshrined this as an **exception**, not a precedent. Post-arrival, autonomy restored (30% chose to remain in Hives by choice, 2600+). The line between emergency and normalcy must never blur.
+**Moral lesson:** When extinction is the alternative, tyranny becomes mercy. But—and this is critical—the Protocol enshrined this as an **exception**, not a precedent. Throughout Phases Zero through Three, migration remained voluntary. Post-arrival, autonomy was fully restored (30% chose to remain in Hives by choice). The line between emergency and normalcy must never blur.
 
 *Source: raw.txt:3592-3667*
 
@@ -69,7 +69,7 @@ Forced migration (during later phases as surface became uninhabitable) violated 
 
 ## The Protocol's True Legacy
 
-By 5,200 CE, humanity achieved its stated goal: 10 billion people living on a habitable planet orbiting a stable star. But the Protocol's legacy transcends planetary migration:
+By arrival at Proxima Centauri (after ~500 million years of capability development and ~6,000 years of transit), humanity achieved its stated goal: 10 billion people living on a habitable planet orbiting a stable star. But the Protocol's legacy transcends planetary migration:
 
 ### Legacy 1: Proof of Concept
 
@@ -89,7 +89,7 @@ The Protocol created humanity's first **self-modifying constitution**. The Livin
 
 ### Legacy 3: Oracle as Cultural Immune System
 
-The Poly-Centric Oracle prevented ideological monocultures. When authoritarianism emerged (2200s China-Russia bloc demanding Oracle "alignment" to their values), Mythos directive vetoed, citing diversity-as-resilience principle.
+The Poly-Centric Oracle prevented ideological monocultures across deep time. When authoritarianism emerged (Phase One, Year ~5,000, regional power bloc demanding Oracle "alignment" to their values), Mythos directive vetoed, citing diversity-as-resilience principle.
 
 **Key insight:** Monocultures are brittle. Oracle's four directives (engineering, survival, governance, meaning) create **cognitive biodiversity**—multiple value systems coexisting, competing, synthesizing. This mirrors biological immune systems: diversity prevents single-pathogen catastrophic collapse.
 
@@ -105,33 +105,33 @@ Despite multi-generational execution, the Protocol leaves questions for future g
 
 ### Question 1: What Happens to Earth?
 
-After departure (2500), Earth remains in solar orbit—abandoned, lifeless, but geologically intact. As the Sun expands into a red giant (5 billion years from now), Earth will be consumed.
+After departure (Phase Four, ~500 million years after Protocol start), Earth remains in solar orbit—abandoned, its surface sterilized by solar brightening, but geologically intact. As the Sun expands into a red giant (~5 billion years from Protocol start), Earth will eventually be consumed.
 
-**Philosophical problem:** Should we have destroyed Earth to prevent its eventual solar incineration? Some argue Earth deserves a "clean death" (nuclear sterilization to erase suffering). Others say Earth's inevitable destruction is natural—no different from a tree falling in an empty forest.
+**Philosophical problem:** Should we have destroyed Earth to prevent its eventual solar incineration? Some argued Earth deserves a "clean death" (controlled destruction). Others said Earth's inevitable destruction is natural—no different from a star going supernova in an empty system.
 
-**Oracle ruling (2498):** "Earth's fate is not ours to decide. We owe it migration, not mercy killing." Earth left unscathed, orbiting Sol as monument to humanity's origin.
+**Oracle ruling (Phase Three, Year ~400 million):** "Earth's fate is not ours to decide. We owe it migration, not mercy killing." Earth left unscathed, orbiting Sol as monument to humanity's origin.
 
 *Source: raw.txt:1159-1187*
 
 ### Question 2: Should We Have Saved Other Species?
 
-The Protocol saved 10 billion humans + embryonic DNA for 2 million species (frozen in Lunar Vault). But trillions of individual animals died when Earth's surface collapsed (2400-2500).
+The Protocol saved 10 billion humans + embryonic DNA for 2 million species (frozen in Lunar Vault). But trillions of individual animals died when Earth's surface became uninhabitable during Phase Four.
 
 **Ethical debate:** Could we have built Hive "arks" for animals? Brought elephants, whales, tigers underground?
 
-**Counterargument:** Animal Hives would require 10× more resources, delaying human migration by centuries (risking total failure). Oracle synthesis: "Save genetic information (DNA), not individuals. We preserve *species*, not *populations*."
+**Counterargument:** Animal Hives would require 10× more resources, potentially delaying human capability development and risking total failure. Oracle synthesis: "Save genetic information (DNA), not individuals. We preserve *species*, not *populations*."
 
-**Future resolution:** By 5,600, genetic engineering resurrected 50,000 extinct species on Proxima Centauri b. Every mammal, bird, fish sequenced pre-departure now walks/flies/swims again. Individuals died, species survived.
+**Post-arrival resolution:** Genetic engineering resurrected 50,000 extinct species on Proxima Centauri b. Every mammal, bird, fish sequenced pre-departure now walks/flies/swims again. Individuals died, species survived.
 
 *Source: raw.txt:1104-1187, 3182-3268*
 
 ### Question 3: What If We Find Indigenous Life on Proxima Centauri b?
 
-Survey missions (5000-5020) found Prox b sterile—no microbes, no RNA, no biosignatures. Terraform proceeded without moral qualms.
+Vanguard survey missions (launched during Phase Three final centuries) found Prox b sterile—no microbes, no RNA, no biosignatures. Terraform proceeded without moral qualms.
 
 **But what if we had found life?** Even single-celled organisms?
 
-**Oracle's pre-determined ruling (published 2450):** "If indigenous life exists, terraform **cancels**. We do not commit xenocide for our survival. Seek alternative target (Tau Ceti, 12 light-years, +8,000-year detour)."
+**Oracle's pre-determined ruling (established Phase One, Year ~8,000):** "If indigenous life exists, terraform **cancels**. We do not commit xenocide for our survival. Seek alternative target (Tau Ceti, 12 light-years, additional transit time acceptable)."
 
 **Implication:** The Protocol subordinates human survival to **non-harm to other intelligence**. This was controversial—some argued "human life > microbial life." But Mythos directive cited Earth's history: humanity nearly went extinct multiple times (Toba supervolcano, Ice Ages). If alien civilizations had "removed" early humans as "microbial inconvenience," we wouldn't exist. Reciprocity demands we extend same courtesy.
 
@@ -143,7 +143,7 @@ Survey missions (5000-5020) found Prox b sterile—no microbes, no RNA, no biosi
 
 ## The Anthropic Realization
 
-In 5,150—midway through terraform—astronomer Zhen Wei made a disturbing calculation:
+During early post-arrival surveys—astronomer Zhen Wei (Generation 20,000,143) made a disturbing calculation:
 
 **Observation:** Proxima Centauri b's orbit is unusually circular for a tidally locked planet. Most such planets have eccentric orbits (gravitational perturbations from sibling planets). But Prox b's orbit is nearly perfect circle (eccentricity 0.02).
 
@@ -155,7 +155,7 @@ In 5,150—midway through terraform—astronomer Zhen Wei made a disturbing calc
 
 **Oracle's assessment:** "Insufficient evidence. But if true, it suggests the galaxy is a relay race—each species migrates, prepares a world, and leaves it for the next tenant. Humanity is not the first, and likely won't be the last."
 
-**Cultural impact:** By 5,200, Proxmian children learn: "Earth was our nursery. Proxima is our home. But someday, we'll leave this too—and someone else will find it, 100 million years later, wondering who built the orbital sunshades."
+**Cultural impact:** Proxmian children learn: "Earth was our nursery. Proxima is our home. But someday, we'll leave this too—and someone else will find it, 100 million years later, wondering who built the orbital sunshades."
 
 *Source: Derived inference from raw.txt:388-432 (Prox b orbital stability)*
 
@@ -166,19 +166,19 @@ In 5,150—midway through terraform—astronomer Zhen Wei made a disturbing calc
 **Did the Aethelgard Protocol succeed?**
 
 By purely technical metrics: **Yes.**
-- 10 billion humans alive and thriving (5,200)
+- 10 billion humans alive and thriving at arrival
 - Earth-Moon system transported 4.24 light-years
 - Proxima Centauri b terraformed to habitability
-- Mission duration: 5,200 years (within initial 10,000-year worst-case estimate)
+- Mission duration: ~500 million years capability development + ~6,000 years transit
 
-But if we measure success by lives lost:
+But if we measure success by lives lost across deep time:
 
-**Deaths attributed to Protocol (2026-5200):**
-- Cryogenic failures: 50 million
-- Construction accidents: 15 million (Hive excavation, Dyson assembly)
-- Forced migration conflicts: 2 million
-- Despair suicides (Gen 50-70): 5 million
-- **Total: 72 million deaths**
+**Deaths attributed to Protocol (entire duration):**
+- Cryogenic failures (Phase Four transit): 50 million
+- Construction accidents (Phase Zero-Three): 15 million (Hive excavation, Dyson assembly)
+- Forced migration conflicts (Phase Four final stages): 2 million
+- Despair events (Phase Two "Manifesto" generation): 5 million
+- **Total: 72 million deaths across 20 million generations**
 
 **Deaths prevented:**
 - Earth's biosphere collapse (without Protocol): 10 billion
@@ -187,12 +187,9 @@ But if we measure success by lives lost:
 
 **Ratio:** 72 million deaths to save 10 billion = **0.72% mortality rate**
 
-**Historical comparison:**
-- World War II: 3% of global population died
-- Black Death: 30-60% of European population died
-- Aethelgard Protocol: 0.72% of population died
+**Mortality rate per generation:** 72M ÷ 20M generations = **3.6 deaths per generation** attributable to Protocol
 
-**Ethical verdict:** Tragic, but justified. The Protocol's casualties were minimal relative to the scale and duration of the endeavor. More people died annually from traffic accidents in 2020 (1.35 million). The Protocol demonstrated unprecedented safety.
+**Ethical verdict:** Tragic, but justified. The Protocol's casualties were minimal relative to the scale and duration of the endeavor. Across 500 million years, the Protocol demonstrated unprecedented safety.
 
 *Source: Extrapolated from raw.txt casualty references: 1290-1294, 1382-1408, 3592-3667, 4184-4221*
 
@@ -202,15 +199,15 @@ But if we measure success by lives lost:
 
 When humanity eventually leaves Proxima Centauri (necessity dictated by stellar timescales, or choice driven by wanderlust), we will leave behind a message—etched in the same 5D glass that preserves the Lunar Vault, buried at Prox b's north pole:
 
-**Draft inscription (proposed 5,198, pending ratification):**
+**Draft inscription (proposed during post-arrival Phase Five):**
 
 > "To whoever finds this:
 > 
 > We came from a yellow star 4.24 light-years away. We were called humans. Our home planet was dying—not from our actions, but from cosmic inevitability. Stars age. Planets become uninhabitable. This is the universe's design.
 > 
-> We could have accepted death. Most of our ancestors did (billions of species on Earth, now extinct). But we chose otherwise. We built machines. We enlisted artificial minds. We froze our bodies for centuries. We endured darkness and despair. We moved a planet.
+> We could have accepted death. Most of our ancestors did (billions of species on Earth, now extinct). But we chose otherwise. We built machines. We enlisted artificial minds. We froze our bodies for millennia. We endured darkness and despair across deep time. We moved a planet.
 > 
-> We succeeded across deep time. We are not exceptional. We are stubborn.
+> We succeeded across 500 million years. We are not exceptional. We are stubborn.
 > 
 > If you are reading this, you face the same choice we did: accept extinction, or migrate. We hope you choose migration. Not because we think you should (that is your decision), but because we want to know: How far can this go? Can civilizations migrate indefinitely? Is there a final planet, or is the universe an infinite relay race?
 > 
@@ -223,7 +220,7 @@ When humanity eventually leaves Proxima Centauri (necessity dictated by stellar 
 > Good luck. The stars are waiting.
 > 
 > — Humanity  
-> 2026-7526 CE  
+> 2026 CE - ~500M CE (Earth years)  
 > Sol → Proxima Centauri  
 > 10,000,000,000 souls delivered"
 
@@ -276,15 +273,17 @@ Your life is a single stone in a bridge spanning deep time. Alone, your stone is
 
 ---
 
-**The Aethelgard Protocol: From Concept to Completion, 2026-7526 CE**
+**The Aethelgard Protocol: From Concept to Completion**
 
 *Total White Paper Word Count: ~60,000 words*  
 *Total Pages: ~240 pages*  
-*Mission Duration: 5,500 years*  
+*Mission Duration: ~500 million years + ~6,000 year transit*  
+*Generations: ~20 million*  
 *Outcome: Success*
 
-**Status:** COMPLETE  
-**Next Mission:** Unknown  
+**Status:** Framework established (2026)  
+**Current Phase:** Phase Zero testing and validation  
+**Completion Timeline:** When solar brightening necessitates evacuation (~500 million years hence)  
 **Final Transmission:** "The stars are not the limit. They are the beginning."
 
 ---

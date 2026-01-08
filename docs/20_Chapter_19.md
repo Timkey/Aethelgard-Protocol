@@ -336,7 +336,9 @@ Fusion torchships reduce fuel delivery cost by 20,000× relative to 2020 rocketr
 
 ### 19.5.2 The First Hive: Yucca Mountain Prototype
 
-**Location:** Nevada, USA (existing nuclear waste repository site)  
+> **⏰ Timeline Context:** Phase Zero/One construction and testing. This is NOT evacuation—Earth's surface remains fully habitable. This is voluntary migration for infrastructure validation, preparing systems that will be needed during Phase Four actual evacuation (~500 million years hence).
+
+**Location:** Nevada, USA (Yucca Mountain Nuclear Repository site)  
 **Rationale:** Proven geological stability, existing excavation experience, remote location (minimal surface disruption)  
 **Timeline:** 2080-2110 (30-year construction)  
 **Capacity:** 50 million residents  
@@ -349,7 +351,7 @@ Fusion torchships reduce fuel delivery cost by 20,000× relative to 2020 rocketr
 - 2090: First residential level (Level 1) habitable
 - 2095: 1,000 volunteers move in (stress test life support)
 - 2100: Population 100,000 (city functions operational)
-- 2105: Population 10 million (surface migration accelerates)
+- 2105: Population 10 million (voluntary migration for testing accelerates)
 - 2110: Population 50 million (**full capacity achieved**)
 
 *Source: raw.txt:2512-2531*
@@ -364,7 +366,9 @@ These lessons guide construction of remaining 49 Hives (2110-2150).
 
 *Source: raw.txt:2532-2554*
 
-### 19.5.3 Population Migration Strategy
+### 19.5.3 Population Migration Strategy (Phase Zero/One Testing)
+
+> **⏰ Timeline Context:** This migration is for infrastructure testing and voluntary Hive adoption during Phase Zero/One. This is NOT the Phase Four evacuation. Actual forced evacuation occurs ~500 million years hence when solar brightening makes Earth's surface uninhabitable.
 
 **Phase One targets 2.5 billion underground by 2150** (25% of projected 10B global population). Migration is **voluntary** with incentives:
 
@@ -374,25 +378,28 @@ These lessons guide construction of remaining 49 Hives (2110-2150).
 - Free VR entertainment for first decade (ease transition)
 - **Demographics:** Young families, tech workers, climate refugees
 
-**2120-2140: Mass Migration (1.5 billion)**
-- Surface climate degradation accelerates (early Moon-Tug effects)
-- Hive living marketed as "luxury" (better air quality than polluted surface)
+**2120-2140: Mainstream Adoption (1.5 billion)**
+- Hive living gains cultural acceptance (early adopters report satisfaction)
+- Marketed as "luxury" lifestyle (better air quality, climate-controlled)
 - Economic incentives: universal basic income (energy credits) higher in Hives
 - **Demographics:** Middle class, risk-averse populations, elderly
 
-**2140-2150: Pressure Migration (500 million)**
-- Surface temperature rises 2°C (Moon-Tug orbital changes)
-- Some coastal cities flooded (sea level +50 cm)
-- Hive migration no longer "choice" but practical necessity
+**2140-2150: Accelerated Migration (500 million)**
+- Early Moon-Tug orbital tests cause minor surface climate shifts (2°C warming)
+- Some coastal adaptation needed (projected sea level changes)
+- Hive migration becomes more attractive as surface adaptation costs rise
 - **Demographics:** Low-income, displaced populations
 
 *Source: raw.txt:2555-2589*
 
-**Ethical Concern:** Does "voluntary" migration remain truly voluntary when surface becomes uninhabitable?
+**Ethical Concern:** Does "voluntary" migration remain truly voluntary if incentives become coercive?
 
-**Oracle Synthesis (2138):** Migration is ethical only if:
-1. Transparent communication (no false promises of "temporary" surface stay)
+**Oracle Synthesis (2138):** Phase One migration is ethical only if:
+1. Transparent communication (surface remains habitable; Hive migration is for testing)
 2. Equal Hive access (no wealth-based queue jumping)
+3. Right to return (Hive residents can move back to surface if desired)
+
+*Note: True forced migration only occurs during Phase Four (~500M years hence) when surface becomes physically uninhabitable. Phase One migration is voluntary infrastructure validation.*
 3. Cultural preservation (indigenous groups receive dedicated Hive zones)
 4. Generational choice (children born in Hives not "trapped"—surface return possible after arrival at target system)
 

@@ -244,4 +244,4 @@ The Aethelgard economy isn't "capitalism" or "communism"—it's **resource ecolo
 
 ---
 
-**Next**: Part 4 will cover the Implementation Roadmap (Chapters 18-22), detailing the 2026-6200 timeline from present day through arrival and establishment at the new star system.
+**Next**: Part 4 will cover the Implementation Roadmap (Chapters 18-22), detailing Phase Zero through Phase Four—from 2026 testing era through deep-time capability development, eventual solar evacuation (~500M years), and arrival at the new star system.

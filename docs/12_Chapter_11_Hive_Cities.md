@@ -286,15 +286,17 @@ By Year 150, we have identified **1,000+ optimal Hive sites** globally, each cap
 
 **Population Migration:**
 - Voluntary relocation incentivized (tax breaks, housing priority)
-- By Year 500, **8 billion people** live in Hive Cities
+- By Year 500, **8 billion people** live in Hive Cities (voluntary testing and lifestyle choice)
 - Surface population reduced to 2 billion (maintenance workers, scientists, cultural preservationists)
+- **Note:** This is Phase One voluntary migration for infrastructure validation. Actual forced evacuation occurs ~500 million years hence during Phase Four when solar brightening makes surface uninhabitable.
 
-### Phase 4: Final Transition (Year 500+)
+### Phase 4: Maturation and Scaling (Year 500-10,000+)
 
-**Departure Preparation:**
-- Remaining surface population moves underground
-- Surface infrastructure mothballed (parks preserved in geodesic domes)
-- Earth's atmosphere begins to freeze; surface temperature drops to -100°C within 50 years of cutting the solar beam
+**Long-Term Evolution:**
+- Hive Cities continue scaling capacity over millennia
+- Additional Hives constructed as population grows
+- Surface remains fully habitable; migration remains voluntary throughout Phases One-Three
+- True evacuation preparation begins only during Phase Four when solar conditions deteriorate
 
 ---
 
