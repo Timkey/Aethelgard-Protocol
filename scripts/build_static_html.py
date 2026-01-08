@@ -866,6 +866,11 @@ def generate_html(content_map, stats=None):
                            rel="noopener noreferrer" 
                            style="color: #4a90e2; text-decoration: none; border-bottom: 1px solid #4a90e2;">GitHub</a>
                     </div>
+                    <div class="description" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #2a3f5f;">
+                        <strong>🧬 Analytics:</strong> Explore the document's structure and semantics in the 
+                        <a href="analytics.html" 
+                           style="color: #4a90e2; text-decoration: none; border-bottom: 1px solid #4a90e2;">Interactive Analytics Dashboard</a>
+                    </div>
                     <div class="stats">
                         <div class="stat">
                             <span class="stat-value">${documents.length}</span>
