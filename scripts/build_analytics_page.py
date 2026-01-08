@@ -244,6 +244,19 @@ def generate_analytics_html(stats):
             border-radius: 6px;
             margin-bottom: 12px;
             border-left: 3px solid #4a90e2;
+            cursor: pointer;
+            transition: background 0.2s;
+        }}
+
+        .result-item:hover {{
+            background: #202530;
+        }}
+
+        .result-header {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
         }}
 
         .result-score {{
@@ -266,6 +279,39 @@ def generate_analytics_html(stats):
         .result-content {{
             color: #e0e0e0;
             line-height: 1.6;
+        }}
+
+        .result-preview {{
+            color: #c0c0c0;
+            line-height: 1.6;
+        }}
+
+        .result-full {{
+            color: #e0e0e0;
+            line-height: 1.8;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #2a3f5f;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }}
+
+        .result-full.open {{
+            max-height: 1000px;
+            transition: max-height 0.5s ease-in;
+        }}
+
+        .result-toggle {{
+            color: #4a90e2;
+            font-size: 12px;
+            margin-top: 8px;
+            cursor: pointer;
+            user-select: none;
+        }}
+
+        .result-toggle:hover {{
+            text-decoration: underline;
         }}
 
         .network-canvas {{
@@ -344,12 +390,13 @@ def generate_analytics_html(stats):
         }}
 
         .accordion-content.open {{
-            max-height: 1000px;
-            transition: max-height 0.5s ease-in;
+            max-height: none;
+            overflow: visible;
         }}
 
         .accordion-content.default-open {{
-            max-height: 1000px;
+            max-height: none;
+            overflow: visible;
         }}
 
         .accordion-body {{
@@ -542,6 +589,21 @@ def generate_analytics_html(stats):
             const icon = header.querySelector('.accordion-icon');
             content.classList.toggle('open');
             icon.classList.toggle('open');
+        }}
+
+        // Toggle search result expansion
+        function toggleResult(event, idx) {{
+            const fullContent = document.getElementById(`result-full-${{idx}}`);
+            fullContent.classList.toggle('open');
+            
+            // Update toggle text
+            const item = event.currentTarget;
+            const toggle = item.querySelector('.result-toggle');
+            if (fullContent.classList.contains('open')) {{
+                toggle.textContent = 'Click to collapse ▲';
+            }} else {{
+                toggle.textContent = 'Click to expand full content ▼';
+            }}
         }}
 
         // Embedded stats data
@@ -966,9 +1028,9 @@ def generate_analytics_html(stats):
         // Premise Distribution Chart
         function renderPremiseChart() {{
             const ctx = document.getElementById('premiseChart');
-            if (!STATS.dependencies?.key_premises) return;
+            if (!ctx || !STATS.dependencies?.premise_chains) return;
             
-            const premises = STATS.dependencies.key_premises.slice(0, 9);
+            const premises = Object.keys(STATS.dependencies.premise_chains);
             
             new Chart(ctx, {{
                 type: 'polarArea',
@@ -1040,13 +1102,17 @@ def generate_analytics_html(stats):
                     return;
                 }}
                 
-                results.innerHTML = matches.map(m => `
-                    <div class="result-item">
-                        <div>
-                            <span class="result-score">${{(m.score * 100).toFixed(1)}}%</span>
-                            <span class="result-doc">${{m.document}} - ${{m.section}}</span>
+                results.innerHTML = matches.map((m, idx) => `
+                    <div class="result-item" onclick="toggleResult(event, ${{idx}})">
+                        <div class="result-header">
+                            <div>
+                                <span class="result-score">${{(m.score * 100).toFixed(1)}}%</span>
+                                <span class="result-doc">${{m.document}} - ${{m.section}}</span>
+                            </div>
                         </div>
-                        <div class="result-content">${{m.content.substring(0, 200)}}...</div>
+                        <div class="result-preview">${{m.content.substring(0, 200)}}...</div>
+                        <div class="result-full" id="result-full-${{idx}}">${{m.content}}</div>
+                        <div class="result-toggle">Click to expand full content ▼</div>
                     </div>
                 `).join('');
             }}, 300));
