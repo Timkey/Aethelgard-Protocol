@@ -43,6 +43,18 @@ def escape_js_string(text):
     """Escape text for embedding in JavaScript string"""
     return text.replace('\\', '\\\\').replace('`', '\\`').replace('${', '\\${')
 
+def load_welcome_stats():
+    """Load statistics from metadata/welcome_stats.json"""
+    base_path = Path(__file__).parent.parent
+    stats_path = base_path / 'metadata' / 'welcome_stats.json'
+    
+    try:
+        with open(stats_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print(f"✗ Stats file not found: {stats_path}")
+        return None
+
 def load_markdown_content():
     """Load all markdown files and return as JSON-safe structure"""
     content_map = {}
@@ -62,11 +74,16 @@ def load_markdown_content():
     
     return content_map
 
-def generate_html(content_map):
+def generate_html(content_map, stats=None):
     """Generate the complete HTML with embedded content"""
     
+    # Embed stats if available
+    stats_js = ""
+    if stats:
+        stats_js = f"const WELCOME_STATS = {json.dumps(stats, indent=2)};\n\n"
+    
     # Convert to JavaScript object
-    js_content = "const EMBEDDED_CONTENT = {\n"
+    js_content = stats_js + "const EMBEDDED_CONTENT = {\n"
     for file_path, content in content_map.items():
         js_content += f"    '{file_path}': `{content}`,\n"
     js_content += "};\n\n"
@@ -735,11 +752,17 @@ def generate_html(content_map):
             sidebarOverlay.classList.remove('show');
         });
 
-        // Calculate word counts for all documents
-        documents.forEach(doc => {
-            const content = EMBEDDED_CONTENT[doc.file] || '';
-            wordCounts[doc.file] = content.split(/\\s+/).filter(w => w.length > 0).length;
-        });
+        // Use stats from welcome_stats.json if available, otherwise calculate
+        if (typeof WELCOME_STATS !== 'undefined') {
+            // Stats are pre-calculated and accurate
+            wordCounts = {}; // Will use WELCOME_STATS directly
+        } else {
+            // Fallback: Calculate word counts from content (less accurate)
+            documents.forEach(doc => {
+                const content = EMBEDDED_CONTENT[doc.file] || '';
+                wordCounts[doc.file] = content.split(/\\s+/).filter(w => w.length > 0).length;
+            });
+        }
 
         // Build navigation
         function buildNavigation() {
@@ -808,8 +831,14 @@ def generate_html(content_map):
                 item.classList.remove('active');
             });
             
-            const totalWords = Object.values(wordCounts).reduce((a, b) => a + b, 0);
+            // Use accurate stats from WELCOME_STATS if available
+            const totalWords = (typeof WELCOME_STATS !== 'undefined') 
+                ? WELCOME_STATS.total_words 
+                : Object.values(wordCounts).reduce((a, b) => a + b, 0);
             const totalPages = Math.round(totalWords / 250);
+            const readingTime = (typeof WELCOME_STATS !== 'undefined') 
+                ? WELCOME_STATS.reading_time_hours 
+                : Math.round(totalWords / 200 / 60);
             
             document.getElementById('content').innerHTML = `
                 <div class="welcome">
@@ -851,12 +880,14 @@ def generate_html(content_map):
                             <span class="stat-label">Pages</span>
                         </div>
                         <div class="stat">
-                            <span class="stat-value">~2 hrs</span>
+                            <span class="stat-value">~${readingTime} hrs</span>
                             <span class="stat-label">Reading Time</span>
                         </div>
                     </div>
                     <div class="description" style="margin-top: 20px; padding: 16px; background: rgba(74, 144, 226, 0.1); border-radius: 8px; border-left: 3px solid #4a90e2;">
-                        <strong>🔑 Key Concepts:</strong> Dyson Swarm (48 refs) • Aethelgard Protocol (44) • Proxima Centauri (21) • Hive Cities (20) • Synthesis Engine (20)
+                        <strong>🔑 Key Concepts:</strong> ${(typeof WELCOME_STATS !== 'undefined') 
+                            ? WELCOME_STATS.top_concepts.map(([name, count]) => `${name} (${count})`).join(' • ') 
+                            : 'Dyson Swarm • Aethelgard Protocol • Proxima Centauri • Hive Cities'}
                     </div>
                     <div class="start-hint">
                         ← Select a chapter from the sidebar to begin
@@ -883,7 +914,19 @@ def generate_html(content_map):
             // Get document info
             const doc = documents.find(d => d.file === file);
             const content = EMBEDDED_CONTENT[file] || '# Document Not Found';
-            const words = wordCounts[file] || 0;
+            
+            // Count words more accurately (strip markdown syntax)
+            const plainText = content
+                .replace(/^#{1,6}\s+/gm, '')  // Remove headers
+                .replace(/\*\*(.+?)\*\*/g, '$1')  // Remove bold
+                .replace(/\*(.+?)\*/g, '$1')  // Remove italic
+                .replace(/\[(.+?)\]\(.+?\)/g, '$1')  // Remove links
+                .replace(/`(.+?)`/g, '$1')  // Remove inline code
+                .replace(/^[-*+]\s+/gm, '')  // Remove list markers
+                .replace(/^>\s+/gm, '')  // Remove blockquotes
+                .replace(/^\s*\|.*\|\s*$/gm, '')  // Remove tables
+                .replace(/---+/g, '');  // Remove horizontal rules
+            const words = plainText.split(/\s+/).filter(w => w.length > 0).length;
 
             // Render markdown
             const htmlContent = marked.parse(content);
@@ -929,6 +972,11 @@ def main():
     print("Building self-contained static HTML...")
     print("=" * 60)
     
+    # Load stats
+    stats = load_welcome_stats()
+    if stats:
+        print(f"✓ Loaded stats: {stats['total_words']:,} words, {stats['total_sections']} sections")
+    
     # Load content
     content_map = load_markdown_content()
     
@@ -936,7 +984,7 @@ def main():
     print(f"Loaded {len(content_map)} documents")
     
     # Generate HTML
-    html = generate_html(content_map)
+    html = generate_html(content_map, stats)
     
     # Write to output file (in project root)
     output_path = Path(__file__).parent.parent / 'index.html'
