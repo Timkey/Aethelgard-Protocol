@@ -2,14 +2,14 @@
 
 ## Summary
 
-- **Total Paragraphs:** 1831
-- **Semantic Connections:** 441
+- **Total Paragraphs:** 1836
+- **Semantic Connections:** 479
 - **Similarity Threshold:** 0.7
-- **Semantic Clusters:** 75
+- **Semantic Clusters:** 73
 
 ## Most Connected Paragraphs
 
-### Paragraph 1568: 15 connections
+### Paragraph 1572: 15 connections
 
 **Document:** 23_Chapter_22
 
@@ -19,7 +19,7 @@
 - **Hive Cities:** 200 underground habitats supporting 10 billion humans (built Phase Two)
 - **Dyson Swarm:** Petawatt-scale energy (matured Phase One, maintained Phase Two-T...
 
-### Paragraph 1232: 15 connections
+### Paragraph 1233: 15 connections
 
 **Document:** 20_Chapter_19
 
@@ -29,7 +29,17 @@
 - **Mass Production:** Lunar factories scaled to multi-billion tons/year output
 - **Hive Deployment:** Unde...
 
-### Paragraph 1326: 12 connections
+### Paragraph 1358: 13 connections
+
+**Document:** 21_Chapter_20
+
+**Section:** 20.3 Hive Cities: Evolution from Shelter to Civilization
+
+**Preview:** **Year 10,000 Status:** 200 Hive cities operational (Phase One legacy)  
+**Year 1 Million Status:** Hive population reaches 40% of total (voluntary migration)  
+**Year 50 Million Status:** Hives integ...
+
+### Paragraph 1330: 12 connections
 
 **Document:** 20_Chapter_19
 
@@ -39,7 +49,7 @@
 - **Lunar Manufacturing:** Self-replicating factories reach multi-billion tons/year output
 - **Hive Cities:...
 
-### Paragraph 1431: 12 connections
+### Paragraph 1435: 12 connections
 
 **Document:** 21_Chapter_20
 
@@ -71,17 +81,15 @@
 - Beams energy to lunar engines via microwave or laser
 - Must be construc...
 
-### Paragraph 1354: 12 connections
+### Paragraph 1158: 10 connections
 
-**Document:** 21_Chapter_20
+**Document:** 19_Chapter_18
 
-**Section:** 20.3 Hive Cities: Evolution from Shelter to Civilization
+**Section:** The Foundation Era: Testing, Simulation & Capability Building
 
-**Preview:** **Year 10,000 Status:** 200 Hive cities operational (Phase One legacy)  
-**Year 1 Million Status:** Hive population reaches 40% of total (voluntary migration)  
-**Year 50 Million Status:** Hives integ...
+**Preview:** > **⏰ Timeline Context:** Phase Zero spans 125+ years of testing and capability development. The actual solar evacuation deadline is ~1 billion years away (ocean evaporation). We begin in 2026 to esta...
 
-### Paragraph 1229: 10 connections
+### Paragraph 1230: 10 connections
 
 **Document:** 20_Chapter_19
 
@@ -89,33 +97,19 @@
 
 **Preview:** > **⏰ Timeline Context:** Phase One spans thousands of years as proven Phase Zero systems are gradually scaled. Earth remains fully habitable; participation in underground Hives is voluntary. The actu...
 
-### Paragraph 1228: 10 connections
+### Paragraph 1335: 10 connections
 
-**Document:** 20_Chapter_19
+**Document:** 21_Chapter_20
 
-**Section:** Capability Maturation: From Prototypes to Legacy Infrastructure
+**Section:** Infrastructure Maintenance Era: Systems Become Legacy Technology
 
-**Preview:** **Timeline:** 2150-10,000+ years  
-**Status:** Validated Prototypes → Scaled Systems → Legacy Infrastructure  
-**Key Deliverable:** Dyson Swarm scaled to 100+ PW, Hive Cities to multi-million capacity...
-
-### Paragraph 1321: 9 connections
-
-**Document:** 20_Chapter_19
-
-**Section:** 19.8 Phase One Completion: The Handoff to Phase Two
-
-**Preview:** **Technical Achievements:**
-- ✅ Dyson Swarm operational (10 PW sustained)
-- ✅ Lunar industrialization (1 billion tons/year production)
-- ✅ 50 Hive cities operational (2.5 billion underground)
-- ✅ Jupi...
+**Preview:** > **⏰ Timeline Context:** Phase Two spans tens of millions of years as scaled systems mature into legacy infrastructure, like roads or aqueducts maintained across civilizations. Earth remains fully ha...
 
 ## Largest Semantic Clusters
 
-### Cluster 0: 139 paragraphs
+### Cluster 0: 156 paragraphs
 
-**Documents:** 00_Master_TOC, 01_Executive_Summary, 02_Chapter_01_Solar_Imperative, 03_Chapter_02_Physics, 04_Chapter_03_Alternatives, 05_Chapter_04_Ten_Billion_Mandate, 06_Chapter_05_Oracle_System, 07_Chapter_06_Synthesis_Engine, 09_Chapter_08_Moon_Tug, 10_Chapter_09_Dyson_Swarm, 11_Chapter_10_Defense, 12_Chapter_11_Hive_Cities, 13_Chapter_12_Cryogenic, 15_Chapter_14, 17_Chapter_16, 19_Chapter_18, 20_Chapter_19, 21_Chapter_20, 22_Chapter_21, 23_Chapter_22, 24_Appendix_A_Constants, 25_Appendix_B_Math, 26_Conclusion, 27_Appendix_C_Statistics
+**Documents:** 00_Master_TOC, 01_Executive_Summary, 02_Chapter_01_Solar_Imperative, 03_Chapter_02_Physics, 04_Chapter_03_Alternatives, 05_Chapter_04_Ten_Billion_Mandate, 06_Chapter_05_Oracle_System, 07_Chapter_06_Synthesis_Engine, 08_Chapter_07_Living_Manifesto, 09_Chapter_08_Moon_Tug, 10_Chapter_09_Dyson_Swarm, 11_Chapter_10_Defense, 12_Chapter_11_Hive_Cities, 13_Chapter_12_Cryogenic, 15_Chapter_14, 17_Chapter_16, 18_Chapter_17, 19_Chapter_18, 20_Chapter_19, 21_Chapter_20, 22_Chapter_21, 23_Chapter_22, 24_Appendix_A_Constants, 25_Appendix_B_Math, 26_Conclusion, 27_Appendix_C_Statistics
 
 **Example content:**
 
@@ -162,23 +156,23 @@
 
 ## Cross-Document Connections
 
+- **20_Chapter_19** ↔ **21_Chapter_20**: 28 connections
 - **03_Chapter_02_Physics** ↔ **09_Chapter_08_Moon_Tug**: 21 connections
-- **20_Chapter_19** ↔ **21_Chapter_20**: 21 connections
+- **20_Chapter_19** ↔ **22_Chapter_21**: 19 connections
 - **21_Chapter_20** ↔ **22_Chapter_21**: 18 connections
-- **20_Chapter_19** ↔ **22_Chapter_21**: 15 connections
 - **06_Chapter_05_Oracle_System** ↔ **07_Chapter_06_Synthesis_Engine**: 14 connections
 - **01_Executive_Summary** ↔ **02_Chapter_01_Solar_Imperative**: 12 connections
 - **09_Chapter_08_Moon_Tug** ↔ **20_Chapter_19**: 12 connections
+- **01_Executive_Summary** ↔ **20_Chapter_19**: 11 connections
+- **12_Chapter_11_Hive_Cities** ↔ **21_Chapter_20**: 11 connections
 - **24_Appendix_A_Constants** ↔ **25_Appendix_B_Math**: 11 connections
 - **01_Executive_Summary** ↔ **21_Chapter_20**: 10 connections
-- **01_Executive_Summary** ↔ **20_Chapter_19**: 10 connections
+- **02_Chapter_01_Solar_Imperative** ↔ **19_Chapter_18**: 10 connections
+- **12_Chapter_11_Hive_Cities** ↔ **20_Chapter_19**: 10 connections
 - **01_Executive_Summary** ↔ **23_Chapter_22**: 9 connections
 - **03_Chapter_02_Physics** ↔ **20_Chapter_19**: 9 connections
+- **20_Chapter_19** ↔ **23_Chapter_22**: 9 connections
 - **21_Chapter_20** ↔ **23_Chapter_22**: 9 connections
 - **01_Executive_Summary** ↔ **19_Chapter_18**: 8 connections
-- **12_Chapter_11_Hive_Cities** ↔ **21_Chapter_20**: 8 connections
 - **22_Chapter_21** ↔ **23_Chapter_22**: 8 connections
-- **02_Chapter_01_Solar_Imperative** ↔ **19_Chapter_18**: 7 connections
-- **04_Chapter_03_Alternatives** ↔ **05_Chapter_04_Ten_Billion_Mandate**: 7 connections
-- **20_Chapter_19** ↔ **23_Chapter_22**: 7 connections
-- **02_Chapter_01_Solar_Imperative** ↔ **23_Chapter_22**: 6 connections
+- **02_Chapter_01_Solar_Imperative** ↔ **23_Chapter_22**: 7 connections

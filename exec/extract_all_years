@@ -1,0 +1,4 @@
+#!/bin/bash
+# Extract all year references from documents
+
+docker compose exec -T worker python /app/scripts/extract_all_years.py "$@"
