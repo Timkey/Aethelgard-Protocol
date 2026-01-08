@@ -1,35 +1,35 @@
 {
   "total_sections": 279,
-  "total_words": 32499,
+  "total_words": 32402,
   "total_documents": 1,
   "reading_time_hours": 2,
   "top_concepts": [
     [
       "Dyson Swarm",
-      49
+      52
     ],
     [
       "Aethelgard Protocol",
       45
     ],
     [
-      "Proxima Centauri",
-      22
-    ],
-    [
       "Hive Cities",
-      21
+      22
     ],
     [
       "Synthesis Engine",
       21
+    ],
+    [
+      "Proxima Centauri",
+      17
     ]
   ],
   "phase_coverage": {
-    "Zero": 39,
-    "One": 27,
-    "Two": 20,
-    "Four": 16,
-    "Three": 13
+    "Zero": 47,
+    "One": 23,
+    "Four": 27,
+    "Two": 26,
+    "Three": 17
   }
 }

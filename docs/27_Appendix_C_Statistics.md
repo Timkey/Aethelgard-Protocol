@@ -8,7 +8,7 @@
 
 - **Total Sections:** 279
 - **Total Documents:** 1
-- **Total Words:** 32,499
+- **Total Words:** 32,402
 - **Average Section Length:** 116 words
 - **Estimated Reading Time:** 129 minutes (~2 hours)
 
@@ -16,23 +16,23 @@
 
 | Document | Sections | Words | Avg Section |
 |----------|----------|-------|-------------|
-| Unknown | 279 | 32,499 | 116 |
+| Unknown | 279 | 32,402 | 116 |
 
 ## Timeline Statistics
 
 ### Phase Mentions
 
-- **Phase Four:** 16 mentions
-- **Phase One:** 27 mentions
-- **Phase Three:** 13 mentions
-- **Phase Two:** 20 mentions
-- **Phase Zero:** 39 mentions
+- **Phase Four:** 27 mentions
+- **Phase One:** 23 mentions
+- **Phase Three:** 17 mentions
+- **Phase Two:** 26 mentions
+- **Phase Zero:** 47 mentions
 
 ### Temporal Scale References
 
-- **Years:** 208 references
+- **Years:** 230 references
+- **Million Years:** 38 references
 - **Billion Years:** 32 references
-- **Million Years:** 27 references
 - **Millennia:** 26 references
 - **Centuries:** 22 references
 - **Decades:** 7 references
@@ -41,17 +41,17 @@
 
 - **Energy/Power Values:** 5 mentions
 - **Mass Values:** 2 mentions
-- **Distance Values:** 19 mentions
-- **Population Figures:** 32 mentions
+- **Distance Values:** 17 mentions
+- **Population Figures:** 40 mentions
 
 ## Key Concept Frequency
 
-- **Dyson Swarm:** 49 mentions
+- **Dyson Swarm:** 52 mentions
 - **Aethelgard Protocol:** 45 mentions
-- **Proxima Centauri:** 22 mentions
-- **Hive Cities:** 21 mentions
+- **Hive Cities:** 22 mentions
 - **Synthesis Engine:** 21 mentions
-- **Cryogenic:** 14 mentions
+- **Proxima Centauri:** 17 mentions
+- **Cryogenic:** 11 mentions
 - **Solar System:** 7 mentions
 - **Oracle System:** 2 mentions
 
@@ -59,38 +59,38 @@
 
 *Top 30 meaningful keywords (excluding common words)*
 
-1. **earth** (286 occurrences)
-2. **years** (208 occurrences)
-3. **phase** (166 occurrences)
-4. **moon** (156 occurrences)
-5. **billion** (139 occurrences)
-6. **protocol** (131 occurrences)
-7. **oracle** (129 occurrences)
-8. **system** (122 occurrences)
-9. **year** (103 occurrences)
-10. **energy** (102 occurrences)
+1. **earth** (271 occurrences)
+2. **years** (230 occurrences)
+3. **phase** (199 occurrences)
+4. **moon** (148 occurrences)
+5. **year** (138 occurrences)
+6. **billion** (131 occurrences)
+7. **protocol** (130 occurrences)
+8. **oracle** (130 occurrences)
+9. **system** (123 occurrences)
+10. **million** (99 occurrences)
 
-11. **systems** (91 occurrences)
-12. **human** (83 occurrences)
-13. **hive** (79 occurrences)
-14. **chapter** (77 occurrences)
-15. **source** (76 occurrences)
-16. **surface** (76 occurrences)
-17. **across** (75 occurrences)
-18. **mass** (75 occurrences)
-19. **population** (67 occurrences)
-20. **humanity** (67 occurrences)
+11. **energy** (96 occurrences)
+12. **human** (91 occurrences)
+13. **systems** (90 occurrences)
+14. **across** (86 occurrences)
+15. **hive** (86 occurrences)
+16. **chapter** (81 occurrences)
+17. **surface** (77 occurrences)
+18. **mass** (74 occurrences)
+19. **over** (72 occurrences)
+20. **swarm** (72 occurrences)
 
-21. **swarm** (66 occurrences)
-22. **solar** (65 occurrences)
-23. **over** (65 occurrences)
-24. **aethelgard** (63 occurrences)
-25. **time** (62 occurrences)
-26. **mission** (62 occurrences)
-27. **planetary** (61 occurrences)
-28. **into** (60 occurrences)
-29. **when** (59 occurrences)
-30. **dyson** (59 occurrences)
+21. **population** (70 occurrences)
+22. **solar** (68 occurrences)
+23. **humans** (68 occurrences)
+24. **source** (66 occurrences)
+25. **when** (65 occurrences)
+26. **planetary** (64 occurrences)
+27. **aethelgard** (63 occurrences)
+28. **into** (62 occurrences)
+29. **zero** (62 occurrences)
+30. **mission** (62 occurrences)
 
 
 ## Cross-Reference Analysis
@@ -99,12 +99,12 @@
 
 ### 
 
-- Chapter 13 (7 times)
-- Chapter 15 (7 times)
-- Chapter 16 (5 times)
-- Chapter 4 (4 times)
-- Chapter 14 (4 times)
+- Chapter 13 (8 times)
+- Chapter 15 (8 times)
+- Chapter 16 (6 times)
+- Chapter 4 (5 times)
+- Chapter 14 (5 times)
 
 ---
 
-*This appendix was automatically generated from the vector database on 2026-01-07 23:35:34*
+*This appendix was automatically generated from the vector database on 2026-01-08 19:32:10*

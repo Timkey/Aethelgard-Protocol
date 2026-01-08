@@ -26,7 +26,7 @@ If 180 nations fund the defense grid but 15 nations refuse to contribute, those 
 A hostile state could wage asymmetric warfare by spreading disinformation: "The Moon engines will cause earthquakes," "The Dyson Swarm will block the Sun," "Cryogenics is murder." Even if false, such narratives can collapse public support, especially in democracies where leaders depend on electoral approval.
 
 **4. The Timing Asymmetry**
-Nation A might want to start building Hives in 2040. Nation B might prefer 2080 after their economy recovers. But **orbital mechanics doesn't negotiate**. If the planetary trajectory requires thrust initiation in 2540, delays from any major nation cascade into mission failure.
+Nation A might want to start building Hives in 2040. Nation B might prefer 2080 after their economy recovers. But **orbital mechanics doesn't negotiate**. Infrastructure milestones have hard deadlines—if Phase One testing requires operational Hive capacity by Year 500, delays from any major nation cascade into mission failure. (Note: Actual departure occurs ~500 million years hence during Phase Four.)
 
 ### Historical Precedents: Why Past Unifications Failed
 
@@ -208,13 +208,13 @@ This is explored fully in Chapter 15, but is noted here as **non-negotiable for 
 
 ### The 500-Year Cultural Shift
 
-Integration isn't instantaneous—it's generational. Over 20 generations (500 years), identity transforms:
+Integration isn't instantaneous—it's generational. Over many generations, identity transforms:
 
-**Generation 1 (2026)**: "I am American/Chinese/Nigerian."  
-**Generation 10 (2250)**: "I am North American Federation, but also Earth Crew."  
-**Generation 20 (2526)**: "I am Hive-State Cascadia, Crew of Earth-Ship Terra."
+**Phase Zero (2026)**: "I am American/Chinese/Nigerian."  
+**Phase One (~Year 5,000)**: "I am North American Federation, but also Protocol Participant."  
+**Phase One Completion (~Year 10,000)**: "I am Hive-State Cascadia, maintaining Earth's infrastructure."
 
-By departure, national identity has nested within planetary identity—much as a medieval serf's loyalty to their village nested within loyalty to the kingdom, which nested within Christendom.
+By Phase Four actual evacuation (~500 million years later, across 20 million generations), planetary identity has evolved far beyond early nationalism. National identity nested within Hive identity, which nested within species-level identity—much as a medieval serf's loyalty to their village nested within loyalty to the kingdom, which nested within Christendom.
 
 ### The "Great Work" as Unifying Mythology
 

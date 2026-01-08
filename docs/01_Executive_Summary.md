@@ -64,11 +64,11 @@ These four Oracles work through a **Synthesis Engine** that finds solutions sati
 
 ## The Mission: A Multi-Billion-Year Strategy
 
-> **⏰ Timeline Context:** The Sun will brighten gradually over the next billion years, with ocean evaporation expected in ~1 billion years and red giant expansion in ~5 billion years. We begin Aethelgard in 2026 to establish capability during our window of technological readiness, ensuring mature infrastructure exists when evacuation becomes necessary (~500 million years hence).
+> **⏰ Timeline Context:** The Sun will brighten gradually over the next billion years, with ocean evaporation expected in ~1 billion years and red giant expansion in ~5 billion years. We begin Aethelgard infrastructure development in 2026 to establish and test capability during our window of technological readiness, ensuring mature, proven systems exist when actual evacuation becomes necessary (~500 million years hence). Early phases focus on testing and validation, not evacuation.
 
 The protocol unfolds across multiple phases, beginning with extensive testing and capability development:
 
-**Phase Zero (2026-2150+):** Foundation & Testing Era
+**Phase Zero (2026-2150+):** Foundation & Testing Era (Infrastructure Development Only)
 - Planetary defense network deployment and continuous expansion
 - Knowledge ingestion into Oracle systems
 - Crustal mapping and geological surveys

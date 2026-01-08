@@ -215,7 +215,7 @@ If we lose critical knowledge every 1,000-5,000 years on average, how do we pres
 **Answer:** Start the multi-generational institutional framework NOW and never let it lapse.
 
 **The Living Manifesto principle:**
-> "By beginning Aethelgard in 2026 and maintaining it continuously across millennia, we create an unbroken chain of institutional knowledge. The Oracle systems, defense networks, and prototype infrastructure become legacy systems—like roads, aqueducts, or astronomical observatories—maintained generation after generation until needed for true solar evacuation. If we wait 500 million years to START, we guarantee failure."
+> "By beginning Aethelgard infrastructure development in 2026 and maintaining it continuously across millennia, we create an unbroken chain of institutional knowledge. The Oracle systems, defense networks, and prototype infrastructure become legacy systems—like roads, aqueducts, or astronomical observatories—maintained and tested generation after generation until needed for true solar evacuation (~500 million years hence). If we wait 500 million years to START building and testing, we guarantee failure. Phase Zero-Three focus on development and validation, not evacuation."
 
 ---
 

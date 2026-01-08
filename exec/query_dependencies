@@ -1,0 +1,6 @@
+#!/bin/bash
+# Query documentation dependencies
+
+docker compose exec -T worker python /app/scripts/query_dependencies.py \
+    --deps-file /app/output/reports/dependencies.json \
+    "$@"

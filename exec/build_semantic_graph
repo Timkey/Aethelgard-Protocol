@@ -1,0 +1,7 @@
+#!/bin/bash
+# Build semantic dependency graph at paragraph level
+
+docker compose exec -T worker python /app/scripts/build_semantic_graph.py \
+    --docs-dir /app/docs \
+    --output-dir /app/output/reports \
+    "$@"
