@@ -4,7 +4,9 @@ This directory contains automation scripts for generating and verifying the Aeth
 
 ## Scripts Overview
 
-### 1. extract_metadata.py
+### Core Document Generation
+
+#### 1. extract_metadata.py
 **Purpose:** Extracts structured metadata from raw.txt to avoid hallucination
 
 **Usage:**
@@ -31,7 +33,7 @@ python3 scripts/extract_metadata.py
 - Direct quotes for accuracy
 - Religious references
 
-### 2. generate_toc.py
+#### 2. generate_toc.py
 **Purpose:** Creates hierarchical Master Table of Contents
 
 **Usage:**
@@ -51,7 +53,7 @@ python3 scripts/generate_toc.py
 
 **Total Estimated:** ~500 pages
 
-### 3. verify_content.py
+#### 3. verify_content.py
 **Purpose:** Verifies generated documents against source metadata
 
 **Usage:**
@@ -183,6 +185,63 @@ Planetary Exodus/
 5. **Cross-reference related sections**
    - Use metadata to find all mentions of a concept
    - Ensure consistency across document
+
+### Dependency Analysis & Impact Tracking
+
+#### build_dependency_graph.py
+**Purpose:** Build comprehensive dependency graph showing what needs updating when premises change
+
+**Usage:**
+```bash
+./exec/build_dependency_graph
+```
+
+**Output:**
+- `reports/dependencies.json` - Machine-readable dependency data
+- `reports/dependency_report.md` - Human-readable analysis
+
+**What it extracts:**
+- Cross-references between chapters
+- Key concept usage across documents  
+- Premise dependency chains
+- Structural relationships
+
+**See:** [Dependency Analysis Documentation](../docs_tools/DEPENDENCY_ANALYSIS.md)
+
+#### query_dependencies.py
+**Purpose:** Query dependency graph for impact analysis
+
+**Usage:**
+```bash
+# Find chapter impact
+./exec/query_dependencies --chapter "21_Chapter_20"
+
+# Find premise impact  
+./exec/query_dependencies --premise timeline_deep_time
+
+# Find concept usage
+./exec/query_dependencies --concept "Moon-Tug"
+
+# Interactive mode
+./exec/query_dependencies --interactive
+```
+
+#### integrated_query.py
+**Purpose:** Combine dependency analysis with vector DB semantic search
+
+**Usage:**
+```bash
+# Search for timeline issues in deep-time chapters
+./exec/integrated_query --premise timeline_deep_time --search "year 2500 departure"
+
+# Search for propulsion details in Moon-Tug chapters
+./exec/integrated_query --concept "Moon-Tug" --search "xenon propulsion"
+```
+
+**Why this matters:**
+- Regular vector search scans all 28 documents equally
+- Dependency-aware search focuses on structurally related documents first
+- Combines "what depends on what" with "what means what"
 
 ## Next Steps
 

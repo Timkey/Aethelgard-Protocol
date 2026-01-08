@@ -1,0 +1,6 @@
+#!/bin/bash
+# Query semantic dependency graph
+
+docker compose exec -T worker python /app/scripts/query_semantic_graph.py \
+    --graph-file /app/output/reports/semantic_graph.json \
+    "$@"

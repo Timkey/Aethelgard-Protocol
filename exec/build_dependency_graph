@@ -1,0 +1,7 @@
+#!/bin/bash
+# Build documentation dependency graph
+
+docker compose exec -T worker python /app/scripts/build_dependency_graph.py \
+    --docs-dir /app/docs \
+    --output-dir /app/output/reports \
+    "$@"

@@ -1,0 +1,7 @@
+#!/bin/bash
+# Integrated dependency + vector DB query
+
+docker compose exec -T worker python /app/scripts/integrated_query.py \
+    --deps-file /app/output/reports/dependencies.json \
+    --qdrant-host qdrant \
+    "$@"
